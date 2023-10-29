@@ -1,0 +1,15 @@
+---
+title: Getting started with COCO
+---
+
+Benchmarking a novel algorithm is divided into two parts:
+
+1. Running the benchmark to collect performance data for the algorithm
+1. Postprocessing those results and comparing them to other algorithms from the [data archive](/data-archive).
+
+If you're only here to analyse and compare existing algorithms, you can skip straight to [step 2](#step-2-analysing-and-comparing-results).
+
+
+## Step 1: Collecting data
+
+## Step 2: Analysing and comparing results

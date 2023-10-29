@@ -1,0 +1,9 @@
+---
+title: Getting started with the Postprocessing
+---
+
+The complete postprocessing code is written in Python.
+
+```sh
+$ cocopp foo/ bar/
+```

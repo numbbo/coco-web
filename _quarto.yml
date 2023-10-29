@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: _site
+  preview:
+    port: 4204
+    browser: false
+  resources: 
+    - env.yaml
+    - "*.ipynb"
+  render:
+    - "*.qmd"
+    - "*.ipynb"
+    - "!scripts/"
+    - "!README.md"
+    - "env.yaml"
+
+bibliography: references.bib
+
+lang: en
+
+website:
+  title: "COCO: COmparing Continuous Optimizers"
+  open-graph: true
+  favicon: "images/favicon.png"
+  navbar:
+    background: light
+    title: "COCO"
+    left:
+    - text: "Home"
+      href: index.qmd
+    - text: "Get Started"
+      href: getting-started/index.qmd
+    - text: "Publish Results"
+      href: howto-publish.qmd
+    - text: "Data Archive"
+      href: data-archive/index.qmd
+    - text: "Workshops {{< fa external-link size=xs >}}"
+      href: https://numbbo.github.io/workshops/
+    tools:
+    - icon: github
+      menu:
+      - text: Source Code
+        url: https://github.com/numbbo/coco
+      - text: Report an issue
+        url: https://github.com/numbbo/coco/issues/new/choose
+
+  page-footer:
+    center:
+      - imprint.qmd
+  search: 
+    location: navbar
+    type: overlay
+
+format:
+  html:
+    toc: true
+    theme: Sandstone
+    html-math-method: katex
+    code-copy: true
+    code-overflow: wrap
+    link-external-icon: true
+    link-external-newwindow: true
