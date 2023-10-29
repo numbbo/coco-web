@@ -24,7 +24,8 @@ website:
   favicon: "images/favicon.png"
   navbar:
     background: light
-    title: "COCO"
+    title: false
+    logo: images/favicon.png
     left:
     - text: "Home"
       href: index.qmd
