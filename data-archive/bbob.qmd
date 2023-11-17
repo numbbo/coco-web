@@ -1,0 +1,46 @@
+---
+title: Algorithm data sets for the `bbob` test suite 
+---
+
+In the first table below, you will find all official algorithm data sets on the
+bbob test suite, together with their year of publication, the authors, and
+related PDFs for each data set. Links to the source code to run the
+corresponding experiments/algorithms are provided whenever available.
+
+A second table mentions data sets that have been collected on the bbob suite,
+but which are not complete in the sense that they miss at least one of the
+requested dimensions 2, 3, 5, 10, 20.
+
+To sort the tables, simply click on the table header of the corresponding
+column.
+
+## Official and complete data sets
+
+```{python}
+#| echo: false
+#| output: asis
+
+from dsh import display_suite_table
+
+display_suite_table("bbob")
+```
+
+## Inofficial/incomplete data sets
+
+|     Number     | Algorithm Name           | Year | Author(s)                  |                              link to data                                    | related PDFs, source code, and remarks                                                                                                                                               |
+|:--------------:|:-------------------------|:----:|:---------------------------|:----------------------------------------------------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| inofficial-001 | BFGS-scipy               | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/BFGS-scipy_Baudis.tgz)                  | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |
+| inofficial-002 | CG-Fletcher-Reeves-scipy | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/CG-Fletcher-Reeves-scipy_Baudis.tgz)    | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |
+| inofficial-003 | CMA-ES-python            | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/CMA-ES-python_Baudis.tgz)               | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |
+| inofficial-004 | EG50-cocopf              | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/EG50-cocopf_Baudis.tgz)                 | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |
+| inofficial-005 | L-BFGS-B-scipy           | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/L-BFGS-B-scipy_Baudis.tgz)              | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |
+| inofficial-006 | Nelder-Mead-scipy        | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/Nelder-Mead-scipy_Baudis.tgz)           | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |
+| inofficial-007 | Powell-scipy             | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/Powell-scipy_Baudis.tgz)                | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |
+| inofficial-008 | SLSQP-scipy              | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/SLSQP-scipy_Baudis.tgz)                 | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |
+| inofficial-009 | UNIF-cocopf              | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/UNIF-cocopf_Baudis.tgz)                 | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |
+| inofficial-010 | GNN-CMA-ES               | 2019 | Faury et al.               | [data]({{ page.dataDir }}2019/GNN-CMA-ES_Faury.tgz)                          | [GECCO 2019 paper](https://dl.acm.org/doi/pdf/10.1145/3319619.3326856?casa_token=aWJ9DQKuatcAAAAA:B3SYqK39zVTgcl1i-uGWghVFZO2jc9Lte2uU-Fr8sjmx3CSgdL0LxRj-eaEpuUbC3pNWuryEAkM)       |
+| inofficial-011 | IPOP-CMA-ES-2019         | 2019 | Faury et al.               | [data]({{ page.dataDir }}2019/IPOP-CMA-ES-2019_Faury.tgz)                    | [GECCO 2019 paper](https://dl.acm.org/doi/pdf/10.1145/3319619.3326856?casa_token=aWJ9DQKuatcAAAAA:B3SYqK39zVTgcl1i-uGWghVFZO2jc9Lte2uU-Fr8sjmx3CSgdL0LxRj-eaEpuUbC3pNWuryEAkM)       |
+: {.js-sort-table .column-page-right}
+
+<script type="text/javascript" src="/assets/js/sort-table.js"></script>
+<link rel="stylesheet" href="/assets/css/data-table.css"/>

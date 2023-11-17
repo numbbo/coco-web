@@ -1,4 +1,26 @@
 ---
-title: Data Archive
+layout: default
+permalink: /
+nav_order: 1
+title: COCO Data Archive
 ---
 
+Here we provide the official benchmarking data archives from numerical benchmarking experiments run on the COCO platform. 
+For each test suite we provide a listing of the official data sets with additional information like authors, links to papers, source code etc.
+Data sets for the following test suites are available: 
+
+* [bbob](bbob.qmd): 24 single-objective noiseless functions
+* [bbob-noisy](bbob-noisy.qmd): 24 single-objective noisy functions
+* [bbob-biobj](bbob-biobj.qmd): 55 bi-objective functions
+* [bbob-largescale](bbob-largescale.qmd): large-scale version of the 24 bbob functions (dimension up to 640)
+* [bbob-mixint](bbob-mixint.qmd): mixed-integer versions of the 24 bbob functions
+* [bbob-constrained](bbob-constrained.qmd): 54 constrained functions with varying number of (non-linear) constraints
+
+There is also a machine readable [JSON](data-archive.json) file with data from the experiments for programmatic access.
+If you are using the [cocopp Python module](https://pypi.org/project/cocopp), the data is directly accessible "by name".
+
+## Related Links
+
+* <a href="https://numbbo.github.io/ppdata-archive"> postprocessed data of these archives for browsing</a>
+* <a href="https://github.com/numbbo/coco/blob/master/howtos/publish-a-dataset-howto.md">how to submit a data set</a>
+* <a href="https://github.com/numbbo/coco/blob/master/code-postprocessing/cocopp/archiving.py">how to create and use COCO data archives with the <tt>cocopp.archiving</tt> Python module</a>

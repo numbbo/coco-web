@@ -32,8 +32,3 @@ quarto preview
 ```
 
 on your machine and open [http://localhost:4204](http://localhost:4204) in your browser.
-
-If this is your first time, 
-
-
-

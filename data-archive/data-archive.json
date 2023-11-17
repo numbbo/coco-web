@@ -1,0 +1,2978 @@
+[
+  {
+    "suite": "bbob",
+    "algorithm": "ALPS",
+    "year": 2009,
+    "author": "Hornby",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/ALPS_hornby_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2015/hornby-alps.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "AMALGAM",
+    "year": 2009,
+    "author": "Bosman et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/AMALGAM_bosman_noiseless.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2247-bosman.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2351-bosman.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BAYEDA",
+    "year": 2009,
+    "author": "Gallagher",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/BAYEDA_gallagher_noiseless.tgz",
+    "comment": "[pdf noiseless](http://staff.itee.uq.edu.au/marcusg/papers/wk2008-gallagher.pdf) - [pdf noisy](http://staff.itee.uq.edu.au/marcusg/papers/wk2022-gallagher.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BFGS",
+    "year": 2009,
+    "author": "Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/BFGS_ros_noiseless.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2409-ros.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2415-ros.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BIPOP-CMA-ES",
+    "year": 2009,
+    "author": "Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/BIPOP-CMA-ES_hansen_noiseless.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2389-hansen.pdf) - [pfd noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2397-hansen.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "Cauchy-EDA",
+    "year": 2009,
+    "author": "Po\u0161\u00edk",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/Cauchy-EDA_posik_noiseless.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2309-posik.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMA-ESPLUSSEL",
+    "year": 2009,
+    "author": "Auger and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/CMA-ESPLUSSEL_auger_noiseless.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2459-auger.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2467-auger.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DASA",
+    "year": 2009,
+    "author": "Koro\u0161ec and \u0160ilc",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/DASA_korosec_noiseless.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2295-korosec.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2375-korosec.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DE-PSO",
+    "year": 2009,
+    "author": "Garc\u00eda-Nieto et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/DE-PSO_garcia-nieto_noiseless.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2231-garcia-nieto.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2343-garcia-nieto.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DIRECT",
+    "year": 2009,
+    "author": "Po\u0161\u00edk",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/DIRECT_posik_noiseless.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2315-posik.pdf) - algorithm is deterministic and thus, only run on each instance once"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "EDA-PSO",
+    "year": 2009,
+    "author": "El-Abd and Kamel",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/EDA-PSO_el-abd_noiseless.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2263-elabd.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "FULLNEWUOA",
+    "year": 2009,
+    "author": "Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/FULLNEWUOA_ros_noiseless.tgz",
+    "comment": "[original 2009 noiseless paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2421-ros.pdf) - [original 2009 noisy paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2429-ros.pdf) - [2010 comparison noiseless](https://hal.inria.fr/inria-00473774/document) - [2010 comparison noisy](https://hal.inria.fr/inria-00473776/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "G3PCX",
+    "year": 2009,
+    "author": "Po\u0161\u00edk",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/G3PCX_posik_noiseless.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2321-posik.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "GA",
+    "year": 2009,
+    "author": "Nicolau",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/GA_nicolau_noiseless.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2473-nicolau.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "GLOBAL",
+    "year": 2009,
+    "author": "P\u00e1l et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/GLOBAL_pal_noiseless.tgz",
+    "comment": "BBOB-2009 paper not available online - [corresponding ECJ paper](http://www.mat.univie.ac.at/~neum/ms/pal.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "iAMALGAM",
+    "year": 2009,
+    "author": "Bosman et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/iAMALGAM_bosman_noiseless.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2247-bosman.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2351-bosman.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "IPOP-SEP-CMA-ES",
+    "year": 2009,
+    "author": "Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/IPOP-SEP-CMA-ES_ros_noiseless.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2435-ros.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2441-ros.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "LSfminbnd",
+    "year": 2009,
+    "author": "Po\u0161\u00edk",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/LSfminbnd_posik_noiseless.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2329-posik.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "LSstep",
+    "year": 2009,
+    "author": "Po\u0161\u00edk",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/LSstep_posik_noiseless.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2329-posik.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "MA-LS-CHAIN",
+    "year": 2009,
+    "author": "Molina et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/MA-LS-CHAIN_molina_noiseless.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2255-molina.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2359-molina.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "MCS",
+    "year": 2009,
+    "author": "Huyer and Neumaier",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/MCS_huyer_noiseless.tgz",
+    "comment": "[pdf noiseless](http://www.mat.univie.ac.at/~neum/ms/mcs_exact.pdf) - [pdf noisy](http://www.mat.univie.ac.at/~neum/ms/mcs_noisy.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "NELDERDOERR",
+    "year": 2009,
+    "author": "Doerr et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/NELDERDOERR_doerr_noiseless.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2239-doerr.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "NELDER",
+    "year": 2009,
+    "author": "Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/NELDER_hansen_noiseless.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2403-hansen.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "NEWUOA",
+    "year": 2009,
+    "author": "Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/NEWUOA_ros_noiseless.tgz",
+    "comment": "[original 2009 noiseless paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2421-ros.pdf) - [original 2009 noisy paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2429-ros.pdf) - [2010 comparison with BIPOP-CMA-ES noiseless](https://hal.inria.fr/inria-00473779/document) - [2010 comparison noiseless](https://hal.inria.fr/inria-00473774/document) - [2010 comparison noisy](https://hal.inria.fr/inria-00473776/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "ONEFIFTH",
+    "year": 2009,
+    "author": "Auger",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/ONEFIFTH_auger_noiseless.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2447-auger.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2453-auger.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "POEMS",
+    "year": 2009,
+    "author": "Kubal\u00edk",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/POEMS_kubalik_noiseless.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2303-kubalik.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "PSO",
+    "year": 2009,
+    "author": "El-Abd and Kamel",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/PSO_el-abd_noiseless.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2269-elabd.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "PSO_Bounds",
+    "year": 2009,
+    "author": "El-Abd and Kamel",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/PSO_Bounds_el-abd_noiseless.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2275-elabd.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RANDOMSEARCH",
+    "year": 2009,
+    "author": "Auger and Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/RANDOMSEARCH_auger_noiseless.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2479-auger.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2485-auger.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "Rosenbrock",
+    "year": 2009,
+    "author": "Po\u0161\u00edk",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/Rosenbrock_posik_noiseless.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2337-posik.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "VNS",
+    "year": 2009,
+    "author": "Garc\u00eda-Mart\u00ednez and Lozano",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/VNS_garcia-martinez_noiseless.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2287-garcia-martinez.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2367-garcia-martinez.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "1komma2",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/1komma2_brockhoff_noiseless.tgz",
+    "comment": "[pdf cmp1komma2mirAnd1komma2mirser](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772) - [pdf cmp1komma2mirAnd1komma2mirserNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1575-auger.pdf) - [pdf cmp1komma2ser](https://hal.inria.fr/inria-00502431/document) - [pdf cmp1komma2serNoisy](https://hal.inria.fr/inria-00502432/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "1komma2mir",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/1komma2mir_brockhoff_noiseless.tgz",
+    "comment": "[pdf cmp1komma2And1komma2mirser](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772) - [pdf cmp1komma2And1komma2mirserNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1575-auger.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "1komma2mirser",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/1komma2mirser_brockhoff_noiseless.tgz",
+    "comment": "[pdf cmp1komma2And1komma2mir](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772) - [pdf cmp1komma2And1komma2mirNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1575-auger.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "1komma2ser",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/1komma2ser_brockhoff_noiseless.tgz",
+    "comment": "[pdf cmp1komma2](https://hal.inria.fr/inria-00502431/document) - [cmp1komma2Noisy](https://hal.inria.fr/inria-00502432/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "1komma4",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/1komma4_brockhoff_noiseless.tgz",
+    "comment": "[pdf cmp1komma4serNoisy](https://hal.inria.fr/inria-00502434/document) - [doi](http://dx.doi.org/10.1145/1830761.1830780) - the other three papers are not linked to at the moment"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "1komma4mir",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/1komma4mir_brockhoff_noiseless.tgz",
+    "comment": "[pdf cmp1komma4And1komma4mirser](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1559-auger.pdf) - [cmp1komma4And1komma4mirserNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1583-auger.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "1komma4mirser",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/1komma4mirser_brockhoff_noiseless.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1617-auger.pdf) - [pdf noisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1625-auger.pdf) - [pdf cmp1komma4And1komma4mir](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1559-auger.pdf) - [pdf cmp1komma4And1komma4mirNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1583-auger.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "1komma4ser",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/1komma4ser_brockhoff_noiseless.tgz",
+    "comment": "[pdf cmp1komma4](https://hal.inria.fr/inria-00502433/document) - [pdf cmp1komma4Noisy](https://hal.inria.fr/inria-00502434/document) - [doi](http://dx.doi.org/10.1145/1830761.1830780)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "1plus1",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/1plus1_brockhoff_noiseless.tgz",
+    "comment": "[pdf cmp1plus2mirser](https://hal.inria.fr/inria-00502430/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "1plus2mirser",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/1plus2mirser_brockhoff_noiseless.tgz",
+    "comment": "[pdf cmp1plus1](https://hal.inria.fr/inria-00502430/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "ABC",
+    "year": 2010,
+    "author": "El-Abd",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/ABC_elabd_noiseless.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/1830761.1830794)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "AVGNEWUOA",
+    "year": 2010,
+    "author": "Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/AVGNEWUOA_ros_noiseless.tgz",
+    "comment": "mentioned in 2009 paper, data set submitted in 2009, but data presented only in 2010 - [pdf cmpNEWUOAFULLNEWUOnoiseless](https://hal.inria.fr/inria-00473776/document) - algname still NEWUOA"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAEGS",
+    "year": 2010,
+    "author": "Finck and Beyer",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/CMAEGS_finck_noiseless.tgz",
+    "comment": "[pdf](https://www.researchgate.net/profile/Steffen_Finck/publication/220740259_Benchmarking_CMA-EGS_on_the_BBOB_2010_noiseless_function_testbed/links/09e4150e5889c7141e000000.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DE-F-AUC",
+    "year": 2010,
+    "author": "Fialho et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/DE-F-AUC_fialho_noiseless.tgz",
+    "comment": "[pdf cmpPM-AdapSS-DE](https://hal.inria.fr/inria-00494535v2/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DEuniform",
+    "year": 2010,
+    "author": "Fialho et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/DEuniform_fialho_noiseless.tgz",
+    "comment": "[pdf cmpPM-AdapSS-DE](https://hal.inria.fr/inria-00494538/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "IPOP-ACTCMA-ES",
+    "year": 2010,
+    "author": "Hansen and Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/IPOP-ACTCMA-ES_ros_noiseless.tgz",
+    "comment": "[pdf cmpIPOP-CMA-ESNoiseless](http://www.cmap.polytechnique.fr/~nikolaus.hansen/ws1p32-hansen.pdf) - [pdf cmpIPOP-CMA-ESNoisy](http://www.cmap.polytechnique.fr/~nikolaus.hansen/ws1p33-hansen.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "IPOP-CMA-ES",
+    "year": 2010,
+    "author": "Hansen and Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/IPOP-CMA-ES_ros_noiseless.tgz",
+    "comment": "[pdf cmpIPOP-ACTCMA-ESNoiseless](http://www.cmap.polytechnique.fr/~nikolaus.hansen/ws1p32-hansen.pdf) - [pdf cmpIPOP-ACTCMA-ESNoisy](http://www.cmap.polytechnique.fr/~nikolaus.hansen/ws1p33-hansen.pdf) - [cmpBIPOP-CMA-ESNoiseless](https://hal.inria.fr/inria-00473777/document) - [pdf cmpBIPOP-CMA-ESNoisy](https://hal.inria.fr/inria-00473778/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "MOS",
+    "year": 2010,
+    "author": "LaTorre et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/MOS_torre_noiseless.tgz",
+    "comment": "[pdf noiseless](http://oa.upm.es/7689/2/INVE_MEM_2010_84733.pdf) - [pdf noisy](http://oa.upm.es/7735/2/INVE_MEM_2010_84760.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "NBC-CMA",
+    "year": 2010,
+    "author": "Preuss",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/NBC-CMA_preuss_noiseless.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/1830761.1830793)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "PM-AdapSS-DE",
+    "year": 2010,
+    "author": "Fialho et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/PM-AdapSS-DE_fialho_noiseless.tgz",
+    "comment": "[pdf cmpUniformDE](https://hal.inria.fr/inria-00494538/document) - [pdf cmpDE-F-AUC](https://hal.inria.fr/inria-00494535v2/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RCGA",
+    "year": 2010,
+    "author": "Tran and Jin",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/RCGA_tran_noiseless.tgz",
+    "comment": "[doi noiseless](http://dx.doi.org/10.1145/1830761.1830797) - [doi noisy](http://dx.doi.org/10.1145/1830761.1830796)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "SPSA",
+    "year": 2010,
+    "author": "Finck and Beyer",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/SPSA_finck_noiseless.tgz",
+    "comment": "[pdf noiseless](https://www.researchgate.net/profile/Steffen_Finck/publication/220743445_Benchmarking_SPSA_on_BBOB-2010_noiseless_function_testbed/links/09e4150e5889bc24a6000000.pdf) - [pdf noisy](https://www.researchgate.net/profile/Steffen_Finck/publication/220740542_Benchmarking_SPSA_on_BBOB-2010_noisy_function_testbed/links/09e4150e5889c4a807000000.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "oPOEMS",
+    "year": 2010,
+    "author": "Kubal\u00edk",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/oPOEMS_kubalic_noiseless.tgz",
+    "comment": "[doi cmppPOEMS](http://dx.doi.org/10.1145/1830761.1830774)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "pPOEMS",
+    "year": 2010,
+    "author": "Kubal\u00edk",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/pPOEMS_kubalic_noiseless.tgz",
+    "comment": "[doi cmpoPOEMS](http://dx.doi.org/10.1145/1830761.1830774)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "ACOR",
+    "year": 2012,
+    "author": "Liao et al",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/ACOR_liao_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen//proceedings/2012/GECCO/companion/p159.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BIPOPaCMA",
+    "year": 2012,
+    "author": "Loshchilov et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/BIPOPaCMA_loshchilov_noiseless.tgz",
+    "comment": "[pdf](http://coco.lri.fr/BBOB2012-papers/loshchilov_p269.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BIPOPsaACM",
+    "year": 2012,
+    "author": "Loshchilov et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/BIPOPsaACM_loshchilov_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p175.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2012sourcecodes/loshchilov_BBOB2012_noiseless_BIPOPsaACM.tgz)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMA",
+    "year": 2012,
+    "author": "Brockhoff et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/CMA_brockhoff_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p297.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAa",
+    "year": 2012,
+    "author": "Brockhoff et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/CMAa_brockhoff_noiseless.tgz",
+    "comment": "[pdf cmpCMAmaAndIPOP-ACTCMA-ES](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p277.pdf) - [pdf cmpCMAandCMAm](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p297.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAm",
+    "year": 2012,
+    "author": "Brockhoff et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/CMAm_brockhoff_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p297.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAma",
+    "year": 2012,
+    "author": "Brockhoff et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/CMAma_brockhoff_noiseless.tgz",
+    "comment": "[pdf cmpCMAaAndIPOP-ACTCMA-ES](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p277.pdf) - [pdf cmpCMAmah](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p285.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAmah",
+    "year": 2012,
+    "author": "Brockhoff et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/CMAmah_brockhoff_noiseless.tgz",
+    "comment": "[pdf cmpCMAma](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p285.pdf) - [pdf cmpCMAmh](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p291.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAmh",
+    "year": 2012,
+    "author": "Brockhoff et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/CMAmh_brockhoff_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p291.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAES",
+    "year": 2012,
+    "author": "Po\u0161\u00edk and Klem\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/CMAES_posik_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p189.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2012sourcecodes/posik_BBOB2012_CMAES_code_v1.zip)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DBRCGA",
+    "year": 2012,
+    "author": "Chuang and Chen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/DBRCGA_chuang_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p167.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DE",
+    "year": 2012,
+    "author": "Po\u0161\u00edk and Klem\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/DE_posik_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p189.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2012sourcecodes/posik_BBOB2012_DE_code_v1.zip)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DEAE",
+    "year": 2012,
+    "author": "Po\u0161\u00edk and Klem\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/DEAE_posik_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p189.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2012sourcecodes/posik_BBOB2012_DEAE_code_v1.zip)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DEb",
+    "year": 2012,
+    "author": "Po\u0161\u00edk and Klem\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/DEb_posik_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p197.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2012sourcecodes/posik_BBOB2012_DEb_code_v1.zip)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DEctpb",
+    "year": 2012,
+    "author": "Po\u0161\u00edk and Klem\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/DEctpb_posik_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p197.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2012sourcecodes/posik_BBOB2012_DEctpb_code_v1.zip)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DE-AUTO",
+    "year": 2012,
+    "author": "Voglis et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/DE-AUTO_voglis_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p245.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DE-BFGS",
+    "year": 2012,
+    "author": "Voglis et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/DE-BFGS_voglis_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p245.pdf) - [pdf cmpPSO-BFGS](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p253.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DE-ROLL",
+    "year": 2012,
+    "author": "Voglis et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/DE-ROLL_voglis_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p245.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DE-SIMPLEX",
+    "year": 2012,
+    "author": "Voglis et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/DE-SIMPLEX_voglis_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p245.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "IPOPsaACM",
+    "year": 2012,
+    "author": "Loshchilov et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/IPOPsaACM_loshchilov_noiseless.tgz",
+    "comment": "[pdf cmpBIPOPsaACM](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p175.pdf) - [pdf cmpIPOP-ACTCMA-ESNoisy](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p261.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2012sourcecodes/loshchilov_BBOB2012_noiseless_IPOPsaACM.tgz)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "JADE",
+    "year": 2012,
+    "author": "Po\u0161\u00edk and Klem\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/JADE_posik_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p189.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2012sourcecodes/posik_BBOB2012_JADE_code_v1.zip)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "JADEb",
+    "year": 2012,
+    "author": "Po\u0161\u00edk and Klem\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/JADEb_posik_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p197.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2012sourcecodes/posik_BBOB2012_JADEb_code_v1.zip)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "JADEctpb",
+    "year": 2012,
+    "author": "Po\u0161\u00edk and Klem\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/JADEctpb_posik_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p197.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2012sourcecodes/posik_BBOB2012_JADEctpb_code_v1.zip)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "MVDE",
+    "year": 2012,
+    "author": "Veloso de Melo",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/MVDE_melo_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p183.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "NBIPOPaCMA",
+    "year": 2012,
+    "author": "Loshchilov et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/NBIPOPaCMA_loshchilov_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p269.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "NIPOPaCMA",
+    "year": 2012,
+    "author": "Loshchilov et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/NIPOPaCMA_loshchilov_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p269.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "PSO-BFGS",
+    "year": 2012,
+    "author": "Voglis et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/PSO-BFGS_voglis_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p253.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "SNES",
+    "year": 2012,
+    "author": "Schaul",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/SNES_schaul_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p205.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "xNES",
+    "year": 2012,
+    "author": "Schaul",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/xNES_schaul_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p213.pdf) - [pdf cmpxNESas](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p221.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "xNESas",
+    "year": 2012,
+    "author": "Schaul",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/xNESas_schaul_noiseless.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p229.pdf) - [pdf cmpxNES](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p221.pdf) - [pdf cmpBIPOP-CMA-ES](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p237.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BIPOP-saACM-k",
+    "year": 2013,
+    "author": "Loshchilov et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/BIPOP-saACM-k_loshchilov_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0306-loshchilov.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2013sourcecodes/loshchilov_BBOB2013_noiseless_BIPOPsaACM-k.tgz) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BIPOP-aCMA-STEP",
+    "year": 2013,
+    "author": "Loshchilov et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/BIPOP-aCMA-STEP_loshchilov_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0306-loshchilov.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2013sourcecodes/loshchilov_BBOB2013_noiseless_BIPOP-aCMA-STEP.tgz) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CGA-grid16",
+    "year": 2013,
+    "author": "Holtschulte and Moses",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/CGA-grid16_holtschulte_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0309-holtschulte.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CGA-grid100",
+    "year": 2013,
+    "author": "Holtschulte and Moses",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/CGA-grid100_holtschulte_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0309-holtschulte.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CGA-ring16",
+    "year": 2013,
+    "author": "Holtschulte and Moses",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/CGA-ring16_holtschulte_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0309-holtschulte.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CGA-ring100",
+    "year": 2013,
+    "author": "Holtschulte and Moses",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/CGA-ring100_holtschulte_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0309-holtschulte.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAES_Hutter",
+    "year": 2013,
+    "author": "Hutter et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/CMAES_Hutter_hutter_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0311-hutter.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DE_Pal",
+    "year": 2013,
+    "author": "P\u00e0l",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/DE_Pal_pal_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0302-pal.pdf) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "fmincon",
+    "year": 2013,
+    "author": "P\u00e0l",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/fmincon_pal_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0303-pal.pdf) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "fminunc",
+    "year": 2013,
+    "author": "P\u00e0l",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/fminunc_pal_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0303-pal.pdf) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "GA-100",
+    "year": 2013,
+    "author": "Holtschulte and Moses",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/GA-100_holtschulte_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0309-holtschulte.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "HCMA",
+    "year": 2013,
+    "author": "Loshchilov et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/HCMA_loshchilov_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0306-loshchilov.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2013sourcecodes/loshchilov_BBOB2013_noiseless_HCMA.tgz) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "HILL",
+    "year": 2013,
+    "author": "Holtschulte and Moses",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/HILL_holtschulte_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0309-holtschulte.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "HMLSL",
+    "year": 2013,
+    "author": "P\u00e0l",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/HMLSL_pal_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0302-pal.pdf) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "IP",
+    "year": 2013,
+    "author": "Liao and St\u00fctzle",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/IP_liao_noiseless.tgz",
+    "comment": "[pdf cmpLiaoTesting](https://numbbo.github.io/gforge/data/media/pdf2013/w0305-liao.pdf) - [pdf cmpLiaoBounding](https://numbbo.github.io/gforge/data/media/pdf2013/w0304-liao.pdf) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "IP-10DDr",
+    "year": 2013,
+    "author": "Liao and St\u00fctzle",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/IP-10DDr_liao_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0304-liao.pdf) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "IP-500",
+    "year": 2013,
+    "author": "Liao and St\u00fctzle",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/IP-500_liao_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0304-liao.pdf) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "IPOP400D",
+    "year": 2013,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/IPOP400D_auger_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0313-auger.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "lmm-CMA-ES",
+    "year": 2013,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/lmm-CMA-ES_auger_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0313-auger.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "MEMPSODE",
+    "year": 2013,
+    "author": "Voglis",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/MEMPSODE_voglis_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0301-voglis.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "MLSL",
+    "year": 2013,
+    "author": "P\u00e0l",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/MLSL_pal_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0302-pal.pdf) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "OQNLP",
+    "year": 2013,
+    "author": "P\u00e0l",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/OQNLP_pal_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0303-pal.pdf) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "P-DCN",
+    "year": 2013,
+    "author": "Tran et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/P-DCN_tran_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0312-tran.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2013sourcecodes/tran_BBOB2013_noiseless_P-DCN.tar.gz)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "P-zero",
+    "year": 2013,
+    "author": "Tran et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/P-zero_tran_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0312-tran.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2013sourcecodes/tran_BBOB2013_noiseless_P-zero.tar.gz)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "PRCGA",
+    "year": 2013,
+    "author": "Sawyerr et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/PRCGA_sawyerr_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0308-sawyerr.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "simplex",
+    "year": 2013,
+    "author": "P\u00e0l",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/simplex_pal_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0303-pal.pdf) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "SMAC-BBOB",
+    "year": 2013,
+    "author": "Hutter et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/SMAC-BBOB_hutter_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0311-hutter.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "tany",
+    "year": 2013,
+    "author": "Liao and St\u00fctzle",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/tany_liao_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0305-liao.pdf) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "texp",
+    "year": 2013,
+    "author": "Liao and St\u00fctzle",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/texp_liao_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0305-liao.pdf) - BBOB2010 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "U-DCN",
+    "year": 2013,
+    "author": "Tran et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/U-DCN_tran_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0312-tran.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2013sourcecodes/tran_BBOB2013_noiseless_U-DCN.tar.gz)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "U-zero",
+    "year": 2013,
+    "author": "Tran et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2013/U-zero_tran_noiseless.tgz",
+    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2013/w0312-tran.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2013sourcecodes/tran_BBOB2013_noiseless_U-zero.tar.gz)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "MATSuMoToDefault-50D",
+    "year": 2015,
+    "author": "Brockhoff",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-CEC/MATSUMOTO_Brockhoff.tgz",
+    "comment": "[CEC paper](https://numbbo.github.io/gforge/data/media/pdf2015/03-cec2015-brockhoff.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "R-DE-10e2",
+    "year": 2015,
+    "author": "Tanabe and Fukunaga",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-CEC/R-DE-10e2_Tanabe.tgz",
+    "comment": "[CEC paper](https://numbbo.github.io/gforge/data/media/pdf2015/02-cec2015-tanabe.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "R-DE-10e5",
+    "year": 2015,
+    "author": "Tanabe and Fukunaga",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-CEC/R-DE-10e5_Tanabe.tgz",
+    "comment": "[CEC paper](https://numbbo.github.io/gforge/data/media/pdf2015/02-cec2015-tanabe.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "R-SHADE-10e2",
+    "year": 2015,
+    "author": "Tanabe and Fukunaga",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-CEC/R-SHADE-10e2_Tanabe.tgz",
+    "comment": "[CEC paper](https://numbbo.github.io/gforge/data/media/pdf2015/02-cec2015-tanabe.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "R-SHADE-10e5",
+    "year": 2015,
+    "author": "Tanabe and Fukunaga",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-CEC/R-SHADE-10e5_Tanabe.tgz",
+    "comment": "[CEC paper](https://numbbo.github.io/gforge/data/media/pdf2015/02-cec2015-tanabe.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RL-SHADE-10e2",
+    "year": 2015,
+    "author": "Tanabe and Fukunaga",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-CEC/RL-SHADE-10e2_Tanabe.tgz",
+    "comment": "[CEC paper](https://numbbo.github.io/gforge/data/media/pdf2015/02-cec2015-tanabe.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RL-SHADE-10e5",
+    "year": 2015,
+    "author": "Tanabe and Fukunaga",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-CEC/RL-SHADE-10e5_Tanabe.tgz",
+    "comment": "[CEC paper](https://numbbo.github.io/gforge/data/media/pdf2015/02-cec2015-tanabe.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "SOO",
+    "year": 2015,
+    "author": "Derbel and Preux",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-CEC/SOO_Derbel.tgz",
+    "comment": "[CEC paper](http://www.grappa.univ-lille3.fr/~ppreux/papiers/cec2015.accepted.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BrentSTEPif",
+    "year": 2015,
+    "author": "Po\u0161\u00edk and Baudi\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/BrentSTEPif_Posik.tgz",
+    "comment": "[GECCO paper](http://pasky.or.cz/sci/dimsel.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BrentSTEPifeg",
+    "year": 2015,
+    "author": "Po\u0161\u00edk and Baudi\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/BrentSTEPifeg_Posik.tgz",
+    "comment": "[GECCO paper](http://pasky.or.cz/sci/dimsel.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BrentSTEPqi",
+    "year": 2015,
+    "author": "Po\u0161\u00edk and Baudi\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/BrentSTEPqi_Posik.tgz",
+    "comment": "[GECCO paper](http://pasky.or.cz/sci/dimsel.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BrentSTEPrr",
+    "year": 2015,
+    "author": "Po\u0161\u00edk and Baudi\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/BrentSTEPrr_Posik.tgz",
+    "comment": "[GECCO paper](http://pasky.or.cz/sci/dimsel.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMA-CSA",
+    "year": 2015,
+    "author": "Atamna",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/CMA-CSA_Atamna.tgz",
+    "comment": "[GECCO paper](https://www.lri.fr/~atamna/atamna_BBOB_15.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2015sourcecodes/cma.py)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMA-MSR",
+    "year": 2015,
+    "author": "Atamna",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/CMA-MSR_Atamna.tgz",
+    "comment": "[GECCO paper](https://www.lri.fr/~atamna/atamna_BBOB_15.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2015sourcecodes/cma.py)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMA-TPA",
+    "year": 2015,
+    "author": "Atamna",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/CMA-TPA_Atamna.tgz",
+    "comment": "[GECCO paper](https://www.lri.fr/~atamna/atamna_BBOB_15.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2015sourcecodes/cma.py)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "GP1-CMAES",
+    "year": 2015,
+    "author": "Bajer et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/GP1-CMAES_Bajer.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "GP1-CMAES",
+    "year": 2015,
+    "author": "Bajer et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/GP1-CMAES_Bajer_2013instances.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "GP5-CMAES",
+    "year": 2015,
+    "author": "Bajer et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/GP5-CMAES_Bajer.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "GP5-CMAES",
+    "year": 2015,
+    "author": "Bajer et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/GP5-CMAES_Bajer_2013instances.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "IPOPCMAv3p61",
+    "year": 2015,
+    "author": "Bajer et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/IPOPCMAv3p61_Bajer.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "IPOPCMAv3p61",
+    "year": 2015,
+    "author": "Bajer et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/IPOPCMAv3p61_Bajer_2013instances.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "LHD-10xDefault-MATSuMoTo",
+    "year": 2015,
+    "author": "Brockhoff et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/LHD-10xDefault-MATSuMoTo_Brockhoff.tgz",
+    "comment": "[GECCO paper](https://hal.inria.fr/hal-01161504/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "LHD-2xDefault-MATSuMoTo",
+    "year": 2015,
+    "author": "Brockhoff et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/LHD-2xDefault-MATSuMoTo_Brockhoff.tgz",
+    "comment": "[GECCO paper](https://hal.inria.fr/hal-01161504/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RAND-2xDefault-MATSuMoTo",
+    "year": 2015,
+    "author": "Brockhoff et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/RAND-2xDefault-MATSuMoTo_Brockhoff.tgz",
+    "comment": "[GECCO paper](https://hal.inria.fr/hal-01161504/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RF1-CMAES",
+    "year": 2015,
+    "author": "Bajer et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/RF1-CMAES_Bajer.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RF1-CMAES",
+    "year": 2015,
+    "author": "Bajer et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/RF1-CMAES_Bajer_2013instances.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RF5-CMAES",
+    "year": 2015,
+    "author": "Bajer et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/RF5-CMAES_Bajer.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RF5-CMAES",
+    "year": 2015,
+    "author": "Bajer et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/RF5-CMAES_Bajer_2013instances.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "STEPif",
+    "year": 2015,
+    "author": "Po\u0161\u00edk and Baudi\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/STEPif_Posik.tgz",
+    "comment": "[GECCO paper](http://pasky.or.cz/sci/dimsel.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "STEPifeg",
+    "year": 2015,
+    "author": "Po\u0161\u00edk and Baudi\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/STEPifeg_Posik.tgz",
+    "comment": "[GECCO paper](http://pasky.or.cz/sci/dimsel.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "STEPrr",
+    "year": 2015,
+    "author": "Po\u0161\u00edk and Baudi\u0161",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/STEPrr_Posik.tgz",
+    "comment": "[GECCO paper](http://pasky.or.cz/sci/dimsel.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "PSAaLmC-CMA-ES",
+    "year": 2016,
+    "author": "Nishida and Akimoto",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2016/PSAaLmC-CMA-ES_Nishida.tgz",
+    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/302359371_Evaluating_the_Population_Size_Adaptation_Mechanism_for_CMA-ES_on_the_BBOB_Noisy_Testbed/links/572fd0ab08ae744151904d91.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "PSAaLmD-CMA-ES",
+    "year": 2016,
+    "author": "Nishida and Akimoto",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2016/PSAaLmD-CMA-ES_Nishida.tgz",
+    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/302359371_Evaluating_the_Population_Size_Adaptation_Mechanism_for_CMA-ES_on_the_BBOB_Noisy_Testbed/links/572fd0ab08ae744151904d91.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "PSAaSmC-CMA-ES",
+    "year": 2016,
+    "author": "Nishida and Akimoto",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2016/PSAaSmC-CMA-ES_Nishida.tgz",
+    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/302359371_Evaluating_the_Population_Size_Adaptation_Mechanism_for_CMA-ES_on_the_BBOB_Noisy_Testbed/links/572fd0ab08ae744151904d91.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "PSAaSmD-CMA-ES",
+    "year": 2016,
+    "author": "Nishida and Akimoto",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2016/PSAaSmD-CMA-ES_Nishida.tgz",
+    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/302359371_Evaluating_the_Population_Size_Adaptation_Mechanism_for_CMA-ES_on_the_BBOB_Noisy_Testbed/links/572fd0ab08ae744151904d91.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAES-APOP",
+    "year": 2017,
+    "author": "Nguyen and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017/CMAES-APOP_Nguyen.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/3067695.3084207)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DTS-CMA-ES",
+    "year": 2017,
+    "author": "Pitra et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017/DTS-CMA-ES_Pitra.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/3067695.3084206)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "EvoSpace-PSO-GA",
+    "year": 2017,
+    "author": "Garc\u00eda-Valdez and Merelo",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017/EvoSpace-PSO-GA_Garcia-Valdez.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/3067695.3086573)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "KL-BIPOP-CMA-ES",
+    "year": 2017,
+    "author": "Yamaguchi and Akimoto",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017/KL-BIPOP-CMA-ES_Yamaguchi.tgz",
+    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/318375077_Benchmarking_the_novel_CMA-ES_restart_strategy_using_the_search_history_on_the_BBOB_noiseless_testbed/links/598bb62d0f7e9b07d21f70fd/Benchmarking-the-novel-CMA-ES-restart-strategy-using-the-search-history-on-the-BBOB-noiseless-testbed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "KL-IPOP-CMA-ES",
+    "year": 2017,
+    "author": "Yamaguchi and Akimoto",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017/KL-IPOP-CMA-ES_Yamaguchi.tgz",
+    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/318375077_Benchmarking_the_novel_CMA-ES_restart_strategy_using_the_search_history_on_the_BBOB_noiseless_testbed/links/598bb62d0f7e9b07d21f70fd/Benchmarking-the-novel-CMA-ES-restart-strategy-using-the-search-history-on-the-BBOB-noiseless-testbed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "KL-Restart-CMA-ES",
+    "year": 2017,
+    "author": "Yamaguchi and Akimoto",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017/KL-Restart-CMA-ES_Yamaguchi.tgz",
+    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/318375077_Benchmarking_the_novel_CMA-ES_restart_strategy_using_the_search_history_on_the_BBOB_noiseless_testbed/links/598bb62d0f7e9b07d21f70fd/Benchmarking-the-novel-CMA-ES-restart-strategy-using-the-search-history-on-the-BBOB-noiseless-testbed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "Ord-H-DTS-CMA-ES",
+    "year": 2017,
+    "author": "Pitra et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017/Ord-H-DTS-CMA-ES_Pitra.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/3067695.3084206)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "Ord-N-DTS-CMA-ES",
+    "year": 2017,
+    "author": "Pitra et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017/Ord-N-DTS-CMA-ES_Pitra.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/3067695.3084206)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "Ord-Q-DTS-CMA-ES",
+    "year": 2017,
+    "author": "Pitra et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017/Ord-Q-DTS-CMA-ES_Pitra.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/3067695.3084206)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "SSEABC",
+    "year": 2017,
+    "author": "Aydin and Yavuz",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017/SSEABC_Aydin.tgz",
+    "comment": "[doi](http://dx.doi.org/10.1145/3067695.3084204)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RANDOMSEARCH-4",
+    "year": 2017,
+    "author": "Brockhoff",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017-others/RANDOMSEARCH-4-1e7D_Brockhoff.tgz",
+    "comment": "COCO baseline data without BBOB paper"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RANDOMSEARCH-4p5",
+    "year": 2017,
+    "author": "Brockhoff",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017-others/RANDOMSEARCH-4p5-1e7D_Brockhoff.tgz",
+    "comment": "COCO baseline data without BBOB paper"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RANDOMSEARCH-5",
+    "year": 2017,
+    "author": "Brockhoff",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017-others/RANDOMSEARCH-5-1e7D_Brockhoff.tgz",
+    "comment": "COCO baseline data without BBOB paper"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BBDE",
+    "year": 2018,
+    "author": "Vodopija et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/BBDE_Vodopija.tgz",
+    "comment": "GECCO 2018 paper [doi](http://dx.doi.org/10.1145/3205651.3208309)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BBDE-best",
+    "year": 2018,
+    "author": "Vodopija et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/BBDE-best_Vodopija.tgz",
+    "comment": "GECCO 2018 paper [doi](http://dx.doi.org/10.1145/3205651.3208309)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BBDE-N",
+    "year": 2018,
+    "author": "Vodopija et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/BBDE-N_Vodopija.tgz",
+    "comment": "GECCO 2018 paper [doi](http://dx.doi.org/10.1145/3205651.3208309)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BBDE-ttb",
+    "year": 2018,
+    "author": "Vodopija et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/BBDE-ttb_Vodopija.tgz",
+    "comment": "GECCO 2018 paper [doi](http://dx.doi.org/10.1145/3205651.3208309)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BFGS-M-17",
+    "year": 2018,
+    "author": "Blelly et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/BFGS-M-17_Blelly.tgz",
+    "comment": "[GECCO 2018 paper](https://hal.inria.fr/hal-01811588/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BFGS-P-09",
+    "year": 2018,
+    "author": "Blelly et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/BFGS-P-09_Blelly.tgz",
+    "comment": "[GECCO 2018 paper](https://hal.inria.fr/hal-01811588/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BFGS-P-Instances",
+    "year": 2018,
+    "author": "Blelly et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/BFGS-P-Instances_Blelly.tgz",
+    "comment": "[GECCO 2018 paper](https://hal.inria.fr/hal-01811588/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BFGS-P-range",
+    "year": 2018,
+    "author": "Blelly et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/BFGS-P-range_Blelly.tgz",
+    "comment": "[GECCO 2018 paper](https://hal.inria.fr/hal-01811588/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BFGS-P-StPt",
+    "year": 2018,
+    "author": "Blelly et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/BFGS-P-StPt_Blelly.tgz",
+    "comment": "[GECCO 2018 paper](https://hal.inria.fr/hal-01811588/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAES-APOP-Var1",
+    "year": 2018,
+    "author": "Nguyen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/CMAES-APOP-Var1_Nguyen.tgz",
+    "comment": "GECCO 2018 paper"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAES-APOP-Var2",
+    "year": 2018,
+    "author": "Nguyen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/CMAES-APOP-Var2_Nguyen.tgz",
+    "comment": "GECCO 2018 paper"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAES-APOP-Var3",
+    "year": 2018,
+    "author": "Nguyen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/CMAES-APOP-Var3_Nguyen.tgz",
+    "comment": "GECCO 2018 paper"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DE-best",
+    "year": 2018,
+    "author": "Vodopija et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/DE-best_Vodopija.tgz",
+    "comment": "GECCO 2018 paper [doi](http://dx.doi.org/10.1145/3205651.3208309)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DE-rand",
+    "year": 2018,
+    "author": "Vodopija et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/DE-rand_Vodopija.tgz",
+    "comment": "GECCO 2018 paper [doi](http://dx.doi.org/10.1145/3205651.3208309)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DE-ttb",
+    "year": 2018,
+    "author": "Vodopija et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/DE-ttb_Vodopija.tgz",
+    "comment": "GECCO 2018 paper [doi](http://dx.doi.org/10.1145/3205651.3208309)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "PSA-CMA-ES",
+    "year": 2018,
+    "author": "Nishida and Akimoto",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/PSA-CMA-ES_Nishida.tgz",
+    "comment": "[GECCO 2018 paper](https://www.researchgate.net/profile/Kouhei_Nishida/publication/326236796_Benchmarking_the_PSA-CMA-ES_on_the_BBOB_noiseless_testbed/links/5b4de92faca27217ff9c2b1b/Benchmarking-the-PSA-CMA-ES-on-the-BBOB-noiseless-testbed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "PSA-CMA-ESwRS",
+    "year": 2018,
+    "author": "Nishida and Akimoto",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/PSA-CMA-ESwRS_Nishida.tgz",
+    "comment": "[GECCO 2018 paper](https://www.researchgate.net/profile/Kouhei_Nishida/publication/326236796_Benchmarking_the_PSA-CMA-ES_on_the_BBOB_noiseless_testbed/links/5b4de92faca27217ff9c2b1b/Benchmarking-the-PSA-CMA-ES-on-the-BBOB-noiseless-testbed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "uBBDE",
+    "year": 2018,
+    "author": "Vodopija et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018-others/uBBDE_Vodopija.tgz",
+    "comment": "[paper](https://numbbo.github.io/gforge/data-archive/bbob/2018-others/JSI_DP_12858.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "uBBDE-best",
+    "year": 2018,
+    "author": "Vodopija et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018-others/uBBDE-best_Vodopija.tgz",
+    "comment": "[paper](https://numbbo.github.io/gforge/data-archive/bbob/2018-others/JSI_DP_12858.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "uBBDE-N",
+    "year": 2018,
+    "author": "Vodopija et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018-others/uBBDE-N_Vodopija.tgz",
+    "comment": "[paper](https://numbbo.github.io/gforge/data-archive/bbob/2018-others/JSI_DP_12858.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "uBBDE-ttb",
+    "year": 2018,
+    "author": "Vodopija et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018-others/uBBDE-ttb_Vodopija.tgz",
+    "comment": "[paper](https://numbbo.github.io/gforge/data-archive/bbob/2018-others/JSI_DP_12858.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "uDE-best",
+    "year": 2018,
+    "author": "Vodopija et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018-others/uDE-best_Vodopija.tgz",
+    "comment": "[paper](https://numbbo.github.io/gforge/data-archive/bbob/2018-others/JSI_DP_12858.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "uDE-rand",
+    "year": 2018,
+    "author": "Vodopija et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018-others/uDE-rand_Vodopija.tgz",
+    "comment": "[paper](https://numbbo.github.io/gforge/data-archive/bbob/2018-others/JSI_DP_12858.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "uDE-ttb",
+    "year": 2018,
+    "author": "Vodopija et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018-others/uDE-ttb_Vodopija.tgz",
+    "comment": "[paper](https://numbbo.github.io/gforge/data-archive/bbob/2018-others/JSI_DP_12858.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DTS-CMA-ES_005-2pop_v26_1model",
+    "year": 2018,
+    "author": "Bajer et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018-others/DTS-CMA-ES_005-2pop_v26_1model_Bajer.tgz",
+    "comment": "[link to paper](https://www.mitpressjournals.org/doi/abs/10.1162/evco_a_00244) - [details on the differences to #161](https://web.archive.org/web/20200924122005/https://coco.gforge.inria.fr/doku.php?id=detailsdts)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "Adaptive-Two-Mode",
+    "year": 2019,
+    "author": "Bodner",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/Adaptive-Two-Mode_Bodner.tgz",
+    "comment": "[doi](https://dl.acm.org/doi/pdf/10.1145/3319619.3326802?casa_token=X6u2X7Aeyb8AAAAA:Sc217heU80lHKPpZlQxUrhWaSVHuLV3d_XJTv4ceR0oC0RHEUvJKeqbVrF4fFJNf6WBgAMmEliw)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BFGS-scipy",
+    "year": 2019,
+    "author": "Varelas and Dahito",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/BFGS-scipy-2019_Varelas.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160099/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CG-scipy",
+    "year": 2019,
+    "author": "Varelas and Dahito",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/CG-scipy-2019_Varelas.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160099/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "COBYLA-scipy",
+    "year": 2019,
+    "author": "Varelas and Dahito",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/COBYLA-scipy-2019_Varelas.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160099/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DE-scipy",
+    "year": 2019,
+    "author": "Varelas and Dahito",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/DE-scipy-2019_Varelas.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160099/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "L-BFGS-B-scipy",
+    "year": 2019,
+    "author": "Varelas and Dahito",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/L-BFGS-B-scipy-2019_Varelas.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160099/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "Nelder-Mead-scipy",
+    "year": 2019,
+    "author": "Varelas and Dahito",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/Nelder-Mead-scipy-2019_Varelas.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160099/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "Powell-scipy",
+    "year": 2019,
+    "author": "Varelas and Dahito",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/Powell-scipy-2019_Varelas.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160099/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-0p5-initIn0",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-0p5-initIn0_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-0p5",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-0p5_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-1-initIn0",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-1-initIn0_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-1",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-1_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-2-initIn0",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-2-initIn0_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-2",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-2_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-3-initIn0",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-3-initIn0_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-3",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-3_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-4-initIn0",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-4-initIn0_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-5-initIn0",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-5-initIn0_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-6-initIn0",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-6-initIn0_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-6",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-6_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-10-initIn0",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-10-initIn0_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-10",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-10_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-20-initIn0",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-20-initIn0_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "RS-20",
+    "year": 2019,
+    "author": "Brockhoff and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/RS-20_Brockhoff.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02171213/file/templateBBOBmany-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "SLSQP-scipy",
+    "year": 2019,
+    "author": "Varelas and Dahito",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/SLSQP-scipy-2019_Varelas.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160099/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "TNC-scipy",
+    "year": 2019,
+    "author": "Varelas and Dahito",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/TNC-scipy-2019_Varelas.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160099/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "adapt-Nelder-Mead-scipy",
+    "year": 2019,
+    "author": "Varelas and Dahito",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2019/adapt-Nelder-Mead-scipy-2019_Varelas.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160099/document)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "HE-ES",
+    "year": 2020,
+    "author": "Glasmachers and Krause",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2020/HE-ES_Glasmachers.tgz",
+    "comment": "continuous submission: [accompanying paper](https://arxiv.org/pdf/2003.13256.pdf) - [source code](https://www.ini.rub.de/upload/editor/file/1585464419_306c059ec73a243dd05b/HE-ES.py)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMA-ES-2019",
+    "year": 2020,
+    "author": "Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2020/CMA-ES-2019_Hansen.tgz",
+    "comment": "continuous submission: [accompanying paper](https://hal.inria.fr/hal-02143961/document) - [source code](https://cma-es.github.io/lq-cma/)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "lq-CMA-ES",
+    "year": 2020,
+    "author": "Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2020/lq-CMA-ES_Hansen.tgz",
+    "comment": "continuous submission: [accompanying paper](https://hal.inria.fr/hal-02143961/document) - [source code](https://cma-es.github.io/lq-cma/)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "SLSQP-11-scipy",
+    "year": 2020,
+    "author": "Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2020/SLSQP-11-scipy_Hansen.tgz",
+    "comment": "continuous submission: [accompanying paper](https://hal.inria.fr/hal-02143961/document) - [source code](https://cma-es.github.io/lq-cma/)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "SLSQP+lq-CMA-ES",
+    "year": 2020,
+    "author": "Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2020/SLSQP+lq-CMA-ES_Hansen.tgz",
+    "comment": "continuous submission: [accompanying paper](https://hal.inria.fr/hal-02143961/document) - [source code](https://cma-es.github.io/lq-cma/)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "SHADE-LM",
+    "year": 2021,
+    "author": "Okulewicz and Zaborski",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2021/SHADE-LM_Okulewicz.tgz",
+    "comment": "[GECCO 2021 paper](https://dl.acm.org/doi/abs/10.1145/3449726.3463290)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "SHADE-LM-POP4-to-10",
+    "year": 2021,
+    "author": "Okulewicz and Zaborski",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2021/SHADE-LM-POP4-to-10_Okulewicz.tgz",
+    "comment": "[GECCO 2021 paper](https://dl.acm.org/doi/abs/10.1145/3449726.3463290)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "oMads-2N",
+    "year": 2022,
+    "author": "Dahito et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2022/oMads-2N_Dahito.tgz",
+    "comment": "continuous submission: [accompanying paper](https://link.springer.com/chapter/10.1007/978-3-030-91885-9_3)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "oMADS-Neg",
+    "year": 2022,
+    "author": "Dahito et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2022/oMads-Neg_Dahito.tgz",
+    "comment": "continuous submission: [accompanying paper](https://link.springer.com/chapter/10.1007/978-3-030-91885-9_3)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "EXPLO2",
+    "year": 2022,
+    "author": "Huntsman",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2022/EXPLO2_Huntsman.tgz",
+    "comment": "continuous submission: [accompanying paper](https://arxiv.org/abs/2201.11677)"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMA-ES-Akimoto",
+    "year": 2022,
+    "author": "Gharafi",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2022/CMA-ES-Akimoto_Gharafi.tgz",
+    "comment": "IPOP-CMA-ES as implemented by Y. Akimoto [BBOB-2022 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMA-ES-pycma",
+    "year": 2022,
+    "author": "Gharafi",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2022/CMA-ES-pycma_Gharafi.tgz",
+    "comment": "IPOP-CMA-ES as implemented in pycma [BBOB-2022 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAES-APOP-KMA",
+    "year": 2022,
+    "author": "Nguyen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2022/CMAES-APOP-KMA_Nguyen.tgz",
+    "comment": "adaptive population size CMA-ES with KP and MA strategy [BBOB-2022 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAES-APOP-KP",
+    "year": 2022,
+    "author": "Nguyen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2022/CMAES-APOP-KP_Nguyen.tgz",
+    "comment": "adaptive population size CMA-ES reusing part of the known population (KP) [BBOB-2022 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "CMAES-APOP-MA",
+    "year": 2022,
+    "author": "Nguyen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2022/CMAES-APOP-MA_Nguyen.tgz",
+    "comment": "adaptive population size CMA-ES with mirrored sampling and active CMA [BBOB-2022 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DD-CMA-ES-Akimoto",
+    "year": 2022,
+    "author": "Gharafi",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2022/DD-CMA-ES-Akimoto_Gharafi.tgz",
+    "comment": "diagonal encoding CMA-ES as implemented by Y. Akimoto [BBOB-2022 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DD-CMA-ES-pycma",
+    "year": 2022,
+    "author": "Gharafi",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2022/DD-CMA-ES-pycma_Gharafi.tgz",
+    "comment": "diagonal encoding CMA-ES as implemented in pycma [BBOB-2022 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "BIRMIN",
+    "year": 2023,
+    "author": "Kudela",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/BIRMIN_Kudela.tgz",
+    "comment": "globally-biased, hybridized version of BIRECT by Paulavicius et al. as benchmarked by Jakub Kudela [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "DIRECT-REV",
+    "year": 2023,
+    "author": "Kudela",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/DIRECT-REV_Kudela.tgz",
+    "comment": "DIRECT variant with enhancements for the reduction of the global drag [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "E-WOA",
+    "year": 2023,
+    "author": "Espinoza et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/E-WOA_Espinoza.tgz",
+    "comment": "Enhanced Whale Optimization Algorithm as implemented by Epinoza et al. in their [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "I-DBDP-GL",
+    "year": 2023,
+    "author": "Kudela",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/I-DBDP-GL_Kudela.tgz",
+    "comment": "BIRECT variant which uses hyper-rectangular partitioning based on 1-D bisections and evaluations at two diagonal points with global and local search enhancements [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "WOA",
+    "year": 2023,
+    "author": "Espinoza et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/WOA_Espinoza.tgz",
+    "comment": "Whale Optimization Algorithm as implemented by Epinoza et al. in their [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "a-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/a-CMA-ES_Gissler.tgz",
+    "comment": "affine-invariant version of CMA-ES [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "ad-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/ad-CMA-ES_Gissler.tgz",
+    "comment": "affine-invariant and continuously differentiable version of CMA-ES [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "adm-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/adm-CMA-ES_Gissler.tgz",
+    "comment": "affine-invariant and continuously differentiable version of CMA-ES with default stepsize damping factor $d_{\\sigma}$ [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "c-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/c-CMA-ES_Gissler.tgz",
+    "comment": "CMA-ES variant without cumulation for the covariance matrix [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "cd-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/cd-CMA-ES_Gissler.tgz",
+    "comment": "continuously differentiable CMA-ES variant without cumulation for the covariance matrix [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "cdm-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/cdm-CMA-ES_Gissler.tgz",
+    "comment": "continuously differentiable CMA-ES variant without cumulation for the covariance matrix and default learning rate $d_{\\sigma}$ [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "cma-bp-bbob",
+    "year": 2023,
+    "author": "Brockhoff",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/cma-bp-bbob_Brockhoff.tgz",
+    "comment": "bound-constrained CMA-ES with BoundPenalty as compared in [SBOX-COST 2023 workshop paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "cma-bt-bbob",
+    "year": 2023,
+    "author": "Brockhoff",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/cma-bt-bbob_Brockhoff.tgz",
+    "comment": "bound-constrained CMA-ES with BoundTransform as as compared in [SBOX-COST 2023 workshop paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "d-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/d-CMA-ES_Gissler.tgz",
+    "comment": "continuously differentiable CMA-ES [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "default-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/default-CMA-ES_Gissler.tgz",
+    "comment": "default CMA-ES from the pycma module, version 3.3.0 [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "dm-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/dm-CMA-ES_Gissler.tgz",
+    "comment": "continuously differentiable CMA-ES with default learning rate $d_{\\sigma}$ [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "m-SDWOA",
+    "year": 2023,
+    "author": "Espinoza et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/m-SDWOA_Espinoza.tgz",
+    "comment": "modified Symbiotic organism search - Differential Evolution - Whale Optimization Algorithm hybrid as implemented by Espinoza et al. in their [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "s-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/s-CMA-ES_Gissler.tgz",
+    "comment": "CMA-ES without cumulation for the step size [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "sc-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/sc-CMA-ES_Gissler.tgz",
+    "comment": "CMA-ES without cumulation for both step size and covariance matrix [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "scd-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/scd-CMA-ES_Gissler.tgz",
+    "comment": "continuously differentiable CMA-ES without cumulation for both step size and covariance matrix [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "scdm-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/scdm-CMA-ES_Gissler.tgz",
+    "comment": "continuously differentiable CMA-ES without cumulation for both step size and covariance matrix and default $d_{\\sigma}$ [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "sd-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/sd-CMA-ES_Gissler.tgz",
+    "comment": "continuously differentiable CMA-ES without cumulation for the step size [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob",
+    "algorithm": "sdm-CMA-ES",
+    "year": 2023,
+    "author": "Gissler",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2023/sdm-CMA-ES_Gissler.tgz",
+    "comment": "continuously differentiable CMA-ES without cumulation for the step size and default $d_{\\sigma}$ [BBOB-2023 paper]"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "ALPS",
+    "year": 2009,
+    "author": "Hornby",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/ALPS_hornby_noisy.tgz",
+    "comment": "[pdf noiseless](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a971bb2c2cee841702b033cd01bc79f8e35b7893)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "AMALGAM",
+    "year": 2009,
+    "author": "Bosman et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/AMALGAM_bosman_noisy.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2247-bosman.pdf) - [pdf noisy](https://dl.acm.org/doi/abs/10.1145/1570256.1570313?casa_token=-L-jzd43FZ4AAAAA:spWynu0YHONGuVyZe_ytIUgJ75qvdytSzP04-P42po4FoyYKI4XAQG0_Xing-6fuOfx00Xfj1uuvrA)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "BAYEDA",
+    "year": 2009,
+    "author": "Gallagher",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/BAYEDA_gallagher_noisy.tgz",
+    "comment": "[pdf noiseless](http://staff.itee.uq.edu.au/marcusg/papers/wk2008-gallagher.pdf) - [pdf noisy](http://staff.itee.uq.edu.au/marcusg/papers/wk2022-gallagher.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "BFGS",
+    "year": 2009,
+    "author": "Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/BFGS_ros_noisy.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2409-ros.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2415-ros.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "BIPOP-CMA-ES",
+    "year": 2009,
+    "author": "Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/BIPOP-CMA-ES_hansen_noisy.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2389-hansen.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2397-hansen.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "CMA-ESPLUSSEL",
+    "year": 2009,
+    "author": "Auger and Hansen",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/CMA-ESPLUSSEL_auger_noisy.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2459-auger.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2467-auger.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "DASA",
+    "year": 2009,
+    "author": "Koro\u0161ec and \u0160ilc",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/DASA_korosec_noisy.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2295-korosec.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2375-korosec.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "DE-PSO",
+    "year": 2009,
+    "author": "Garc\u00eda-Nieto et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/DE-PSO_garcia-nieto_noisy.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2231-garcia-nieto.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2343-garcia-nieto.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "EDA-PSO",
+    "year": 2009,
+    "author": "El-Abd and Kamel",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/EDA-PSO_el-abd_noisy.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2263-elabd.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "FULLNEWUOA",
+    "year": 2009,
+    "author": "Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/FULLNEWUOA_ros_noisy.tgz",
+    "comment": "[original 2009 noiseless paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2421-ros.pdf) - [original 2009 noisy paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2429-ros.pdf) - [2010 comparison noiseless](https://hal.inria.fr/inria-00473774/document) - [2010 comparison noisy](https://hal.inria.fr/inria-00473776/document)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "GLOBAL",
+    "year": 2009,
+    "author": "P\u00e1l et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/GLOBAL_pal_noisy.tgz",
+    "comment": "BBOB-2009 paper not available online - [corresponding ECJ paper](http://www.mat.univie.ac.at/~neum/ms/pal.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "iAMALGAM",
+    "year": 2009,
+    "author": "Bosman et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/iAMALGAM_bosman_noisy.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2247-bosman.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2351-bosman.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "IPOP-SEP-CMA-ES",
+    "year": 2009,
+    "author": "Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/IPOP-SEP-CMA-ES_ros_noisy.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2435-ros.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2441-ros.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "MA-LS-CHAIN",
+    "year": 2009,
+    "author": "Molina et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/MA-LS-CHAIN_molina_noisy.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2255-molina.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2359-molina.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "MCS",
+    "year": 2009,
+    "author": "Huyer and Neumaier",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/MCS_huyer_noisy.tgz",
+    "comment": "[pdf noiseless](http://www.mat.univie.ac.at/~neum/ms/mcs_exact.pdf) - [pdf noisy](http://www.mat.univie.ac.at/~neum/ms/mcs_noisy.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "ONEFIFTH",
+    "year": 2009,
+    "author": "Auger",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/ONEFIFTH_auger_noisy.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2447-auger.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2453-auger.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "PSO",
+    "year": 2009,
+    "author": "El-Abd and Kamel",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/PSO_el-abd_noisy.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2269-elabd.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "PSO_Bounds",
+    "year": 2009,
+    "author": "El-Abd and Kamel",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/PSO_Bounds_el-abd_noisy.tgz",
+    "comment": "[pdf](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2275-elabd.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "RANDOMSEARCH",
+    "year": 2009,
+    "author": "Auger and Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/RANDOMSEARCH_auger_noisy.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2479-auger.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2485-auger.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "SNOBFIT",
+    "year": 2009,
+    "author": "Huyer and Neumaier",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/SNOBFIT_huyer_noisy.tgz",
+    "comment": "[pdf](http://www.mat.univie.ac.at/~neum/ms/snobfit_noisy.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "VNS",
+    "year": 2009,
+    "author": "Garc\u00eda-Mart\u00ednez and Lozano",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/VNS_garcia-martinez_noisy.tgz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2287-garcia-martinez.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2367-garcia-martinez.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "1komma2",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/1komma2_brockhoff_noisy.tar.gz",
+    "comment": "[pdf cmp1komma2mirAnd1komma2mirser](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772) - [pdf cmp1komma2mirAnd1komma2mirserNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1575-auger.pdf) - [pdf cmp1komma2ser](https://hal.inria.fr/inria-00502431/document) - [cmp1komma2serNoisy](https://hal.inria.fr/inria-00502432/document)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "1komma2mir",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/1komma2mir_brockhoff_noisy.tar.gz",
+    "comment": "[pdf cmp1komma2And1komma2mirser](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772) - [pdf cmp1komma2And1komma2mirserNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1575-auger.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "1komma2mirser",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/1komma2mirser_brockhoff_noisy.tar.gz",
+    "comment": "[pdf cmp1komma2And1komma2mir](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772) - [pdf cmp1komma2And1komma2mirNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1575-auger.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "1komma2ser",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/1komma2ser_brockhoff_noisy.tar.gz",
+    "comment": "[pdf cmp1komma2](https://hal.inria.fr/inria-00502431/document) - [pdf cmp1komma2Noisy](https://hal.inria.fr/inria-00502432/document)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "1komma4",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/1komma4_brockhoff_noisy.tar.gz",
+    "comment": "[pdf cmp1komma4serNoisy](https://hal.inria.fr/inria-00502434/document) - [doi](http://dx.doi.org/10.1145/1830761.1830780) - the other three papers using the data set are not linked at the moment"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "1komma4mir",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/1komma4mir_brockhoff_noisy.tar.gz",
+    "comment": "[pdf cmp1komma4And1komma4mirser](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1559-auger.pdf) - [pdf cmp1komma4And1komma4mirserNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1583-auger.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "1komma4mirser",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/1komma4mirser_brockhoff_noisy.tar.gz",
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1617-auger.pdf) - [pdf noisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1625-auger.pdf) - [pdf cmp1komma4And1komma4mir](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1559-auger.pdf) - [pdf cmp1komma4And1komma4mirNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1583-auger.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "1komma4ser",
+    "year": 2010,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/1komma4ser_brockhoff_noisy.tar.gz",
+    "comment": "[pdf cmp1komma4](https://hal.inria.fr/inria-00502433/document) - [pdf cmp1komma4Noisy](https://hal.inria.fr/inria-00502434/document) - [doi](http://dx.doi.org/10.1145/1830761.1830780)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "AVGNEWUOA",
+    "year": 2010,
+    "author": "Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/AVGNEWUOA_ros_noisy.tar.gz",
+    "comment": "mentioned in 2009 paper, data set submitted in 2009, but data presented only in 2010 - [cmpNEWUOAFULLNEWUOnoiseless](https://hal.inria.fr/inria-00473776/document) - algname still NEWUOA"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "CMAEGS",
+    "year": 2010,
+    "author": "Finck and Beyer",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/CMAEGS_finck_noisy.tar.gz",
+    "comment": "[pdf noiseless](https://www.researchgate.net/profile/Steffen_Finck/publication/220740259_Benchmarking_CMA-EGS_on_the_BBOB_2010_noiseless_function_testbed/links/09e4150e5889c7141e000000.pdf) - [doi noisy](http://dx.doi.org/10.1145/1830761.1830784)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "IPOP-ACTCMA-ES",
+    "year": 2010,
+    "author": "Hansen and Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/IPOP-ACTCMA-ES_ros_noisy.tar.gz",
+    "comment": "[pdf cmpIPOP-CMA-ESNoiseless](http://www.cmap.polytechnique.fr/~nikolaus.hansen/ws1p32-hansen.pdf) - [pdf cmpIPOP-CMA-ESNoisy](http://www.cmap.polytechnique.fr/~nikolaus.hansen/ws1p33-hansen.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "IPOP-CMA-ES",
+    "year": 2010,
+    "author": "Hansen and Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/IPOP-CMA-ES_ros_noisy.tar.gz",
+    "comment": "[pdf cmpIPOP-ACTCMA-ESNoiseless](http://www.cmap.polytechnique.fr/~nikolaus.hansen/ws1p32-hansen.pdf) - [pdf cmpIPOP-ACTCMA-ESNoisy](http://www.cmap.polytechnique.fr/~nikolaus.hansen/ws1p33-hansen.pdf) - [pdf cmpBIPOP-CMA-ESNoiseless](https://hal.inria.fr/inria-00473777/document) - [pdf cmpBIPOP-CMA-ESNoisy](https://hal.inria.fr/inria-00473778/document)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "MOS",
+    "year": 2010,
+    "author": "LaTorre et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/MOS_torre_noisy.tar.gz",
+    "comment": "[pdf noiseless](http://oa.upm.es/7689/2/INVE_MEM_2010_84733.pdf) - [pdf noisy](http://oa.upm.es/7735/2/INVE_MEM_2010_84760.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "NEWUOA",
+    "year": 2010,
+    "author": "Hansen and Ros",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/NEWUOA_ros_noisy.tar.gz",
+    "comment": "[pdf](https://hal.inria.fr/inria-00473776/document)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "RCGA",
+    "year": 2010,
+    "author": "Tran and Jin",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/RCGA_tran_noisy.tar.gz",
+    "comment": "[doi noiseless](http://dx.doi.org/10.1145/1830761.1830797) - [doi noisy](http://dx.doi.org/10.1145/1830761.1830796)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "SPSA",
+    "year": 2010,
+    "author": "Finck and Beyer",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/SPSA_finck_noisy.tar.gz",
+    "comment": "[pdf noiseless](https://www.researchgate.net/profile/Steffen_Finck/publication/220743445_Benchmarking_SPSA_on_BBOB-2010_noiseless_function_testbed/links/09e4150e5889bc24a6000000.pdf) - [pdf noisy](https://www.researchgate.net/profile/Steffen_Finck/publication/220740542_Benchmarking_SPSA_on_BBOB-2010_noisy_function_testbed/links/09e4150e5889c4a807000000.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "IPOPsaACM",
+    "year": 2012,
+    "author": "Loshchilov et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2012/IPOPsaACM_loshchilov_noisy.tgz",
+    "comment": "[pdf cmpBIPOPsaACM](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p175.pdf) - [pdf cmpIPOP-ACTCMA-ESNoisy](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p261.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2012sourcecodes/loshchilov_BBOB2012_noiseless_BIPOPsaACM.tgz)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "SNES",
+    "year": 2012,
+    "author": "Schaul",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2012/SNES_schaul_noisy.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p205.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "xNES",
+    "year": 2012,
+    "author": "Schaul",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2012/xNES_schaul_noisy.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p213.pdf) - [pdf cmpxNESas](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p221.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "xNESas",
+    "year": 2012,
+    "author": "Schaul",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2012/xNESas_schaul_noisy.tgz",
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p229.pdf) - [pdf cmpxNES](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p221.pdf) - [pdf cmpBIPOP-CMA-ES](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p237.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "PSAaLmC-CMA-ES",
+    "year": 2016,
+    "author": "Nishida and Akimoto",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2016/PSAaLmC-CMA-ES_Nishida_bbob-noisy.tgz",
+    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/302359371_Evaluating_the_Population_Size_Adaptation_Mechanism_for_CMA-ES_on_the_BBOB_Noisy_Testbed/links/572fd0ab08ae744151904d91.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "PSAaLmD-CMA-ES",
+    "year": 2016,
+    "author": "Nishida and Akimoto",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2016/PSAaLmD-CMA-ES_Nishida_bbob-noisy.tgz",
+    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/302359371_Evaluating_the_Population_Size_Adaptation_Mechanism_for_CMA-ES_on_the_BBOB_Noisy_Testbed/links/572fd0ab08ae744151904d91.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "PSAaSmC-CMA-ES",
+    "year": 2016,
+    "author": "Nishida and Akimoto",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2016/PSAaSmC-CMA-ES_Nishida_bbob-noisy.tgz",
+    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/302359371_Evaluating_the_Population_Size_Adaptation_Mechanism_for_CMA-ES_on_the_BBOB_Noisy_Testbed/links/572fd0ab08ae744151904d91.pdf)"
+  },
+  {
+    "suite": "bbob-noisy",
+    "algorithm": "PSAaSmD-CMA-ES",
+    "year": 2016,
+    "author": "Nishida and Akimoto",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2016/PSAaSmD-CMA-ES_Nishida_bbob-noisy.tgz",
+    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/302359371_Evaluating_the_Population_Size_Adaptation_Mechanism_for_CMA-ES_on_the_BBOB_Noisy_Testbed/links/572fd0ab08ae744151904d91.pdf)"
+  },
+  {
+    "suite": "bbob-mixint",
+    "algorithm": "CMA-ES-pycma",
+    "year": 2019,
+    "author": "Tu\u0161ar et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-mixint/2019-gecco-benchmark/CMA-ES-pycma.tgz",
+    "comment": "[GECCO paper](https://hal.inria.fr/hal-02067932/file/2019_GECCO_Mixint_Suites.pdf)"
+  },
+  {
+    "suite": "bbob-mixint",
+    "algorithm": "DE-scipy",
+    "year": 2019,
+    "author": "Tu\u0161ar et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-mixint/2019-gecco-benchmark/DE-scipy.tgz",
+    "comment": "[GECCO paper](https://hal.inria.fr/hal-02067932/file/2019_GECCO_Mixint_Suites.pdf)"
+  },
+  {
+    "suite": "bbob-mixint",
+    "algorithm": "RANDOMSEARCH",
+    "year": 2019,
+    "author": "Tu\u0161ar et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-mixint/2019-gecco-benchmark/RANDOMSEARCH.tgz",
+    "comment": "[GECCO paper](https://hal.inria.fr/hal-02067932/file/2019_GECCO_Mixint_Suites.pdf)"
+  },
+  {
+    "suite": "bbob-mixint",
+    "algorithm": "TPE-hyperopt",
+    "year": 2019,
+    "author": "Tu\u0161ar et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-mixint/2019-gecco-benchmark/TPE-hyperopt.tgz",
+    "comment": "[GECCO paper](https://hal.inria.fr/hal-02067932/file/2019_GECCO_Mixint_Suites.pdf)"
+  },
+  {
+    "suite": "bbob-mixint",
+    "algorithm": "CMA-ESwM",
+    "year": 2022,
+    "author": "Hamano et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-mixint/2022/CMA-ESwM_Hamano.tgz",
+    "comment": "CMA-ES with Margins as submitted to BBOB-2022"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "CMA",
+    "year": 2019,
+    "author": "Varelas",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2019/CMA_Varelas_largescale.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160106/file/wksp213s2-file1.pdf)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "LBFGS",
+    "year": 2019,
+    "author": "Varelas",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2019/LBFGS_Varelas_largescale.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160106/file/wksp213s2-file1.pdf)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "LMCMA14",
+    "year": 2019,
+    "author": "Varelas",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2019/LMCMA14_Varelas_largescale.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160106/file/wksp213s2-file1.pdf)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "LMCMA17",
+    "year": 2019,
+    "author": "Varelas",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2019/LMCMA17_Varelas_largescale.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160106/file/wksp213s2-file1.pdf)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "R2ES",
+    "year": 2019,
+    "author": "Varelas",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2019/R2ES_Varelas_largescale.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160106/file/wksp213s2-file1.pdf)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "R10ES",
+    "year": 2019,
+    "author": "Varelas",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2019/R10ES_Varelas_largescale.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160106/file/wksp213s2-file1.pdf)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "V2D-CMA",
+    "year": 2019,
+    "author": "Varelas",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2019/V2D-CMA_Varelas_largescale.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160106/file/wksp213s2-file1.pdf)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "VD-CMA",
+    "year": 2019,
+    "author": "Varelas",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2019/VD-CMA_Varelas_largescale.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160106/file/wksp213s2-file1.pdf)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "VkD-CMA",
+    "year": 2019,
+    "author": "Varelas",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2019/VkD-CMA_Varelas_largescale.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160106/file/wksp213s2-file1.pdf)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "m2DLBFGS",
+    "year": 2019,
+    "author": "Varelas",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2019/m2DLBFGS_Varelas_largescale.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160106/file/wksp213s2-file1.pdf)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "sepCMA",
+    "year": 2019,
+    "author": "Varelas",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2019/sepCMA_Varelas_largescale.tgz",
+    "comment": "[GECCO 2019 paper](https://hal.inria.fr/hal-02160106/file/wksp213s2-file1.pdf)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "BSrr",
+    "year": 2022,
+    "author": "Tanabe",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2022/BSrr_Tanabe.tgz",
+    "comment": "Brent-STEP applied to single variables in a round-robin fashion: [BBOB-2022 paper](https://arxiv.org/pdf/2204.13284)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "HJ-5",
+    "year": 2022,
+    "author": "Tanabe",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2022/HJ-5_Tanabe.tgz",
+    "comment": "Hooke-Jeeves with parameter c set to 0.5: [BBOB-2022 paper](https://arxiv.org/pdf/2204.13284)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "HJ-9",
+    "year": 2022,
+    "author": "Tanabe",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2022/HJ-9_Tanabe.tgz",
+    "comment": "Hooke-Jeeves with parameter c set to 0.9: [BBOB-2022 paper](https://arxiv.org/pdf/2204.13284)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "MTSLS1-5",
+    "year": 2022,
+    "author": "Tanabe",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2022/MTSLS1-5_Tanabe.tgz",
+    "comment": "Multiple Trajectory Search with local search LS1 and parameter c set to 0.5: [BBOB-2022 paper](https://arxiv.org/pdf/2204.13284)"
+  },
+  {
+    "suite": "bbob-largescale",
+    "algorithm": "MTSLS1-9",
+    "year": 2022,
+    "author": "Tanabe",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-largescale/2022/MTSLS1-9_Tanabe.tgz",
+    "comment": "Multiple Trajectory Search with local search LS1 and parameter c set to 0.9: [BBOB-2022 paper](https://arxiv.org/pdf/2204.13284)"
+  },
+  {
+    "suite": "bbob-constrained",
+    "algorithm": "RandomSearch-5",
+    "year": 2022,
+    "author": "Dufoss\u00e9",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-constrained/2022/RandomSearch-5_Dufosse.tgz",
+    "comment": "[source code](https://github.com/numbbo/coco/blob/master/code-experiments/build/python/example_experiment2.py)"
+  },
+  {
+    "suite": "bbob-constrained",
+    "algorithm": "AL1-CMA-ES",
+    "year": 2022,
+    "author": "Dufoss\u00e9 and Atamna",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-constrained/2022/AL1-CMA-ES_Dufosse.tgz",
+    "comment": "CMA-ES with Augmented Lagrangian fitness, pycma version, parameter setting 1 as compared by Dufosse and Atamna for BBOB-2022"
+  },
+  {
+    "suite": "bbob-constrained",
+    "algorithm": "AL2-CMA-ES",
+    "year": 2022,
+    "author": "Dufoss\u00e9 and Atamna",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-constrained/2022/AL2-CMA-ES_Dufosse.tgz",
+    "comment": "CMA-ES with Augmented Lagrangian fitness, pycma version, parameter setting 2 as compared by Dufosse and Atamna for BBOB-2022"
+  },
+  {
+    "suite": "bbob-constrained",
+    "algorithm": "AL3-CMA-ES",
+    "year": 2022,
+    "author": "Dufoss\u00e9 and Atamna",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-constrained/2022/AL3-CMA-ES_Dufosse.tgz",
+    "comment": "CMA-ES with Augmented Lagrangian fitness, pycma version, parameter setting 3 (default) as compared by Dufosse and Atamna for BBOB-2022"
+  },
+  {
+    "suite": "bbob-constrained",
+    "algorithm": "AL4-CMA-ES",
+    "year": 2022,
+    "author": "Dufoss\u00e9 and Atamna",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-constrained/2022/AL4-CMA-ES_Dufosse.tgz",
+    "comment": "CMA-ES with Augmented Lagrangian fitness, pycma version, parameter setting 4 as compared by Dufosse and Atamna for BBOB-2022"
+  },
+  {
+    "suite": "bbob-constrained",
+    "algorithm": "BPepsMAg",
+    "year": 2022,
+    "author": "Hellwig and Beyer",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-constrained/2022/BPepsMAg_Hellwig.tgz",
+    "comment": "Matrix Adaptation Evolution Strategy with restarts and BIPOP strategy, using up to three different constraint handling techniques, as compared by Hellwig and Beyer for BBOB-2022"
+  },
+  {
+    "suite": "bbob-constrained",
+    "algorithm": "COBYLA",
+    "year": 2022,
+    "author": "Dufoss\u00e9 and Atamna",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-constrained/2022/COBYLA_Dufosse.tgz",
+    "comment": "Constrained Optimization BY Linear Approximation (implemented in SciPy as a wrapper around Powell's fortran code) compared by Dufosse and Atamna for BBOB-2022"
+  },
+  {
+    "suite": "bbob-constrained",
+    "algorithm": "epsMAg",
+    "year": 2022,
+    "author": "Hellwig and Beyer",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-constrained/2022/epsMAg_Hellwig.tgz",
+    "comment": "Matrix Adaptation Evolution Strategy, using up to three different constraint handling techniques, as compared by Hellwig and Beyer for BBOB-2022"
+  },
+  {
+    "suite": "bbob-constrained",
+    "algorithm": "fmincon",
+    "year": 2022,
+    "author": "Hellwig and Beyer",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-constrained/2022/fmincon_Hellwig.tgz",
+    "comment": "default fmincon from Matlab2021b, as compared by Hellwig and Beyer for BBOB-2022"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "DEMO",
+    "year": 2016,
+    "author": "Tu\u0161ar and Filipi\u010d",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/DEMO_Tusar_bbob-biobj.tgz",
+    "comment": "[doi](https://doi.org/10.1145/2908961.2931708)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "HMO-CMA-ES",
+    "year": 2016,
+    "author": "Loshchilov and Glasmachers",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/HMO-CMA-ES_Loshchilov_bbob-biobj.tgz",
+    "comment": "[pdf](https://arxiv.org/pdf/1605.02720)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "MAT-DIRECT",
+    "year": 2016,
+    "author": "Al-Dujaili and Sundaram",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/MAT-DIRECT_Al-Dujaili_bbob-biobj.tgz",
+    "comment": "[doi](https://doi.org/10.1145/2908961.2931703)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "MAT-SMS",
+    "year": 2016,
+    "author": "Al-Dujaili and Sundaram",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/MAT-SMS_Al-Dujaili_bbob-biobj.tgz",
+    "comment": "[doi](https://doi.org/10.1145/2908961.2931703)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "MO-DIRECT-HV-Rank",
+    "year": 2016,
+    "author": "Wong et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/MO-DIRECT-HV-Rank_Wong_bbob-biobj.tgz",
+    "comment": "[pdf](http://atmri.ntu.edu.sg/Publications/Documents/Cognitive_team_theoretic/6%20Hypervolume-Based%20Direct.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "MO-DIRECT-ND",
+    "year": 2016,
+    "author": "Wong et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/MO-DIRECT-ND_Wong_bbob-biobj.tgz",
+    "comment": "[pdf](http://atmri.ntu.edu.sg/Publications/Documents/Cognitive_team_theoretic/6%20Hypervolume-Based%20Direct.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "MO-DIRECT-Rank",
+    "year": 2016,
+    "author": "Wong et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/MO-DIRECT-Rank_Wong_bbob-biobj.tgz",
+    "comment": "[pdf](http://atmri.ntu.edu.sg/Publications/Documents/Cognitive_team_theoretic/6%20Hypervolume-Based%20Direct.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "NSGA-II-MATLAB",
+    "year": 2016,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/NSGA-II-MATLAB_Auger_bbob-biobj.tgz",
+    "comment": "[pdf](https://hal.inria.fr/hal-01435445/document)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "RANDOMSEARCH-4",
+    "year": 2016,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/RANDOMSEARCH-4_Auger_bbob-biobj.tgz",
+    "comment": "[pdf](https://hal.inria.fr/hal-01435453/document)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "RANDOMSEARCH-5",
+    "year": 2016,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/RANDOMSEARCH-5_Auger_bbob-biobj.tgz",
+    "comment": "[pdf](https://hal.inria.fr/hal-01435455/document), [comparison pdf](https://hal.inria.fr/hal-01435453/document)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "RANDOMSEARCH-100",
+    "year": 2016,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/RANDOMSEARCH-100_Auger_bbob-biobj.tgz",
+    "comment": "[pdf](https://hal.inria.fr/hal-01435453/document)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "RM-MEDA",
+    "year": 2016,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/RM-MEDA_Auger_bbob-biobj.tgz",
+    "comment": "[pdf](https://hal.inria.fr/hal-01435449/document)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "SMS-EMOA-DE",
+    "year": 2016,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/SMS-EMOA-DE_Auger_bbob-biobj.tgz",
+    "comment": "[pdf](https://hal.inria.fr/hal-01435456/document)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "SMS-EMOA-PM",
+    "year": 2016,
+    "author": "Auger et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/SMS-EMOA-PM_Auger_bbob-biobj.tgz",
+    "comment": "[pdf](https://hal.inria.fr/hal-01435456/document)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "UP-MO-CMA-ES",
+    "year": 2016,
+    "author": "Krause et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2016/UP-MO-CMA-ES_Krause_bbob-biobj.tgz",
+    "comment": "[pdf](https://www.ini.rub.de/PEOPLE/glasmtbl/paper/krause2016.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "SMS-EMOA-SA",
+    "year": 2017,
+    "author": "Wessing",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2017/SMS-EMOA-SA_Wessing_bbob-biobj.tgz",
+    "comment": "[doi](http://dl.acm.org/authorize?N33826), [link to paper](http://ls11-www.cs.tu-dortmund.de/staff/wessing#section20171)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "COMO-1e3",
+    "year": 2019,
+    "author": "Dufoss\u00e9 and Tour\u00e9",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/COMO-1e3_dufosse_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02161252/file/report.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "COMO-3",
+    "year": 2019,
+    "author": "Dufoss\u00e9 and Tour\u00e9",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/COMO-3_dufosse_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02161252/file/report.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "COMO-10",
+    "year": 2019,
+    "author": "Dufoss\u00e9 and Tour\u00e9",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/COMO-10_dufosse_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02161252/file/report.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "COMO-32",
+    "year": 2019,
+    "author": "Dufoss\u00e9 and Tour\u00e9",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/COMO-32_dufosse_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02161252/file/report.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "COMO-100",
+    "year": 2019,
+    "author": "Dufoss\u00e9 and Tour\u00e9",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/COMO-100_dufosse_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02161252/file/report.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "COMO-316",
+    "year": 2019,
+    "author": "Dufoss\u00e9 and Tour\u00e9",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/COMO-316_dufosse_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02161252/file/report.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "GDE3-platypus",
+    "year": 2019,
+    "author": "Brockhoff and Tu\u0161ar",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/GDE3-platypus_Brockhoff_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02171136/file/templateBIOBJmultiple-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "IBEA-platypus",
+    "year": 2019,
+    "author": "Brockhoff and Tu\u0161ar",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/IBEA-platypus_Brockhoff_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02171136/file/templateBIOBJmultiple-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "MO-CMA-ES-10",
+    "year": 2019,
+    "author": "Dufoss\u00e9 and Tour\u00e9",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/MO-CMA-ES-10-autoref_Dufosse_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02161252/file/report.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "MO-CMA-ES-32",
+    "year": 2019,
+    "author": "Dufoss\u00e9 and Tour\u00e9",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/MO-CMA-ES-32-autoref_Dufosse_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02161252/file/report.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "MO-CMA-ES-100",
+    "year": 2019,
+    "author": "Dufoss\u00e9 and Tour\u00e9",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/MO-CMA-ES-100-autoref_Dufosse_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02161252/file/report.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "MOEAD-platypus",
+    "year": 2019,
+    "author": "Brockhoff and Tu\u0161ar",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/MOEAD-platypus_Brockhoff_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02171136/file/templateBIOBJmultiple-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "N-III-11-platypus",
+    "year": 2019,
+    "author": "Brockhoff and Tu\u0161ar",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/N-III-11-platypus_Brockhoff_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02171136/file/templateBIOBJmultiple-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "N-III-111-platypus",
+    "year": 2019,
+    "author": "Brockhoff and Tu\u0161ar",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/N-III-111-platypus_Brockhoff_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02171136/file/templateBIOBJmultiple-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "NSGA-II-platypus",
+    "year": 2019,
+    "author": "Brockhoff and Tu\u0161ar",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/NSGA-II-platypus_Brockhoff_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02171136/file/templateBIOBJmultiple-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "SPEA2-platypus",
+    "year": 2019,
+    "author": "Brockhoff and Tu\u0161ar",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2019/SPEA2-platypus_Brockhoff_bbob-biobj.tgz",
+    "comment": "[BBOB-2019 paper](https://hal.inria.fr/hal-02171136/file/templateBIOBJmultiple-authorversion-compressed.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "DMS",
+    "year": 2021,
+    "author": "Brockhoff et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2021/DMS_Brockhoff_bbob-biobj.tgz",
+    "comment": "[BBOB-2021 paper](https://hal.inria.fr/hal-03284476/document)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "MultiGLODS",
+    "year": 2021,
+    "author": "Brockhoff et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2021/MultiGLODS_Brockhoff_bbob-biobj.tgz",
+    "comment": "[BBOB-2021 paper](https://hal.inria.fr/hal-03284476/document)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "K-RVEA",
+    "year": 2022,
+    "author": "Tanabe et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2022/K-RVEA_Tanabe.tgz",
+    "comment": "continuous submission: Kriging-assisted reference vector guided evolutionary algorithm [GECCO-2022 paper](https://arxiv.org/pdf/2203.15292.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "MOTPE",
+    "year": 2022,
+    "author": "Tanabe et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2022/MOTPE_Tanabe.tgz",
+    "comment": "continuous submission: optuna implementation of the Multiobjective Tree Parzen Estimator [GECCO-2022 paper](https://arxiv.org/pdf/2203.15292.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "TPB",
+    "year": 2022,
+    "author": "Tanabe et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2022/TPB_Tanabe.tgz",
+    "comment": "continuous submission: two-phase algorithm with a B\u00e9zier simplex-based interpolation method [GECCO-2022 paper](https://arxiv.org/pdf/2203.15292.pdf)"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "Borg-adaptive",
+    "year": 2023,
+    "author": "Brockhoff et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2023/Borg-adaptive_Brockhoff.tgz",
+    "comment": "Borg-MOEA with adaptive epsilon"
+  },
+  {
+    "suite": "bbob-biobj",
+    "algorithm": "Borg-eps-1e-4",
+    "year": 2023,
+    "author": "Brockhoff et al.",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-biobj/2023/Borg-eps-1e-4_Brockhoff.tgz",
+    "comment": "Borg-MOEA with fixed epsilon (= 10**(-4))"
+  },
+  {
+    "suite": "sbox-cost",
+    "algorithm": "CMA-bp-sboxcost",
+    "year": 2023,
+    "author": "Brockhoff",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/sbox-cost/2023/cma-bp-sboxcost-Brockhoff.tgz",
+    "comment": "SBOX-COST workshop paper"
+  },
+  {
+    "suite": "sbox-cost",
+    "algorithm": "CMA-bt-sboxcost",
+    "year": 2023,
+    "author": "Brockhoff",
+    "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/sbox-cost/2023/cma-bt-sboxcost-Brockhoff.tgz",
+    "comment": "SBOX-COST workshop paper"
+  }
+]
