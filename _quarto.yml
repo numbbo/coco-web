@@ -24,6 +24,7 @@ website:
   favicon: "images/favicon.png"
   navbar:
     title: false
+    background: primary
     logo: images/favicon.png
     left:
     - text: "Home"
@@ -54,7 +55,7 @@ website:
 format:
   html:
     toc: true
-    theme: yeti
+    theme: coco.scss
     html-math-method: katex
     code-copy: true
     code-overflow: wrap
