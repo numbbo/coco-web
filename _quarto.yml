@@ -23,7 +23,6 @@ website:
   open-graph: true
   favicon: "images/favicon.png"
   navbar:
-    background: light
     title: false
     logo: images/favicon.png
     left:
