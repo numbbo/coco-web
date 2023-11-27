@@ -1,6 +1,6 @@
 # coco-web
 
-Next iteration of the COCO website
+Next iteration of the COCO website currently hosted at [numbbob.it](https://numbbo.it/).
 
 ## Build environment
 
