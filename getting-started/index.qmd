@@ -2,10 +2,10 @@
 title: Getting started with COCO
 ---
 
-Benchmarking a novel algorithm is divided into two parts:
+The COCO framework is divided into two parts:
 
-1. Running the benchmark to collect performance data for the algorithm
-1. Postprocessing those results and comparing them to other algorithms from the [data archive](/data-archive).
+1. Running an algorithm on a COCO benchmark suite and thereby collecting performance data for this algorithm
+2. Displaying COCO results via the postprocessing, in particular comparing algorithms from or with the [data archive](/data-archive).
 
 If you're only here to analyse and compare existing algorithms, you can skip straight to [step 2](#step-2-analysing-and-comparing-results).
 
@@ -13,3 +13,86 @@ If you're only here to analyse and compare existing algorithms, you can skip str
 ## Step 1: Collecting data
 
 ## Step 2: Analysing and comparing results
+
+The COCO postprocessing is based on the [`cocopp`](https://pypi.org/project/cocopp) Python package and relies on `numpy` and `matplotlib`.
+
+### Installation
+
+From a system shell, type
+
+```sh
+pip install cocopp
+```
+
+### Usage
+
+The "postprocessing" allows basic usage through a shell command-line interface:
+
+```sh
+python -m cocopp name_1 [name_2 [name_3 ...]]
+```
+
+creates a couple of hundred figures and (after some seconds) opens the default browser at the created page `ppdata/index.html`.
+The arguments `name_1`, `name_2`,... are either local folders containing COCO data from a single benchmarked algorithm (typically like `exdata/algorithm_name`) or names of benchmarked algorithms from the [COCO data archive](https://numbbo.github.io/data-archive).
+
+The recommended usage is however from an IPython/Jupyter shell or notebook via the [`main`](https://numbbo.github.io/gforge/apidocs-cocopp/cocopp.rungeneric.html#main) method.
+
+```python
+>>> import cocopp
+
+>>> cocopp.main('name_1 [name_2 [name_3 ...]]')
+```
+
+**Comparative data** from over 200 full experiments are provided online and can be listed, filtered, and retrieved from [`cocopp.archives`](https://numbbo.github.io/gforge/apidocs-cocopp/cocopp.archives.html) (of type [`OfficialArchives`](https://numbbo.github.io/gforge/apidocs-cocopp/cocopp.archiving.OfficialArchives.html)) and processed alone or together with local data.
+For example
+
+```python
+>>> cocopp.archives.bbob('bfgs')
+
+['2009/BFGS_ros_noiseless.tgz',
+ '2012/DE-BFGS_voglis_noiseless.tgz',
+ '2012/PSO-BFGS_voglis_noiseless.tgz',
+ '2014-others/BFGS-scipy_Baudis.tgz',
+ '2014-others/L-BFGS-B-scipy_Baudis.tgz',
+ '2018/BFGS-M-17_Blelly.tgz',
+ '2018/BFGS-P-09_Blelly.tgz',
+ '2018/BFGS-P-Instances_Blelly.tgz',
+ '2018/BFGS-P-StPt_Blelly.tgz',
+ '2018/BFGS-P-range_Blelly.tgz',
+ '2019/BFGS-scipy-2019_Varelas.tgz',
+ '2019/L-BFGS-B-scipy-2019_Varelas.tgz']
+ ```
+
+lists all data sets run on the `bbob` testbed containing `'bfgs'` in their name.
+The first in the list can be postprocessed by
+
+```python
+>>> cocopp.main('bfgs!')
+```
+
+All of them can be processed like
+
+```python
+>>> cocopp.main('bfgs*')
+```
+
+Only a trailing `*` is accepted and any string containing the substring is matched.
+Otherwise, regular expression syntax can be used (like `.*` matches any number of any characters).
+The postprocessing result of
+
+```python
+>>> cocopp.main('bbob/2009/*')
+```
+
+can be browsed at [https://numbbo.github.io/ppdata-archive/bbob/2009](https://numbbo.github.io/ppdata-archive/bbob/2009).
+To display algorithms in the background, the `cocopp.genericsettings.background` variable needs to be set:
+
+```python
+>>> cocopp.genericsettings.background = {None: cocopp.archives.bbob.get_all('bfgs')}
+```
+where [`None`](http://docs.python.org/library/constants.html#None) invokes the default color (grey) and line style (solid) `genericsettings.background_default_style`.
+Now we could compare our own data with the first `'bfgs'`-matching archived algorithm where all other archived BFGS data are shown in the background with the command
+
+```python
+>>> cocopp.main('exdata/my_output bfgs!')
+```
