@@ -7,7 +7,7 @@ The COCO framework is divided into two parts:
 1. Running an algorithm on a COCO benchmark suite and thereby collecting performance data for this algorithm
 2. Displaying COCO results via the postprocessing, in particular comparing algorithms from or with the [data archive](/data-archive).
 
-If you're only here to analyse and compare existing algorithms, you can skip straight to [step 2](#step-2-analysing-and-comparing-results).
+If you're only here to analyse and compare existing algorithms, you can skip straight to [step 2](#step-2-analysing-and-comparing-results-postprocessing).
 
 
 ## Step 1: Collecting data
@@ -29,10 +29,10 @@ pip install cocopp
 The [`cocopp`](https://pypi.org/project/cocopp) "postprocessing" allows basic usage in a system shell:
 
 ```sh
-python -m cocopp name_1 [name_2 [name_3 ...]]
+python -m cocopp name_1 [name_2 [name_3 [... ]]]
 ```
 
-creates a couple of hundred figures and (after some seconds) displays the created page `ppdata/index.html` with the default browser.
+creates a couple of hundred figures and (after some seconds) displays the page `ppdata/index.html` with the default browser.
 The arguments `name_1`, `name_2`,... (`[]`-braces indicate optional arguments) are either local folders containing COCO data from a single benchmarked algorithm (typically like `exdata/algorithm_name`) or names of benchmarked algorithms from the [COCO data archive](https://numbbo.github.io/data-archive) (see below).
 
 The recommended usage is however from an `ipython` shell or a Jupyter notebook via the [`cocopp.main`](https://numbbo.github.io/gforge/apidocs-cocopp/cocopp.rungeneric.html#main) method.
@@ -89,7 +89,7 @@ The output figures of
 >>> dsl = cocopp.main('bob/2009/*')  # may take some more time when these data are downloaded
 ```
 
-can be browsed at [https://numbbo.github.io/ppdata-archive/bbob/2009](https://numbbo.github.io/ppdata-archive/bbob/2009).
+contains 31 algorithms and can be browsed at [https://numbbo.github.io/ppdata-archive/bbob/2009](https://numbbo.github.io/ppdata-archive/bbob/2009).
 To display algorithms in the background, the `cocopp.genericsettings.background` variable needs to be set:
 
 ```python
