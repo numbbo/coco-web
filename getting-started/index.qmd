@@ -13,7 +13,7 @@ If you're only here to analyse and compare existing algorithms or COCO benchmark
 ## Step 1: Benchmarking an algorithm (collecting data)
 
 We use the [`cocoex`](https://pypi.org/project/cocoex) Python module to benchmark an algorithm.
-For using different languages see [here](https://github.com/numbbo/coco).
+For bencharking in a different language than Python, see [here](https://github.com/numbbo/coco).
 
 ### Installation (assuming Python is present)
 From a system shell, execute
@@ -71,13 +71,13 @@ for problem in suite:  # this loop will take 2-3 minutes
     minimal_print(problem, final=problem.index == len(suite) - 1)
 
 ### post-process data
-cocopp.main(observer.result_folder + ' bfgs!');  # re-run folders look like "...-001" etc
+cocopp.main(observer.result_folder + ' nelder!');  # re-run folders look like "...-001" etc
 ```
 The benchmarking data are written to a subfolder in the `exdata` folder.
 The last line postprocesses the obtained data and compares the result with BFGS.
 The resulting figures and tables can be browsed via `ppdata/index.html`.
 
-For benchmarking another algorithm, `fmin` has to be assigned respectively and its calling code `fmin(problem, ...)` needs to be adapted.
+For benchmarking another algorithm, copy-paste the above code, reassign `fmin` respectively and adapt its calling code `fmin(problem, ...)`.
 For example, some algorithms may need the maximal budget, `problem.dimension * budget_multiplier` as input parameter.
 
 ## Step 2: Analysing and comparing results (postprocessing)
