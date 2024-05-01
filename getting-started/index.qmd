@@ -7,18 +7,86 @@ The COCO framework is divided into two parts:
 1. Running an algorithm on a COCO benchmark suite and thereby collecting performance data for this algorithm
 2. Displaying COCO results via the postprocessing, in particular comparing algorithms from or with the [data archive](/data-archive).
 
-If you're only here to analyse and compare existing algorithms, you can skip straight to [step 2](#step-2-analysing-and-comparing-results-postprocessing).
+If you're only here to analyse and compare existing algorithms or COCO benchmark data, you can skip straight to [step 2](#step-2-analysing-and-comparing-results-postprocessing).
 
 
-## Step 1: Collecting data
+## Step 1: Benchmarking an algorithm (collecting data)
+
+We use the [`cocoex`](https://pypi.org/project/cocoex) Python module to benchmark an algorithm.
+For using different languages see [here](https://github.com/numbbo/coco).
+
+### Installation (assuming Python is present)
+From a system shell, execute
+
+```sh
+pip install cocoex cocopp
+```
+
+### Using [`cocoex`](https://numbbo.github.io/gforge/apidocs-cocoex)
+Depending on the algorithm, we have to chose the appropriate benchmark suite
+
+```python
+>>> import cocoex
+
+>>> cocoex.known_suite_names
+['bbob',
+ 'bbob-biobj',
+ 'bbob-biobj-ext',
+ 'bbob-constrained',
+ 'bbob-largescale',
+ 'bbob-mixint',
+ 'bbob-biobj-mixint']
+```
+
+see also [here](https://numbbo.github.io/coco/testsuites).
+
+A [short-ish example code](https://github.com/numbbo/coco/blob/development/code-experiments/build/python/example/example_experiment_for_beginners.py) that benchmarks [`scipy.optimize.fmin`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html) on the [`bbob`](https://numbbo.github.io/coco/testsuites/bbob) suite looks like this:
+
+
+```python
+import cocoex, cocopp  # experimentation and post-processing modules
+import scipy.optimize  # to define the solver to be benchmarked
+from numpy.random import rand  # for randomised restarts
+
+### input
+suite_name = "bbob"
+output_folder = "scipy-optimize-fmin"
+fmin = scipy.optimize.fmin
+budget_multiplier = 1.1  # increase to 10, 100, ...
+
+### prepare
+suite = cocoex.Suite(suite_name, "", "")
+observer = cocoex.Observer(suite_name, "result_folder: " + output_folder)
+minimal_print = cocoex.utilities.MiniPrint()
+
+### go
+for problem in suite:  # this loop will take 2-3 minutes
+    problem.observe_with(observer)  # generates the data for cocopp post-processing
+    # apply restarts while neither the problem is solved nor the budget is exhausted
+    while (problem.evaluations < problem.dimension * budget_multiplier
+           and not problem.final_target_hit):
+        observer.signal_restart(problem)
+        xopt = fmin(problem, problem.initial_solution_proposal(), disp=False)
+        problem(xopt)  # make sure the returned solution is evaluated
+    minimal_print(problem, final=problem.index == len(suite) - 1)
+
+### post-process data
+cocopp.main(observer.result_folder + ' bfgs!');  # re-run folders look like "...-001" etc
+```
+The benchmarking data are written to a subfolder in the `exdata` folder.
+The last line postprocesses the obtained data and compares the result with BFGS.
+The resulting figures and tables can be browsed via `ppdata/index.html`.
+
+For benchmarking another algorithm, `fmin` has to be assigned respectively and its calling code `fmin(problem, ...)` needs to be adapted.
+For example, some algorithms may need the maximal budget, `problem.dimension * budget_multiplier` as input parameter.
 
 ## Step 2: Analysing and comparing results (postprocessing)
 
 Benchmarking performance results are displayed with the [`cocopp`](https://pypi.org/project/cocopp) Python module and a web browser.
 
-### Installation
+### Installation (assuming Python is present)
 
-From a system shell, type
+From a system shell, execute
 
 ```sh
 pip install cocopp
