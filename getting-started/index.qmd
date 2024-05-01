@@ -57,18 +57,19 @@ budget_multiplier = 1.1  # increase to 10, 100, ...
 ### prepare
 suite = cocoex.Suite(suite_name, "", "")
 observer = cocoex.Observer(suite_name, "result_folder: " + output_folder)
+tracker = cocoex.TrackEvalsAndSuccesses(budget_multiplier)
 minimal_print = cocoex.utilities.MiniPrint()
 
 ### go
-for problem in suite:  # this loop will take 2-3 minutes
-    problem.observe_with(observer)  # generates the data for cocopp post-processing
-    # apply restarts while neither the problem is solved nor the budget is exhausted
-    while (problem.evaluations < problem.dimension * budget_multiplier
-           and not problem.final_target_hit):
-        observer.signal_restart(problem)
-        xopt = fmin(problem, problem.initial_solution_proposal(), disp=False)
+while tracker.remaining_problems(len(suite)):
+    for problem in suite:  # this loop will take 2-3 minutes
+        if tracker.skip(problem):
+            continue
+        problem.observe_with(observer)  # generates the data for cocopp post-processing
+        xopt = fmin(problem, tracker.initial_solution_proposal(problem), disp=False)
         problem(xopt)  # make sure the returned solution is evaluated
-    minimal_print(problem, final=problem.index == len(suite) - 1)
+        tracker.track(problem)
+        minimal_print(problem, final=problem.index == len(suite) - 1)
 
 ### post-process data
 cocopp.main(observer.result_folder + ' nelder!');  # re-run folders look like "...-001" etc
@@ -79,6 +80,8 @@ The resulting figures and tables can be browsed via `ppdata/index.html`.
 
 For benchmarking another algorithm, copy-paste the above code, reassign `fmin` respectively and adapt its calling code `fmin(problem, ...)`.
 For example, some algorithms may need the maximal budget, `problem.dimension * budget_multiplier` as input parameter.
+
+CAVEAT: the `cocoex.TrackEvalsAndSuccesses` class is yet to be released.
 
 ## Step 2: Analysing and comparing results (postprocessing)
 
