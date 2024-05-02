@@ -1,5 +1,75 @@
 ---
-title: Getting started with Python
+title: Getting started---Benchmarking an algorithm (collecting data) with Python
 ---
+We use the [`cocoex`](https://pypi.org/project/cocoex) Python module to benchmark an algorithm.
+For bencharking in a different language than Python, see [here](https://github.com/numbbo/coco).
 
-tbd
+### Installation (assuming Python is present)
+From a system shell, execute
+
+```sh
+python -m pip install cocoex cocopp
+```
+
+### Using [`cocoex`](https://numbbo.github.io/gforge/apidocs-cocoex)
+Depending on the algorithm, we have to chose the appropriate benchmark suite
+
+```python
+>>> import cocoex
+
+>>> cocoex.known_suite_names
+['bbob',
+ 'bbob-biobj',
+ 'bbob-biobj-ext',
+ 'bbob-constrained',
+ 'bbob-largescale',
+ 'bbob-mixint',
+ 'bbob-biobj-mixint']
+```
+
+see also [here](https://numbbo.github.io/coco/testsuites).
+
+A [short-ish example code](https://github.com/numbbo/coco/blob/development/code-experiments/build/python/example/example_experiment_for_beginners.py) that benchmarks [`scipy.optimize.fmin`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html) on the [`bbob`](https://numbbo.github.io/coco/testsuites/bbob) suite looks like this:
+
+
+```python
+import cocoex, cocopp  # experimentation and post-processing modules
+import scipy.optimize  # to define the solver to be benchmarked
+from numpy.random import rand  # for randomised restarts
+
+### input
+suite_name = "bbob"
+output_folder = "scipy-optimize-fmin"
+fmin = scipy.optimize.fmin  # optimizer to be benchmarked
+budget_multiplier = 1.1  # increase to 10, 100, ...
+
+### prepare
+suite = cocoex.Suite(suite_name, "", "")
+observer = cocoex.Observer(suite_name, "result_folder: " + output_folder)
+tracker = cocoex.TrackEvalsAndSuccesses(budget_multiplier)
+minimal_print = cocoex.utilities.MiniPrint()
+
+### go
+while tracker.remaining_problems():
+    for problem in suite:  # this loop will take 2-3 minutes
+        if not tracker.remains(problem):
+            continue
+        problem.observe_with(observer)  # generates the data for cocopp post-processing
+        xopt = fmin(problem, tracker.initial_solution_proposal(problem), disp=False)
+        problem(xopt)  # make sure the returned solution is evaluated
+        tracker.track(problem)
+        minimal_print(problem, final=problem.index == len(suite) - 1)
+
+### post-process data
+cocopp.main(observer.result_folder + ' nelder!');  # re-run folders look like "...-001" etc
+```
+
+The benchmarking data are written to a subfolder in the `exdata` folder.
+The last line postprocesses the obtained data and compares the result with BFGS.
+The resulting figures and tables can be browsed via `ppdata/index.html`.
+
+For benchmarking another algorithm, copy-paste the above code, revise the input lines and reassign `fmin` and adapt its calling code `fmin(problem, ...)` respectively.
+For example, some algorithms may need the maximal budget, `problem.dimension * budget_multiplier` as input parameter.
+
+CAVEAT: the `cocoex.TrackEvalsAndSuccesses` class is yet to be released.
+
