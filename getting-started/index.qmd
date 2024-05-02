@@ -4,13 +4,11 @@ title: Getting started with COCO
 
 The COCO framework is divided into two parts:
 
-1. Running an algorithm on a COCO benchmark suite and thereby collecting performance data for this algorithm
-2. Displaying COCO results via the postprocessing, in particular comparing algorithms from or with the [data archive](/data-archive).
-
-If you're only here to analyse and compare existing algorithms or COCO benchmark data, you can skip straight to [step 2](#step-2-analysing-and-comparing-results-postprocessing).
+1. Running an algorithm on a COCO benchmark suite and thereby collecting performance data for this algorithm, see [Getting started 1](#getting-started-1-benchmarking-an-algorithm-collecting-data) to get started,
+2. Displaying COCO results via the postprocessing, in particular comparing algorithms from or with the [data archive](/data-archive), see [Getting started 2](#getting-started-2-analysing-and-comparing-results-postprocessing) to get started.
 
 
-## Step 1: Benchmarking an algorithm (collecting data)
+## Getting started 1: Benchmarking an algorithm (collecting data)
 
 We use the [`cocoex`](https://pypi.org/project/cocoex) Python module to benchmark an algorithm.
 For bencharking in a different language than Python, see [here](https://github.com/numbbo/coco).
@@ -61,7 +59,7 @@ tracker = cocoex.TrackEvalsAndSuccesses(budget_multiplier)
 minimal_print = cocoex.utilities.MiniPrint()
 
 ### go
-while tracker.remaining_problems(len(suite)):
+while tracker.remaining_problems():
     for problem in suite:  # this loop will take 2-3 minutes
         if not tracker.remains(problem):
             continue
@@ -84,12 +82,11 @@ For example, some algorithms may need the maximal budget, `problem.dimension * b
 
 CAVEAT: the `cocoex.TrackEvalsAndSuccesses` class is yet to be released.
 
-## Step 2: Analysing and comparing results (postprocessing)
+## Getting started 2: Analysing and comparing results (postprocessing)
 
 Benchmarking performance results are displayed with the [`cocopp`](https://pypi.org/project/cocopp) Python module and a web browser.
 
 ### Installation (assuming Python is present)
-
 From a system shell, execute
 
 ```sh
@@ -97,7 +94,6 @@ python -m pip install cocopp
 ```
 
 ### Usage
-
 The [`cocopp`](https://pypi.org/project/cocopp) "postprocessing" allows basic usage in a system shell:
 
 ```sh
@@ -145,8 +141,8 @@ The first three in the list can be postprocessed like
 ```
 
 Separated by spaces, each string must give a single unique match. Otherwise, an (informative) `ValueError` is raised.
-This call creates figures, modifies and open `ppdata/index.html` in a browser, and also returns a data set list of all read-in data.
-To display all BFGS data from the `bbob` suite, we use regular expression syntax,
+This call creates figures and modifies and opens `ppdata/index.html` in a browser, and also returns a data set list of all read-in data.
+We can also use regular expression syntax, for example to display all BFGS data from the `bbob` suite,
 
 ```python
 >>> dsl = cocopp.main('bbob/.*bfgs')
@@ -154,7 +150,7 @@ To display all BFGS data from the `bbob` suite, we use regular expression syntax
 
 where `.*` matches any character any number of times (including zero) and the expression must match the beginning of the archive entry name.
 
-As a special case, a trailing `*` indicates all names _containing_ the preceding substring.
+As a special case, a trailing `*` indicates all names _containing_ the preceding substring (not a regular expression).
 The output figures of
 
 ```python
@@ -174,3 +170,4 @@ Finally, we can, for example, compare our own data with the first `'bfgs'`-match
 ```python
 >>> dsl = cocopp.main('exdata/my_data bfgs!')
 ```
+
