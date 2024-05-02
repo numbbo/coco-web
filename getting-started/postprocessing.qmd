@@ -63,7 +63,7 @@ For example, the first three entries from the above list can be postprocessed li
 ```
 
 Each string must give a single unique match (exceptions are specified below),
-where the exlamation mark indicates the first match in the results from `cocopp.archives.all('bfgs')`.
+where the exclamation mark indicates the first match in the results from `cocopp.archives.all('bfgs')`.
 Otherwise, an (informative) `ValueError` is raised.
 The order can be changed and determines the colors in the figures.
 This call creates a few hundreds of figures and modifies and opens `ppdata/index.html` in a browser, and finally returns a data set list of all read-in data.
@@ -87,7 +87,7 @@ contains 31 algorithms and can be browsed at [https://numbbo.github.io/ppdata-ar
 To display algorithms in the background, the `cocopp.genericsettings.background` variable needs to be set:
 
 ```python
->>> cocopp.genericsettings.background = {None: cocopp.archives.bbob.get_all('2009/*')}  # may take some time when these data are downloaded
+>>> cocopp.genericsettings.background = {None: cocopp.archives.bbob.get_extended('2009/*')}  # may take some time when these data are downloaded
 ```
 where [`None`](http://docs.python.org/library/constants.html#None) invokes the default color and line style (solid grey, `cocopp.genericsettings.background_default_style`).
 
