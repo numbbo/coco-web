@@ -7,6 +7,8 @@ The COCO framework is divided into two parts which can be used independently:
 1. Running an algorithm on a COCO benchmark suite and thereby collecting performance data for this algorithm, see [Getting started---Benchmarking an algorithm](experiment-python.qmd) to get started with benchmarking an algorithm.
 2. Displaying COCO results via the postprocessing, in particular comparing algorithms from or with the [data archive](/data-archive), see [Getting started--Analysing and comparing results](postprocessing.qmd) to get started with displaying benchmark data.
 
-## Related links
-tbd
+[//]: # (We may want to have some buttons here [Benchmarking an algorithm (collecting data) with Python](experiment-python.qmd) [Analysing and comparing results (postprocessing)](postprocessing.qmd))
+
+[//]: # (## Related links)
+
 
