@@ -19,7 +19,7 @@ For bencharking in a different language than Python, see [here](https://github.c
 From a system shell, execute
 
 ```sh
-pip install cocoex cocopp
+python -m pip install cocoex cocopp
 ```
 
 ### Using [`cocoex`](https://numbbo.github.io/gforge/apidocs-cocoex)
@@ -51,7 +51,7 @@ from numpy.random import rand  # for randomised restarts
 ### input
 suite_name = "bbob"
 output_folder = "scipy-optimize-fmin"
-fmin = scipy.optimize.fmin
+fmin = scipy.optimize.fmin  # optimizer to be benchmarked
 budget_multiplier = 1.1  # increase to 10, 100, ...
 
 ### prepare
@@ -63,7 +63,7 @@ minimal_print = cocoex.utilities.MiniPrint()
 ### go
 while tracker.remaining_problems(len(suite)):
     for problem in suite:  # this loop will take 2-3 minutes
-        if tracker.skip(problem):
+        if not tracker.remains(problem):
             continue
         problem.observe_with(observer)  # generates the data for cocopp post-processing
         xopt = fmin(problem, tracker.initial_solution_proposal(problem), disp=False)
@@ -74,11 +74,12 @@ while tracker.remaining_problems(len(suite)):
 ### post-process data
 cocopp.main(observer.result_folder + ' nelder!');  # re-run folders look like "...-001" etc
 ```
+
 The benchmarking data are written to a subfolder in the `exdata` folder.
 The last line postprocesses the obtained data and compares the result with BFGS.
 The resulting figures and tables can be browsed via `ppdata/index.html`.
 
-For benchmarking another algorithm, copy-paste the above code, reassign `fmin` respectively and adapt its calling code `fmin(problem, ...)`.
+For benchmarking another algorithm, copy-paste the above code, revise the input lines and reassign `fmin` and adapt its calling code `fmin(problem, ...)` respectively.
 For example, some algorithms may need the maximal budget, `problem.dimension * budget_multiplier` as input parameter.
 
 CAVEAT: the `cocoex.TrackEvalsAndSuccesses` class is yet to be released.
@@ -92,7 +93,7 @@ Benchmarking performance results are displayed with the [`cocopp`](https://pypi.
 From a system shell, execute
 
 ```sh
-pip install cocopp
+python -m pip install cocopp
 ```
 
 ### Usage
