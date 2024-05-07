@@ -43,14 +43,15 @@ fmin = scipy.optimize.fmin  # optimizer to be benchmarked
 budget_multiplier = 1.1  # increase to 3, 10, 30, ... x (dimension+1)
 
 ### prepare
-suite = cocoex.Suite(suite_name, "", "")
+suite = cocoex.Suite(suite_name, "", "")  # see https://numbbo.github.io/coco-doc/C/#suite-parameters
 observer = cocoex.Observer(suite_name, "result_folder: " + output_folder)
+# cocoex.TrackEvalsAndSuccesses = cocoex.TrackEvalsAndSuccessesDummy
 tracker = cocoex.TrackEvalsAndSuccesses(budget_multiplier)
 minimal_print = cocoex.utilities.MiniPrint()
 
 ### go
-while not tracker.done():
-    for problem in suite:  # this loop will take 2-3 minutes
+while not tracker.done():  # while budget is left and successes are missing
+    for problem in suite:  # this loop will take 2-3 minutes x budget_multiplier
         if tracker.done(problem):
             continue
         problem.observe_with(observer)  # generates the data for cocopp
@@ -68,8 +69,20 @@ The benchmarking data are written to a subfolder in the `exdata` folder.
 The last line postprocesses the obtained data and compares the result with BFGS.
 The resulting figures and tables can be browsed via `ppdata/index.html`.
 
-For benchmarking another algorithm, copy-paste the above code, revise the input lines and reassign `fmin` and adapt its calling code `fmin(problem, ...)` respectively.
-For example, some algorithms may need the maximal budget, `problem.dimension * budget_multiplier` as input parameter.
+For benchmarking another algorithm,
+
+1. copy-paste the above code in a file, say `benchmark_experiment.py`,
+2. revise the lines following `### input` and in particular reassign `fmin` to run the desired algorithm,
+3. adapt the calling code `fmin(problem, ...)` respectively.
+   For example, some algorithms may need a maximal budget, like `(problem.dimension + 1) * budget_multiplier` as input parameter,
+4. execute the file from a system shell like 
+   ```python
+   python benchmark_experiment.py
+   ```
+   or from an ipython-shell or notebook like 
+   ```python
+   %run benchmark_experiment.py
+   ```
 
 CAVEAT: the `cocoex.TrackEvalsAndSuccesses` class is yet to be released.
 
