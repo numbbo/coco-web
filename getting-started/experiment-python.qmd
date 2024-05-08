@@ -59,7 +59,7 @@ while not tracker.done():  # while budget is left and successes are missing
         xopt = fmin(problem, tracker.initial_solution_proposal(problem), disp=False)
         problem(xopt)  # make sure the returned solution is evaluated
         tracker.track(problem)
-        minimal_print(problem, final=problem.index == len(suite) - 1)
+        minimal_print(problem)
 
 ### post-process data
 cocopp.main(observer.result_folder + ' nelder!');  # re-run folders look like "...-001" etc
@@ -79,7 +79,7 @@ For benchmarking another algorithm,
    ```python
    python benchmark_experiment.py
    ```
-   or from an ipython-shell or notebook like 
+   or from an ipython-shell or -notebook like
    ```python
    %run benchmark_experiment.py
    ```
