@@ -2,7 +2,7 @@
 title: Getting started---Benchmarking an algorithm (collecting data) with Python
 ---
 We use the [`cocoex`](https://pypi.org/project/cocoex) Python module to benchmark an algorithm.
-For bencharking in a different language than Python, see [here](https://github.com/numbbo/coco).
+For bencharking in a different programming language, see [here FIXME:better link](https://github.com/numbbo/coco).
 
 ### Installation (assuming Python is present)
 From a system shell, execute
@@ -29,7 +29,30 @@ Depending on the algorithm, we have to chose the appropriate benchmark suite
 
 see also [here](https://numbbo.github.io/coco/testsuites).
 
-A [short-ish example code](https://github.com/numbbo/coco/blob/development/code-experiments/build/python/example/example_experiment_for_beginners.py) that benchmarks [`scipy.optimize.fmin`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html) on the [`bbob`](https://numbbo.github.io/coco/testsuites/bbob) suite looks like this:
+#### An impractical (oversimplistic) example
+To get an idea of the ultimately necessary code, we first give a working but impractical (oversimplistic) example for running an experiment that benchmarks [`scipy.optimize.fmin`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html) on the [`bbob`](https://numbbo.github.io/coco/testsuites/bbob) suite.
+Including boilerplate overhead code (like imports) it has 2 + 2 + 2 + 3 = 9 lines of effective code:
+
+```python
+import cocoex  # experimentation module
+import scipy.optimize  # to define the solver to be benchmarked
+
+### input
+suite_name = "bbob"
+fmin = scipy.optimize.fmin  # optimizer to be benchmarked
+
+### prepare
+suite = cocoex.Suite(suite_name, "", "")
+observer = cocoex.Observer(suite_name, "")
+
+### go
+for problem in suite:  # this loop may take several minutes or more
+    problem.observe_with(observer)  # generates the data for cocopp
+    fmin(problem, problem.initial_solution, disp=False)
+```
+
+#### A practical example
+A practical still short-ish example code that benchmarks [`scipy.optimize.fmin`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html) on the [`bbob`](https://numbbo.github.io/coco/testsuites/bbob) suite with a given experimentation budget looks like this:
 
 
 ```python
@@ -38,51 +61,79 @@ import scipy.optimize  # to define the solver to be benchmarked
 
 ### input
 suite_name = "bbob"
-output_folder = "scipy-optimize-fmin"
 fmin = scipy.optimize.fmin  # optimizer to be benchmarked
 budget_multiplier = 1.1  # increase to 3, 10, 30, ... x (dimension+1)
+output_folder = '{}_of_{}_{}D_on_{}'.format(
+        fmin.__name__, scipy.optimize.__name__, int(budget_multiplier), suite_name)
 
 ### prepare
 suite = cocoex.Suite(suite_name, "", "")  # see https://numbbo.github.io/coco-doc/C/#suite-parameters
 observer = cocoex.Observer(suite_name, "result_folder: " + output_folder)
-# cocoex.TrackEvalsAndSuccesses = cocoex.TrackEvalsAndSuccessesDummy
-tracker = cocoex.TrackEvalsAndSuccesses(budget_multiplier)
+tracker = cocoex.TrackEvalsAndSuccesses(budget_multiplier)  # x dimension
 minimal_print = cocoex.utilities.MiniPrint()
 
 ### go
 while not tracker.done():  # while budget is left and successes are missing
-    for problem in suite:  # this loop will take 2-3 minutes x budget_multiplier
+    for problem in suite:  # this loop may take 2-3 minutes x budget_multiplier
         if tracker.done(problem):
             continue
-        problem.observe_with(observer)  # generates the data for cocopp
+        problem.observe_with(observer)  # generate the data for cocopp
         problem(problem.dimension * [0])  # improve comparability to existing data
         xopt = fmin(problem, tracker.initial_solution_proposal(problem), disp=False)
         problem(xopt)  # make sure the returned solution is evaluated
-        tracker.track(problem)
-        minimal_print(problem)
+        tracker.track(problem)  # track evaluations and final_target_hit
+        minimal_print(problem)  # show the progress
 
 ### post-process data
 cocopp.main(observer.result_folder + ' nelder!');  # re-run folders look like "...-001" etc
 ```
 
-The benchmarking data are written to a subfolder in the `exdata` folder.
-The last line postprocesses the obtained data and compares the result with BFGS.
-The resulting figures and tables can be browsed via `ppdata/index.html`.
+The benchmarking data are written to a subfolder in the `exdata` folder (see also [here](https://github.com/numbbo/coco/issues/1841)).
+The last line postprocesses the obtained data and compares the result with BFGS (see also [Getting started---Analysing and comparing results (postprocessing)](postprocessing.qmd)).
+The resulting figures and tables can be browsed from the file `./ppdata/index.html`.
 
+For running the benchmarking in several batches a somewhat expanded example can be found [TODO: under this link]().
+
+#### Benchmarking "your own" algorithm
 For benchmarking another algorithm,
 
-1. copy-paste the above code in a file, say `benchmark_experiment.py`,
+1. copy-paste the above code or the linked batched example into a file, say `benchmark_experiment.py`,
 2. revise the lines following `### input` and in particular reassign `fmin` to run the desired algorithm,
 3. adapt the calling code `fmin(problem, ...)` respectively.
-   For example, some algorithms may need a maximal budget, like `(problem.dimension + 1) * budget_multiplier` as input parameter,
+   For example, some algorithms may need a maximal budget, like `problem.dimension * algorithm_budget_multiplier` as input parameter,
 4. execute the file from a system shell like 
    ```python
-   python benchmark_experiment.py
+   python benchmark_experiment.py  # under *nix, consider using "nohup nice ..."
    ```
    or from an ipython-shell or -notebook like
    ```python
    %run benchmark_experiment.py
    ```
+5. inspect the figures (and tables) generated by `cocopp.main`, see also [Getting started---Analysing and comparing results (postprocessing)](postprocessing.qmd).
+
+### Practical hints
+
+Benchmarking is usually an iterative process of repeatedly running experiments and inspecting data.
+The recommended approach is to successively increase the above `budget_multiplier` starting with short(er) experiments (which take at first only minutes, then hours, then...) and correcting successively for bugs or setup inaccuracies on the way by carefully inspecting the resulting data.
+
+Parameters that influence termination conditions of the algorithm may have a significant impact on the performance results.
+It is advisable to determine whether these parameters meet the test suite and the experimental conditions.
+More specifically,
+
+  - check the termination status of the algorithm, at least on a random test basis
+  - termination is usually indicated when the algorithm has stalled for some period of time.
+    Hence, long stagnations in the empirical runtime distributions indicate too late termination,
+    whereas a still increasing distribution graph right before the budget is exhausted indicates too early termination.[^1]
+
+The above `budget_multiplier` for the experiment is _ideally_ not used as input budget to the algorithm
+because it is meant to be interpreted as experimental condition and not as algorithm parameter.
+For algorithms without other termination criteria however it may be used.
+As long as the experimental budget is smaller than the budget that the algorithm uses, the latter will determine the outcome. When the algorithm terminates earlier and unsuccessfully, another experiment sweep is inoked.
+
+[^1]: The budget crosses in the figures indicate the actually used (median) budget which can be quite different from the budget given here.
+
+In order to get _some_ results as quickly as possible, and besides running batches in parallel, it can be useful to omit _in the first experiments_ some instances and the largest dimension of the suite (in exchange for a larger `budget_multiplier`) using the [suite parameters option](https://numbbo.github.io/coco-doc/C/#suite-parameters).
+Running the first 5 instances only and passing ``min_successes=5`` to `TrackEvalsAndSuccesses` has been proven to be a useful practical approach.
 
 CAVEAT: the `cocoex.TrackEvalsAndSuccesses` class is yet to be released.
 
