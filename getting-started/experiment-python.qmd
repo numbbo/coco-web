@@ -69,23 +69,23 @@ output_folder = '{}_of_{}_{}D_on_{}'.format(
 ### prepare
 suite = cocoex.Suite(suite_name, "", "")  # see https://numbbo.github.io/coco-doc/C/#suite-parameters
 observer = cocoex.Observer(suite_name, "result_folder: " + output_folder)
-tracker = cocoex.TrackEvalsAndSuccesses(budget_multiplier)  # x dimension
+repeater = cocoex.RepeatExperiment(budget_multiplier)  # x dimension
 minimal_print = cocoex.utilities.MiniPrint()
 
 ### go
-while not tracker.done():  # while budget is left and successes are missing
+while not repeater.done():  # while budget is left and successes are missing
     for problem in suite:  # this loop may take 2-3 minutes x budget_multiplier
-        if tracker.done(problem):
+        if repeater.done(problem):
             continue
-        problem.observe_with(observer)  # generate the data for cocopp
+        problem.observe_with(observer)  # generate the data for cocopp post-processing
         problem(problem.dimension * [0])  # improve comparability to existing data
-        xopt = fmin(problem, tracker.initial_solution_proposal(problem), disp=False)
+        xopt = fmin(problem, repeater.initial_solution_proposal(problem), disp=False)
         problem(xopt)  # make sure the returned solution is evaluated
-        tracker.track(problem)  # track evaluations and final_target_hit
-        minimal_print(problem)  # show the progress
+        repeater.track(problem)  # track evaluations and final_target_hit
+        minimal_print(problem)  # show progress
 
 ### post-process data
-cocopp.main(observer.result_folder + ' nelder!');  # re-run folders look like "...-001" etc
+cocopp.main(observer.result_folder + ' bfgs!');  # re-run folders look like "...-001" etc
 ```
 
 The benchmarking data are written to a subfolder in the `exdata` folder (see also [here](https://github.com/numbbo/coco/issues/1841)).
@@ -97,7 +97,7 @@ For running the benchmarking in several batches a somewhat expanded example can 
 #### Benchmarking "your own" algorithm
 For benchmarking another algorithm,
 
-1. copy-paste the above code or the linked batched example into a file, say `benchmark_experiment.py`,
+1. copy-paste the above code or the linked batching example into a file, say `benchmark_experiment.py`,
 2. revise the lines following `### input` and in particular reassign `fmin` to run the desired algorithm,
 3. adapt the calling code `fmin(problem, ...)` respectively.
    For example, some algorithms may need a maximal budget, like `problem.dimension * algorithm_budget_multiplier` as input parameter,
@@ -127,13 +127,14 @@ More specifically,
 
 The above `budget_multiplier` for the experiment is _ideally_ not used as input budget to the algorithm
 because it is meant to be interpreted as experimental condition and not as algorithm parameter.
-For algorithms without other termination criteria however it may be used.
-As long as the experimental budget is smaller than the budget that the algorithm uses, the latter will determine the outcome. When the algorithm terminates earlier and unsuccessfully, another experiment sweep is inoked.
+For algorithms without any other termination criteria however it may be used.
+When the experimental budget is smaller than the budget that the algorithm uses, the latter will determine the outcome.
+When the algorithm terminates earlier unsuccessfully, another experiment sweep is invoked by `repeater`.
 
-[^1]: The budget crosses in the figures indicate the actually used (median) budget which can be quite different from the budget given here.
+[^1]: The budget crosses in the figures indicate the _actually used_ budget (median) which can be quite different from the budget given here.
 
-In order to get _some_ results as quickly as possible, and besides running batches in parallel, it can be useful to omit _in the first experiments_ some instances and the largest dimension of the suite (in exchange for a larger `budget_multiplier`) using the [suite parameters option](https://numbbo.github.io/coco-doc/C/#suite-parameters).
-Running the first 5 instances only and passing ``min_successes=5`` to `TrackEvalsAndSuccesses` has been proven to be a useful practical approach.
+In order to get _some_ results as quickly as possible, and besides running batches in parallel, it can be useful to omit _in the first experiments_ some instances and the largest dimension of the suite (in exchange for a larger `budget_multiplier`) using the [suite parameters options](https://numbbo.github.io/coco-doc/C/#suite-parameters).
+Running the first 5 instances only and passing ``min_successes=5`` to `RepeatExperiment` has been found to be a useful practical approach.
 
-CAVEAT: the `cocoex.TrackEvalsAndSuccesses` class is yet to be released.
+CAVEAT: the `cocoex.RepeatExperiment` class is yet to be released.
 
