@@ -69,7 +69,7 @@ output_folder = '{}_of_{}_{}D_on_{}'.format(
 ### prepare
 suite = cocoex.Suite(suite_name, "", "")  # see https://numbbo.github.io/coco-doc/C/#suite-parameters
 observer = cocoex.Observer(suite_name, "result_folder: " + output_folder)
-repeater = cocoex.RepeatExperiment(budget_multiplier)  # x dimension
+repeater = cocoex.ExperimentRepeater(budget_multiplier)  # x dimension
 minimal_print = cocoex.utilities.MiniPrint()
 
 ### go
