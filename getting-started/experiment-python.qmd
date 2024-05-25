@@ -31,11 +31,11 @@ see also [here](https://numbbo.github.io/coco/testsuites).
 
 #### An impractical (oversimplistic) example
 To get an idea of the ultimately necessary code, we first give a working but impractical (oversimplistic) example for running an experiment that benchmarks [`scipy.optimize.fmin`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html) on the [`bbob`](https://numbbo.github.io/coco/testsuites/bbob) suite.
-Including boilerplate overhead code (like imports) it has 2 + 2 + 2 + 3 = 9 lines of effective code:
+Including boilerplate overhead code like imports, it has 2 + 2 + 2 + 3 = 9 lines of (effective) code:
 
 ```python
 import cocoex  # experimentation module
-import scipy.optimize  # to define the solver to be benchmarked
+import scipy  # to define the solver to be benchmarked
 
 ### input
 suite_name = "bbob"
@@ -56,18 +56,19 @@ A practical still short-ish example code that benchmarks [`scipy.optimize.fmin`]
 
 
 ```python
-import cocoex, cocopp  # experimentation and post-processing modules
-import scipy.optimize  # to define the solver to be benchmarked
+import cocoex  # experimentation module
+import cocopp  # post-processing module (not strictly necessary)
+import scipy  # to define the solver to be benchmarked
 
 ### input
 suite_name = "bbob"
 fmin = scipy.optimize.fmin  # optimizer to be benchmarked
 budget_multiplier = 1  # x dimension, increase to 3, 10, 30,...
-output_folder = '{}_of_{}_{}D_on_{}'.format(
-        fmin.__name__, scipy.optimize.__name__, int(budget_multiplier), suite_name)
 
 ### prepare
 suite = cocoex.Suite(suite_name, "", "")  # see https://numbbo.github.io/coco-doc/C/#suite-parameters
+output_folder = '{}_of_{}_{}D_on_{}'.format(
+        fmin.__name__, fmin.__module__ or '', int(budget_multiplier), suite_name)
 observer = cocoex.Observer(suite_name, "result_folder: " + output_folder)
 repeater = cocoex.ExperimentRepeater(budget_multiplier)  # 0 == no repetitions
 minimal_print = cocoex.utilities.MiniPrint()
@@ -76,7 +77,7 @@ minimal_print = cocoex.utilities.MiniPrint()
 while not repeater.done():  # while budget is left and successes are few
     for problem in suite:  # loop takes 2-3 minutes x budget_multiplier
         if repeater.done(problem):
-            continue
+            continue  # skip this problem
         problem.observe_with(observer)  # generate data for cocopp
         problem(problem.dimension * [0])  # for better comparability
         xopt = fmin(problem, repeater.initial_solution_proposal(problem),
