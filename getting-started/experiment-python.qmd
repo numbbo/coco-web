@@ -1,14 +1,14 @@
 ---
 title: Getting started---Benchmarking an algorithm (collecting data) with Python
 ---
-We use the [`cocoex`](https://pypi.org/project/cocoex) Python module to benchmark an algorithm.
+We use the [`cocoex`](https://pypi.org/project/coco-experiment) Python module to benchmark an algorithm.
 For bencharking in a different programming language, see [here FIXME:better link](https://github.com/numbbo/coco).
 
 ### Installation (assuming Python is present)
 From a system shell, execute
 
 ```sh
-python -m pip install cocoex cocopp
+python -m pip install coco-experiment cocopp
 ```
 
 ### Using [`cocoex`](https://numbbo.github.io/gforge/apidocs-cocoex)
