@@ -1,8 +1,7 @@
 ---
 title: Getting started---Benchmarking an algorithm (collecting data) with Python
 ---
-We use the [`coco-experiment` (`cocoex`)](https://pypi.org/project/coco-experiment) Python module to benchmark an algorithm.
-For bencharking in a different programming language, see [here FIXME:better link](https://github.com/numbbo/coco).
+For benchmarking an algorithm in Python, we use the [`coco-experiment` (`cocoex`)](https://pypi.org/project/coco-experiment).
 
 ### Installation (assuming Python is present)
 From a system shell, execute

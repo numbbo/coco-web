@@ -2,10 +2,14 @@
 title: Getting started with COCO
 ---
 
-The COCO framework is divided into two parts which can be used independently:
+The COCO framework is divided into two parts which can be used independently.
 
-1. Running an algorithm on a COCO benchmark suite and thereby collecting performance data for this algorithm, see [Getting started---Benchmarking an algorithm](experiment-python.qmd) to get started with benchmarking an algorithm.
-2. Displaying COCO results via the postprocessing, in particular comparing algorithms from or with the [data archive](/data-archive), see [Getting started--Analysing and comparing results](postprocessing.qmd) to get started with displaying benchmark data.
+## Running an algorithm on a COCO benchmark suite
+  - In Python: see [Getting started---Benchmarking an algorithm (collecting data) with Python](experiment-python.qmd).
+  - In other languages: see the instructions in [`code-experiments/build`](https://github.com/numbbo/coco/tree/master/code-experiments/build) and in the respective subfolder. (This probably requires to make a local clone of [github/numbbo/coco](https://github.com/numbbo/coco) and run `scripts/fabricate`, [see here](https://github.com/numbbo/coco/blob/master/DEVELOPMENT.md).)
+
+## Displaying COCO results via the postprocessing
+See [Getting started--Analysing and comparing results (postprocessing)](postprocessing.qmd).
 
 [//]: # (We may want to have some buttons here [Benchmarking an algorithm (collecting data) with Python](experiment-python.qmd) [Analysing and comparing results (postprocessing)](postprocessing.qmd))
 
