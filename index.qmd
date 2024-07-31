@@ -1,7 +1,5 @@
 ---
 title: "COCO: COmparing Continuous Optimizers"
-filters:
-- lightbox
 ---
 
 
