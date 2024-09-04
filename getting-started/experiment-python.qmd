@@ -10,7 +10,7 @@ From a system shell, execute
 python -m pip install coco-experiment cocopp
 ```
 
-### Using [`cocoex`](https://numbbo.github.io/gforge/apidocs-cocoex)
+### Using [`cocoex`](https://numbbo.github.io/coco-doc/apidocs/cocoex)
 Depending on the algorithm, we have to chose the appropriate benchmark suite
 
 ```python

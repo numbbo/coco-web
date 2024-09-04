@@ -21,7 +21,8 @@ python -m cocopp name_1 [name_2 [name_3 [... ]]]
 creates a couple of hundred figures and (after some seconds or a minute) displays the page `ppdata/index.html` with the default browser.
 The arguments `name_1`, `name_2`,... (`[]`-braces indicate optional arguments) are either **local folders** containing COCO data from a single benchmarked algorithm (typically like `exdata/algorithm_name`) or names of **benchmarked algorithms** from the [COCO data archive](https://numbbo.github.io/data-archive) (see below).
 
-The recommended usage is however from an `ipython` shell or a Jupyter notebook via the [`cocopp.main`](https://numbbo.github.io/gforge/apidocs-cocopp/cocopp.rungeneric.html#main) method.
+The recommended usage is however from an `ipython` shell or a Jupyter notebook via the
+[`cocopp.main`](https://numbbo.github.io/coco-doc/apidocs/cocopp/cocopp.rungeneric.html#main) method.
 
 ```python
 >>> import cocopp
@@ -30,7 +31,8 @@ The recommended usage is however from an `ipython` shell or a Jupyter notebook v
 gives the same result as the above.
 
 ### Finding data to compare with
-Hundreds of COCO comparative data sets are provided online and can be listed, filtered, and retrieved via [`cocopp.archives`](https://numbbo.github.io/gforge/apidocs-cocopp/cocopp.archiving.OfficialArchives.html) and processed alone or together with local data.
+Hundreds of COCO comparative data sets are provided online and can be listed, filtered, and retrieved via
+[`cocopp.archives`](https://numbbo.github.io/coco-doc/apidocs/cocopp/cocopp.archiving.OfficialArchives.html) and processed alone or together with local data.
 For example
 
 ```python
