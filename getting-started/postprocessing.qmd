@@ -19,7 +19,9 @@ python -m cocopp name_1 [name_2 [name_3 [... ]]]
 ```
 
 creates a couple of hundred figures and (after some seconds or a minute) displays the page `ppdata/index.html` with the default browser.
-The arguments `name_1`, `name_2`,... (`[]`-braces indicate optional arguments) are either **local folders** containing COCO data from a single benchmarked algorithm (typically like `exdata/algorithm_name`) or names of **benchmarked algorithms** from the [COCO data archive](https://numbbo.github.io/data-archive) (see below).
+The arguments `name_1`, `name_2`,... (`[]`-braces indicate optional arguments) are either **local folders** containing COCO data from
+a single benchmarked algorithm (typically like `exdata/algorithm_name` generated using the [COCO experimentation module](https://numbbo.it/getting-started/experiment-python.html))
+or names of **benchmarked algorithms** from the [COCO data archive](https://numbbo.github.io/data-archive) (see below).
 
 The recommended usage is however from an `ipython` shell or a Jupyter notebook via the
 [`cocopp.main`](https://numbbo.github.io/coco-doc/apidocs/cocopp/cocopp.rungeneric.html#main) method.
