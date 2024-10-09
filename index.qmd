@@ -21,17 +21,16 @@ For getting started see [Getting Started](getting-started/index.qmd).
 * [Getting Started](getting-started/index.qmd)
 * <a href="https://numbbo.github.io/data-archive">
     Data archive</a> of all officially registered benchmark experiments (also accessible via
- the <a href="https://pypi.org/project/cocopp">postprocessing module</a>)
+ the <a href="https://pypi.org/project/cocopp">postprocess module</a>)
 * [Postprocessed data][ppdata] of these archives for browsing
   <a href="https://numbbo.github.io/ppdata-archive">
     Postprocessed data</a> of these archives for browsing
 </li>
 <li><a href="https://github.com/numbbo/coco/blob/master/howtos/publish-a-dataset-howto.md">
   How to submit a data set</a>
-</li><li>
-  <a href="https://github.com/numbbo/coco/blob/master/code-postprocessing/cocopp/archiving.py">
-  How to create and use COCO data archives</a> with the <tt>cocopp.archiving</tt> Python module
- </li>
+</li>
+* [How to create and use COCO data archives](https://github.com/numbbo/coco-postprocess/blob/main/src/cocopp/archiving.py)
+with the `cocopp.archiving` Python module
 * [Source code (developer) page on Github](https://github.com/numbbo/coco)
  <li>Get news about COCO by <a href="http://numbbo.github.io/register">registering here</a>
 </li><li>

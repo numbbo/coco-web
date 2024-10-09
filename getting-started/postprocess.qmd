@@ -1,8 +1,8 @@
 ---
-title: Getting started---Analysing and comparing results (postprocessing)
+title: Getting started---Analysing and comparing results (postprocess)
 ---
 
-Benchmarking performance results are displayed with the [`cocopp`](https://pypi.org/project/cocopp) Python module and a web browser.
+Benchmarking performance results are displayed with the [`cocopp`](https://pypi.org/project/cocopp) (`coco-postprocess`) Python module and a web browser.
 
 ### Installation (assuming Python is present)
 From a system shell, execute
