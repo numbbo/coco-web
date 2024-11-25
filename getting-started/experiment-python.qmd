@@ -1,7 +1,8 @@
 ---
 title: Getting started---Benchmarking an algorithm (generating data) with Python
 ---
-For benchmarking an algorithm in Python, we use the [`coco-experiment` (`cocoex`)](https://pypi.org/project/coco-experiment) Python package.
+For benchmarking an algorithm in Python, we use the [`coco-experiment` (`cocoex`)](https://pypi.org/project/coco-experiment) Python package
+(for other languages see the instructions in [`code-experiments/build`](https://github.com/numbbo/coco-experiment/tree/main/build) _and_ in the respective subfolder).
 
 ### Installation (assuming Python is present)
 From a system shell, execute
