@@ -19,14 +19,13 @@ bibliography: references.bib
 lang: en
 
 website:
-  title: "COCO: COmparing Continuous Optimizers"
+  title: "<b>CO</b>mparing <b>C</b>ontinuous <b>O</b>ptimizers"
   open-graph: true
   favicon: "images/favicon.png"
-  navbar:
-    title: false
-    background: primary
-    logo: images/favicon.png
-    left:
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
     - text: "Home"
       href: index.qmd
     - text: "Get Started"
@@ -38,13 +37,12 @@ website:
     - text: "Workshops {{< fa external-link size=xs >}}"
       href: https://numbbo.github.io/workshops/
     tools:
-    - icon: github
-      menu:
-      - text: Source Code
-        url: https://github.com/numbbo/coco
-      - text: Report an issue
-        url: https://github.com/numbbo/coco/issues/new/choose
-
+      - icon: github
+        menu:
+          - text: Source Code
+            url: https://github.com/numbbo/coco
+          - text: Report an issue
+            url: https://github.com/numbbo/coco/issues/new/choose
   page-footer:
     center:
       - imprint.qmd
