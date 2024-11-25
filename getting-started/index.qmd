@@ -3,13 +3,13 @@ title: Getting started with COCO
 ---
 
 COCO is a framework for benchmarking optimization algorithms
-and is divided into two main parts which can be used independently.
+and is divided into two main parts which can be used independently:
 
-### [Getting started: running an algorithm on a COCO benchmark suite](experiment-python.qmd)
-  - *In Python:* see [Getting started---Benchmarking an algorithm (collecting data) with Python](experiment-python.qmd).
-  - *In other languages:* see the instructions in [`code-experiments/build`](https://github.com/numbbo/coco-experiment/tree/main/build) _and_ in the respective subfolder. This usually requires to make a local clone of [github/numbbo/coco-experiment](https://github.com/numbbo/coco-experiment) and run `scripts/fabricate`, [see here](https://github.com/numbbo/coco-experiment/blob/master/DEVELOPMENT.md).
+### Running an algorithm on a COCO benchmark suite: [Getting started](experiment-python.qmd)
+  - *In Python:* go to [Getting started---Benchmarking an algorithm (collecting data) with Python](experiment-python.qmd).
+  - *In other languages:* this usually (currently) requires to make a local clone of [github/numbbo/coco-experiment](https://github.com/numbbo/coco-experiment) and run `scripts/fabricate` (see the build instructions [here](https://github.com/numbbo/coco-experiment/blob/master/DEVELOPMENT.md)) _and_ follow the instructions in the respective subfolder of [`code-experiments/build`](https://github.com/numbbo/coco-experiment/tree/main/build).
 
-### [Getting started: displaying COCO results (postprocess)](postprocess.qmd)
-See [Getting started--Analysing and comparing results (postprocess)](postprocess.qmd).
+### Displaying COCO results (postprocess): [Getting started](postprocess.qmd)
+Go to [Getting started--Analysing and comparing results (postprocess)](postprocess.qmd).
 
 [//]: # (We may want to have some buttons here [Benchmarking an algorithm (collecting data) with Python](experiment-python.qmd) [Analysing and comparing results (postprocess)](postprocess.qmd) We may want to have here ## Related links)
