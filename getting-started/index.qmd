@@ -2,7 +2,8 @@
 title: Getting started with COCO
 ---
 
-The COCO framework is mainly divided into two main parts which can be used independently.
+COCO is a framework for benchmarking optimization algorithms
+and is divided into two main parts which can be used independently.
 
 ### [Getting started: running an algorithm on a COCO benchmark suite](experiment-python.qmd)
   - *In Python:* see [Getting started---Benchmarking an algorithm (collecting data) with Python](experiment-python.qmd).
