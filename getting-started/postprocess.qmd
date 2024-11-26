@@ -23,7 +23,18 @@ The arguments `name_1`, `name_2`,... (`[]`-braces indicate optional arguments) a
 a single benchmarked algorithm (typically like `exdata/algorithm_name` generated using the [COCO experimentation module](https://numbbo.it/getting-started/experiment-python.html))
 or names of **benchmarked algorithms** from the [COCO data archive](https://numbbo.github.io/data-archive) (see below).
 
-The recommended usage is however from an `ipython` shell or a Jupyter notebook via the
+Specifically,
+```sh
+python -m cocopp 22/cma-es-pycma 09/nelderdoerr 20/slsqp-11
+```
+gives these empirical runtime distributions (runtime profiles) for three algorithms for all `bbob`-functions in 20-D (left) and for `bbob`-functions 6 and 14 (among others).
+
+|             |             |             |
+| ----------- | ----------- | ----------- |
+| ![image](images/CMA-E_NELDE_SLSQP_pprldmany_20D_noiselessall.svg) | ![image](images/CMA-E_NELDE_SLSQP_pprldmany_f006_20D.svg) | ![image](images/CMA-E_NELDE_SLSQP_pprldmany_f014_20D.svg) |
+
+
+The recommended usage is from an `ipython` shell or a Jupyter notebook via the
 [`cocopp.main`](https://numbbo.github.io/coco-doc/apidocs/cocopp/cocopp.rungeneric.html#main) method.
 
 ```python
