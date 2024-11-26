@@ -29,10 +29,27 @@ python -m cocopp 22/cma-es-pycma 09/nelderdoerr 20/slsqp-11
 ```
 gives these empirical runtime distributions (runtime profiles) for three algorithms for all `bbob`-functions in 20-D (left) and for `bbob`-functions 6 and 14 (among others).
 
-|             |             |             |
-| ----------- | ----------- | ----------- |
-| ![image](images/CMA-E_NELDE_SLSQP_pprldmany_20D_noiselessall.svg) | ![image](images/CMA-E_NELDE_SLSQP_pprldmany_f006_20D.svg) | ![image](images/CMA-E_NELDE_SLSQP_pprldmany_f014_20D.svg) |
+::::{.grid}
 
+:::{.g-col-md-4 .g-col-sm-12}
+
+![](images/CMA-E_NELDE_SLSQP_pprldmany_20D_noiselessall.svg){.lightbox}
+
+:::
+
+:::{.g-col-md-4 .g-col-sm-12}
+
+![](images/CMA-E_NELDE_SLSQP_pprldmany_f006_20D.svg){.lightbox}
+
+:::
+
+:::{.g-col-md-4 .g-col-sm-12}
+
+![](images/CMA-E_NELDE_SLSQP_pprldmany_f014_20D.svg){.lightbox}
+
+:::
+
+::::
 
 The recommended usage is from an `ipython` shell or a Jupyter notebook via the
 [`cocopp.main`](https://numbbo.github.io/coco-doc/apidocs/cocopp/cocopp.rungeneric.html#main) method.
