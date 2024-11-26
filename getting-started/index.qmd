@@ -141,8 +141,8 @@ More specifically,
 
   - check the termination status of the algorithm, at least on a random test basis
   - termination is usually advisable when the algorithm has stalled for some period of time.
-    Long stagnations in the empirical runtime distributions indicate too late termination,
-    whereas a still increasing distribution graph right before the budget is exhausted indicates too early termination.[^1]
+    Long stagnations in the runtime profiles indicate too late termination,
+    whereas a still increasing graph right before the budget is exhausted indicates too early termination.[^1]
 
 The above `budget_multiplier` for the experiment is _ideally_ not used as input budget to the algorithm
 because it is meant to be interpreted as experimental condition and not as algorithm parameter.
@@ -253,7 +253,7 @@ Specifically,
 ```sh
 python -m cocopp 22/cma-es-pycma 09/nelderdoerr 20/slsqp-11
 ```
-gives, for example, these runtime profiles (which are, broadly speaking, empirical runtime distributions, see @hansen2022anytime) for three algorithms for all [`bbob`-functions](testbeds/bbob) (left) and for `bbob`-functions 6 and 14 in 20-D.
+displays, for example, these runtime profiles (which are, broadly speaking, empirical runtime distributions, see @hansen2022anytime) for three algorithms for all [`bbob`-functions](testbeds/bbob) (left) and for `bbob`-functions 6 and 14 (middle and right) in 20-D.
 
 ::::{.grid}
 
@@ -324,28 +324,29 @@ Each string must give a single unique match (exceptions are specified below),
 where the exclamation mark indicates the first match in the results from `cocopp.archives.all('bfgs')`.
 Otherwise, an (informative) `ValueError` is raised.
 The order can be changed and determines the colors in the figures.
-This call creates a few hundreds of figures and modifies and opens `ppdata/index.html` in a browser, and finally returns a data set list of all read-in data.
-We can also use regular expression syntax.
-For example to display all BFGS data from the `bbob` suite,
+This call creates a few hundreds of figures and modifies and opens `ppdata/index.html` in a browser, and returns a data set list of all read-in data.
+
+Regular expression syntax can be used too to reference benchmark data sets.
+For example, to display all BFGS data from the `bbob` suite,
 
 ```python
 >>> dsl = cocopp.main('bbob/.*bfgs')
 ```
 
-where `.*` matches any character any number of times (including zero) and the expression must match the beginning of the archive entry name.
+where `.*` matches any character any number of times (including zero) and the given expression must match the beginning of the archive entry name.
 
 As a special case, a trailing `*` indicates all names _containing_ the preceding substring (not a regular expression).
 The output figures of
 
 ```python
->>> dsl = cocopp.main('bob/2009/*')  # may take some more time when these data are downloaded
+>>> dsl = cocopp.main('bob/2009/*')  # may take some more time until these data are downloaded
 ```
 
 contains 31 algorithms and can be browsed at [https://numbbo.github.io/ppdata-archive/bbob/2009](https://numbbo.github.io/ppdata-archive/bbob/2009).
 To display algorithms in the background, the `cocopp.genericsettings.background` variable can be set:
 
 ```python
->>> cocopp.genericsettings.background = {None: cocopp.archives.bbob.get_extended('2009/*')}  # may take some time when these data are downloaded
+>>> cocopp.genericsettings.background = {None: cocopp.archives.bbob.get_extended('2009/*')}  # may take some time until these data are downloaded
 ```
 where [`None`](http://docs.python.org/library/constants.html#None) invokes the default color and line style (solid grey, `cocopp.genericsettings.background_default_style`).
 
