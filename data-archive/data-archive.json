@@ -5,7 +5,7 @@
     "year": 2009,
     "author": "Hornby",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/ALPS_hornby_noiseless.tgz",
-    "comment": "[pdf](https://numbbo.github.io/gforge/data/media/pdf2015/hornby-alps.pdf)"
+    "comment": "[pdf](https://gpbib.cs.ucl.ac.uk/gecco2006/docs/p815.pdf)"
   },
   {
     "suite": "bbob",
@@ -93,7 +93,7 @@
     "year": 2009,
     "author": "Ros",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/FULLNEWUOA_ros_noiseless.tgz",
-    "comment": "[original 2009 noiseless paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2421-ros.pdf) - [original 2009 noisy paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2429-ros.pdf) - [2010 comparison noiseless](https://hal.inria.fr/inria-00473774/document) - [2010 comparison noisy](https://hal.inria.fr/inria-00473776/document)"
+    "comment": "[original 2009 noiseless paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2421-ros.pdf) - [original 2009 noisy paper](https://dl.acm.org/doi/pdf/10.1145/1570256.1570339?download=true) - [2010 comparison noiseless](https://hal.inria.fr/inria-00473774/document) - [2010 comparison noisy](https://hal.inria.fr/inria-00473776/document)"
   },
   {
     "suite": "bbob",
@@ -117,7 +117,7 @@
     "year": 2009,
     "author": "P\u00e1l et al.",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/GLOBAL_pal_noiseless.tgz",
-    "comment": "BBOB-2009 paper not available online - [corresponding ECJ paper](http://www.mat.univie.ac.at/~neum/ms/pal.pdf)"
+    "comment": "BBOB-2009 paper not available online - [corresponding ECJ paper](https://arnold-neumaier.at/ms/pal.pdf)"
   },
   {
     "suite": "bbob",
@@ -165,7 +165,7 @@
     "year": 2009,
     "author": "Huyer and Neumaier",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/MCS_huyer_noiseless.tgz",
-    "comment": "[pdf noiseless](http://www.mat.univie.ac.at/~neum/ms/mcs_exact.pdf) - [pdf noisy](http://www.mat.univie.ac.at/~neum/ms/mcs_noisy.pdf)"
+    "comment": "[pdf noiseless](https://arnold-neumaier.at/ms/mcs_exact.pdf) - [pdf noisy](https://arnold-neumaier.at/ms/mcs_noisy.pdf)"
   },
   {
     "suite": "bbob",
@@ -189,7 +189,7 @@
     "year": 2009,
     "author": "Ros",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2009/NEWUOA_ros_noiseless.tgz",
-    "comment": "[original 2009 noiseless paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2421-ros.pdf) - [original 2009 noisy paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2429-ros.pdf) - [2010 comparison with BIPOP-CMA-ES noiseless](https://hal.inria.fr/inria-00473779/document) - [2010 comparison noiseless](https://hal.inria.fr/inria-00473774/document) - [2010 comparison noisy](https://hal.inria.fr/inria-00473776/document)"
+    "comment": "[original 2009 noiseless paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2421-ros.pdf) - [original 2009 noisy paper](https://dl.acm.org/doi/pdf/10.1145/1570256.1570339?download=true) - [2010 comparison with BIPOP-CMA-ES noiseless](https://hal.inria.fr/inria-00473779/document) - [2010 comparison noiseless](https://hal.inria.fr/inria-00473774/document) - [2010 comparison noisy](https://hal.inria.fr/inria-00473776/document)"
   },
   {
     "suite": "bbob",
@@ -253,7 +253,7 @@
     "year": 2010,
     "author": "Auger et al.",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/1komma2_brockhoff_noiseless.tgz",
-    "comment": "[pdf cmp1komma2mirAnd1komma2mirser](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772) - [pdf cmp1komma2mirAnd1komma2mirserNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1575-auger.pdf) - [pdf cmp1komma2ser](https://hal.inria.fr/inria-00502431/document) - [pdf cmp1komma2serNoisy](https://hal.inria.fr/inria-00502432/document)"
+    "comment": "[pdf cmp1komma2mirAnd1komma2mirser](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772) - [pdf cmp1komma2ser](https://inria.hal.science/inria-00502431v1/file/ws1p22-augerAuthorVersion.pdf) - [pdf cmp1komma2serNoisy](https://hal.inria.fr/inria-00502432/document)"
   },
   {
     "suite": "bbob",
@@ -261,7 +261,7 @@
     "year": 2010,
     "author": "Auger et al.",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/1komma2mir_brockhoff_noiseless.tgz",
-    "comment": "[pdf cmp1komma2And1komma2mirser](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772) - [pdf cmp1komma2And1komma2mirserNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1575-auger.pdf)"
+    "comment": "[pdf cmp1komma2And1komma2mirser](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772)"
   },
   {
     "suite": "bbob",
@@ -269,7 +269,7 @@
     "year": 2010,
     "author": "Auger et al.",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/1komma2mirser_brockhoff_noiseless.tgz",
-    "comment": "[pdf cmp1komma2And1komma2mir](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772) - [pdf cmp1komma2And1komma2mirNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1575-auger.pdf)"
+    "comment": "[pdf cmp1komma2And1komma2mir](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772)"
   },
   {
     "suite": "bbob",
@@ -277,7 +277,7 @@
     "year": 2010,
     "author": "Auger et al.",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/1komma2ser_brockhoff_noiseless.tgz",
-    "comment": "[pdf cmp1komma2](https://hal.inria.fr/inria-00502431/document) - [cmp1komma2Noisy](https://hal.inria.fr/inria-00502432/document)"
+    "comment": "[pdf cmp1komma2](https://inria.hal.science/inria-00502431v1/file/ws1p22-augerAuthorVersion.pdf) - [cmp1komma2Noisy](https://hal.inria.fr/inria-00502432/document)"
   },
   {
     "suite": "bbob",
@@ -349,7 +349,7 @@
     "year": 2010,
     "author": "Finck and Beyer",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/CMAEGS_finck_noiseless.tgz",
-    "comment": "[pdf](https://www.researchgate.net/profile/Steffen_Finck/publication/220740259_Benchmarking_CMA-EGS_on_the_BBOB_2010_noiseless_function_testbed/links/09e4150e5889c7141e000000.pdf)"
+    "comment": "[pdf](https://dl.acm.org/doi/pdf/10.1145/1830761.1830783)"
   },
   {
     "suite": "bbob",
@@ -421,7 +421,7 @@
     "year": 2010,
     "author": "Finck and Beyer",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2010/SPSA_finck_noiseless.tgz",
-    "comment": "[pdf noiseless](https://www.researchgate.net/profile/Steffen_Finck/publication/220743445_Benchmarking_SPSA_on_BBOB-2010_noiseless_function_testbed/links/09e4150e5889bc24a6000000.pdf) - [pdf noisy](https://www.researchgate.net/profile/Steffen_Finck/publication/220740542_Benchmarking_SPSA_on_BBOB-2010_noisy_function_testbed/links/09e4150e5889c4a807000000.pdf)"
+    "comment": "[pdf noiseless](https://dl.acm.org/doi/pdf/10.1145/1830761.1830787) - [pdf noisy](https://dl.acm.org/doi/pdf/10.1145/1830761.1830784)"
   },
   {
     "suite": "bbob",
@@ -453,7 +453,7 @@
     "year": 2012,
     "author": "Loshchilov et al.",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2012/BIPOPaCMA_loshchilov_noiseless.tgz",
-    "comment": "[pdf](http://coco.lri.fr/BBOB2012-papers/loshchilov_p269.pdf)"
+    "comment": "[pdf](http://www.cmap.polytechnique.fr/~nikolaus.hansen/proceedings/2012/GECCO/companion/p269.pdf)"
   },
   {
     "suite": "bbob",
@@ -989,7 +989,7 @@
     "year": 2015,
     "author": "Derbel and Preux",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-CEC/SOO_Derbel.tgz",
-    "comment": "[CEC paper](http://www.grappa.univ-lille3.fr/~ppreux/papiers/cec2015.accepted.pdf)"
+    "comment": "[CEC paper](https://philippe-preux.github.io/papiers/cec2015.accepted.pdf)"
   },
   {
     "suite": "bbob",
@@ -1029,7 +1029,7 @@
     "year": 2015,
     "author": "Atamna",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/CMA-CSA_Atamna.tgz",
-    "comment": "[GECCO paper](https://www.lri.fr/~atamna/atamna_BBOB_15.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2015sourcecodes/cma.py)"
+    "comment": "[GECCO paper](https://dl.acm.org/doi/pdf/10.1145/2739482.2768467) - [source code](https://numbbo.github.io/gforge/BBOB2015sourcecodes/cma.py)"
   },
   {
     "suite": "bbob",
@@ -1037,7 +1037,7 @@
     "year": 2015,
     "author": "Atamna",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/CMA-MSR_Atamna.tgz",
-    "comment": "[GECCO paper](https://www.lri.fr/~atamna/atamna_BBOB_15.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2015sourcecodes/cma.py)"
+    "comment": "[GECCO paper](https://dl.acm.org/doi/pdf/10.1145/2739482.2768467) - [source code](https://numbbo.github.io/gforge/BBOB2015sourcecodes/cma.py)"
   },
   {
     "suite": "bbob",
@@ -1045,7 +1045,7 @@
     "year": 2015,
     "author": "Atamna",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2015-GECCO/CMA-TPA_Atamna.tgz",
-    "comment": "[GECCO paper](https://www.lri.fr/~atamna/atamna_BBOB_15.pdf) - [source code](https://numbbo.github.io/gforge/BBOB2015sourcecodes/cma.py)"
+    "comment": "[GECCO paper](https://dl.acm.org/doi/pdf/10.1145/2739482.2768467) - [source code](https://numbbo.github.io/gforge/BBOB2015sourcecodes/cma.py)"
   },
   {
     "suite": "bbob",
@@ -1181,7 +1181,7 @@
     "year": 2016,
     "author": "Nishida and Akimoto",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2016/PSAaLmC-CMA-ES_Nishida.tgz",
-    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/302359371_Evaluating_the_Population_Size_Adaptation_Mechanism_for_CMA-ES_on_the_BBOB_Noisy_Testbed/links/572fd0ab08ae744151904d91.pdf)"
+    "comment": "[GECCO paper](https://dl.acm.org/doi/pdf/10.1145/2908961.2931701)"
   },
   {
     "suite": "bbob",
@@ -1189,7 +1189,7 @@
     "year": 2016,
     "author": "Nishida and Akimoto",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2016/PSAaLmD-CMA-ES_Nishida.tgz",
-    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/302359371_Evaluating_the_Population_Size_Adaptation_Mechanism_for_CMA-ES_on_the_BBOB_Noisy_Testbed/links/572fd0ab08ae744151904d91.pdf)"
+    "comment": "[GECCO paper](https://dl.acm.org/doi/pdf/10.1145/2908961.2931701)"
   },
   {
     "suite": "bbob",
@@ -1197,7 +1197,7 @@
     "year": 2016,
     "author": "Nishida and Akimoto",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2016/PSAaSmC-CMA-ES_Nishida.tgz",
-    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/302359371_Evaluating_the_Population_Size_Adaptation_Mechanism_for_CMA-ES_on_the_BBOB_Noisy_Testbed/links/572fd0ab08ae744151904d91.pdf)"
+    "comment": "[GECCO paper](https://dl.acm.org/doi/pdf/10.1145/2908961.2931701)"
   },
   {
     "suite": "bbob",
@@ -1205,7 +1205,7 @@
     "year": 2016,
     "author": "Nishida and Akimoto",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2016/PSAaSmD-CMA-ES_Nishida.tgz",
-    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/302359371_Evaluating_the_Population_Size_Adaptation_Mechanism_for_CMA-ES_on_the_BBOB_Noisy_Testbed/links/572fd0ab08ae744151904d91.pdf)"
+    "comment": "[GECCO paper](https://dl.acm.org/doi/pdf/10.1145/2908961.2931701)"
   },
   {
     "suite": "bbob",
@@ -1237,7 +1237,7 @@
     "year": 2017,
     "author": "Yamaguchi and Akimoto",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017/KL-BIPOP-CMA-ES_Yamaguchi.tgz",
-    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/318375077_Benchmarking_the_novel_CMA-ES_restart_strategy_using_the_search_history_on_the_BBOB_noiseless_testbed/links/598bb62d0f7e9b07d21f70fd/Benchmarking-the-novel-CMA-ES-restart-strategy-using-the-search-history-on-the-BBOB-noiseless-testbed.pdf)"
+    "comment": "[GECCO paper](https://dl.acm.org/doi/pdf/10.1145/3067695.3084203)"
   },
   {
     "suite": "bbob",
@@ -1245,7 +1245,7 @@
     "year": 2017,
     "author": "Yamaguchi and Akimoto",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017/KL-IPOP-CMA-ES_Yamaguchi.tgz",
-    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/318375077_Benchmarking_the_novel_CMA-ES_restart_strategy_using_the_search_history_on_the_BBOB_noiseless_testbed/links/598bb62d0f7e9b07d21f70fd/Benchmarking-the-novel-CMA-ES-restart-strategy-using-the-search-history-on-the-BBOB-noiseless-testbed.pdf)"
+    "comment": "[GECCO paper](https://dl.acm.org/doi/pdf/10.1145/3067695.3084203)"
   },
   {
     "suite": "bbob",
@@ -1253,7 +1253,7 @@
     "year": 2017,
     "author": "Yamaguchi and Akimoto",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2017/KL-Restart-CMA-ES_Yamaguchi.tgz",
-    "comment": "[GECCO paper](https://www.researchgate.net/profile/Youhei_Akimoto/publication/318375077_Benchmarking_the_novel_CMA-ES_restart_strategy_using_the_search_history_on_the_BBOB_noiseless_testbed/links/598bb62d0f7e9b07d21f70fd/Benchmarking-the-novel-CMA-ES-restart-strategy-using-the-search-history-on-the-BBOB-noiseless-testbed.pdf)"
+    "comment": "[GECCO paper](https://dl.acm.org/doi/pdf/10.1145/3067695.3084203)"
   },
   {
     "suite": "bbob",
@@ -1437,7 +1437,7 @@
     "year": 2018,
     "author": "Nishida and Akimoto",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/PSA-CMA-ES_Nishida.tgz",
-    "comment": "[GECCO 2018 paper](https://www.researchgate.net/profile/Kouhei_Nishida/publication/326236796_Benchmarking_the_PSA-CMA-ES_on_the_BBOB_noiseless_testbed/links/5b4de92faca27217ff9c2b1b/Benchmarking-the-PSA-CMA-ES-on-the-BBOB-noiseless-testbed.pdf)"
+    "comment": "[GECCO 2018 paper](https://dl.acm.org/doi/pdf/10.1145/3205651.3208297)"
   },
   {
     "suite": "bbob",
@@ -1445,7 +1445,7 @@
     "year": 2018,
     "author": "Nishida and Akimoto",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018/PSA-CMA-ESwRS_Nishida.tgz",
-    "comment": "[GECCO 2018 paper](https://www.researchgate.net/profile/Kouhei_Nishida/publication/326236796_Benchmarking_the_PSA-CMA-ES_on_the_BBOB_noiseless_testbed/links/5b4de92faca27217ff9c2b1b/Benchmarking-the-PSA-CMA-ES-on-the-BBOB-noiseless-testbed.pdf)"
+    "comment": "[GECCO 2018 paper](https://dl.acm.org/doi/pdf/10.1145/3205651.3208297)"
   },
   {
     "suite": "bbob",
@@ -1509,7 +1509,7 @@
     "year": 2018,
     "author": "Bajer et al.",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob/2018-others/DTS-CMA-ES_005-2pop_v26_1model_Bajer.tgz",
-    "comment": "[link to paper](https://www.mitpressjournals.org/doi/abs/10.1162/evco_a_00244) - [details on the differences to #161](https://web.archive.org/web/20200924122005/https://coco.gforge.inria.fr/doku.php?id=detailsdts)"
+    "comment": "[link to paper](https://direct.mit.edu/evco/article-pdf/27/4/665/1858747/evco_a_00244.pdf) - [details on the differences to #161](https://web.archive.org/web/20200924122005/https://coco.gforge.inria.fr/doku.php?id=detailsdts)"
   },
   {
     "suite": "bbob",
@@ -2109,7 +2109,7 @@
     "year": 2009,
     "author": "Garc\u00eda-Nieto et al.",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/DE-PSO_garcia-nieto_noisy.tgz",
-    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2231-garcia-nieto.pdf) - [pdf noisy](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2343-garcia-nieto.pdf)"
+    "comment": "[pdf noiseless](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2231-garcia-nieto.pdf) - [pdf noisy](https://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2343-garcia-nieto.pdf)"
   },
   {
     "suite": "bbob-noisy",
@@ -2125,7 +2125,7 @@
     "year": 2009,
     "author": "Ros",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/FULLNEWUOA_ros_noisy.tgz",
-    "comment": "[original 2009 noiseless paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2421-ros.pdf) - [original 2009 noisy paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2429-ros.pdf) - [2010 comparison noiseless](https://hal.inria.fr/inria-00473774/document) - [2010 comparison noisy](https://hal.inria.fr/inria-00473776/document)"
+    "comment": "[original 2009 noiseless paper](http://sci2s.ugr.es/sites/default/files/files/TematicWebSites/EAMHCO/contributionsGECCO09/p2421-ros.pdf) - [original 2009 noisy paper](https://dl.acm.org/doi/pdf/10.1145/1570256.1570339?download=true) - [2010 comparison noiseless](https://hal.inria.fr/inria-00473774/document) - [2010 comparison noisy](https://hal.inria.fr/inria-00473776/document)"
   },
   {
     "suite": "bbob-noisy",
@@ -2133,7 +2133,7 @@
     "year": 2009,
     "author": "P\u00e1l et al.",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/GLOBAL_pal_noisy.tgz",
-    "comment": "BBOB-2009 paper not available online - [corresponding ECJ paper](http://www.mat.univie.ac.at/~neum/ms/pal.pdf)"
+    "comment": "BBOB-2009 paper not available online - [corresponding ECJ paper](https://arnold-neumaier.at/ms/pal.pdf)"
   },
   {
     "suite": "bbob-noisy",
@@ -2165,7 +2165,7 @@
     "year": 2009,
     "author": "Huyer and Neumaier",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/MCS_huyer_noisy.tgz",
-    "comment": "[pdf noiseless](http://www.mat.univie.ac.at/~neum/ms/mcs_exact.pdf) - [pdf noisy](http://www.mat.univie.ac.at/~neum/ms/mcs_noisy.pdf)"
+    "comment": "[pdf noiseless](https://arnold-neumaier.at/ms/mcs_exact.pdf) - [pdf noisy](https://arnold-neumaier.at/ms/mcs_noisy.pdf)"
   },
   {
     "suite": "bbob-noisy",
@@ -2205,7 +2205,7 @@
     "year": 2009,
     "author": "Huyer and Neumaier",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2009/SNOBFIT_huyer_noisy.tgz",
-    "comment": "[pdf](http://www.mat.univie.ac.at/~neum/ms/snobfit_noisy.pdf)"
+    "comment": "[pdf](https://arnold-neumaier.at/ms/snobfit_noisy.pdf)"
   },
   {
     "suite": "bbob-noisy",
@@ -2221,7 +2221,7 @@
     "year": 2010,
     "author": "Auger et al.",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/1komma2_brockhoff_noisy.tar.gz",
-    "comment": "[pdf cmp1komma2mirAnd1komma2mirser](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772) - [pdf cmp1komma2mirAnd1komma2mirserNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1575-auger.pdf) - [pdf cmp1komma2ser](https://hal.inria.fr/inria-00502431/document) - [cmp1komma2serNoisy](https://hal.inria.fr/inria-00502432/document)"
+    "comment": "[pdf cmp1komma2mirAnd1komma2mirser](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772) - [pdf cmp1komma2ser](https://inria.hal.science/inria-00502431v1/file/ws1p22-augerAuthorVersion.pdf) - [cmp1komma2serNoisy](https://hal.inria.fr/inria-00502432/document)"
   },
   {
     "suite": "bbob-noisy",
@@ -2229,7 +2229,7 @@
     "year": 2010,
     "author": "Auger et al.",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/1komma2mir_brockhoff_noisy.tar.gz",
-    "comment": "[pdf cmp1komma2And1komma2mirser](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772) - [pdf cmp1komma2And1komma2mirserNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1575-auger.pdf)"
+    "comment": "[pdf cmp1komma2And1komma2mirser](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772)"
   },
   {
     "suite": "bbob-noisy",
@@ -2237,7 +2237,7 @@
     "year": 2010,
     "author": "Auger et al.",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/1komma2mirser_brockhoff_noisy.tar.gz",
-    "comment": "[pdf cmp1komma2And1komma2mir](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772) - [pdf cmp1komma2And1komma2mirNoisy](http://sci2s.ugr.es/eamhco/pdfs/contributionsGECCO10/p1575-auger.pdf)"
+    "comment": "[pdf cmp1komma2And1komma2mir](https://hal.inria.fr/inria-00502435) - [doi](http://dx.doi.org/10.1145/1830761.1830772)"
   },
   {
     "suite": "bbob-noisy",
@@ -2245,7 +2245,7 @@
     "year": 2010,
     "author": "Auger et al.",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/1komma2ser_brockhoff_noisy.tar.gz",
-    "comment": "[pdf cmp1komma2](https://hal.inria.fr/inria-00502431/document) - [pdf cmp1komma2Noisy](https://hal.inria.fr/inria-00502432/document)"
+    "comment": "[pdf cmp1komma2](https://inria.hal.science/inria-00502431v1/file/ws1p22-augerAuthorVersion.pdf) - [pdf cmp1komma2Noisy](https://hal.inria.fr/inria-00502432/document)"
   },
   {
     "suite": "bbob-noisy",
@@ -2293,7 +2293,7 @@
     "year": 2010,
     "author": "Finck and Beyer",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/CMAEGS_finck_noisy.tar.gz",
-    "comment": "[pdf noiseless](https://www.researchgate.net/profile/Steffen_Finck/publication/220740259_Benchmarking_CMA-EGS_on_the_BBOB_2010_noiseless_function_testbed/links/09e4150e5889c7141e000000.pdf) - [doi noisy](http://dx.doi.org/10.1145/1830761.1830784)"
+    "comment": "[pdf noiseless](https://dl.acm.org/doi/pdf/10.1145/1830761.1830783) - [doi noisy](http://dx.doi.org/10.1145/1830761.1830784)"
   },
   {
     "suite": "bbob-noisy",
@@ -2341,7 +2341,7 @@
     "year": 2010,
     "author": "Finck and Beyer",
     "dataset": "https://github.com/numbbo/data-archive/raw/gh-pages/data-archive/bbob-noisy/2010/SPSA_finck_noisy.tar.gz",
-    "comment": "[pdf noiseless](https://www.researchgate.net/profile/Steffen_Finck/publication/220743445_Benchmarking_SPSA_on_BBOB-2010_noiseless_function_testbed/links/09e4150e5889bc24a6000000.pdf) - [pdf noisy](https://www.researchgate.net/profile/Steffen_Finck/publication/220740542_Benchmarking_SPSA_on_BBOB-2010_noisy_function_testbed/links/09e4150e5889c4a807000000.pdf)"
+    "comment": "[pdf noiseless](https://dl.acm.org/doi/pdf/10.1145/1830761.1830787) - [pdf noisy](https://dl.acm.org/doi/pdf/10.1145/1830761.1830784)"
   },
   {
     "suite": "bbob-noisy",
