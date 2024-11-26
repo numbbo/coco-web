@@ -40,30 +40,30 @@ website:
             - text: Problem Visualizations
             - section: Function Definitions
               contents:
-              - text: $f_1$
-              - text: $f_2$
-              - text: $f_3$
-              - text: $f_4$
-              - text: $f_5$
-              - text: $f_6$
-              - text: $f_7$
-              - text: $f_8$
-              - text: $f_9$
-              - text: $f_10$
-              - text: $f_11$
-              - text: $f_12$
-              - text: $f_13$
-              - text: $f_14$
-              - text: $f_15$
-              - text: $f_16$
-              - text: $f_17$
-              - text: $f_18$
-              - text: $f_19$
-              - text: $f_20$
-              - text: $f_21$
-              - text: $f_22$
-              - text: $f_23$
-              - text: $f_24$              
+                - text: f<sub>1</sub> - Sphere
+                - text: f<sub>2</sub> - Separable Ellipsoid
+                - text: f<sub>3</sub> - Separable Rastrigin
+                - text: f<sub>4</sub> - Büche-Rastrigin
+                - text: f<sub>5</sub> - Linear Slope
+                - text: f<sub>6</sub> - Attractive Sector
+                - text: f<sub>7</sub> - Step Ellipsoid
+                - text: f<sub>8</sub> - Rosenbrock (original)
+                - text: f<sub>9</sub> - Rosenbrock (rotated)
+                - text: f<sub>10</sub> - Ellipsoid
+                - text: f<sub>11</sub> - Discus
+                - text: f<sub>12</sub> - Bent Cigar
+                - text: f<sub>13</sub> - Sharp Ridge
+                - text: f<sub>14</sub> - Different Powers
+                - text: f<sub>15</sub> - Rastrigin
+                - text: f<sub>16</sub> - Weierstrass
+                - text: f<sub>17</sub> - Schaffer's F7
+                - text: f<sub>18</sub> - Schaffer's F7 (ill c.)
+                - text: f<sub>19</sub> - Griewank-Rosenbrock
+                - text: f<sub>20</sub> - Schwefel
+                - text: f<sub>21</sub> - Gallagher's 101 Peaks
+                - text: f<sub>22</sub> - Gallagher's 21 Peaks
+                - text: f<sub>23</sub> - Katsuura
+                - text: f<sub>24</sub> - Lunacek bi-Rastrigin
             - text: Performance Comparison
             - text: Data Archive
         - section: bbob-biobj        
@@ -80,8 +80,8 @@ website:
         - text: cocopp Python API
         - text: cocoex Python API
         - text: Core cocoex C API
-    - text: "Workshops {{< fa external-link size=xs >}}"
-      href: https://numbbo.github.io/workshops/ 
+    - text: "Workshops"
+      href: https://numbbo.github.io/workshops/
     - section: Development
       contents:
         - text: coco-experiment
@@ -103,3 +103,4 @@ format:
     code-overflow: wrap
     link-external-icon: true
     link-external-newwindow: true
+    anchor-sections: true
