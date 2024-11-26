@@ -3,7 +3,7 @@ title: "COCO: COmparing Continuous Optimizers"
 ---
 
 
-![](/images/coco.png){width=90% fig-align="center" .lightbox}
+![](/assets/images/coco.png){width=90% fig-align="center" .lightbox}
 
 # A Short Introduction to COCO
 
@@ -30,11 +30,9 @@ For getting started see [Getting Started](getting-started/index.qmd).
 * [How to create and use COCO data archives](https://github.com/numbbo/coco-postprocess/blob/main/src/cocopp/archiving.py)
 with the `cocopp.archiving` Python module
 * [Source code (developer) page on Github](https://github.com/numbbo/coco)
-<li>Get news about COCO by <a href="http://numbbo.github.io/register">registering here</a>
-</li>
-<li>
-  To visit the old COCO webpage, see the <a href="https://web.archive.org/web/20210504150230/https://coco.gforge.inria.fr/">Internet Archive</a>
-</li>
+* Get news about COCO by <a href="http://numbbo.github.io/register">registering here</a>
+* To visit the old COCO webpage, see the <a href="https://web.archive.org/web/20210504150230/https://coco.gforge.inria.fr/">Internet Archive</a>
+
 
 [ppdata]: https://numbbo.github.io/ppdata-archive
 

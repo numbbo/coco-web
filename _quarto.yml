@@ -21,28 +21,72 @@ lang: en
 website:
   title: "<b>CO</b>mparing <b>C</b>ontinuous <b>O</b>ptimizers"
   open-graph: true
-  favicon: "images/favicon.png"
-  sidebar:
-    style: "docked"
+  favicon: assets/images/coco-logo.svg
+  sidebar:    
+    logo: assets/images/coco-logo.svg
+    style: floating
     search: true
+    collapse-level: 2
     contents:
     - text: "Home"
       href: index.qmd
     - text: "Get Started"
       href: getting-started/index.qmd
+    - section: Test Suites
+      contents:
+        - section: bbob
+          contents:
+            - text: Overview
+            - text: Problem Visualizations
+            - section: Function Definitions
+              contents:
+              - text: $f_1$
+              - text: $f_2$
+              - text: $f_3$
+              - text: $f_4$
+              - text: $f_5$
+              - text: $f_6$
+              - text: $f_7$
+              - text: $f_8$
+              - text: $f_9$
+              - text: $f_10$
+              - text: $f_11$
+              - text: $f_12$
+              - text: $f_13$
+              - text: $f_14$
+              - text: $f_15$
+              - text: $f_16$
+              - text: $f_17$
+              - text: $f_18$
+              - text: $f_19$
+              - text: $f_20$
+              - text: $f_21$
+              - text: $f_22$
+              - text: $f_23$
+              - text: $f_24$              
+            - text: Performance Comparison
+            - text: Data Archive
+        - section: bbob-biobj        
+        - section: bbob-biobj-mixint
+        - section: bbob-boxed
+        - section: bbob-constrained
+        - section: bbob-largescale
+        - section: bbob-mixint
+        - section: bbob-noisy
     - text: "Publish Results"
       href: howto-publish.qmd
-    - text: "Data Archive"
-      href: data-archive/index.qmd
+    - section: Reference
+      contents:
+        - text: cocopp Python API
+        - text: cocoex Python API
+        - text: Core cocoex C API
     - text: "Workshops {{< fa external-link size=xs >}}"
-      href: https://numbbo.github.io/workshops/
-    tools:
-      - icon: github
-        menu:
-          - text: Source Code
-            url: https://github.com/numbbo/coco
-          - text: Report an issue
-            url: https://github.com/numbbo/coco/issues/new/choose
+      href: https://numbbo.github.io/workshops/ 
+    - section: Development
+      contents:
+        - text: coco-experiment
+        - text: coco-postprocess
+        - text: coco-viz
   page-footer:
     center:
       - imprint.qmd

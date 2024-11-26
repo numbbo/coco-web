@@ -29,7 +29,8 @@ $green:   #93c54b !default;
 $teal:    #20c997 !default;
 $cyan:    #29abe0 !default;
 
-$primary:       $blue !default;
+$primary:       #4E763B !default;
+$background:    #D9E5D3;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -74,6 +75,9 @@ $nav-pills-link-active-bg:          $gray-200 !default;
 
 // Navbar
 $navbar-bg:                         $primary;
+
+// Sidebar:
+$sidebar-bg:                        $background;
 
 // Pagination
 
@@ -151,6 +155,21 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;70
   font-weight: 500;
   line-height: 22px;
   text-transform: uppercase;
+}
+
+.sidebar-header {
+  text-align: center;
+}
+
+.sidebar-menu-container {
+  .menu-text {
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+  .depth1 .menu-text {
+    font-weight: 400;    
+    font-variant: normal;
+  }
 }
 
 .navbar {
