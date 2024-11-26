@@ -15,7 +15,7 @@ project:
     - "env.yaml"
 
 bibliography: references.bib
-
+csl: style.csl
 lang: en
 
 website:
