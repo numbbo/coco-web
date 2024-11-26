@@ -116,7 +116,7 @@ The output figures of
 ```
 
 contains 31 algorithms and can be browsed at [https://numbbo.github.io/ppdata-archive/bbob/2009](https://numbbo.github.io/ppdata-archive/bbob/2009).
-To display algorithms in the background, the `cocopp.genericsettings.background` variable needs to be set:
+To display algorithms in the background, the `cocopp.genericsettings.background` variable can be set:
 
 ```python
 >>> cocopp.genericsettings.background = {None: cocopp.archives.bbob.get_extended('2009/*')}  # may take some time when these data are downloaded

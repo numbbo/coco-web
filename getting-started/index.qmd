@@ -3,14 +3,157 @@ title: Getting started with COCO
 ---
 
 COCO is a framework for benchmarking optimization algorithms
-and is divided into two main parts which can be used independently:
+and is divided into two main parts which can be used independently: [`coco-experiment`](#running-an-algorithm-on-a-coco-benchmark-suite-experiment) for running experiments and [`coco-postprocess`](#displaying-benchmarking-results-postprocess) for displaying benchmarking data.
 
-# Benchmarking a your algorithm
 
+# Running an Algorithm on a COCO Benchmark Suite (`experiment`)
 
 ::: {.panel-tabset}
 
 ## Python
+
+For benchmarking an algorithm in Python, we use the [`coco-experiment` (`cocoex`)](https://pypi.org/project/coco-experiment) Python package.
+
+### Installation (assuming Python is present)
+From a system shell, execute
+
+```sh
+python -m pip install coco-experiment cocopp
+```
+
+### Using [`coco-experiment` (`cocoex`)](https://numbbo.github.io/coco-doc/apidocs/cocoex)
+Depending on the algorithm, we have to chose the appropriate benchmark suite
+
+```python
+>>> import cocoex  # install(ed) with "pip install coco-experiment"
+
+>>> cocoex.known_suite_names
+['bbob',
+ 'bbob-biobj',
+ 'bbob-biobj-ext',
+ 'bbob-constrained',
+ 'bbob-largescale',
+ 'bbob-mixint',
+ 'bbob-biobj-mixint']
+```
+
+see also [here](https://numbbo.github.io/coco/testsuites).
+
+#### An impractical (oversimplistic) example
+To get an idea of the ultimately necessary code, we first show a working but oversimplistic example for running an experiment that benchmarks [`scipy.optimize.fmin`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html) on the [`bbob`](https://numbbo.github.io/coco/testsuites/bbob) suite.
+Including boilerplate overhead code, it has 2 + 2 + 2 + 3 = 9 lines of (effective) code:
+
+```python
+import cocoex  # experimentation module
+import scipy  # to define the solver to be benchmarked
+
+### input
+suite_name = "bbob"
+fmin = scipy.optimize.fmin  # optimizer to be benchmarked
+
+### prepare
+suite = cocoex.Suite(suite_name, "", "")
+observer = cocoex.Observer(suite_name, "")
+
+### go
+for problem in suite:  # this loop may take several minutes or more
+    problem.observe_with(observer)  # generates the data for cocopp
+    fmin(problem, problem.initial_solution, disp=False)
+```
+
+#### A practical example
+A practical still short-ish example code that benchmarks [`scipy.optimize.fmin`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html) on the [`bbob`](https://numbbo.github.io/coco/testsuites/bbob) suite with a given experimentation budget looks like this:
+
+
+```python
+import cocoex  # experimentation module
+import cocopp  # post-processing module (not strictly necessary)
+import scipy  # to define the solver to be benchmarked
+
+### input
+suite_name = "bbob"
+fmin = scipy.optimize.fmin  # optimizer to be benchmarked
+budget_multiplier = 1  # x dimension, increase to 3, 10, 30,...
+
+### prepare
+suite = cocoex.Suite(suite_name, "", "")  # see https://numbbo.github.io/coco-doc/C/#suite-parameters
+output_folder = '{}_of_{}_{}D_on_{}'.format(
+        fmin.__name__, fmin.__module__ or '', int(budget_multiplier), suite_name)
+observer = cocoex.Observer(suite_name, "result_folder: " + output_folder)
+repeater = cocoex.ExperimentRepeater(budget_multiplier)  # 0 == no repetitions
+minimal_print = cocoex.utilities.MiniPrint()
+
+### go
+while not repeater.done():  # while budget is left and successes are few
+    for problem in suite:  # loop takes 2-3 minutes x budget_multiplier
+        if repeater.done(problem):
+            continue  # skip this problem
+        problem.observe_with(observer)  # generate data for cocopp
+        problem(problem.dimension * [0])  # for better comparability
+        xopt = fmin(problem, repeater.initial_solution_proposal(problem),
+                    disp=False)
+        problem(xopt)  # make sure the returned solution is evaluated
+        repeater.track(problem)  # track evaluations and final_target_hit
+        minimal_print(problem)  # show progress
+
+### post-process data
+cocopp.main(observer.result_folder + ' bfgs!');  # re-run folders look like "...-001" etc
+```
+
+The benchmarking data are written to a subfolder in the `exdata` folder (see also [here](https://github.com/numbbo/coco/issues/1841)).
+The last line postprocesses the obtained data and compares the result with BFGS (see also below [Displaying Benchmarking Results (postprocess)](displaying-benchmarking-results-postprocess)).
+The resulting figures and tables can be browsed from the file `./ppdata/index.html`.
+
+For running the benchmarking in several batches a somewhat expanded example `example_experiment_complete.py` can be found in [this subfolder](https://github.com/numbbo/coco-experiment/tree/main/build/python/example).
+
+#### Benchmarking "your own" algorithm
+For benchmarking another algorithm,
+
+1. copy-paste the above code or (preferably) download the linked batching example `example_experiment_complete.py` and the `mkl_bugfix.py` file
+2. revise the lines following `### input`, in particular
+   - reassign `fmin` to run the desired algorithm
+   - adapt the calling code `fmin(problem, ...)` respectively
+   - some algorithms may need a maximal budget, like `problem.dimension * algorithm_budget_multiplier` as input parameter
+3. expect to iterate over the below points many times, start with a low budget to reduce waiting time!
+   For first experiments, the suite can be filtered to contain lesser instances and few dimensions like `suite = cocoex.Suite(suite_name, "instances: 1-5", "dimensions: 2,3,5,10,20")` (for the `bbob` suite).
+4. execute the file from a system shell like 
+   ```python
+   python example_experiment_complete.py 1 # under *nix, consider using "nohup nice ..."
+   ```
+   or from an ipython shell or notebook like
+   ```python
+   %run example_experiment_complete.py 1
+   ```
+   where the "1" is used as the above `budget_multiplier` when using `example_experiment_complete.py`.
+5. inspect the figures (and tables) generated by `cocopp.main`, see also [Displaying Benchmarking Results (postprocess)](displaying-benchmarking-results-postprocess) below.
+6. when using the downloaded example, ideally, add an algorithm to compare with in the call to `cocopp.main` as shown above (last line).
+   The choice depends on the used test suite and preference.
+7. repeat from 4. with increased `budget_multiplier` argument
+
+### Practical hints
+
+Benchmarking is usually an iterative process of repeatedly running experiments and inspecting data.
+The recommended approach is to successively increase the above `budget_multiplier` starting with short(er) experiments (which take at first only minutes, then hours, then...) and correcting successively for bugs or setup inaccuracies on the way by carefully inspecting the resulting data.
+
+Parameters that influence termination conditions of the algorithm may have a significant impact on the performance results.
+It is advisable to determine whether these parameters meet the test suite and the experimental conditions.
+More specifically,
+
+  - check the termination status of the algorithm, at least on a random test basis
+  - termination is usually advisable when the algorithm has stalled for some period of time.
+    Long stagnations in the empirical runtime distributions indicate too late termination,
+    whereas a still increasing distribution graph right before the budget is exhausted indicates too early termination.[^1]
+
+The above `budget_multiplier` for the experiment is _ideally_ not used as input budget to the algorithm
+because it is meant to be interpreted as experimental condition and not as algorithm parameter.
+For algorithms without any other termination criteria however it may be used.
+When the experimental budget is smaller than the budget that the algorithm uses, the latter will determine the outcome.
+When the algorithm terminates earlier unsuccessfully, another experiment sweep is invoked by `repeater`.
+
+[^1]: The budget crosses in the figures indicate the _actually used_ budget (median) which can be (quite) different from the budget given here.
+
+In order to get _some_ results as quickly as possible, and besides running batches in parallel, it can be useful to omit _in the first experiments_ some instances and the largest dimension of the suite (in exchange for a larger `budget_multiplier`) using the [suite parameters options](https://numbbo.github.io/coco-doc/C/#suite-parameters).
+Running the first 5 instances only and passing ``min_successes=5`` to `RepeatExperiment` has been found to be a useful practical approach.
 
 ## C
 
@@ -83,12 +226,135 @@ and compiler. However, compilation has been tested successfully under
 
 :::
 
-### Running an algorithm on a COCO benchmark suite: [Getting started](experiment-python.qmd)
-  - *In Python:* go to [Getting started---Benchmarking an algorithm (collecting data) with Python](experiment-python.qmd).
-  - *In other languages:* this usually (currently) requires to make a local clone of [github/numbbo/coco-experiment](https://github.com/numbbo/coco-experiment) and run `scripts/fabricate` (see the build instructions [here](https://github.com/numbbo/coco-experiment/blob/master/DEVELOPMENT.md)) _and_ follow the instructions in the respective subfolder of [`code-experiments/build`](https://github.com/numbbo/coco-experiment/tree/main/build).
+# Displaying Benchmarking Results (`postprocess`)
 
-### Displaying COCO results (postprocess): [Getting started](postprocess.qmd)
-Go to [Getting started--Analysing and comparing results (postprocess)](postprocess.qmd).
+Benchmarking performance results are displayed with the [`cocopp`](https://pypi.org/project/cocopp) (`coco-postprocess`) Python module and a web browser.
+
+## Installation (assuming Python is present)
+From a system shell, execute
+
+```sh
+python -m pip install cocopp
+```
+
+## General usage
+The [`cocopp`](https://pypi.org/project/cocopp) "postprocessing" allows basic usage in a system shell, like
+
+```sh
+python -m cocopp name_1 [name_2 [name_3 [... ]]]
+```
+
+which creates a couple of hundred figures and (after some seconds or a minute) displays the page `ppdata/index.html` with the default browser.
+The arguments `name_1`, `name_2`,... (`[]`-braces indicate optional arguments) are either **local folders** containing COCO data from
+a single benchmarked algorithm (typically like `exdata/algorithm_name` generated using the [COCO experimentation module](https://numbbo.it/getting-started/experiment-python.html))
+or names of **benchmarked algorithms** from the [COCO data archive](https://numbbo.github.io/data-archive) (or substrings of names, see below).
+
+Specifically,
+```sh
+python -m cocopp 22/cma-es-pycma 09/nelderdoerr 20/slsqp-11
+```
+gives, for example, these runtime profiles (which are, broadly speaking, empirical runtime distributions, see @hansen2022anytime) for three algorithms for all [`bbob`-functions](testbeds/bbob) (left) and for `bbob`-functions 6 and 14 in 20-D.
+
+::::{.grid}
+
+:::{.g-col-md-4 .g-col-sm-12}
+
+![](images/CMA-E_NELDE_SLSQP_pprldmany_20D_noiselessall.svg){.lightbox}
+
+:::
+
+:::{.g-col-md-4 .g-col-sm-12}
+
+![](images/CMA-E_NELDE_SLSQP_pprldmany_f006_20D.svg){.lightbox}
+
+:::
+
+:::{.g-col-md-4 .g-col-sm-12}
+
+![](images/CMA-E_NELDE_SLSQP_pprldmany_f014_20D.svg){.lightbox}
+
+:::
+
+::::
+
+The recommended usage is from an `ipython` shell or a Jupyter notebook via the
+[`cocopp.main`](https://numbbo.github.io/coco-doc/apidocs/cocopp/cocopp.rungeneric.html#main) method.
+
+```python
+>>> import cocopp
+>>> cocopp.main('name_1 [name_2 [name_3 ...]]')
+```
+gives the same result as the first above.
+
+## Finding data to compare with
+Hundreds of COCO comparative data sets are [provided online](../data-archive) and can be listed, filtered, and retrieved via
+[`cocopp.archives`](https://numbbo.github.io/coco-doc/apidocs/cocopp/cocopp.archiving.OfficialArchives.html) and processed alone or together with local data.
+For example,
+
+```python
+>>> import cocopp
+>>> cocopp.archives.bbob('bfgs')  # list COCO data of bfgs on the bbob suite
+
+['2009/BFGS_ros_noiseless.tgz',
+ '2012/DE-BFGS_voglis_noiseless.tgz',
+ '2012/PSO-BFGS_voglis_noiseless.tgz',
+ '2014-others/BFGS-scipy_Baudis.tgz',
+ '2014-others/L-BFGS-B-scipy_Baudis.tgz',
+ '2018/BFGS-M-17_Blelly.tgz',
+ '2018/BFGS-P-09_Blelly.tgz',
+ '2018/BFGS-P-Instances_Blelly.tgz',
+ '2018/BFGS-P-StPt_Blelly.tgz',
+ '2018/BFGS-P-range_Blelly.tgz',
+ '2019/BFGS-scipy-2019_Varelas.tgz',
+ '2019/L-BFGS-B-scipy-2019_Varelas.tgz']
+ ```
+
+lists all data sets run on the `bbob` testbed containing `'bfgs'` in their name.
+
+## More examples
+
+The `cocopp.main` function takes any number of strings separated by spaces as argument (or a list of strings).
+For example, the first three entries from the above list can be postprocessed like
+
+```python
+>>> dsl = cocopp.main('bfgs! 12/DE-BFGS 12/PSO-BFGS')  # "!" picks the first match only
+```
+
+Each string must give a single unique match (exceptions are specified below),
+where the exclamation mark indicates the first match in the results from `cocopp.archives.all('bfgs')`.
+Otherwise, an (informative) `ValueError` is raised.
+The order can be changed and determines the colors in the figures.
+This call creates a few hundreds of figures and modifies and opens `ppdata/index.html` in a browser, and finally returns a data set list of all read-in data.
+We can also use regular expression syntax.
+For example to display all BFGS data from the `bbob` suite,
+
+```python
+>>> dsl = cocopp.main('bbob/.*bfgs')
+```
+
+where `.*` matches any character any number of times (including zero) and the expression must match the beginning of the archive entry name.
+
+As a special case, a trailing `*` indicates all names _containing_ the preceding substring (not a regular expression).
+The output figures of
+
+```python
+>>> dsl = cocopp.main('bob/2009/*')  # may take some more time when these data are downloaded
+```
+
+contains 31 algorithms and can be browsed at [https://numbbo.github.io/ppdata-archive/bbob/2009](https://numbbo.github.io/ppdata-archive/bbob/2009).
+To display algorithms in the background, the `cocopp.genericsettings.background` variable can be set:
+
+```python
+>>> cocopp.genericsettings.background = {None: cocopp.archives.bbob.get_extended('2009/*')}  # may take some time when these data are downloaded
+```
+where [`None`](http://docs.python.org/library/constants.html#None) invokes the default color and line style (solid grey, `cocopp.genericsettings.background_default_style`).
+
+Finally, we can, for example, compare our own data with a version of the Nelder-Mead simplex downhill algorithm, here the first `'nelder'`-matching archived algorithm, while all other COCO data from 2009 (on the `bbob` suite) are shown in the background:
+
+```python
+>>> dsl = cocopp.main('exdata/my_data nelder!')
+```
+
 
 [//]: # (We may want to have some buttons here [Benchmarking an algorithm (collecting data) with Python](experiment-python.qmd) [Analysing and comparing results (postprocess)](postprocess.qmd) We may want to have here ## Related links)
 
