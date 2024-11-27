@@ -1,17 +1,19 @@
 ---
-title: How to Publish Your Data Within COCO
+title: How to Publish Data Within COCO
+execute:
+  freeze: auto  # re-render only when source changes
 ---
 
 There are two ways to make data easily accessible to the community:
 
-- propose inclusion of your data into [`cocopp.archives`](https://numbbo.github.io/data-archive), or
-- host your own COCO archive with your data.
+- proposing inclusion of the data into [`cocopp.archives`](https://numbbo.github.io/data-archive), or
+- hosting a COCO archive of the data.
 
 In both cases, first, the data need to be prepared. For this, for each
-dataset (that is, each benchmarked algorithm variant):
+dataset, that is, each benchmarked algorithm or algorithm variant:
 
 1. **Zip the data folder.**  
-   A data zipfile contains a single folder under which all data from a
+   A data zipfile shall contain a single folder under which all data from a
    single full experiment was collected. The folder can contain subfolders
    (or subsub...folders), for example of data from different (sub)batches of
    the complete experiment. Valid formats are
@@ -31,7 +33,7 @@ This option is available if one or several datasets were used in a publication o
 For this:
 
 3. Upload the above data zipfile(s) to a file sharing site or to an accessible URL.
-3. Ask for the inclusion into [`cocopp.archives`](https://numbbo.github.io/data-archive) by opening an [issue][gh-issue] on Github with 
+3. Ask for the inclusion into [`cocopp.archives`](https://numbbo.github.io/data-archive) by [opening an issue at `numbbo/data-archive`][gh-issue] on Github with 
    - the publication reference and a link to the paper
    - a very short description of each dataset including the name of
      - the algorithm
@@ -40,7 +42,7 @@ For this:
    - a link to the dataset zip file(s)
    - (optional but encouraged) a link to the source code to reproduce the dataset
 
-[gh-issue]: https://github.com/numbbo/coco/issues/new/choose
+[gh-issue]: https://github.com/numbbo/coco/issues/new?assignees=brockho&labels=data+submission&projects=&template=submit-a-coco-data-set.md&title=%5BDATA+SUBMISSION%5D+put+a+title+here
 
 ## Host an Archive
 
@@ -84,7 +86,7 @@ For this:
      via an URL. The archive is now accessible with `cocopp.archiving.get('URL')`
      (see below example).
 
-  1. **Open an** [**issue** at the Github repository of COCO](https://github.com/numbbo/coco/issues)
+  1. **Open an** [**issue** at the numbbo/data-archive Github repository of COCO](https://github.com/numbbo/data-archive/issues)
      (you need to have a Github account) signalling the URL of the archive with
      a short description of the dataset(s) in the archive.
 
@@ -118,25 +120,33 @@ with hashcodes and filesizes as additional entries.
 
 [gh-mixint]: https://github.com/numbbo/data-archive/tree/gh-pages/data-archive/bbob-mixint
 
-### Using a self-hosted archive in `cocopp`
+### Using an archive by URL
 
-Here's an example of how to use a self-hosted archive using the `cocopp` package for postprocessing.
+Here's an example of how to use a (possibly self-hosted) archive from an URL
+with the `cocopp` package for postprocessing.
 
 ```python
 import cocopp
 
-url = 'http://lq-cma.gforge.inria.fr/data-archives/lq-gecco2019'
+url = 'https://numbbo.github.io/data-archive/data-archive/bbob'
 arch = cocopp.archiving.get(url)
 print(arch)  # `arch` "is" a `list` of relative filenames
-['CMA-ES__2019-gecco-surr.tgz',
- 'SLSQP+CMA_2019-gecco-surr.tgz',
- 'SLSQP-11_2019-gecco-surr.tgz',
- 'lq-CMA-ES_2019-gecco-surr.tgz']
+['2009/ALPS_hornby_noiseless.tgz',
+ '2009/AMALGAM_bosman_noiseless.tgz',
+ '2009/BAYEDA_gallagher_noiseless.tgz',
+ '2009/BFGS_ros_noiseless.tgz',
+ '2009/BIPOP-CMA-ES_hansen_noiseless.tgz',
+ '2009/CMA-ESPLUSSEL_auger_noiseless.tgz',
+ '2009/Cauchy-EDA_posik_noiseless.tgz',
+ [...]  # suppressing remainder output
+ ]
+print(arch == cocopp.archives.bbob)
+True
 
-# compare local result with data from lq-cma archive
-# and from the cocopp.archives.bbob archive
-cocopp.main([# 'exdata/my_local_results',  # in case
-    arch.get('SLSQP-11'),  # downloads if necessary
-    cocopp.archives.bbob.get_first('2010/IPOP-CMA'),
-    arch.get('CMA-ES_2019')])
+# compare local result with a result from `arch`
+# and from the `cocopp.archives.bbob` archive
+dsl = cocopp.main([
+         # 'exdata/my_local_results',  # in case
+         arch.get('2020/SLSQP-11'),  # downloads if necessary
+         cocopp.archives.bbob.get_first('2010/IPOP-CMA')])
 ```

@@ -3,7 +3,10 @@ title: Getting started with COCO
 ---
 
 COCO is a framework for benchmarking optimization algorithms
-and is divided into two main parts which can be used independently: [`coco-experiment`](#running-an-algorithm-on-a-coco-benchmark-suite-experiment) for running experiments and [`coco-postprocess`](#displaying-benchmarking-results-postprocess) for displaying benchmarking data.
+and is divided into _two main parts_ which can be used independently:
+
+- [`coco-experiment`](#running-an-algorithm-on-a-coco-benchmark-suite-experiment) for running experiments and
+- [`coco-postprocess`](#displaying-benchmarking-results-postprocess) for displaying benchmarking data.
 
 
 # Running an Algorithm on a COCO Benchmark Suite (`experiment`)
