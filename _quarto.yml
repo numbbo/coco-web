@@ -74,7 +74,7 @@ website:
         - section: bbob-boxed
           contents:
             - text: Data Archive
-              href: data-archive/sbox-cost.qmd
+              href: data-archive/bbob-boxed.qmd
         - section: bbob-constrained
           contents:
             - text: Data Archive

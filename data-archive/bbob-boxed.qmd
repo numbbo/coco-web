@@ -1,10 +1,11 @@
 ---
-title: Algorithm data sets for the sbox-cost test suite
+title: Algorithm data sets for the `bbob-boxed` test suite
 ---
 
-In the table below, you will find all official algorithm data sets on the bound-constrained sbox-cost test suite, 
-together with their year of publication, the authors, and related PDFs for each data set. Links to the 
-source code to run the corresponding experiments/algorithms are provided whenever available.
+In the table below, you will find all official algorithm data sets on the bound-constrained `bbob-boxed` 
+test suite, also known originally as `sbox-cost`, together with their year of publication, the authors, 
+and related PDFs for each data set. Links to the source code to run the corresponding experiments/algorithms 
+are provided whenever available.
 
 To sort the table, simply click on the table header of the corresponding column.
 
