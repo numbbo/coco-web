@@ -3,7 +3,29 @@ title: "COCO: COmparing Continuous Optimizers"
 ---
 
 
-![](/assets/images/coco.png){width=90% fig-align="center" .lightbox}
+::::{.grid}
+
+:::{.g-col-md-4 .g-col-sm-12}
+
+![](getting-started/images/CMA-E_NELDE_SLSQP_pprldmany_20D_noiselessall.svg){.lightbox}
+
+:::
+
+:::{.g-col-md-4 .g-col-sm-12}
+
+![](getting-started/images/CMA-E_NELDE_SLSQP_pprldmany_f006_20D.svg){.lightbox}
+
+:::
+
+:::{.g-col-md-4 .g-col-sm-12}
+
+![](getting-started/images/CMA-E_NELDE_SLSQP_pprldmany_f014_20D.svg){.lightbox}
+
+:::
+
+::::
+
+
 
 # A Short Introduction to COCO
 
@@ -54,6 +76,11 @@ You may cite this work in a scientific context as
   year = 2021
 }
 ```
+
+# Data Flow Chart
+
+![](/assets/images/coco.png){width=90% fig-align="center" .lightbox}
+
 
 The COCO platform has been used for the Black-Box-Optimization-Benchmarking (BBOB) workshops that took place during the GECCO conference in 2009, 2010, 2012, 2013, 2015 -- 2019, and 2021 -- 2023.
 It was also used at the IEEE Congress on Evolutionary Computation (CEC’2015) in Sendai, Japan.
