@@ -1,33 +1,27 @@
 ---
-title: Algorithm data sets for the bbob-biobj test suite  
+title: Algorithm data sets for the `bbob-biobj` test suite
 ---
 
 
-In the table below, you will find all official algorithm data sets on the bbob-biobj test suite, 
+In the table below, you will find all official algorithm data sets on the `bbob-biobj` test suite, 
 together with their year of publication, the authors, and related PDFs for each data set. Links to the 
 source code to run the corresponding experiments/algorithms are provided whenever available.
 
 To sort the table, simply click on the table header of the corresponding column.
 
+Note that a manual download of the data is not necessary if you use the
+[displaying results module (cocopp)](../getting-started/index.qmd#displaying-coco-results-postprocess-getting-started) 
+of COCO.
+
+
+
 ```{python}
 #| echo: false
 #| output: asis
 
-import json
+from dsh import display_suite_table
 
-with open("data-archive.json", "r") as fd:
-    data = json.loads(fd.read())
-
-table = []
-for ds in data:
-    if ds["suite"] != "bbob-biobj":
-        continue
-    table.append([ds["algorithm"], ds["year"], ds["author"], f'[tgz](ds["dataset"])', ds["comment"]])
-from IPython.display import Markdown
-from tabulate import tabulate
-
-display(Markdown(tabulate(table, headers=["Algorithm", "Year", "Author(s)", "Dataset", "Comment"])))
-display(Markdown("\n: {.js-sort-table .column-page-right}"))
+display_suite_table("bbob-biobj")
 ```
 
 <script type="text/javascript" src="/assets/js/sort-table.js"></script>

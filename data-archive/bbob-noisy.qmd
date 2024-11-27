@@ -7,6 +7,12 @@ together with their year of publication, the authors, and related PDFs for each 
 source code to run the corresponding experiments/algorithms are provided whenever available.
 
 To sort the table, simply click on the table header of the corresponding column.
+
+Note that a manual download of the data is not necessary if you use the
+[displaying results module (cocopp)](../getting-started/index.qmd#displaying-coco-results-postprocess-getting-started) 
+of COCO.
+
+
 ```{python}
 #| echo: false
 #| output: asis

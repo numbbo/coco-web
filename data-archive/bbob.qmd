@@ -14,6 +14,11 @@ requested dimensions 2, 3, 5, 10, 20.
 To sort the tables, simply click on the table header of the corresponding
 column.
 
+Note that a manual download of the data is not necessary if you use the
+[displaying results module (cocopp)](../getting-started/index.qmd#displaying-coco-results-postprocess-getting-started) 
+of COCO.
+
+
 ## Official and complete data sets
 
 ```{python}

@@ -66,13 +66,32 @@ website:
                 - text: f<sub>24</sub> - Lunacek bi-Rastrigin
             - text: Performance Comparison
             - text: Data Archive
-        - section: bbob-biobj        
+              href: data-archive/bbob.qmd
+        - section: bbob-biobj  
+          contents:
+            - text: Data Archive
+              href: data-archive/bbob-biobj.qmd
         - section: bbob-biobj-mixint
         - section: bbob-boxed
+          contents:
+            - text: Data Archive
+              href: data-archive/sbox-cost.qmd
         - section: bbob-constrained
+          contents:
+            - text: Data Archive
+              href: data-archive/bbob-constrained.qmd
         - section: bbob-largescale
+          contents:
+            - text: Data Archive
+              href: data-archive/bbob-largescale.qmd
         - section: bbob-mixint
+          contents:
+            - text: Data Archive
+              href: data-archive/bbob-mixint.qmd
         - section: bbob-noisy
+          contents:
+            - text: Data Archive
+              href: data-archive/bbob-noisy.qmd
     - text: "Publish Results"
       href: howto-publish.qmd
     - section: Reference
