@@ -20,8 +20,7 @@ lang: en
 
 website:
   title: "<b>CO</b>mparing <b>C</b>ontinuous <b>O</b>ptimizers"
-  open-graph: true
-  favicon: assets/images/coco-logo.svg
+  open-graph: true  
   sidebar:    
     logo: assets/images/coco-logo.svg
     style: floating
@@ -109,9 +108,8 @@ website:
   page-footer:
     center:
       - imprint.qmd
-  search: 
-    location: navbar
-    type: overlay
+  search:
+    type: textbox    
 
 format:
   html:
@@ -123,3 +121,8 @@ format:
     link-external-icon: true
     link-external-newwindow: true
     anchor-sections: true
+    include-in-header:
+      text: |
+        <link rel="icon" type="image/png" href="/assets/images/coco-logo-16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="/assets/images/coco-logo-32.png" sizes="32x32">
+        <link rel="icon" type="image/svg+xml" href="/assets/images/coco-logo.svg">
