@@ -175,6 +175,133 @@ the following is lacking:
   
 - A C compiler, like `gcc`, which is invoked by `mex`. 
 
+### Installation (assuming MATLAB version >= 2023b)
+In MATLAB, run the following commands (assuming a Unix File System and ``python3`` command for calling python from terminal, for other options, the script needs to be appropriately modified), that download the repository and run the required python scripts (in `scripts/fabricate`) and MATLAB scripts (`setup.m`). 
+```sh
+gitclone('https://github.com/numbbo/coco-experiment.git');
+command('python3 coco-experiment/scripts/fabricate');
+run("coco-experiment/build/matlab/setup.m");
+```
+For MATLAB versions < 2023b (without the gitclone function), the repository needs to be downloaded manually. 
+
+### Before You Start
+Incorrent use of the COCO Bechmark Suite can cause MATLAB crashes. Unfortunately, when these happen while running the MATLAB IDE no message is shown and you will be left in the dark on why the crash happened. 
+The simplest way to find out is to run the script/command that resulted in the crash in the terminal (supposing the `matlab` command starts MATLAB):
+```sh 
+$ matlab -nodesktop -nosplash
+% MATLAB loads up
+>> run('script_causing_the_crash.m')
+```
+
+
+### Very Simple Example (single function instance, no logger)
+We start exploring the functionality of the COCO Benchmark Suite by getting a single function instance (with id 42), inspecting its various aspects (name, dimension, bounds, etc.), plotting it, and using one of the MATLAB functions for optmization.
+```sh
+%path to the MATLAB build
+addpath("coco-experiment/build/matlab/") 
+
+%only suit name (bbob), no logger
+suite_name = 'bbob';
+suite = cocoSuite(suite_name,'', '');
+
+%select problem id, show what problem it is
+problem_id = 42; 
+problem = cocoSuiteGetProblem(suite, problem_id);
+disp(cocoProblemGetName(problem));
+
+%get dimension, lower bounds, upper bounds and a starting point
+dim = cocoProblemGetDimension(problem); %beware that dim is int32
+lb = cocoProblemGetSmallestValuesOfInterest(problem);
+ub = cocoProblemGetLargestValuesOfInterest(problem);
+x0 = cocoProblemGetInitialSolution(problem); 
+
+%define the function to minimize from the problem
+fun = @(x) cocoEvaluateFunction(problem,x);
+
+%surf plot
+if dim == 2
+    x1_discretization = linspace(lb(1),ub(1));
+    x2_discretization = linspace(lb(2),ub(2));
+    [X1,X2] = meshgrid(x1_discretization,x2_discretization);
+    Z = 0*X1;
+    for it=1:numel(X1)
+        Z(it) = fun([X1(it), X2(it)]);
+    end
+    surf(X1,X2,Z);
+end
+
+%optimize with your favourite method
+options = optimset('Display','iter','MaxFunEvals',200*dim);
+[x_res,f_res] = fminsearch(fun,x0,options) %Nelder-Mead
+%[x_res,f_res] = fmincon(fun,x0,[],[],[],[],lb,ub,[],options) %BFGS
+%[x_res,f_res] = myoptimizer(...) %favourite optimizer
+
+%free the suit (otherwise, MATLAB crashes might happen)
+cocoSuiteFree(suite);
+```
+
+### Medium Example (sweep over the functions with a logger and a custom method)
+This example shows a minimal use of the whole bbob suit - setting up the observer, looping over all the problems in the suit and optimizing them with a custom method. A more elaborate MATLAB example can be found in the `\build\matlab` directory under the name `exampleexperiment.m`.
+```sh 
+addpath("coco-experiment/build/matlab/");
+
+%multiplier for number of maximum function evaluations
+max_evals_mult = 1e1;
+
+%algorithm name, all text in the example needs to use char arrays, not strings 
+alg_str = 'rand'; 
+
+%set up the suite
+suite_name = 'bbob';
+suite = cocoCall('cocoSuite', suite_name,'', '');
+
+%set up the observer that logs the progress and saves it in a specified directory
+observer_name = 'bbob';
+str_folder = strcat('result_folder: ',alg_str,'-',num2str(max_evals_mult),'_on_');
+str_alg_name = strcat(' algorithm_name: ',alg_str,'-',num2str(max_evals_mult));
+observer_options = strcat(str_folder, suite_name, str_alg_name);
+observer = cocoObserver(observer_name, observer_options);
+
+%sweep over the problems in the suite, optimize with a custom_optimizer
+while true
+    problem = cocoSuiteGetNextProblem(suite, observer);
+    if ~cocoProblemIsValid(problem)
+        break;
+    end
+    dim = cocoProblemGetDimension(problem);
+    max_evals = dim*max_evals_mult;
+    lb = cocoProblemGetSmallestValuesOfInterest(problem);
+    ub = cocoProblemGetLargestValuesOfInterest(problem);
+    x0 = cocoProblemGetInitialSolution(problem); 
+    fun = @(x) cocoEvaluateFunction(problem,x);
+    [x_best,val_best] = custom_optimizer(fun,[],lb,ub,max_evals);
+end
+
+cocoObserverFree(observer);
+cocoSuiteFree(suite);
+
+%simple random search implementation
+function [x_best,val_best] = custom_optimizer(fun,x0,lb,ub,max_evals)
+    n = length(lb);
+    delta = ub - lb;
+    val_best = Inf;
+    x_best = Inf*ones(1,n);
+    for i= 1:max_evals
+        if i==1 && ~isempty(x0)
+            x = x0;
+        else
+            x = lb + rand(1,n) .* delta;
+        end
+        val = fun(x);
+        if val < val_best
+            val_best = val;
+            x_best = x;
+        end
+    end
+end
+```
+
+
 ### Getting Started
 
 - 

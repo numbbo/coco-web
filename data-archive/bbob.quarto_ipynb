@@ -1,0 +1,85 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: Algorithm data sets for the `bbob` test suite \n",
+        "---\n",
+        "\n",
+        "\n",
+        "In the first table below, you will find all official algorithm data sets on the\n",
+        "bbob test suite, together with their year of publication, the authors, and\n",
+        "related PDFs for each data set. Links to the source code to run the\n",
+        "corresponding experiments/algorithms are provided whenever available.\n",
+        "\n",
+        "A second table mentions data sets that have been collected on the bbob suite,\n",
+        "but which are not complete in the sense that they miss at least one of the\n",
+        "requested dimensions 2, 3, 5, 10, 20.\n",
+        "\n",
+        "To sort the tables, simply click on the table header of the corresponding\n",
+        "column.\n",
+        "\n",
+        "Note that a manual download of the data is not necessary if you use the\n",
+        "[displaying results module (cocopp)](../getting-started/index.qmd#displaying-coco-results-postprocess-getting-started) \n",
+        "of COCO.\n",
+        "\n",
+        "\n",
+        "## Official and complete data sets\n"
+      ],
+      "id": "0d7f403f"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "#| output: asis\n",
+        "\n",
+        "from dsh import display_suite_table\n",
+        "\n",
+        "display_suite_table(\"bbob\")"
+      ],
+      "id": "e67c66f9",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Inofficial/incomplete data sets\n",
+        "\n",
+        "|     Number     | Algorithm Name           | Year | Author(s)                  |                              link to data                                    | related PDFs, source code, and remarks                                                                                                                                               |\n",
+        "|:--------------:|:-------------------------|:----:|:---------------------------|:----------------------------------------------------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n",
+        "| inofficial-001 | BFGS-scipy               | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/BFGS-scipy_Baudis.tgz)                  | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |\n",
+        "| inofficial-002 | CG-Fletcher-Reeves-scipy | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/CG-Fletcher-Reeves-scipy_Baudis.tgz)    | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |\n",
+        "| inofficial-003 | CMA-ES-python            | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/CMA-ES-python_Baudis.tgz)               | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |\n",
+        "| inofficial-004 | EG50-cocopf              | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/EG50-cocopf_Baudis.tgz)                 | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |\n",
+        "| inofficial-005 | L-BFGS-B-scipy           | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/L-BFGS-B-scipy_Baudis.tgz)              | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |\n",
+        "| inofficial-006 | Nelder-Mead-scipy        | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/Nelder-Mead-scipy_Baudis.tgz)           | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |\n",
+        "| inofficial-007 | Powell-scipy             | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/Powell-scipy_Baudis.tgz)                | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |\n",
+        "| inofficial-008 | SLSQP-scipy              | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/SLSQP-scipy_Baudis.tgz)                 | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |\n",
+        "| inofficial-009 | UNIF-cocopf              | 2014 | Baudiš                     | [data]({{ page.dataDir }}2014-others/UNIF-cocopf_Baudis.tgz)                 | [arXiv paper](https://arxiv.org/pdf/1405.3487.pdf)                                                                                                                                   |\n",
+        "| inofficial-010 | GNN-CMA-ES               | 2019 | Faury et al.               | [data]({{ page.dataDir }}2019/GNN-CMA-ES_Faury.tgz)                          | [GECCO 2019 paper](https://dl.acm.org/doi/pdf/10.1145/3319619.3326856?casa_token=aWJ9DQKuatcAAAAA:B3SYqK39zVTgcl1i-uGWghVFZO2jc9Lte2uU-Fr8sjmx3CSgdL0LxRj-eaEpuUbC3pNWuryEAkM)       |\n",
+        "| inofficial-011 | IPOP-CMA-ES-2019         | 2019 | Faury et al.               | [data]({{ page.dataDir }}2019/IPOP-CMA-ES-2019_Faury.tgz)                    | [GECCO 2019 paper](https://dl.acm.org/doi/pdf/10.1145/3319619.3326856?casa_token=aWJ9DQKuatcAAAAA:B3SYqK39zVTgcl1i-uGWghVFZO2jc9Lte2uU-Fr8sjmx3CSgdL0LxRj-eaEpuUbC3pNWuryEAkM)       |\n",
+        ": {.js-sort-table .column-page-right}\n",
+        "\n",
+        "<script type=\"text/javascript\" src=\"/assets/js/sort-table.js\"></script>\n",
+        "<link rel=\"stylesheet\" href=\"/assets/css/data-table.css\"/>"
+      ],
+      "id": "f3f8361c"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/usr/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
