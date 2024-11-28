@@ -3,7 +3,7 @@ title: Getting started with COCO
 ---
 
 COCO is a framework for benchmarking optimization algorithms
-and is divided into _two main parts_ which can be used independently:
+and divided into _two main parts_ which can be used independently:
 
 - [`coco-experiment`](#running-an-algorithm-on-a-coco-benchmark-suite-experiment) for running experiments and
 - [`coco-postprocess`](#displaying-benchmarking-results-postprocess) for displaying benchmarking data.
@@ -117,8 +117,9 @@ For benchmarking another algorithm,
    - reassign `fmin` to run the desired algorithm
    - adapt the calling code `fmin(problem, ...)` respectively
    - some algorithms may need a maximal budget, like `problem.dimension * algorithm_budget_multiplier` as input parameter
-3. expect to iterate over the below points many times, start with a low budget to reduce waiting time!
-   For first experiments, the suite can be filtered to contain lesser instances and few dimensions like `suite = cocoex.Suite(suite_name, "instances: 1-5", "dimensions: 2,3,5,10,20")` (for the `bbob` suite).
+3. expect to iterate over the next points quite a few times, starting with a low budget to reduce waiting time!
+   For the first experiments, the suite should rather be filtered to contain lesser instances and few dimensions
+   like `suite = cocoex.Suite(suite_name, "instances: 1-5", "dimensions: 2,3,5,10,20")` (for the `bbob` suite).
 4. execute the file from a system shell like 
    ```python
    python example_experiment_complete.py 1 # under *nix, consider using "nohup nice ..."
