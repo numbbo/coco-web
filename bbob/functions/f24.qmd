@@ -1,0 +1,91 @@
+---
+title: "f<sub>24</sub>: Lunacek bi-Rastrigin"
+format:
+  html:
+    include-after-body: 
+      - text: <script type="text/javascript" defer src="/assets/js/helpers.js"></script>
+      - text: <script type="text/javascript" defer src="/assets/js/viz-bbob-grid-plots.js"></script>
+---
+<div id="text-f24">
+
+$$f_{24}(\mathbf{x}) = \mathrm{min}\left(\sum_{i = 1}^{D}(\hat{x}_i - \mu_0)^2,
+                       d\,D+ s\sum_{i = 1}^{D}(\hat{x}_i - \mu_1)^2\right)
+           + 10\left(D- \sum_{i=1}^D\cos(2\pi z_i)\right) + 10^4\,f^{{}_\mathrm{pen}}(\mathbf{x}) + f_{\mathrm{opt}}$$
+
+-   $\hat{\mathbf{x}} = 2\,\mathrm{{sign}}(\mathbf{x^\mathrm{opt}})\otimes\mathbf{x}$,
+    $\mathbf{x^\mathrm{opt}}=$
+    $\frac{\mu_0}{2}$
+    $\mathbf{1_-^+}$
+
+-   $\mathbf{z}= \mathbf{Q}\Lambda^{\!100}\mathbf{R}(\hat{\mathbf{x}}-\mu_0\,\mathbf{1})$
+
+-   $\mu_0 = 2.5$, $\mu_1 = -\sqrt{\dfrac{\mu_0^2-d}{s}}$,
+    $s = 1 - \dfrac{1}{2\sqrt{D+20}-8.2}$, $d=1$
+
+<details>
+<summary>**Symbols and definitions:**</summary>
+
+{{< include ../symbols.md >}}
+
+</details>
+
+**Properties:**
+
+Highly multimodal function based on [@lunacek2008impact] with two
+funnels around
+$\frac{\mu_0}{2}\mathbf{1_-^+}$ and
+$\frac{\mu_1}{2}\mathbf{1_-^+}$ being superimposed by the
+cosine. Presumably different approaches need to be used for "selecting
+the funnel" and for searching the highly multimodal function "within" the
+funnel. The function was constructed to be deceptive for evolutionary
+algorithms with large population size.
+
+-   the funnel of the local optimum at
+    $\frac{\mu_1}{2}\mathbf{1_-^+}$ has roughly $70\%$ of
+    the search space volume within $[-5,5]^D$.
+
+**Information gained from this function:** Can the search behavior be
+local on the global scale but global on a local scale?
+</div>
+
+## Selected Problem Visualizations 
+
+Click on a plot to see the same visualization for other problem instances.
+
+<div id="plot-grid" class="plot-grid" data-num="24" ></div>
+
+## Python Usage Examples
+
+To limit benchmarking experiments only to the first ten instances of this problem from 2009 in dimensions 
+2 and 20, instantiate the `Suite` as follows:
+
+```{python}
+import cocoex
+
+suite = cocoex.Suite(
+  suite_name="bbob", 
+  suite_instance="year: 2009", 
+  suite_options="function_indices: 24 instance_indices: 1-10 dimensions: 2,20"
+)
+problem = suite[0]
+print(problem.info)  
+```
+
+Sometimes it can be useful to access a `bbob` problem without using it in a benchmarking experiment. For such needs, the problem can be instantiated for any instance number and dimension using the `BareProblem`
+interface. Note that the bare problem *cannot be observed/logged*. 
+
+```{python}
+import cocoex
+
+problem = cocoex.BareProblem(
+  suite_name="bbob", 
+  function=24, 
+  dimension=14, 
+  instance=42
+)
+problem(14 * [0])
+```
+
+## C Implementation
+
+You can find the C implementation of the problem [here](https://github.com/numbbo/coco-experiment/blob/main/src/f_lunacek_bi_rastrigin.c).

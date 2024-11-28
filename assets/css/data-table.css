@@ -19,6 +19,88 @@
   padding: 0px 0px;
   width: 25px;
   height: 25px;
+  cursor: pointer;
+}
+
+table, th, td {
+  border: 0.5px solid #eee;
+  border-collapse: collapse;
+}
+
+tr {
+  height: 40px;
+}
+
+table {
+  -moz-box-shadow: 0 0 1px 1px #eee;
+  -webkit-box-shadow: 0 0 1px 1px #eee;
+  box-shadow: 0 0 1px 1px #eee;
+}
+
+.dropdown {
+  text-align: center;
+  cursor: pointer;
+  height: 30px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper .col1 {
+  flex: 15%;
+}
+
+.wrapper .col3 {
+  flex: 35%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .wrapper .col1 {
+    flex: 25%;
+  }
+  .wrapper .col3 {
+    flex: 75%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .wrapper .col1 {
+    flex: 100%;
+  }
+  .wrapper .col3 {
+    flex: 100%;
+  }
+}
+
+.plot-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.plot {
+  box-sizing: border-box;
+  padding: 10px;
+}
+.plot img {
+  width: 100%;
+  height: auto;
+}
+
+.floater {
+  float: right;
+  padding: 10pt;
+}
+
+.floater .floater-table {
+  width: 430px; 
+  /*border: none;*/
+}
+
+.floater .floater-table tr,
+.floater .floater-table td {
+  padding: 5px;
 }
 
 select {

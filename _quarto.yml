@@ -27,70 +27,71 @@ website:
     search: true
     collapse-level: 2
     contents:
-    - text: "Home"
+    - text: Home
       href: index.qmd
-    - text: "Get Started"
+    - text: Get Started
       href: getting-started/index.qmd
     - section: Test Suites
       contents:
-        - section: bbob
-          contents:
-            - text: Overview
-            - text: Problem Visualizations
-            - section: Function Definitions
-              contents:
-                - text: f<sub>1</sub> - Sphere
-                - text: f<sub>2</sub> - Separable Ellipsoid
-                - text: f<sub>3</sub> - Separable Rastrigin
-                - text: f<sub>4</sub> - Büche-Rastrigin
-                - text: f<sub>5</sub> - Linear Slope
-                - text: f<sub>6</sub> - Attractive Sector
-                - text: f<sub>7</sub> - Step Ellipsoid
-                - text: f<sub>8</sub> - Rosenbrock (original)
-                - text: f<sub>9</sub> - Rosenbrock (rotated)
-                - text: f<sub>10</sub> - Ellipsoid
-                - text: f<sub>11</sub> - Discus
-                - text: f<sub>12</sub> - Bent Cigar
-                - text: f<sub>13</sub> - Sharp Ridge
-                - text: f<sub>14</sub> - Different Powers
-                - text: f<sub>15</sub> - Rastrigin
-                - text: f<sub>16</sub> - Weierstrass
-                - text: f<sub>17</sub> - Schaffer's F7
-                - text: f<sub>18</sub> - Schaffer's F7 (ill c.)
-                - text: f<sub>19</sub> - Griewank-Rosenbrock
-                - text: f<sub>20</sub> - Schwefel
-                - text: f<sub>21</sub> - Gallagher's 101 Peaks
-                - text: f<sub>22</sub> - Gallagher's 21 Peaks
-                - text: f<sub>23</sub> - Katsuura
-                - text: f<sub>24</sub> - Lunacek bi-Rastrigin
-            - text: Performance Comparison
-            - text: Data Archive
-              href: data-archive/bbob.qmd
-        - section: bbob-biobj  
-          contents:
-            - text: Data Archive
-              href: data-archive/bbob-biobj.qmd
-        - section: bbob-biobj-mixint
-        - section: bbob-boxed
-          contents:
-            - text: Data Archive
-              href: data-archive/bbob-boxed.qmd
-        - section: bbob-constrained
-          contents:
-            - text: Data Archive
-              href: data-archive/bbob-constrained.qmd
-        - section: bbob-largescale
-          contents:
-            - text: Data Archive
-              href: data-archive/bbob-largescale.qmd
-        - section: bbob-mixint
-          contents:
-            - text: Data Archive
-              href: data-archive/bbob-mixint.qmd
-        - section: bbob-noisy
-          contents:
-            - text: Data Archive
-              href: data-archive/bbob-noisy.qmd
+      - section: "<code>bbob</code>"
+        href: bbob/overview.qmd
+        contents:
+          - text: Problem Visualizations
+            href: bbob/viz.qmd
+          - section: Function Definitions
+            contents:
+              - href: bbob/functions/f01.qmd
+              - href: bbob/functions/f02.qmd
+              - href: bbob/functions/f03.qmd
+              - href: bbob/functions/f04.qmd
+              - href: bbob/functions/f05.qmd
+              - href: bbob/functions/f06.qmd
+              - href: bbob/functions/f07.qmd
+              - href: bbob/functions/f08.qmd
+              - href: bbob/functions/f09.qmd
+              - href: bbob/functions/f10.qmd
+              - href: bbob/functions/f11.qmd
+              - href: bbob/functions/f12.qmd
+              - href: bbob/functions/f13.qmd
+              - href: bbob/functions/f14.qmd
+              - href: bbob/functions/f15.qmd
+              - href: bbob/functions/f16.qmd
+              - href: bbob/functions/f17.qmd
+              - href: bbob/functions/f18.qmd
+              - href: bbob/functions/f19.qmd
+              - href: bbob/functions/f20.qmd
+              - href: bbob/functions/f21.qmd
+              - href: bbob/functions/f22.qmd
+              - href: bbob/functions/f23.qmd
+              - href: bbob/functions/f24.qmd
+          - text: Performance Comparison
+          - text: Data Archive
+            href: data-archive/bbob.qmd
+      - section: bbob-biobj  
+        contents:
+          - text: Data Archive
+            href: data-archive/bbob-biobj.qmd
+      - section: bbob-biobj-mixint
+      - section: bbob-boxed
+        contents:
+          - text: Data Archive
+            href: data-archive/bbob-boxed.qmd
+      - section: bbob-constrained
+        contents:
+          - text: Data Archive
+            href: data-archive/bbob-constrained.qmd
+      - section: bbob-largescale
+        contents:
+          - text: Data Archive
+            href: data-archive/bbob-largescale.qmd
+      - section: bbob-mixint
+        contents:
+          - text: Data Archive
+            href: data-archive/bbob-mixint.qmd
+      - section: bbob-noisy
+        contents:
+          - text: Data Archive
+            href: data-archive/bbob-noisy.qmd
     - text: "Publish Results"
       href: howto-publish.qmd
     - section: Reference
@@ -126,3 +127,4 @@ format:
         <link rel="icon" type="image/png" href="/assets/images/coco-logo-16.png" sizes="16x16">
         <link rel="icon" type="image/png" href="/assets/images/coco-logo-32.png" sizes="32x32">
         <link rel="icon" type="image/svg+xml" href="/assets/images/coco-logo.svg">
+    css: /assets/css/data-table.css
