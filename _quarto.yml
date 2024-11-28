@@ -115,7 +115,9 @@ website:
 format:
   html:
     toc: true
-    #theme: coco.scss
+    theme:
+      - cosmo
+      - coco.scss
     html-math-method: katex
     code-copy: true
     code-overflow: wrap
