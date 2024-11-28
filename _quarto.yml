@@ -115,16 +115,21 @@ website:
 format:
   html:
     toc: true
-    theme: coco.scss
+    #theme: coco.scss
     html-math-method: katex
     code-copy: true
     code-overflow: wrap
     link-external-icon: true
     link-external-newwindow: true
     anchor-sections: true
-    include-in-header:
+    css: /assets/css/data-table.css
+    include-in-header:      
       text: |
         <link rel="icon" type="image/png" href="/assets/images/coco-logo-16.png" sizes="16x16">
         <link rel="icon" type="image/png" href="/assets/images/coco-logo-32.png" sizes="32x32">
         <link rel="icon" type="image/svg+xml" href="/assets/images/coco-logo.svg">
-    css: /assets/css/data-table.css
+        <link rel="icon" type="image/svg+xml" href="/assets/images/coco-logo.svg">
+        <link rel="shortcut icon" type="image/png" href="/assets/images/coco-logo-192.png">
+        <link rel="shortcut icon" sizes="192x192" href="/assets/images/coco-logo-192.png">
+        <link rel="apple-touch-icon" href="/assets/images/coco-logo-192.png">
+        

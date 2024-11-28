@@ -1,5 +1,10 @@
 ---
 title: Imprint
+
+format: 
+  html:
+    page-layout: article
+    toc: false    
 ---
 
 ## Angaben gemäß § 5 TMG
