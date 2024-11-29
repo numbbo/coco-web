@@ -31,3 +31,25 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;70
     font-variant: normal;
   }
 }
+
+
+.function-inset {
+  padding: 0pt 1rem;
+  margin: 0px 0px .5rem .5rem;
+  
+  border: 0.5px solid #888;
+  border-collapse: collapse;  
+}
+
+@media (width > 600px) {
+  .function-inset {
+    float: right;
+    width: 17rem;
+  }
+}
+
+.function-inset h3 {
+  margin-top: 0.5rem;  
+  font-size: 12pt;
+  font-weight: 600;
+}

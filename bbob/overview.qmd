@@ -4,59 +4,48 @@ title: The `bbob` Test Suite
 
 ## Introduction
 
-<div class="floater">
-<table class="floater-table">
-  <tr>
-    <td style="width: 260px;">
-    f<sub>1</sub>: [Sphere](functions/f01.qmd)<br>
-    f<sub>2</sub>: [Ellipsoid separable](functions/f02.qmd)<br>
-    f<sub>3</sub>: [Rastrigin separable](functions/f03.qmd)<br>
-    f<sub>4</sub>: [Skew Rastrigin-Bueche](functions/f04.qmd)<br>
-    f<sub>5</sub>: [Linear slope](functions/f05.qmd)<br>
-    </td>
-    <td>**Separable functions**</td>
-  </tr>
-  <tr>
-    <td>
-    f<sub>6</sub>: [Attractive sector](functions/f06.qmd)<br>
-    f<sub>7</sub>: [Step-ellipsoid](functions/f07.qmd)<br>
-    f<sub>8</sub>: [Rosenbrock original](functions/f08.qmd)<br>
-    f<sub>9</sub>: [Rosenbrock rotated](functions/f09.qmd)<br>
-    </td>
-    <td>**Functions with low or moderate conditioning**</td>
-  </tr>
-  <tr>
-    <td>
-    f<sub>10</sub>: [Ellipsoid](functions/f10.qmd)<br>
-    f<sub>11</sub>: [Discus](functions/f11.qmd)<br>
-    f<sub>12</sub>: [Bent cigar](functions/f12.qmd)<br>
-    f<sub>13</sub>: [Sharp ridge](functions/f13.qmd)<br>
-    f<sub>14</sub>: [Sum of different powers](functions/f14.qmd)<br>
-    </td>
-    <td>**Functions with high conditioning and unimodal**</td>
-  </tr>
-  <tr>
-    <td>
-    f<sub>15</sub>: [Rastrigin](functions/f15.qmd)<br>
-    f<sub>16</sub>: [Weierstrass](functions/f16.qmd)<br>
-    f<sub>17</sub>: [Schaffer F7, condition 10](functions/f17.qmd)<br>
-    f<sub>18</sub>: [Schaffer F7, condition 1000](functions/f18.qmd)<br>
-    f<sub>19</sub>: [Griewank-Rosenbrock F8F2](functions/f19.qmd)<br>
-    </td>
-    <td>**Multi-modal functions with adequate global structure**</td>
-  </tr>
-  <tr>
-    <td>
-    f<sub>20</sub>: [Schwefel x*sin(x)](functions/f20.qmd)<br>
-    f<sub>21</sub>: [Gallagher 101 peaks](functions/f21.qmd)<br>
-    f<sub>22</sub>: [Gallagher 21 peaks](functions/f22.qmd)<br>
-    f<sub>23</sub>: [Katsuura](functions/f23.qmd)<br>
-    f<sub>24</sub>: [Lunacek bi-Rastrigin](functions/f24.qmd)<br>
-    </td>
-    <td>**Multi-modal functions with weak global structure**</td>
-  </tr>
-</table>
-</div>
+::: {.function-inset}
+
+### Separable
+
+f<sub>1</sub>: [Sphere](functions/f01.qmd)  
+f<sub>2</sub>: [Ellipsoid separable](functions/f02.qmd)  
+f<sub>3</sub>: [Rastrigin separable](functions/f03.qmd)  
+f<sub>4</sub>: [Skew Rastrigin-Bueche](functions/f04.qmd)  
+f<sub>5</sub>: [Linear slope](functions/f05.qmd)  
+
+### Low or moderate conditioning
+
+f<sub>6</sub>: [Attractive sector](functions/f06.qmd)  
+f<sub>7</sub>: [Step-ellipsoid](functions/f07.qmd)  
+f<sub>8</sub>: [Rosenbrock original](functions/f08.qmd)  
+f<sub>9</sub>: [Rosenbrock rotated](functions/f09.qmd)  
+
+### High conditioning and unimodal
+
+f<sub>10</sub>: [Ellipsoid](functions/f10.qmd)  
+f<sub>11</sub>: [Discus](functions/f11.qmd)  
+f<sub>12</sub>: [Bent cigar](functions/f12.qmd)  
+f<sub>13</sub>: [Sharp ridge](functions/f13.qmd)  
+f<sub>14</sub>: [Sum of different powers](functions/f14.qmd)  
+
+### Multi-modal with adequate global structure
+
+f<sub>15</sub>: [Rastrigin](functions/f15.qmd)  
+f<sub>16</sub>: [Weierstrass](functions/f16.qmd)  
+f<sub>17</sub>: [Schaffer F7, condition 10](functions/f17.qmd)  
+f<sub>18</sub>: [Schaffer F7, condition 1000](functions/f18.qmd)  
+f<sub>19</sub>: [Griewank-Rosenbrock F8F2](functions/f19.qmd)  
+
+### Multi-modal with weak global structure
+
+f<sub>20</sub>: [Schwefel x*sin(x)](functions/f20.qmd)  
+f<sub>21</sub>: [Gallagher 101 peaks](functions/f21.qmd)  
+f<sub>22</sub>: [Gallagher 21 peaks](functions/f22.qmd)  
+f<sub>23</sub>: [Katsuura](functions/f23.qmd)  
+f<sub>24</sub>: [Lunacek bi-Rastrigin](functions/f24.qmd)  
+
+:::
 
 This is an online-friendly presentation of the `bbob` functions, based on 
 the BBOB 2009 function document [@bbob2019]. You may cite this work 
