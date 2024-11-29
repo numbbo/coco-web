@@ -25,6 +25,9 @@ of COCO.
 #| echo: false
 #| output: asis
 
+import sys
+sys.path.insert(1, '../../scripts/')
+
 from dsh import display_suite_table
 
 display_suite_table("bbob")

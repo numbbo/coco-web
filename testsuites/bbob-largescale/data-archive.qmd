@@ -1,9 +1,8 @@
 ---
-title: Algorithm data sets for the `bbob-biobj` test suite
+title: Algorithm data sets for the `bbob-largescale` test suite
 ---
 
-
-In the table below, you will find all official algorithm data sets on the `bbob-biobj` test suite, 
+In the table below, you will find all official algorithm data sets on the `bbob-largescale` test suite, 
 together with their year of publication, the authors, and related PDFs for each data set. Links to the 
 source code to run the corresponding experiments/algorithms are provided whenever available.
 
@@ -14,14 +13,15 @@ Note that a manual download of the data is not necessary if you use the
 of COCO.
 
 
-
 ```{python}
 #| echo: false
 #| output: asis
 
+import sys
+sys.path.insert(1, '../../scripts/')
 from dsh import display_suite_table
 
-display_suite_table("bbob-biobj")
+display_suite_table("bbob-largescale")
 ```
 
 <script type="text/javascript" src="/assets/js/sort-table.js"></script>

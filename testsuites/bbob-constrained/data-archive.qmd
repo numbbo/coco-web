@@ -1,8 +1,8 @@
 ---
-title: Algorithm data sets for the `bbob-noisy` test suite
+title: Algorithm data sets for the `bbob-constrained` test suite
 ---
 
-In the table below, you will find all official algorithm data sets on the `bbob-noisy` test suite, 
+In the table below, you will find all official algorithm data sets on the `bbob-constrained` test suite, 
 together with their year of publication, the authors, and related PDFs for each data set. Links to the 
 source code to run the corresponding experiments/algorithms are provided whenever available.
 
@@ -17,9 +17,11 @@ of COCO.
 #| echo: false
 #| output: asis
 
+import sys
+sys.path.insert(1, '../../scripts/')
 from dsh import display_suite_table
 
-display_suite_table("bbob-noisy")
+display_suite_table("bbob-constrained")
 ```
 
 <script type="text/javascript" src="/assets/js/sort-table.js"></script>

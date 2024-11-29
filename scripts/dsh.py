@@ -6,8 +6,11 @@ import argparse
 
 from tabulate import tabulate
 from IPython.display import Markdown
+from pathlib import Path
+BASE_DIR = Path(__file__).parent
+JSON_FILE = BASE_DIR / ".." / "assets" / "data" / "data-archive.json"
     
-with open("data-archive.json", "r") as fd:
+with open(JSON_FILE, "r", encoding="utf8") as fd:
     DATA = json.loads(fd.read())
 
 def display_suite_table(suite):
