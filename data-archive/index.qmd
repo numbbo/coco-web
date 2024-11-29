@@ -1,7 +1,4 @@
 ---
-layout: default
-permalink: /
-nav_order: 1
 title: COCO Data Archive
 ---
 
@@ -15,12 +12,14 @@ Data sets for the following test suites are available:
 * [bbob-largescale](bbob-largescale.qmd): large-scale version of the 24 bbob functions (dimension up to 640)
 * [bbob-mixint](bbob-mixint.qmd): mixed-integer versions of the 24 bbob functions
 * [bbob-constrained](bbob-constrained.qmd): 54 constrained functions with varying number of (non-linear) constraints
+* [bbob-boxed](bbob-boxed.qmd): box-constrained version of the 24 `bbob` functions, also known as `sbox-cost`
 
 There is also a machine readable [JSON](data-archive.json) file with data from the experiments for programmatic access.
 If you are using the [cocopp Python module](https://pypi.org/project/cocopp), the data is directly accessible "by name".
 
 ## Related Links
 
-* <a href="https://numbbo.github.io/ppdata-archive"> postprocessed data of these archives for browsing</a>
-* <a href="https://github.com/numbbo/coco/blob/master/howtos/publish-a-dataset-howto.md">how to submit a data set</a>
-* <a href="https://github.com/numbbo/coco/blob/master/code-postprocessing/cocopp/archiving.py">how to create and use COCO data archives with the <tt>cocopp.archiving</tt> Python module</a>
+* <a href="../ppdata-archive"> postprocessed data of these archives for browsing</a>
+* <a href="https://github.com/numbbo/data-archive/blob/gh-pages/howtos/publish-a-dataset-howto.md">how to submit a data set</a>
+* <a href="https://github.com/numbbo/coco-postprocess/blob/main/src/cocopp/archiving.py">
+how to create and use COCO data archives with the <tt>cocopp.archiving</tt> Python module</a>
