@@ -2,8 +2,6 @@
 title: The `bbob` Test Suite
 ---
 
-## Introduction
-
 ::: {.function-inset}
 
 ### Separable
