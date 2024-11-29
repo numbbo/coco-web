@@ -33,7 +33,7 @@ website:
       href: getting-started/index.qmd
     - section: Test Suites
       contents:
-      - section: "<code>bbob</code>"
+      - section: bbob
         href: bbob/overview.qmd
         contents:
           - text: Problem Visualizations
