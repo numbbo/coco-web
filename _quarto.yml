@@ -32,6 +32,7 @@ website:
     - text: Get Started
       href: getting-started/index.qmd
     - section: Test Suites
+      href: suites.qmd
       contents:
       - section: bbob
         href: bbob/overview.qmd
