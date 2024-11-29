@@ -8,7 +8,7 @@ format:
 ---
 <div id="text-f10">
 
-$$f_{10}(\mathbf{x}) = \sum_{i = 1}^{D} 10^{6\frac{i-1}{D-1}}z_i^2 + f_\mathrm{opt}$$
+$\displaystyle f_{10}(\mathbf{x}) = \sum_{i = 1}^{D} 10^{6\frac{i-1}{D-1}}z_i^2 + f_\mathrm{opt}$
 
 -   $\mathbf{z}= T_\mathrm{\hspace*{-0.01emosz}}(\mathbf{R}(\mathbf{x}- \mathbf{x^\mathrm{opt}}))$
 

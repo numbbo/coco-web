@@ -8,7 +8,7 @@ format:
 ---
 <div id="text-f12">
 
-$$f_{12}(\mathbf{x}) = z_1^2 + 10^6\sum_{i = 2}^{D} z_i^2 + f_\mathrm{opt}$$
+$\displaystyle f_{12}(\mathbf{x}) = z_1^2 + 10^6\sum_{i = 2}^{D} z_i^2 + f_\mathrm{opt}$
 
 -   $\mathbf{z}= \mathbf{R}\,T^{{0.5}}_\mathrm{asy}(\mathbf{R}(\mathbf{x}- \mathbf{x^\mathrm{opt}}))$
 

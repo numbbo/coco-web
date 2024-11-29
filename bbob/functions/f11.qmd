@@ -8,7 +8,7 @@ format:
 ---
 <div id="text-f11">
 
-$$f_{11}(\mathbf{x}) = 10^6 z_1^2 + \sum_{i = 2}^{D} z_i^2 + f_\mathrm{opt}$$
+$\displaystyle f_{11}(\mathbf{x}) = 10^6 z_1^2 + \sum_{i = 2}^{D} z_i^2 + f_\mathrm{opt}$
 
 -   $\mathbf{z}= T_\mathrm{\hspace*{-0.01emosz}}(\mathbf{R}(\mathbf{x}- \mathbf{x^\mathrm{opt}}))$
 

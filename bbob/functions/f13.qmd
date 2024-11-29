@@ -8,7 +8,7 @@ format:
 ---
 <div id="text-f13">
 
-$$f_{13}(\mathbf{x}) = z_1^2 + 100\,\sqrt{\sum_{i = 2}^{D} z_i^2} + f_\mathrm{opt}$$
+$\displaystyle f_{13}(\mathbf{x}) = z_1^2 + 100\,\sqrt{\sum_{i = 2}^{D} z_i^2} + f_\mathrm{opt}$
 
 -   $\mathbf{z}= \mathbf{Q}\Lambda^{\!10}\mathbf{R}(\mathbf{x}- \mathbf{x^\mathrm{opt}})$
 

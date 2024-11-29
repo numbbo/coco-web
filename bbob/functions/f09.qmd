@@ -8,7 +8,7 @@ format:
 ---
 <div id="text-f9">
 
-$$f_{9}(\mathbf{x}) = \sum_{i = 1}^{D-1} \left( 100\,\left(z_i^2 - z_{i+1}\right)^2 + (z_i-1)^2 \right) + f_\mathrm{opt}$$
+$\displaystyle f_{9}(\mathbf{x}) = \sum_{i = 1}^{D-1} \left( 100\,\left(z_i^2 - z_{i+1}\right)^2 + (z_i-1)^2 \right) + f_\mathrm{opt}$
 
 -   $\mathbf{z}= \max\left(1,\frac{\sqrt{D}}{8}\right)\mathbf{R}\mathbf{x}+ \mathbf{1}/2$
 

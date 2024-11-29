@@ -8,7 +8,7 @@ format:
 ---
 <div id="text-f19">
 
-$$f_{19}(\mathbf{x}) = \frac{10}{D-1} \sum_{i=1}^{D-1} \left( \frac{s_i}{4000} - \cos(s_i) \right) + 10 + f_\mathrm{opt}$$
+$\displaystyle f_{19}(\mathbf{x}) = \frac{10}{D-1} \sum_{i=1}^{D-1} \left( \frac{s_i}{4000} - \cos(s_i) \right) + 10 + f_\mathrm{opt}$
 
 -   $\mathbf{z}= \max\!\left(1,\frac{\sqrt{D}}{8}\right)\mathbf{R}\mathbf{x}+ 0.5$
 

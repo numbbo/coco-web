@@ -8,7 +8,7 @@ format:
 ---
 <div id="text-f6">
 
-$$f_{6}(\mathbf{x}) = T_\mathrm{\hspace*{-0.01emosz}}\left(\sum_{i = 1}^{D} (s_i z_i)^2\right)^{0.9} + f_\mathrm{opt}$$
+$\displaystyle f_{6}(\mathbf{x}) = T_\mathrm{\hspace*{-0.01emosz}}\left(\sum_{i = 1}^{D} (s_i z_i)^2\right)^{0.9} + f_\mathrm{opt}$
 
 -   $\mathbf{z}= \mathbf{Q}\Lambda^{\!10}\mathbf{R}(\mathbf{x}- \mathbf{x^\mathrm{opt}})$
 

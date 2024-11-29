@@ -8,8 +8,7 @@ format:
 ---
 <div id="text-f5">
 
-$$f_{5}(\mathbf{x}) = \sum_{i = 1}^{D} 5\,|s_i| - s_i z_i  
-   + f_\mathrm{opt}$$
+$\displaystyle f_{5}(\mathbf{x}) = \sum_{i = 1}^{D} 5\,|s_i| - s_i z_i + f_\mathrm{opt}$
 
 -   $z_i = x_i$ if $x_i^\mathrm{opt}x_i < 5^2$ and
     $z_i = x_i^\mathrm{opt}$ otherwise, for

@@ -8,9 +8,7 @@ format:
 ---
 <div id="text-f24">
 
-$$f_{24}(\mathbf{x}) = \mathrm{min}\left(\sum_{i = 1}^{D}(\hat{x}_i - \mu_0)^2,
-                       d\,D+ s\sum_{i = 1}^{D}(\hat{x}_i - \mu_1)^2\right)
-           + 10\left(D- \sum_{i=1}^D\cos(2\pi z_i)\right) + 10^4\,f^{{}_\mathrm{pen}}(\mathbf{x}) + f_{\mathrm{opt}}$$
+$\displaystyle f_{24}(\mathbf{x}) = \mathrm{min}\left(\sum_{i = 1}^{D}(\hat{x}_i - \mu_0)^2, d\,D+ s\sum_{i = 1}^{D}(\hat{x}_i - \mu_1)^2\right) + 10\left(D- \sum_{i=1}^D\cos(2\pi z_i)\right) + 10^4\,f^{{}_\mathrm{pen}}(\mathbf{x}) + f_{\mathrm{opt}}$
 
 -   $\hat{\mathbf{x}} = 2\,\mathrm{{sign}}(\mathbf{x^\mathrm{opt}})\otimes\mathbf{x}$,
     $\mathbf{x^\mathrm{opt}}=$

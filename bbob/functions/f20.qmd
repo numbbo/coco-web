@@ -8,9 +8,8 @@ format:
 ---
 <div id="text-f20">
 
-$$f_{20}(\mathbf{x}) = - \frac{1}{100D}%  % kept in the final print
-\sum_{i = 1}^{D}z_i\sin(\sqrt{|z_i|}) + 4.189828872724339 
-     + 100f_{\mathrm{pen}}(\mathbf{z}/100) + f_\mathrm{opt}$$
+$\displaystyle f_{20}(\mathbf{x}) = - \frac{1}{100D}%  % kept in the final print
+\sum_{i = 1}^{D}z_i\sin(\sqrt{|z_i|}) + 4.189828872724339 + 100f_{\mathrm{pen}}(\mathbf{z}/100) + f_\mathrm{opt}$
 
 -   $\hat{\mathbf{x}} = 2\times\mathbf{1_-^+}\otimes\mathbf{x}$
 
