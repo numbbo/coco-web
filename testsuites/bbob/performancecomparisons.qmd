@@ -1,0 +1,41 @@
+---
+title: Performance Visualizations for the `bbob` test suite 
+---
+
+Below, we provide postprocessed data showing the performance of all [250+ officially supported algorithm data sets](../../../../data-archive/bbob.html) for the `bbob` test suite.
+
+Due to the large amount of algorithms (and the limited space in the figures), we currently group algorithm data sets by year of publication.
+
+
+## Performance Comparisons per Year
+
+
+- [2009](https://numbbo.github.io/ppdata-archive/bbob/2009/index.html)
+- [2010](https://numbbo.github.io/ppdata-archive/bbob/2010/index.html)
+- [2012](https://numbbo.github.io/ppdata-archive/bbob/2012/index.html)
+- [2013](https://numbbo.github.io/ppdata-archive/bbob/2013/index.html)
+- [2015-CEC](https://numbbo.github.io/ppdata-archive/bbob/2015-CEC/index.html)
+- [2015-GECCO](https://numbbo.github.io/ppdata-archive/bbob/2015-GECCO/index.html)
+- [2016](https://numbbo.github.io/ppdata-archive/bbob/2016/index.html)
+- [2017](https://numbbo.github.io/ppdata-archive/bbob/2017/index.html)
+- [2018](https://numbbo.github.io/ppdata-archive/bbob/2018/index.html)
+- [2019](https://numbbo.github.io/ppdata-archive/bbob/2019/index.html)
+- [2020](https://numbbo.github.io/ppdata-archive/bbob/2020/index.html)
+- [2021](https://numbbo.github.io/ppdata-archive/bbob/2021/index.html)
+- [2022](https://numbbo.github.io/ppdata-archive/bbob/2022/index.html)
+- [2023](https://numbbo.github.io/ppdata-archive/bbob/2023/index.html)
+
+
+
+## Example code to produce the figures
+
+The Python code to locally generate the first entry, 2009,
+above (other entries work respectively) reads
+
+```python
+import cocopp               # see https://pypi.org/project/cocopp
+cocopp.main('bbob/2009/*')  # will take several minutes to process
+
+```
+
+

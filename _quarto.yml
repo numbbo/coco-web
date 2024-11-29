@@ -65,6 +65,7 @@ website:
               - href: bbob/functions/f23.qmd
               - href: bbob/functions/f24.qmd
           - text: Performance Comparison
+            href: testsuites/bbob/performancecomparisons.qmd
           - text: Data Archive
             href: data-archive/bbob.qmd
       - section: bbob-biobj  
