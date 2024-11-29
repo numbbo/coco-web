@@ -1,0 +1,16 @@
+---
+title: Function definitions
+format: 
+  html:
+    grid:
+      margin-width: 500px
+---
+
+The bi-objective problems are created by combining two `bbob` functions [@bbob2019].
+
+### Overview
+
+{{< include func_def/functions_image.md >}}
+
+{{< include func_def/functions.md >}}
+ 
