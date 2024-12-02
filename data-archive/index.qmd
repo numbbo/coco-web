@@ -6,15 +6,15 @@ Here we provide the official benchmarking data archives from numerical benchmark
 For each test suite we provide a listing of the official data sets with additional information like authors, links to papers, source code etc.
 Data sets for the following test suites are available: 
 
-* [bbob](bbob.qmd): 24 single-objective noiseless functions
-* [bbob-noisy](bbob-noisy.qmd): 24 single-objective noisy functions
-* [bbob-biobj](bbob-biobj.qmd): 55 bi-objective functions
-* [bbob-largescale](bbob-largescale.qmd): large-scale version of the 24 bbob functions (dimension up to 640)
-* [bbob-mixint](bbob-mixint.qmd): mixed-integer versions of the 24 bbob functions
-* [bbob-constrained](bbob-constrained.qmd): 54 constrained functions with varying number of (non-linear) constraints
-* [bbob-boxed](bbob-boxed.qmd): box-constrained version of the 24 `bbob` functions, also known as `sbox-cost`
+* [bbob](../testsuites/bbob/data-archive.qmd): 24 single-objective noiseless functions
+* [bbob-noisy](../testsuites/bbob-noisy/data-archive.qmd): 24 single-objective noisy functions
+* [bbob-biobj](../testsuites/bbob-biobj/data-archive.qmd): 55 bi-objective functions
+* [bbob-largescale](../testsuites/bbob-largescale/data-archive.qmd): large-scale version of the 24 bbob functions (dimension up to 640)
+* [bbob-mixint](../testsuites/bbob-mixint/data-archive.qmd): mixed-integer versions of the 24 bbob functions
+* [bbob-constrained](../testsuites/bbob-constrained/data-archive.qmd): 54 constrained functions with varying number of (non-linear) constraints
+* [bbob-boxed](../testsuites/bbob-boxed/data-archive.qmd): box-constrained version of the 24 `bbob` functions, also known as `sbox-cost`
 
-There is also a machine readable [JSON](data-archive.json) file with data from the experiments for programmatic access.
+There is also a machine readable [JSON](../assets/data/data-archive.json) file with data from the experiments for programmatic access.
 If you are using the [cocopp Python module](https://pypi.org/project/cocopp), the data is directly accessible "by name".
 
 ## Related Links
