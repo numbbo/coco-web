@@ -98,8 +98,11 @@ website:
     - section: Reference
       contents:
         - text: cocopp Python API
+          href: http://numbbo.github.io/coco-doc/apidocs/cocopp
         - text: cocoex Python API
+          href: http://numbbo.github.io/coco-doc/apidocs/cocoex
         - text: Core cocoex C API
+          href: http://numbbo.github.io/coco-doc/C
     - text: "Workshops"
       href: https://numbbo.github.io/workshops/
     - section: Development
