@@ -31,6 +31,11 @@ website:
       href: index.qmd
     - text: Get Started
       href: getting-started/index.qmd
+      contents:
+        - text: experiment
+          href: getting-started/index.qmd#experiment
+        - text: postprocess or display
+          href: getting-started/index.qmd#postprocess
     - section: Test Suites
       contents:
       - section: bbob
@@ -108,8 +113,11 @@ website:
     - section: Development
       contents:
         - text: coco-experiment
+          href: https://github.com/numbbo/coco-experiment
         - text: coco-postprocess
-        - text: coco-viz
+          href: https://github.com/numbbo/coco-postprocess
+        - text: coco-visualize
+          href: https://github.com/numbbo/coco-visualize
   page-footer:
     center:
       - imprint.qmd

@@ -384,7 +384,7 @@ Specifically,
 ```sh
 python -m cocopp 22/cma-es-pycma 09/nelderdoerr 20/slsqp-11
 ```
-displays, for example, these runtime profiles (which are, broadly speaking, empirical runtime distributions, see @hansen2022anytime) for three algorithms for all [`bbob`-functions](testbeds/bbob) (left) and for `bbob`-functions 6 and 14 (middle and right) in 20-D.
+generates [this page](https://numbbo.github.io/cocopp-playground/ppdata-getting-started-1/CMA-E_NELDE_SLSQP_cac6) displaying, for example, the below runtime profiles (which are, broadly speaking, empirical runtime distributions, see @hansen2022anytime) for three algorithms over all [`bbob`-functions](testbeds/bbob) (left) and for `bbob`-functions 6 and 14 (middle and right, all in 20-D).
 
 ::::{.grid}
 
