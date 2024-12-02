@@ -14,8 +14,8 @@ Due to the large amount of algorithms (and the limited space in the figures), we
 - [2010](https://numbbo.github.io/ppdata-archive/bbob/2010/index.html)
 - [2012](https://numbbo.github.io/ppdata-archive/bbob/2012/index.html)
 - [2013](https://numbbo.github.io/ppdata-archive/bbob/2013/index.html)
-- [2015-CEC](https://numbbo.github.io/ppdata-archive/bbob/2015-CEC/index.html)
-- [2015-GECCO](https://numbbo.github.io/ppdata-archive/bbob/2015-GECCO/index.html)
+- [2014](https://numbbo.github.io/ppdata-archive/bbob/2014/index.html)
+- [2015](https://numbbo.github.io/ppdata-archive/bbob/2015/index.html)
 - [2016](https://numbbo.github.io/ppdata-archive/bbob/2016/index.html)
 - [2017](https://numbbo.github.io/ppdata-archive/bbob/2017/index.html)
 - [2018](https://numbbo.github.io/ppdata-archive/bbob/2018/index.html)
@@ -29,11 +29,12 @@ Due to the large amount of algorithms (and the limited space in the figures), we
 
 ## Example code to produce the figures
 
-The Python code to locally generate the first entry, 2009,
+The Python code to locally generate the second entry, 2010,
 above (other entries work respectively) reads
 
 ```python
 import cocopp               # see https://pypi.org/project/cocopp
+cocopp.genericsettings.background = {None: cocopp.archives.bbob.get_all('2009')}
 cocopp.main('bbob/2009/*')  # will take several minutes to process
 
 ```
