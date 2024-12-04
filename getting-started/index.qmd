@@ -120,7 +120,7 @@ For benchmarking another algorithm,
 3. expect to iterate over the next points quite a few times, starting with a low budget to reduce waiting time!
    For the first experiments, the suite should rather be filtered to contain lesser instances and few dimensions
    like `suite = cocoex.Suite(suite_name, "instances: 1-5", "dimensions: 2,3,5,10,20")` (for the `bbob` suite).
-4. execute the file from a system shell like 
+4. execute the file from a system shell like
    ```python
    python example_experiment_complete.py 1 # under *nix, consider using "nohup nice ..."
    ```
@@ -167,28 +167,28 @@ Running the first 5 instances only and passing ``min_successes=5`` to `RepeatExp
 
 The simplest way to check the prerequisits is to go directly to [_Getting Started_](#Getting-Started)
 below and give it a try. Then act upon failure, as in this case probably one of
-the following is lacking: 
+the following is lacking:
 
 - Matlab is installed (version >=2008a) and in the path. Alternatively, you can also use the
   open source platform Octave (version >=4.0.0).
 
 - Python is installed in the right version (>=3.8).
-  
-- A C compiler, like `gcc`, which is invoked by `mex`. 
+
+- A C compiler, like `gcc`, which is invoked by `mex`.
 
 ### Installation (assuming MATLAB version >= 2023b)
-In MATLAB, run the following commands (assuming a Unix File System and ``python3`` command for calling python from terminal, for other options, the script needs to be appropriately modified), that download the repository and run the required python scripts (in `scripts/fabricate`) and MATLAB scripts (`setup.m`). 
+In MATLAB, run the following commands (assuming a Unix File System and ``python3`` command for calling python from terminal, for other options, the script needs to be appropriately modified), that download the repository and run the required python scripts (in `scripts/fabricate`) and MATLAB scripts (`setup.m`).
 ```sh
 gitclone('https://github.com/numbbo/coco-experiment.git');
 command('python3 coco-experiment/scripts/fabricate');
 run("coco-experiment/build/matlab/setup.m");
 ```
-For MATLAB versions < 2023b (without the gitclone function), the repository needs to be downloaded manually. 
+For MATLAB versions < 2023b (without the gitclone function), the repository needs to be downloaded manually.
 
 ### Before You Start
-Incorrent use of the COCO Bechmark Suite can cause MATLAB crashes. Unfortunately, when these happen while running the MATLAB IDE no message is shown and you will be left in the dark on why the crash happened. 
+Incorrent use of the COCO Bechmark Suite can cause MATLAB crashes. Unfortunately, when these happen while running the MATLAB IDE no message is shown and you will be left in the dark on why the crash happened.
 The simplest way to find out is to run the script/command that resulted in the crash in the terminal (supposing the `matlab` command starts MATLAB):
-```sh 
+```sh
 $ matlab -nodesktop -nosplash
 % MATLAB loads up
 >> run('script_causing_the_crash.m')
@@ -199,14 +199,14 @@ $ matlab -nodesktop -nosplash
 We start exploring the functionality of the COCO Benchmark Suite by getting a single function instance (with id 42), inspecting its various aspects (name, dimension, bounds, etc.), plotting it, and using one of the MATLAB functions for optmization.
 ```sh
 %path to the MATLAB build
-addpath("coco-experiment/build/matlab/") 
+addpath("coco-experiment/build/matlab/")
 
 %only suit name (bbob), no logger
 suite_name = 'bbob';
 suite = cocoSuite(suite_name,'', '');
 
 %select problem id, show what problem it is
-problem_id = 42; 
+problem_id = 42;
 problem = cocoSuiteGetProblem(suite, problem_id);
 disp(cocoProblemGetName(problem));
 
@@ -214,7 +214,7 @@ disp(cocoProblemGetName(problem));
 dim = cocoProblemGetDimension(problem); %beware that dim is int32
 lb = cocoProblemGetSmallestValuesOfInterest(problem);
 ub = cocoProblemGetLargestValuesOfInterest(problem);
-x0 = cocoProblemGetInitialSolution(problem); 
+x0 = cocoProblemGetInitialSolution(problem);
 
 %define the function to minimize from the problem
 fun = @(x) cocoEvaluateFunction(problem,x);
@@ -243,14 +243,14 @@ cocoSuiteFree(suite);
 
 ### Medium Example (sweep over the functions with a logger and a custom method)
 This example shows a minimal use of the whole bbob suit - setting up the observer, looping over all the problems in the suit and optimizing them with a custom method. A more elaborate MATLAB example can be found in the `\build\matlab` directory under the name `exampleexperiment.m`.
-```sh 
+```sh
 addpath("coco-experiment/build/matlab/");
 
 %multiplier for number of maximum function evaluations
 max_evals_mult = 1e1;
 
-%algorithm name, all text in the example needs to use char arrays, not strings 
-alg_str = 'rand'; 
+%algorithm name, all text in the example needs to use char arrays, not strings
+alg_str = 'rand';
 
 %set up the suite
 suite_name = 'bbob';
@@ -273,7 +273,7 @@ while true
     max_evals = dim*max_evals_mult;
     lb = cocoProblemGetSmallestValuesOfInterest(problem);
     ub = cocoProblemGetLargestValuesOfInterest(problem);
-    x0 = cocoProblemGetInitialSolution(problem); 
+    x0 = cocoProblemGetInitialSolution(problem);
     fun = @(x) cocoEvaluateFunction(problem,x);
     [x_best,val_best] = custom_optimizer(fun,[],lb,ub,max_evals);
 end
@@ -305,15 +305,15 @@ end
 
 ### Getting Started
 
-- 
+-
 
 
 - Copy (and rename) the folder `code-experiments/build/matlab` to a place (and name)
-  of your choice. Modify the [`exampleexperiment.m`](./code-experiments/build/matlab/exampleexperiment.m`) 
+  of your choice. Modify the [`exampleexperiment.m`](./code-experiments/build/matlab/exampleexperiment.m`)
   file to include the solver of your choice (instead of random search in `my_optimizer`).
   Do not forget to also choose the right benchmarking suite and the corresponding observer.
 
-- Execute the modified file either from a system shell like 
+- Execute the modified file either from a system shell like
   ```
       matlab exampleexperiment_new_name.m
   ```
@@ -325,7 +325,7 @@ end
   ```
       >>> example_experiment_new_name
   ```
-  
+
 
 ### Details and Known Issues
 
@@ -346,12 +346,12 @@ end
 
 We cannot guarantee that the Matlab wrapper works on any combination of operating system
 and compiler. However, compilation has been tested successfully under
-   - Mac OSX with MATLAB 2012a 
+   - Mac OSX with MATLAB 2012a
    - Windows 7 with MATLAB 2014a and Visual Studio Professional.
    - Windows 10 with MATLAB 2008a and MinGW
    - Windows XP with MATLAB 2008b and MinGW
    - Windows 7 with GNU Octave 4.0.0
-  
+
 
 ## Java
 
@@ -377,7 +377,7 @@ python -m cocopp name_1 [name_2 [name_3 [... ]]]
 ```
 which creates a couple of hundred figures and (after some seconds or a minute) displays the page `ppdata/index.html` with the default browser.
 The arguments `name_1`, `name_2`,... (`[]`-braces indicate optional arguments) are either **local folders** containing COCO data from
-a single benchmarked algorithm (typically like `exdata/algorithm_name` generated using the [COCO experimentation module](https://numbbo.it/getting-started/experiment-python.html))
+a single benchmarked algorithm (typically like `exdata/algorithm_name` generated using the [COCO experimentation module](https://coco-platform.org/getting-started/experiment-python.html))
 or names of **benchmarked algorithms** from the [COCO data archive](https://numbbo.github.io/data-archive) (or substrings of names, see below).
 
 Specifically,
@@ -489,4 +489,3 @@ Finally, we can, for example, compare our own data with a version of the Nelder-
 
 
 [//]: # (We may want to have some buttons here [Benchmarking an algorithm (collecting data) with Python](experiment-python.qmd) [Analysing and comparing results (postprocess)](postprocess.qmd) We may want to have here ## Related links)
-
