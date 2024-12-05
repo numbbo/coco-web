@@ -121,7 +121,7 @@ For benchmarking another algorithm,
    For the first experiments, the suite should rather be filtered to contain lesser instances and few dimensions
    like `suite = cocoex.Suite(suite_name, "instances: 1-5", "dimensions: 2,3,5,10,20")` (for the `bbob` suite).
 4. execute the file from a system shell like
-   ```python
+   ```shell
    python example_experiment_complete.py 1 # under *nix, consider using "nohup nice ..."
    ```
    or from an ipython shell or notebook like
@@ -156,8 +156,14 @@ When the algorithm terminates earlier unsuccessfully, another experiment sweep i
 
 [^1]: The budget crosses in the figures indicate the _actually used_ budget (median) which can be (quite) different from the budget given here.
 
-In order to get _some_ results as quickly as possible, and besides running batches in parallel, it can be useful to omit _in the first experiments_ some instances and the largest dimension of the suite (in exchange for a larger `budget_multiplier`) using the [suite parameters options](https://numbbo.github.io/coco-doc/C/#suite-parameters).
-Running the first 5 instances only and passing ``min_successes=5`` to `RepeatExperiment` has been found to be a useful practical approach.
+In order to get _some_ results as quickly as possible, and besides running batches in parallel, it can be useful to omit _in the first experiments_ some instances and the largest dimension of the suite (in exchange for a larger `budget_multiplier`) using the [suite parameters options](https://numbbo.github.io/coco-doc/C/#suite-parameters), for example
+
+```python
+suite_filter = "dimensions: 2,3,5,10,20 instance_indices:1-5"  # filter for preliminary quick tests
+suite = cocoex.Suite("bbob", "", suite_filter)
+```
+Running the first 5 instances only, as induced by the above `suite_filter`, and passing
+``min_successes=4`` to `ExperimentRepeater` has been found to be a useful practical approach.
 
 ## C
 
