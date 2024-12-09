@@ -32,9 +32,9 @@ website:
     - text: Get Started
       href: getting-started/index.qmd
       contents:
-        - text: experiment
+        - text: Experiment
           href: getting-started/index.qmd#experiment
-        - text: postprocess or display
+        - text: Postprocess or Display
           href: getting-started/index.qmd#postprocess
     - section: Test Suites
       contents:
@@ -80,11 +80,11 @@ website:
             href: testsuites/bbob-biobj/viz.qmd
           - text: Function Definitions
             href: testsuites/bbob-biobj/def.qmd
-          - text: Gradient angle plots
+          - text: Gradient Angle Plots
             href: testsuites/bbob-biobj/ecdfs.qmd
           - text: Data Archive
             href: testsuites/bbob-biobj/data-archive.qmd
-          - text: Postprocessed data
+          - text: Postprocessed Data
             href: testsuites/bbob-biobj/ppdata.qmd
       - section: bbob-biobj-mixint
       - section: bbob-boxed
