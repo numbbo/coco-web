@@ -40,7 +40,7 @@ $T^{{\beta}}_\mathrm{asy}$    $:\mathcal{R}^D\to\mathcal{R}^D$,
      \begin{cases}
        x_i^{1+\beta \frac{i-1}{D-1}\sqrt{x_i}} & \text{~if~} x_i>0\\ 
        x_i                                        & \text{~otherwise~}
-     \end{cases}$, for $i=1,\dots,D$. See [Figure 1](/bbob/overview.qmd#fig-bbob-trans).
+     \end{cases}$, for $i=1,\dots,D$. See [Figure 1](/testsuites/bbob/overview.qmd#fig-bbob-trans).
 
 $T_\mathrm{\hspace*{-0.01em}osz}$    $:\mathcal{R}^n\to\mathcal{R}^n$, for any
     positive integer $n$ ($n=1$ and $n=D$ are used in the
@@ -60,7 +60,7 @@ $T_\mathrm{\hspace*{-0.01em}osz}$    $:\mathcal{R}^n\to\mathcal{R}^n$, for any
            \end{cases}$ and $c_2 = \begin{cases}
            7.9 & \text{if~} x > 0\\
            3.1 & \text{otherwise}
-           \end{cases}$. See [Figure 1](/bbob/overview.qmd#fig-bbob-trans).
+           \end{cases}$. See [Figure 1](/testsuites/bbob/overview.qmd#fig-bbob-trans).
 
 $\mathbf{x}^\mathrm{opt}$    optimal solution vector, such that
     $f(\mathbf{x^\mathrm{opt}})$ is minimal.

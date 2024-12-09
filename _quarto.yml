@@ -39,44 +39,53 @@ website:
     - section: Test Suites
       contents:
       - section: bbob
-        href: bbob/overview.qmd
+        href: testsuites/bbob/overview.qmd
         contents:
           - text: Problem Visualizations
-            href: bbob/viz.qmd
+            href: testsuites/bbob/viz.qmd
           - section: Function Definitions
             contents:
-              - href: bbob/functions/f01.qmd
-              - href: bbob/functions/f02.qmd
-              - href: bbob/functions/f03.qmd
-              - href: bbob/functions/f04.qmd
-              - href: bbob/functions/f05.qmd
-              - href: bbob/functions/f06.qmd
-              - href: bbob/functions/f07.qmd
-              - href: bbob/functions/f08.qmd
-              - href: bbob/functions/f09.qmd
-              - href: bbob/functions/f10.qmd
-              - href: bbob/functions/f11.qmd
-              - href: bbob/functions/f12.qmd
-              - href: bbob/functions/f13.qmd
-              - href: bbob/functions/f14.qmd
-              - href: bbob/functions/f15.qmd
-              - href: bbob/functions/f16.qmd
-              - href: bbob/functions/f17.qmd
-              - href: bbob/functions/f18.qmd
-              - href: bbob/functions/f19.qmd
-              - href: bbob/functions/f20.qmd
-              - href: bbob/functions/f21.qmd
-              - href: bbob/functions/f22.qmd
-              - href: bbob/functions/f23.qmd
-              - href: bbob/functions/f24.qmd
+              - href: testsuites/bbob/functions/f01.qmd
+              - href: testsuites/bbob/functions/f02.qmd
+              - href: testsuites/bbob/functions/f03.qmd
+              - href: testsuites/bbob/functions/f04.qmd
+              - href: testsuites/bbob/functions/f05.qmd
+              - href: testsuites/bbob/functions/f06.qmd
+              - href: testsuites/bbob/functions/f07.qmd
+              - href: testsuites/bbob/functions/f08.qmd
+              - href: testsuites/bbob/functions/f09.qmd
+              - href: testsuites/bbob/functions/f10.qmd
+              - href: testsuites/bbob/functions/f11.qmd
+              - href: testsuites/bbob/functions/f12.qmd
+              - href: testsuites/bbob/functions/f13.qmd
+              - href: testsuites/bbob/functions/f14.qmd
+              - href: testsuites/bbob/functions/f15.qmd
+              - href: testsuites/bbob/functions/f16.qmd
+              - href: testsuites/bbob/functions/f17.qmd
+              - href: testsuites/bbob/functions/f18.qmd
+              - href: testsuites/bbob/functions/f19.qmd
+              - href: testsuites/bbob/functions/f20.qmd
+              - href: testsuites/bbob/functions/f21.qmd
+              - href: testsuites/bbob/functions/f22.qmd
+              - href: testsuites/bbob/functions/f23.qmd
+              - href: testsuites/bbob/functions/f24.qmd
           - text: Performance Comparison
             href: testsuites/bbob/performancecomparisons.qmd
           - text: Data Archive
             href: testsuites/bbob/data-archive.qmd
       - section: bbob-biobj  
+        href: testsuites/bbob-biobj/overview.qmd
         contents:
+          - text: Problem Visualizations
+            href: testsuites/bbob-biobj/viz.qmd
+          - text: Function Definitions
+            href: testsuites/bbob-biobj/def.qmd
+          - text: Gradient angle plots
+            href: testsuites/bbob-biobj/ecdfs.qmd
           - text: Data Archive
             href: testsuites/bbob-biobj/data-archive.qmd
+          - text: Postprocessed data
+            href: testsuites/bbob-biobj/ppdata.qmd
       - section: bbob-biobj-mixint
       - section: bbob-boxed
         contents:

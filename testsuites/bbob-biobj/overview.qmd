@@ -3,19 +3,19 @@ title: Supplementary material for the `bbob-biobj` and `bbob-biobj-ext` test sui
 ---
 
 Welcome to the website with supplementary material for the `bbob-biobj` and `bbob-biobj-ext` test suites from 
-the [COCO](https://github.com/numbbo/coco) (Comparing Continuous Optimizers) platform [@Hansen2021coco]. 
+the [COCO](https://github.com/numbbo/coco) (Comparing Continuous Optimizers) platform [@hansen2021coco]. 
 
-It provides [function definitions](def.qmd) and [visualizations](vis.qmd) for all 92 `bbob-biobj-ext` problems 
+It provides [function definitions](def.qmd) and [visualizations](viz.qmd) for all 92 `bbob-biobj-ext` problems 
 introduced in the [paper](https://direct.mit.edu/evco/article-pdf/30/2/165/2025995/evco_a_00298.pdf) <strong>Using Well-Understood Single-Objective Functions in Multiobjective Black-Box 
 Optimization Test Suites</strong> by Dimo Brockhoff, Anne Auger, Nikolaus Hansen and Tea Tušar published in the 
-<cite>Evolutionary Computation Journal</cite> [@Brockhoff2022]. It also shows the [empirical distribution of angles](ecdfs.qmd) 
+<cite>Evolutionary Computation Journal</cite> [@brockhoff2022]. It also shows the [empirical distribution of angles](ecdfs.qmd) 
 between the two (estimated) gradients at the best known Pareto set approximations in low dimensions. The 
 [postprossed data page](ppdata.qmd) shows the postprocessed results from a comparison among three selected algorithms.
 
-[![Functions definitions](assets/img/button-def.png){width=24%}](def.qmd)
-[![Visualizations](assets/img/button-vis.png){width=24%}](vis.qmd)
-[![Gradient angle plots](assets/img/button-ecdfs.png){width=24%}](ecdfs.qmd)
-[![Postprocessed data](assets/img/button-ppdata.png){width=24%}](ppdata.qmd)
+[![Functions definitions](/assets/images/button-def.png){width=24%}](def.qmd)
+[![Visualizations](/assets/images/button-viz.png){width=24%}](viz.qmd)
+[![Gradient angle plots](/assets/images/button-ecdfs.png){width=24%}](ecdfs.qmd)
+[![Postprocessed data](/assets/images/button-ppdata.png){width=24%}](ppdata.qmd)
 
 ### Citation
 
@@ -26,7 +26,7 @@ Multiobjective Black-Box Optimization Test Suites. Evolutionary Computation 2022
 [https://doi.org/10.1162/evco_a_00298 ](https://direct.mit.edu/evco/article-pdf/30/2/165/2025995/evco_a_00298.pdf)
 
 ```bibtex
-@article{Brockhoff2022,
+@article{brockhoff2022,
     author = {Brockhoff, Dimo and Auger, Anne and Hansen, Nikolaus and Tu{\v s}ar, Tea},
     title = {Using Well-Understood Single-Objective Functions in Multiobjective Black-Box Optimization Test Suites},
     journal = {Evolutionary Computation},
