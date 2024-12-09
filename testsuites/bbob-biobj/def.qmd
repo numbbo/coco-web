@@ -10,6 +10,9 @@ The bi-objective problems are created by combining two `bbob` functions [@bbob20
 
 ### Overview
 
+<!-- The line below is needed for the image to be copied into assets -->
+![](/assets/images/bbob-biobj-ext.png){style="display:none;"}
+
 {{< include func_def/functions_image.md >}}
 
 {{< include func_def/functions.md >}}
