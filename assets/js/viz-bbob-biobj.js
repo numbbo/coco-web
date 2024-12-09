@@ -81,14 +81,13 @@ function changePlot() {
 		chosenTyp = [...valuesTyp];
 	}
 	document.getElementById("images").innerHTML = "";
-    // document.getElementById("result").value = "";
 	for (let iDim = 0; iDim < chosenDim.length; iDim++) {
 		for (let iFun = 0; iFun < chosenFun.length; iFun++) {
 			for (let iIns = 0; iIns < chosenIns.length; iIns++) {
 				for (let iTyp = 0; iTyp < chosenTyp.length; iTyp++) {
 					plotName = "biobj_f" + pad(chosenFun[iFun]) + "_i" + pad(chosenIns[iIns]) + "_d" + pad(chosenDim[iDim]) + "_" + pad(chosenTyp[iTyp]) + ".png";
 					addPlot(plotName);
-					// document.getElementById("result").value += plotName + "\n";
+					//console.log(plotName);
 				}
 			}
 		}

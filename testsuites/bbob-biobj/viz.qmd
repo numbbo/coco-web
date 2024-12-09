@@ -2,8 +2,12 @@
 title: Visualizations of problem landscapes 
 format:
   html:
+    toc: false
+    page-layout: full
     include-after-body: 
-      - text: <script type="text/javascript" defer src="/assets/js/viz-bbob-biobj.js"></script>
+      text: |
+          <script type="text/javascript" defer src="/assets/js/helpers.js"></script>
+          <script type="text/javascript" defer src="/assets/js/viz-bbob-biobj.js"></script>
 ---
 
 ### Plots
