@@ -1,6 +1,6 @@
 # coco-web
 
-Next iteration of the COCO website currently hosted at [coco-platform.org](https://coco-platform.org/).
+This is the repository for the COCO homepage hosted at [coco-platform.org](https://coco-platform.org/)
 
 ## Build environment
 
