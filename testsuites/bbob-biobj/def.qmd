@@ -3,6 +3,7 @@ title: Function definitions
 format: 
   html:
     grid:
+      body-width: 550px
       margin-width: 500px
 ---
 
