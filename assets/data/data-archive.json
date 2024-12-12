@@ -2960,19 +2960,27 @@
     "comment": "Borg-MOEA with fixed epsilon (= 10**(-4))"
   },
   {
-    "suite": "sbox-cost",
-    "algorithm": "CMA-bp-sboxcost",
+    "suite": "bbob-boxed",
+    "algorithm": "CMA-bp-boxed",
     "year": 2023,
     "author": "Brockhoff",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/sbox-cost/2023/cma-bp-sboxcost-Brockhoff.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-boxed/2023/cma-bp-boxed_Brockhoff.zip",
     "comment": "[SBOX-COST workshop paper](https://inria.hal.science/hal-04403658/file/sboxcost-cmacomparison-authorversion.pdf)"
   },
   {
-    "suite": "sbox-cost",
-    "algorithm": "CMA-bt-sboxcost",
+    "suite": "bbob-boxed",
+    "algorithm": "CMA-bt-boxed",
     "year": 2023,
     "author": "Brockhoff",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/sbox-cost/2023/cma-bt-sboxcost-Brockhoff.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-boxed/2023/cma-bp-boxed_Brockhoff.zip",
     "comment": "[SBOX-COST workshop paper](https://inria.hal.science/hal-04403658/file/sboxcost-cmacomparison-authorversion.pdf)"
+  },
+  {
+    "suite": "bbob-boxed",
+    "algorithm": "RANDOMSEARCH-5",
+    "year": 2024,
+    "author": "Brockhoff",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-boxed/2024/RANDOMSEARCH-5_Brockhoff.zip",
+    "comment": "Random sampling, uniform in [-5,5]^n"
   }
 ]

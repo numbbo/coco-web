@@ -23,7 +23,7 @@ import sys
 sys.path.insert(1, '../../scripts/')
 from dsh import display_suite_table
 
-display_suite_table("sbox-cost")
+display_suite_table("bbob-boxed")
 ```
 
 <script type="text/javascript" src="/assets/js/sort-table.js"></script>
