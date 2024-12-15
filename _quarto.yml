@@ -127,9 +127,6 @@ website:
           href: https://github.com/numbbo/coco-postprocess
         - text: coco-visualize
           href: https://github.com/numbbo/coco-visualize
-  page-footer:
-    center:
-      - imprint.qmd
   search:
     type: textbox    
 
