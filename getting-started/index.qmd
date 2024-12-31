@@ -167,6 +167,12 @@ Running the first 5 instances only, as induced by the above `suite_filter`, and 
 
 ## C
 
+For the time being (this is work in progress), see
+
+- [here](https://github.com/numbbo/coco-experiment/tree/main/build),
+- [here](https://github.com/numbbo/coco-experiment/blob/main/DEVELOPMENT.md), and
+- [here](https://github.com/numbbo/coco-experiment/tree/main/build/c).
+
 ## Matlab
 
 ### Prerequisites
