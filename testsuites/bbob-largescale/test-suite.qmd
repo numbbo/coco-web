@@ -1,0 +1,5 @@
+The `bbob-largescale` test suite is a version of the `bbob` benchmark suite in dimension 20 to 640,
+employing permuted block-diagonal matrices to reduce the execution time for function evaluations in higher dimension.
+
+- [function definitions](https://arxiv.org/pdf/1903.06396.pdf)
+- [some available results](https://numbbo.github.io/ppdata-archive)

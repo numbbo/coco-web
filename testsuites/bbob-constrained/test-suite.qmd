@@ -1,0 +1,5 @@
+The `bbob-constrained` test suite is a suite of 54 nonlinearly constrained test functions
+with varying number of active and inactive constraints.
+
+- [function definitions](http://numbbo.github.io/coco-doc/bbob-constrained/functions.pdf)
+- [some available results](https://numbbo.github.io/ppdata-archive)

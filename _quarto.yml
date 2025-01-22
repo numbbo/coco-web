@@ -93,14 +93,20 @@ website:
             href: testsuites/bbob-boxed/data-archive.qmd
       - section: bbob-constrained
         contents:
+          - text: Suite
+            href: testsuites/bbob-constrained/test-suite.qmd
           - text: Data Archive
             href: testsuites/bbob-constrained/data-archive.qmd
       - section: bbob-largescale
         contents:
+          - text: Suite
+            href: testsuites/bbob-largescale/test-suite.qmd
           - text: Data Archive
             href: testsuites/bbob-largescale/data-archive.qmd
       - section: bbob-mixint
         contents:
+          - text: Suite
+            href: testsuites/bbob-mixint/test-suite.qmd
           - text: Data Archive
             href: testsuites/bbob-mixint/data-archive.qmd
       - section: bbob-noisy

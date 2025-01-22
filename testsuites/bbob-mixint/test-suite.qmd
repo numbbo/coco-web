@@ -1,0 +1,7 @@
+The `bbob-mixint` test suite is a mixed-integer version of the original `bbob` and `bbob-largescale` suites
+where 80% of the variables have been discretized with arities of 2, 4, 8, and 16.
+
+
+- [function definitions (original paper)](https://hal.inria.fr/hal-02067932/document)
+- [sublevel set visualizations (pdf)](https://numbbo.github.io/gforge/preliminary-bbob-mixint-documentation/bbob-mixint-doc.pdf)
+- [some available results](https://numbbo.github.io/ppdata-archive)
