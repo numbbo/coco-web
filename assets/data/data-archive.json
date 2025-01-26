@@ -2576,6 +2576,14 @@
     "comment": "Multiple Trajectory Search with local search LS1 and parameter c set to 0.9: [BBOB-2022 paper](https://arxiv.org/pdf/2204.13284)"
   },
   {
+    "suite": "bbob-largescale",
+    "algorithm": "RANDOMSEARCH",
+    "year": 2024,
+    "author": "Brockhoff",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-largescale/2024/RANDOMSEARCH_Brockhoff.zip",
+    "comment": "Simple random sampling, uniformly distributed in $[-5,5]^n$"
+  },
+  {
     "suite": "bbob-constrained",
     "algorithm": "RandomSearch-5",
     "year": 2022,
