@@ -107,7 +107,7 @@ The benchmarking data are written to a subfolder in the `exdata` folder (see als
 The last line postprocesses the obtained data and compares the result with BFGS (see also below [Displaying Benchmarking Results (postprocess)](#postprocess)).
 The resulting figures and tables can be browsed from the file `./ppdata/index.html`.
 
-For running the benchmarking in several batches a somewhat expanded example `example_experiment_complete.py` can be found in [this subfolder](https://github.com/numbbo/coco-experiment/tree/main/build/python/example).
+For running the benchmarking in several batches a somewhat expanded example `example_experiment_complete.py`, and others for different use cases, can be found in [this subfolder](https://github.com/numbbo/coco-experiment/tree/main/build/python/example).
 
 #### Benchmarking "your own" algorithm
 For benchmarking another algorithm,
