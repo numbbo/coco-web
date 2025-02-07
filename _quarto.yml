@@ -111,6 +111,8 @@ website:
             href: testsuites/bbob-mixint/data-archive.qmd
       - section: bbob-noisy
         contents:
+          - text: Problem Visualizations
+            href: https://numbbo.github.io/temp-doc-bbob/bbob-noisy/vis.html
           - text: Data Archive
             href: testsuites/bbob-noisy/data-archive.qmd
     - text: "Publish Results"
