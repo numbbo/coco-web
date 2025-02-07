@@ -105,7 +105,11 @@ website:
             href: testsuites/bbob-largescale/data-archive.qmd
       - section: bbob-mixint
         contents:
-          - text: Suite
+          - text: Problem Visualizations
+            href: https://numbbo.github.io/temp-doc-bbob/bbob-mixint/vis.html
+          - text: Function Definitions
+            href: https://numbbo.github.io/temp-doc-bbob/bbob-mixint/def.html
+          - text: Further suite information/links
             href: testsuites/bbob-mixint/test-suite.qmd
           - text: Data Archive
             href: testsuites/bbob-mixint/data-archive.qmd
@@ -113,6 +117,8 @@ website:
         contents:
           - text: Problem Visualizations
             href: https://numbbo.github.io/temp-doc-bbob/bbob-noisy/vis.html
+          - text: Function Definitions
+            href: https://numbbo.github.io/temp-doc-bbob/bbob-noisy/def.html
           - text: Data Archive
             href: testsuites/bbob-noisy/data-archive.qmd
     - text: "Publish Results"
