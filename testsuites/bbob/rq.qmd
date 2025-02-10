@@ -9,11 +9,120 @@ format:
 
 The BBOB functions were hand-selected in order to provide specific information 
 that can help answering common questions when analysing algorithm behaviour.
-Examples of the selected research questions and the corresponding functions
-are listed below.
+Examples of information that can be gained from comparing across different functions is listed below.
 
-## Convergence behaviour close to the optimum
+# Algorithm behaviour ...
+
+## close to the optimum
+
+<div class="plot-grid" data-short="true" data-num="1" ></div>
+
+## on plateaus
+
+<div class="plot-grid" data-short="true" data-num="7" ></div>
+
+## close to the boundary
+
+### Optimum on domain boundary
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="5" ></div>
+
+### Promiment 2-D optima close to corners of unpenalized search area
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="20" ></div>
+
+# Ability to exploit ...
+
+## (partial) separability
+
+### Elipsoid
+
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="2" ></div>
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="10" ></div>
+
+### Rastrigin
+
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="3" ></div>
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="15" ></div>
+
+### Rosenbrock
+
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="8" ></div>
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="9" ></div>
+
+## symmetry
+
+### Sphere
+
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="1" ></div>
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="6" ></div>
+
+### Rastrigin
+
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="3" ></div>
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="4" ></div>
+
+# Effect of ...
+
+## ruggedness
+
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="17" ></div>
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="16" ></div>
+
+### Highly rugged (and repetitive)
+
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="23" ></div>
+
+## conditioning
+
+### Schaffer F7
+
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="17" ></div>
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="18" ></div>
+
+### Galagher n Peaks
+
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="21" ></div>
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="22" ></div>
 
 
-<div id="plot-grid" class="plot-grid" data-num="1" ></div>
+## modality
+
+### Highly multimodal
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="17" ></div>
+
+### Rosenbrock
+
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="8" ></div>
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="19" ></div>
+
+## sensitivity
+
+### Different sensitivities close to the optimum
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="14" ></div>
+
+## constraint-like penalization
+
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="1" ></div>
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="11" ></div>
+
+
+## non-smooth, non-differentiable ridge
+
+<div class="plot-grid" data-short="true" data-num="12" ></div>
+<div class="plot-grid" data-short="true" data-num="13" ></div>
+
+## complex search path
+
+### D-1 changes in direction
+
+<div class="plot-grid" data-short="true" data-num="8" ></div>
+<div class="plot-grid" data-short="true" data-num="9" ></div>
+
+### Continuously changing direction
+
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="12" ></div>
+
+### Switching between global/local
+
+<div id="plot-grid" class="plot-grid" data-short="true" data-num="24" ></div>
+
 
