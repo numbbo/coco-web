@@ -21,12 +21,12 @@ window.onload=function() {
     }
     for (var iTyp = 0; iTyp < valuesTyp.length; iTyp++) {
         for (var iDim = 0; iDim < dims.length; iDim++) {
-			var plotName = valuesTyp[iTyp] + "-500/bbob_f" + pad(func, 1) + "_i01_d" + pad(dims[iDim], 0) + "_" + pad(valuesTyp[iTyp], 0) + ".png";
+			var plotName = valuesTyp[iTyp] + "-500/bbob_f" + pad(func, 3) + "_i01_d" + pad(dims[iDim]) + "_" + pad(valuesTyp[iTyp]) + ".png";
 			var plotDiv = document.createElement("div");
 			plotDiv.className = "plot";
             plotDiv.style.width = (100 / dims.length) + "%";
 			var plotImg = document.createElement("img");
-			plotImg.setAttribute("src", plotPath + plotName);
+			plotImg.setAttribute("src", plotPathBbob + plotName);
             var plotA = document.createElement('a');
             plotA.setAttribute("href", "/bbob/viz.html?col=3&dim=" + dims[iDim] + "&fun=" + func + "&ins=all&typ=" + valuesTyp[iTyp]);
             plotA.appendChild(plotImg);

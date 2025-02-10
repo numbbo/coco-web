@@ -32,43 +32,43 @@ website:
     - text: Get Started
       href: getting-started/index.qmd
       contents:
-        - text: experiment
+        - text: Experiment
           href: getting-started/index.qmd#experiment
-        - text: postprocess or display
+        - text: Postprocess or Display
           href: getting-started/index.qmd#postprocess
     - section: Test Suites
       contents:
       - section: bbob
-        href: bbob/overview.qmd
+        href: testsuites/bbob/overview.qmd
         contents:
           - text: Problem Visualizations
-            href: bbob/viz.qmd
+            href: testsuites/bbob/viz.qmd
           - section: Function Definitions
             contents:
-              - href: bbob/functions/f01.qmd
-              - href: bbob/functions/f02.qmd
-              - href: bbob/functions/f03.qmd
-              - href: bbob/functions/f04.qmd
-              - href: bbob/functions/f05.qmd
-              - href: bbob/functions/f06.qmd
-              - href: bbob/functions/f07.qmd
-              - href: bbob/functions/f08.qmd
-              - href: bbob/functions/f09.qmd
-              - href: bbob/functions/f10.qmd
-              - href: bbob/functions/f11.qmd
-              - href: bbob/functions/f12.qmd
-              - href: bbob/functions/f13.qmd
-              - href: bbob/functions/f14.qmd
-              - href: bbob/functions/f15.qmd
-              - href: bbob/functions/f16.qmd
-              - href: bbob/functions/f17.qmd
-              - href: bbob/functions/f18.qmd
-              - href: bbob/functions/f19.qmd
-              - href: bbob/functions/f20.qmd
-              - href: bbob/functions/f21.qmd
-              - href: bbob/functions/f22.qmd
-              - href: bbob/functions/f23.qmd
-              - href: bbob/functions/f24.qmd
+              - href: testsuites/bbob/functions/f01.qmd
+              - href: testsuites/bbob/functions/f02.qmd
+              - href: testsuites/bbob/functions/f03.qmd
+              - href: testsuites/bbob/functions/f04.qmd
+              - href: testsuites/bbob/functions/f05.qmd
+              - href: testsuites/bbob/functions/f06.qmd
+              - href: testsuites/bbob/functions/f07.qmd
+              - href: testsuites/bbob/functions/f08.qmd
+              - href: testsuites/bbob/functions/f09.qmd
+              - href: testsuites/bbob/functions/f10.qmd
+              - href: testsuites/bbob/functions/f11.qmd
+              - href: testsuites/bbob/functions/f12.qmd
+              - href: testsuites/bbob/functions/f13.qmd
+              - href: testsuites/bbob/functions/f14.qmd
+              - href: testsuites/bbob/functions/f15.qmd
+              - href: testsuites/bbob/functions/f16.qmd
+              - href: testsuites/bbob/functions/f17.qmd
+              - href: testsuites/bbob/functions/f18.qmd
+              - href: testsuites/bbob/functions/f19.qmd
+              - href: testsuites/bbob/functions/f20.qmd
+              - href: testsuites/bbob/functions/f21.qmd
+              - href: testsuites/bbob/functions/f22.qmd
+              - href: testsuites/bbob/functions/f23.qmd
+              - href: testsuites/bbob/functions/f24.qmd
           - text: Performance Comparison
             href: testsuites/bbob/performancecomparisons.qmd
           - text: Data Archive
@@ -76,7 +76,16 @@ website:
           - text: Temporary Placement of Research Questions
             href: bbob/rq.qmd
       - section: bbob-biobj  
+        href: testsuites/bbob-biobj/overview.qmd
         contents:
+          - text: Problem Visualizations
+            href: testsuites/bbob-biobj/viz.qmd
+          - text: Function Definitions
+            href: testsuites/bbob-biobj/def.qmd
+          - text: Gradient Angle Plots
+            href: testsuites/bbob-biobj/ecdfs.qmd
+          - text: Performance Comparison
+            href: testsuites/bbob-biobj/performancecomparisons.qmd
           - text: Data Archive
             href: testsuites/bbob-biobj/data-archive.qmd
       - section: bbob-biobj-mixint
@@ -86,18 +95,32 @@ website:
             href: testsuites/bbob-boxed/data-archive.qmd
       - section: bbob-constrained
         contents:
+          - text: Suite
+            href: testsuites/bbob-constrained/test-suite.qmd
           - text: Data Archive
             href: testsuites/bbob-constrained/data-archive.qmd
       - section: bbob-largescale
         contents:
+          - text: Suite
+            href: testsuites/bbob-largescale/test-suite.qmd
           - text: Data Archive
             href: testsuites/bbob-largescale/data-archive.qmd
       - section: bbob-mixint
         contents:
+          # - text: Problem Visualizations  # seem not to display the correct functions
+          #   href: https://numbbo.github.io/temp-doc-bbob/bbob-mixint/vis.html
+          - text: Function Definitions
+            href: https://numbbo.github.io/temp-doc-bbob/bbob-mixint/def.html
+          - text: Further suite information/links
+            href: testsuites/bbob-mixint/test-suite.qmd
           - text: Data Archive
             href: testsuites/bbob-mixint/data-archive.qmd
       - section: bbob-noisy
         contents:
+          - text: Problem Visualizations
+            href: https://numbbo.github.io/temp-doc-bbob/bbob-noisy/vis.html
+          - text: Function Definitions
+            href: https://numbbo.github.io/temp-doc-bbob/bbob-noisy/def.html
           - text: Data Archive
             href: testsuites/bbob-noisy/data-archive.qmd
     - text: "Publish Results"
@@ -120,9 +143,6 @@ website:
           href: https://github.com/numbbo/coco-postprocess
         - text: coco-visualize
           href: https://github.com/numbbo/coco-visualize
-  page-footer:
-    center:
-      - imprint.qmd
   search:
     type: textbox    
 
@@ -148,4 +168,4 @@ format:
         <link rel="shortcut icon" type="image/png" href="/assets/images/coco-logo-192.png">
         <link rel="shortcut icon" sizes="192x192" href="/assets/images/coco-logo-192.png">
         <link rel="apple-touch-icon" href="/assets/images/coco-logo-192.png">
-        
+        <script defer src="https://umami.0x200.net/script.js" data-website-id="d3bf2497-9b15-4f22-829f-e54590c461aa"></script>
