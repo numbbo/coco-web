@@ -1,0 +1,19 @@
+---
+title: Analysing Algorithm behaviour with BBOB
+format:
+  html:
+    include-after-body: 
+      - text: <script type="text/javascript" defer src="/assets/js/helpers.js"></script>
+      - text: <script type="text/javascript" defer src="/assets/js/viz-bbob-grid-plots.js"></script>
+---
+
+The BBOB functions were hand-selected in order to provide specific information 
+that can help answering common questions when analysing algorithm behaviour.
+Examples of the selected research questions and the corresponding functions
+are listed below.
+
+## Convergence behaviour close to the optimum
+
+
+<div id="plot-grid" class="plot-grid" data-num="1" ></div>
+

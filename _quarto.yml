@@ -74,7 +74,7 @@ website:
           - text: Data Archive
             href: testsuites/bbob/data-archive.qmd
           - text: Temporary Placement of Research Questions
-            href: bbob/rq.qmd
+            href: testsuites/bbob/rq.qmd
       - section: bbob-biobj  
         contents:
           - text: Data Archive
