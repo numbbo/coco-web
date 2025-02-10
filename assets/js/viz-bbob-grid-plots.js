@@ -2,9 +2,15 @@
 window.onload=function() {
     var plotGrid = document.getElementById("plot-grid");
     var func = plotGrid.getAttribute("data-num");
-	var dims = ["2", "5", "20"];
-    var valuesTyp = ["level-sets", "heatmap-rank", "cuts-lin-lin", "cuts-lin-log", "cuts-log-log"];
-
+    var short = plotGrid.getAttribute("short") || False;
+    if (short){
+      var dims = ["2"];
+      var valuesTyp = ["level-sets", "heatmap-rank", "cuts-lin-lin"];
+    }else{
+      var dims = ["2", "5", "20"];
+      var valuesTyp = ["level-sets", "heatmap-rank", "cuts-lin-lin", "cuts-lin-log", "cuts-log-log"];
+    }
+	  
     plotGrid.innerHTML = ""; // Clear any existing content
     for (var iDim = 0; iDim < dims.length; iDim++) {
         var description = document.createElement("div");
