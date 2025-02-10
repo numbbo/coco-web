@@ -1,10 +1,10 @@
 # coco-web
 
-Next iteration of the COCO website currently hosted at [numbbob.it](https://numbbo.it/).
+This is the repository for the COCO homepage hosted at [coco-platform.org](https://coco-platform.org/)
 
 ## Build environment
 
-We use [Quarto](https://quarto.org) version 1.3.450 to build the site. 
+We use [Quarto](https://quarto.org) version 1.3.450 to build the site.
 In addition, `env.yaml` contains a conda environment definition that is loaded before the site is built.
 
 To setup the environment on your local machine, run
@@ -13,7 +13,7 @@ To setup the environment on your local machine, run
 mamba env create -f env.yaml
 ```
 
-in the root directory of the repository. 
+in the root directory of the repository.
 If you've already created the environment and `env.yaml` has changed, run
 
 ```sh

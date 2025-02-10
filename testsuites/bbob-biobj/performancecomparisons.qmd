@@ -1,8 +1,8 @@
 ---
-title: Performance Visualizations for the `bbob` test suite 
+title: Performance Visualizations for the `bbob-biobj` test suite 
 ---
 
-Below, we provide postprocessed data showing the performance of all [250+ officially supported algorithm data sets](../../../../data-archive/bbob.html) for the `bbob` test suite.
+Below, we provide postprocessed data showing the performance of all [30+ officially supported algorithm data sets](../../../../data-archive/bbob-biobj.html) for the `bbob-biobj` test suite.
 
 Due to the large amount of algorithms (and the limited space in the figures), we currently group algorithm data sets by year of publication.
 
@@ -20,11 +20,11 @@ from IPython.display import Markdown
 
 import cocopp
 
-for year in range(2009, 2030):
-	dd = cocopp.bbob.find(str(year))
+for year in range(2016, 2030):
+	dd = cocopp.bbob_biobj.find(str(year))
 	if len(dd) > 1:
 		dda = [(re.search('/(.*)', d.partition('_')[0]).group(1)) for d in dd]
-		display(Markdown("\n- [{0}](https://numbbo.github.io/ppdata-archive/bbob/{0}/index.html):".format(year)))
+		display(Markdown("\n- [{0}](https://numbbo.github.io/ppdata-archive/bbob-biobj/{0}/index.html):".format(year)))
 		display(Markdown("{0}".format(', '.join(dda))))
 
 ```
@@ -33,13 +33,13 @@ for year in range(2009, 2030):
 
 ## Example code to produce the figures
 
-The Python code to locally generate the second entry, 2010,
+The Python code to locally generate the second entry, 2019,
 above (other entries work respectively) reads
 
 ```python
 import cocopp               # see https://pypi.org/project/cocopp
-cocopp.genericsettings.background = {None: cocopp.archives.bbob.get_all('2009')}
-cocopp.main('bbob/2010/*')  # will take several minutes to process
+cocopp.genericsettings.background = {None: cocopp.archives.bbob_biobj.get_all('2016')}
+cocopp.main('bbob-biobj/2019/*')  # will take several minutes to process
 
 ```
 
