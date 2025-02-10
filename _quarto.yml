@@ -73,6 +73,8 @@ website:
             href: testsuites/bbob/performancecomparisons.qmd
           - text: Data Archive
             href: testsuites/bbob/data-archive.qmd
+          - text: Temporary Placement of Research Questions
+            href: testsuites/bbob/rq.qmd
       - section: bbob-biobj  
         href: testsuites/bbob-biobj/overview.qmd
         contents:
