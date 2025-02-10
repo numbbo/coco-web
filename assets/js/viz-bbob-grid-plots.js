@@ -28,7 +28,7 @@ window.onload=function() {
 			var plotImg = document.createElement("img");
 			plotImg.setAttribute("src", plotPathBbob + plotName);
             var plotA = document.createElement('a');
-            plotA.setAttribute("href", "/bbob/viz.html?col=3&dim=" + dims[iDim] + "&fun=" + func + "&ins=all&typ=" + valuesTyp[iTyp]);
+            plotA.setAttribute("href", "/testsuites/bbob/viz.html?col=3&dim=" + dims[iDim] + "&fun=" + func + "&ins=all&typ=" + valuesTyp[iTyp]);
             plotA.appendChild(plotImg);
             plotDiv.appendChild(plotA);
 			plotGrid.appendChild(plotDiv);
