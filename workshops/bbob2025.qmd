@@ -19,7 +19,7 @@ Optimization Benchmarking (BBOB 2025) which will take place during GECCO 2025.
 | Presenter mandatory registration: May 8, 2025
 
   ------------------------------------------------------- ------------------------------------------------------------------------ -----------------------------------------------------------------
-  [register for news](http://numbbo.github.io/register)   [COCO quick start](https://coco-platform.org/getting-started/)           [COCO homepage](https://coco-platform.org/)
+  [register for news](http://numbbo.github.io/register)   [COCO quick start](../getting-started/)       
   ------------------------------------------------------- ------------------------------------------------------------------------ -----------------------------------------------------------------
 
 <br /><br />
@@ -30,7 +30,7 @@ benchmarking practices and concrete results from benchmarking experiments
 with a large variety of (black box) optimizers.
 
 The Comparing Continuous Optimizers platform (COCO[^1],
-<https://github.com/numbbo/coco>) has been developed in this context to
+<https://coco-platform.org/>) has been developed in this context to
 support algorithm developers and practitioners alike by automating 
 benchmarking experiments for black box optimization algorithms in single- 
 and bi-objective, unconstrained and constrained, continuous and mixed-integer

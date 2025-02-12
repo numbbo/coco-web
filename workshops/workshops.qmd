@@ -34,5 +34,5 @@ Generally, seven benchmark suites are available:
 
 Since 2020, we also welcome submissions of data from benchmarking
 experiments on the above test suites throughout the year. Please open a
-submission issue at <https://github.com/numbbo/coco/issues/new/choose> .
+submission issue at <https://github.com/numbbo/data-archive/issues/new/choose>.
 
