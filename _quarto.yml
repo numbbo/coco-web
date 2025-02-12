@@ -131,8 +131,13 @@ website:
           href: http://numbbo.github.io/coco-doc/apidocs/cocoex
         - text: Core cocoex C API
           href: http://numbbo.github.io/coco-doc/C
-    - text: "Workshops"
-      href: https://numbbo.github.io/workshops/
+    - section: Workshops
+      href: workshops/workshops.qmd
+      contents:
+        - text: Current (BBOB-2025)
+          href: workshops/bbob2025.qmd
+        - text: Previous
+          href: workshops/previous.qmd
     - section: Development
       contents:
         - text: coco-experiment
@@ -167,3 +172,4 @@ format:
         <link rel="shortcut icon" sizes="192x192" href="/assets/images/coco-logo-192.png">
         <link rel="apple-touch-icon" href="/assets/images/coco-logo-192.png">
         <script defer src="https://umami.0x200.net/script.js" data-website-id="d3bf2497-9b15-4f22-829f-e54590c461aa"></script>
+
