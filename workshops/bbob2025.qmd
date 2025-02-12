@@ -41,10 +41,14 @@ for the 2025 edition of the workshop, although we would like to put a particular
 emphasis on:
 
 1) Benchmarking algorithms for problems with underexplored properties (for
-   example mixed integer, noisy, constrained, multiobjective, ...). In the case
-   of noise, we provide a new functionality with COCO to sweep over parameters
-   of a frozen noise/outlier model, added to the default "bbob" suite
-   (in python only, see the new [example_experiment_parameter_sweep.py](https://github.com/numbbo/coco-experiment/blob/parameter-sweep/build/python/example/example_experiment_parameter_sweep.py)).
+   example mixed integer, noisy, constrained, multiobjective, ...).
+   For the case of noise, we provide a new parametrized frozen-noise outlier model
+   in COCO which can be combined with the default [`bbob`](../testsuites/bbob/overview.qmd)
+   suite, see [here for more details](https://github.com/numbbo/coco-experiment/issues/36).
+   Additionally, we provide the functionality to sweep over a single parameter, see
+   [here](https://github.com/numbbo/coco-experiment/issues/37).
+   A parameter sweep over the noise model can now quantitatively assess the effect
+   of outlier noise on an algorithm.
 2) Reproducing previous benchmarking results as well as examining performance 
    improvements or degradations in algorithm implementations over time 
    (for example with the help of results from earlier BBOB submissions).
