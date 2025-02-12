@@ -32,3 +32,7 @@ quarto preview
 ```
 
 on your machine and open [http://localhost:4204](http://localhost:4204) in your browser.
+
+## Publishing
+
+To publish the site, simply commit your changes to the `main` branch. 
