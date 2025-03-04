@@ -71,7 +71,7 @@ pipeline to reduce the time spent for producing the results for:
 We especially encourage submissions exploring algorithms from beyond the 
 evolutionary computation community, as well as papers analyzing COCO’s 
 extensive, publicly available algorithm datasets (see
-https://numbbo.github.io/data-archive/).
+https://coco-platform.org/data-archive/).
 
 
 [1] Nikolaus Hansen, Anne Auger, Raymond Ros, Olaf Mersmann, Tea Tušar,
@@ -134,10 +134,10 @@ Documentation of the functions used in the different test suites can be
 found here:
 
 -   `bbob` suite at
-    <https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf>
+    <https://coco-platform.org/testsuites/bbob/overview.html>
 -   `bbob-noisy` suite at
-    <http://coco.lri.fr/downloads/download15.03/bbobdocnoisyfunctions.pdf>
--   `bbob-biobj` suite at <https://numbbo.github.io/bbob-biobj/>
+    <https://numbbo.github.io/coco/testsuites/bbob-noisy>
+-   `bbob-biobj` suite at <https://coco-platform.org/testsuites/bbob-biobj/overview.html>
 -   `bbob-largescale` suite at <https://arxiv.org/pdf/1903.06396.pdf>
 -   `bbob-mixint` and `bbob-biobj-mixint` suites at
     <https://hal.inria.fr/hal-02067932/document> and at
@@ -147,10 +147,10 @@ found here:
 
 ## Important Dates
 
--   **2025-03-xx** *paper and data submission deadline* (tba)
--   **2025-05-xx** decision notification (tba)
--   **2025-05-xx** deadline camera-ready papers (tba)
--   **2025-05-xx** deadline author registration (tba)
+-   **2025-03-26** *paper and data submission deadline* (tba)
+-   **2025-04-28** decision notification (tba)
+-   **2025-05-05** deadline camera-ready papers (tba)
+-   **2025-05-08** deadline author registration (tba)
 -   **2025-07-14** or **2023-07-15** workshop (tba)
 
 All dates are given in ISO 8601 format (yyyy-mm-dd).
