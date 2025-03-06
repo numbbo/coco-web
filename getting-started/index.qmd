@@ -373,6 +373,7 @@ For the time being, see
 - [here](https://github.com/numbbo/coco-experiment/blob/main/DEVELOPMENT.md), and
 - [here](https://github.com/numbbo/coco-experiment/tree/main/build/java).
 
+:::
 
 # Displaying Benchmarking Results (`postprocess`) {#postprocess}
 
