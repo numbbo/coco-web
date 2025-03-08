@@ -15,7 +15,7 @@ and divided into _two main parts_ which can be used independently:
 
 ## Python
 
-For benchmarking an algorithm in Python, we use the [`coco-experiment` (`cocoex`)](https://pypi.org/project/coco-experiment) Python package.
+For benchmarking an algorithm in Python, we provide the [`coco-experiment` (`cocoex`)](https://pypi.org/project/coco-experiment) Python package.
 
 ### Installation (assuming Python is present)
 From a system shell, execute
@@ -24,8 +24,16 @@ From a system shell, execute
 python -m pip install coco-experiment cocopp
 ```
 
+Then, for convenience, example scripts can be downloaded which creates a 
+`cocoex-example` folder in the current directory,
+```sh
+python -m cocoex.download_example
+```
+
+
 ### Using [`coco-experiment` (`cocoex`)](https://numbbo.github.io/coco-doc/apidocs/cocoex)
-Depending on the algorithm, we have to chose the appropriate benchmark suite
+Depending on the algorithm, we have to chose the appropriate benchmark suite. In a Python shell,
+we can list the available suites,
 
 ```python
 >>> import cocoex  # install(ed) with "pip install coco-experiment"
@@ -112,7 +120,8 @@ For running the benchmarking in several batches a somewhat expanded example `exa
 #### Benchmarking "your own" algorithm
 For benchmarking another algorithm,
 
-1. copy-paste the above code or (preferably) download the linked batching example `example_experiment_complete.py` and the `mkl_bugfix.py` file
+1. copy-paste the above code or (preferably) download the linked batching example `example_experiment_complete.py` and
+   the `mkl_bugfix.py` file, ``python -m cocoex.download_example`` will download these into the `cocoex-example` folder.
 2. revise the lines following `### input`, in particular
    - reassign `fmin` to run the desired algorithm
    - adapt the calling code `fmin(problem, ...)` respectively
