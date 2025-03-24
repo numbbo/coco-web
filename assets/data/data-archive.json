@@ -2444,8 +2444,32 @@
     "algorithm": "CMA-ESwM",
     "year": 2022,
     "author": "Hamano et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2022/CMA-ESwM_Hamano.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2022/CMA-ESwM_Hamano.zip",
     "comment": "CMA-ES with Margins as submitted to BBOB-2022"
+  },
+  {
+    "suite": "bbob-mixint",
+    "algorithm": "DE-CoBi-r1-L",
+    "year": 2024,
+    "author": "Tanabe",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2024/DE-CoBi-r1-L_Tanabe.zip",
+    "comment": "continuous submission:  [source code](https://github.com/ryojitanabe/de_bbobmixint), [paper](https://arxiv.org/abs/2404.03303), Differential Evolution with the parameter control method in CoBiDE, the rand/1 strategy, and Lamarckian repair method, as benchmarked by Tanabe at GECCO-2024"
+  },
+  {
+    "suite": "bbob-mixint",
+    "algorithm": "DE-j-r2-B",
+    "year": 2024,
+    "author": "Tanabe",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2024/DE-j-r2-B_Tanabe.zip",
+    "comment": "continuous submission: [source code](https://github.com/ryojitanabe/de_bbobmixint), [GECCO 2024 paper](https://arxiv.org/abs/2404.03303), Differential Evolution with the parameter control method in jDE, the rand/2 strategy, and Baldwinian repair method, as benchmarked by Tanabe at GECCO-2024"
+  },
+  {
+    "suite": "bbob-mixint",
+    "algorithm": "DE-NO-r1-B",
+    "year": 2024,
+    "author": "Tanabe",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2024/DE-NO-r1-B_Tanabe.zip",
+    "comment": "continuous submission: [source code](https://github.com/ryojitanabe/de_bbobmixint), [GECCO 2024 paper](https://arxiv.org/abs/2404.03303), Differential Evolution with no parameter control method, the rand/1 strategy, and Baldwinian repair method, as benchmarked by Tanabe at GECCO-2024"
   },
   {
     "suite": "bbob-largescale",
