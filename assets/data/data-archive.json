@@ -2453,7 +2453,7 @@
     "year": 2024,
     "author": "Tanabe",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2024/DE-CoBi-r1-L_Tanabe.zip",
-    "comment": "continuous submission:  [source code](https://github.com/ryojitanabe/de_bbobmixint), [paper](https://arxiv.org/abs/2404.03303), Differential Evolution with the parameter control method in CoBiDE, the rand/1 strategy, and Lamarckian repair method, as benchmarked by Tanabe at GECCO-2024"
+    "comment": "continuous submission:  [source code](https://github.com/ryojitanabe/de_bbobmixint), [GECCO 2024 paper](https://arxiv.org/abs/2404.03303), Differential Evolution with the parameter control method in CoBiDE, the rand/1 strategy, and Lamarckian repair method, as benchmarked by Tanabe at GECCO-2024"
   },
   {
     "suite": "bbob-mixint",

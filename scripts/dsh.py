@@ -20,7 +20,10 @@ def display_suite_table(suite):
     for ds in DATA:
         if ds["suite"] != suite:
             continue
-        table.append([ds["algorithm"], ds["year"], ds["author"], f'[tgz]({ds["dataset"]})', ds["comment"]])
+        if ds["dataset"][-4:] == 'zip':
+            table.append([ds["algorithm"], ds["year"], ds["author"], f'[zip]({ds["dataset"]})', ds["comment"]])
+        else
+            table.append([ds["algorithm"], ds["year"], ds["author"], f'[tgz]({ds["dataset"]})', ds["comment"]])
 
     display(Markdown(tabulate(table, headers=["Algorithm", "Year", "Author(s)", "Dataset", "Comment"])))
     display(Markdown("\n: {.js-sort-table .column-page-right}"))
