@@ -20,7 +20,7 @@ def display_suite_table(suite):
     for ds in DATA:
         if ds["suite"] != suite:
             continue
-        if ds["dataset"][-4:] == 'zip':
+        if ds["dataset"][-4:] == '.zip':
             table.append([ds["algorithm"], ds["year"], ds["author"], f'[zip]({ds["dataset"]})', ds["comment"]])
         else:
             table.append([ds["algorithm"], ds["year"], ds["author"], f'[tgz]({ds["dataset"]})', ds["comment"]])
