@@ -13,7 +13,7 @@ Optimization Benchmarking (BBOB 2025) which will take place during GECCO 2025.
 > | <https://gecco-2025.sigevo.org>
 
 | Submission opening: February 10, 2025
-| Submission deadline: March 26, 2025
+| Submission deadline: ~~March 26, 2025~~ April 2, 2025
 | Notification: April 28, 2025
 | Camera-ready: May 5, 2025
 | Presenter mandatory registration: May 8, 2025
@@ -147,10 +147,10 @@ found here:
 
 ## Important Dates
 
--   **2025-03-26** *paper and data submission deadline* (tba)
--   **2025-04-28** decision notification (tba)
--   **2025-05-05** deadline camera-ready papers (tba)
--   **2025-05-08** deadline author registration (tba)
+-   **2025-04-02** *paper and data submission deadline* (was 2025-03-26)
+-   **2025-04-28** decision notification
+-   **2025-05-05** deadline camera-ready papers
+-   **2025-05-08** deadline author registration
 -   **2025-07-14** or **2023-07-15** workshop (tba)
 
 All dates are given in ISO 8601 format (yyyy-mm-dd).
