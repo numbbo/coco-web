@@ -111,7 +111,7 @@ while not repeater.done():  # while budget is left and successes are few
 cocopp.main(observer.result_folder + ' bfgs!');  # re-run folders look like "...-001" etc
 ```
 
-The benchmarking data are written to a subfolder in the `exdata` folder (see also [here](https://github.com/numbbo/coco/issues/1841)).
+The benchmarking data are written to a subfolder in the `exdata` folder. This location can be changed using the outer_folder option of the observer.
 The last line postprocesses the obtained data and compares the result with BFGS (see also below [Displaying Benchmarking Results (postprocess)](#postprocess)).
 The resulting figures and tables can be browsed from the file `./ppdata/index.html`.
 
