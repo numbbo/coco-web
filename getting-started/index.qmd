@@ -9,7 +9,7 @@ and divided into _two main parts_ which can be used independently:
 - [`coco-postprocess`](#postprocess) for displaying benchmarking data.
 
 
-# Running an Algorithm on a COCO Benchmark Suite (`experiment`) {#experiment}
+## Running an Algorithm on a COCO Benchmark Suite (`experiment`) {#experiment}
 
 ::: {.panel-tabset}
 
@@ -384,18 +384,18 @@ For the time being, see
 
 :::
 
-# Displaying Benchmarking Results (`postprocess`) {#postprocess}
+## Displaying Benchmarking Results (`postprocess`) {#postprocess}
 
 Benchmarking performance results are displayed with the [`cocopp`](https://pypi.org/project/cocopp) (`coco-postprocess`) Python module and a web browser.
 
-## Installation (assuming Python is present)
+### Installation (assuming Python is present)
 From a system shell, execute
 
 ```sh
 python -m pip install cocopp
 ```
 
-## General usage
+### General usage
 The [`cocopp`](https://pypi.org/project/cocopp) "postprocessing" allows basic usage in a system shell, like
 
 ```sh
@@ -443,7 +443,7 @@ The recommended usage is from an `ipython` shell or a Jupyter notebook via the
 ```
 gives the same result as the first above.
 
-## Finding data to compare with
+### Finding data to compare with
 Hundreds of COCO comparative data sets are [provided online](../data-archive) and can be listed, filtered, and retrieved via
 [`cocopp.archives`](https://numbbo.github.io/coco-doc/apidocs/cocopp/cocopp.archiving.OfficialArchives.html) and processed alone or together with local data.
 For example,
@@ -468,7 +468,7 @@ For example,
 
 lists all data sets run on the `bbob` testbed containing `'bfgs'` in their name.
 
-## More examples
+### More examples
 
 The `cocopp.main` function takes any number of strings separated by spaces as argument (or a list of strings).
 For example, the first three entries from the above list can be postprocessed like
