@@ -77,8 +77,7 @@ You may cite this work in a scientific context as
 ![](/assets/images/coco.png){width=90% fig-align="center" .lightbox}
 
 
-The COCO platform has been used for the Black-Box-Optimization-Benchmarking (BBOB) workshops that took place during the GECCO conference in 2009, 2010, 2012, 2013, 2015 -- 2019, and 2021 -- 2023.
+The COCO platform has been used for the Black-Box-Optimization-Benchmarking (BBOB) workshops that took place during the GECCO conference in 2009, 2010, 2012, 2013, 2015 -- 2019, 2021 -- 2023, and 2025.
 It was also used at the IEEE Congress on Evolutionary Computation (CEC’2015) in Sendai, Japan.
 
-The COCO experiment source code has been rewritten in the years 2014-2015 and the current production code is available on our COCO Github page.
-The old code is still available here and shall be used for experiments on the noisy test suite until this test suite will be available in the new code as well.
+The COCO experiment source code has been rewritten in the years 2014-2015 and the current production code is available on our COCO Github pages (you find the links in the menu on the left under "Development").
