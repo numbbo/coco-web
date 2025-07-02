@@ -97,19 +97,19 @@ domain is given as $[-5,5]^{D}$.
 
 #### Location of the Optimal $\mathbf{x}^\mathrm{opt}$ and of $f_\mathrm{opt}=f(\mathbf{x^\mathrm{opt}})$
 
-All functions have their global optimum in $[-5,5]^{D}$.
-The majority of functions has the global optimum in
-$[-4,4]^{D}$ and for many of them
-$\mathbf{x}^\mathrm{opt}$ is drawn uniformly from this compact. The
-value for $f_\mathrm{opt}$ is drawn from a Cauchy distributed random
-variable, with zero median and with roughly 50% of the values between
--100 and 100. The value is rounded after two decimal places and set to
-$\pm1000$ if its absolute value exceeds $1000$. In the function
-definitions a transformed variable vector $\mathbf{z}$ is
-often used instead of the argument $\mathbf{x}$. The vector
-$\mathbf{z}$ has its optimum in
-$\mathbf{z^\mathrm{opt}}=\mathbf{0}$, if not
-stated otherwise.
+All functions have their global optimum in $[-5,5]^{D}$. The majority of
+functions has the global optimum in $[-4,4]^{D}$ and for many of them, if
+not stated otherwise, $\mathbf{x}^\mathrm{opt}$ is drawn uniformly from
+this compact. The value for $f_\mathrm{opt}$ is drawn from a Cauchy
+distributed random variable, with zero median and with roughly 50% of the
+values between -100 and 100. The value is rounded after two decimal places
+and set to $\pm1000$ if its absolute value exceeds $1000$ (which happens
+roughly with probability 1/16). In the function definitions, a transformed
+variable vector $\mathbf{z}$ is often used instead of the argument
+$\mathbf{x}$. The vector $\mathbf{z}$ has its optimum in
+$\mathbf{z^\mathrm{opt}}=\mathbf{0}$, if not stated otherwise.
+All random variables are pseudorandom and depend _deterministically_ on the
+instance number.
 
 #### Boundary Handling
 
@@ -122,7 +122,7 @@ Linear transformations of the search space are applied to derive
 non-separable functions from separable ones and to control the
 conditioning of the function.
 
-#### *Non-Linear Transformations and Symmetry Breaking
+#### Non-Linear Transformations and Symmetry Breaking
 
 In order to make relatively simple, but well understood functions less
 regular, on some functions non-linear transformations are applied in
