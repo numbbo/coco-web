@@ -2,7 +2,7 @@
 title: Performance Visualizations for the `bbob` test suite 
 ---
 
-Below, we provide postprocessed data showing the performance of all [250+ officially supported algorithm data sets](../../../../data-archive/bbob.html) for the `bbob` test suite.
+Below, we provide postprocessed data showing the performance of all [250+ officially supported algorithm data sets](./data-archive.html) for the `bbob` test suite.
 
 Due to the large amount of algorithms (and the limited space in the figures), we currently group algorithm data sets by year of publication.
 
