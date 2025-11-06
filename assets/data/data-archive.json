@@ -217,7 +217,7 @@
   },
   {
     "suite": "bbob",
-    "algorithm": "PSO_Bounds",
+    "algorithm": "PSO-Bounds",
     "year": 2009,
     "author": "El-Abd and Kamel",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2009/PSO_Bounds_el-abd_noiseless.tgz",
@@ -729,7 +729,7 @@
   },
   {
     "suite": "bbob",
-    "algorithm": "CMAES_Hutter",
+    "algorithm": "CMAES-Hutter",
     "year": 2013,
     "author": "Hutter et al.",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2013/CMAES_Hutter_hutter_noiseless.tgz",
@@ -737,7 +737,7 @@
   },
   {
     "suite": "bbob",
-    "algorithm": "DE_Pal",
+    "algorithm": "DE-Pal",
     "year": 2013,
     "author": "Pàl",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2013/DE_Pal_pal_noiseless.tgz",
@@ -2185,7 +2185,7 @@
   },
   {
     "suite": "bbob-noisy",
-    "algorithm": "PSO_Bounds",
+    "algorithm": "PSO-Bounds",
     "year": 2009,
     "author": "El-Abd and Kamel",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-noisy/2009/PSO_Bounds_el-abd_noisy.tgz",
