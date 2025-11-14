@@ -1813,7 +1813,7 @@
     "year": 2022,
     "author": "Gharafi",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2022/CMA-ES-Akimoto_Gharafi.tgz",
-    "comment": "IPOP-CMA-ES as implemented by Y. Akimoto [BBOB-2022 paper]"
+    "comment": "IPOP-CMA-ES as implemented by Y. Akimoto [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534011)"
   },
   {
     "suite": "bbob",
@@ -1821,7 +1821,7 @@
     "year": 2022,
     "author": "Gharafi",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2022/CMA-ES-pycma_Gharafi.tgz",
-    "comment": "IPOP-CMA-ES as implemented in pycma [BBOB-2022 paper]"
+    "comment": "IPOP-CMA-ES as implemented in pycma [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534011)"
   },
   {
     "suite": "bbob",
@@ -1829,7 +1829,7 @@
     "year": 2022,
     "author": "Nguyen",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2022/CMAES-APOP-KMA_Nguyen.tgz",
-    "comment": "adaptive population size CMA-ES with KP and MA strategy [BBOB-2022 paper]"
+    "comment": "adaptive population size CMA-ES with KP and MA strategy [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534001)"
   },
   {
     "suite": "bbob",
@@ -1837,7 +1837,7 @@
     "year": 2022,
     "author": "Nguyen",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2022/CMAES-APOP-KP_Nguyen.tgz",
-    "comment": "adaptive population size CMA-ES reusing part of the known population (KP) [BBOB-2022 paper]"
+    "comment": "adaptive population size CMA-ES reusing part of the known population (KP) [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534001)"
   },
   {
     "suite": "bbob",
@@ -1845,7 +1845,7 @@
     "year": 2022,
     "author": "Nguyen",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2022/CMAES-APOP-MA_Nguyen.tgz",
-    "comment": "adaptive population size CMA-ES with mirrored sampling and active CMA [BBOB-2022 paper]"
+    "comment": "adaptive population size CMA-ES with mirrored sampling and active CMA [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534001)"
   },
   {
     "suite": "bbob",
@@ -1853,7 +1853,7 @@
     "year": 2022,
     "author": "Gharafi",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2022/DD-CMA-ES-Akimoto_Gharafi.tgz",
-    "comment": "diagonal encoding CMA-ES as implemented by Y. Akimoto [BBOB-2022 paper]"
+    "comment": "diagonal encoding CMA-ES as implemented by Y. Akimoto [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534011)"
   },
   {
     "suite": "bbob",
@@ -1861,7 +1861,7 @@
     "year": 2022,
     "author": "Gharafi",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2022/DD-CMA-ES-pycma_Gharafi.tgz",
-    "comment": "diagonal encoding CMA-ES as implemented in pycma [BBOB-2022 paper]"
+    "comment": "diagonal encoding CMA-ES as implemented in pycma [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534011)"
   },
   {
     "suite": "bbob",
@@ -1869,7 +1869,7 @@
     "year": 2023,
     "author": "Kudela",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/BIRMIN_Kudela.tgz",
-    "comment": "globally-biased, hybridized version of BIRECT by Paulavicius et al. as benchmarked by Jakub Kudela [BBOB-2023 paper]"
+    "comment": "globally-biased, hybridized version of BIRECT by Paulavicius et al. as benchmarked by Jakub Kudela [BBOB-2023 paper](https://dl.acm.org/doi/pdf/10.1145/3583133.3596308)"
   },
   {
     "suite": "bbob",
@@ -1877,7 +1877,7 @@
     "year": 2023,
     "author": "Kudela",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/DIRECT-REV_Kudela.tgz",
-    "comment": "DIRECT variant with enhancements for the reduction of the global drag [BBOB-2023 paper]"
+    "comment": "DIRECT variant with enhancements for the reduction of the global drag [BBOB-2023 paper(https://dl.acm.org/doi/pdf/10.1145/3583133.3596308)
   },
   {
     "suite": "bbob",
@@ -1885,7 +1885,7 @@
     "year": 2023,
     "author": "Espinoza et al.",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/E-WOA_Espinoza.tgz",
-    "comment": "Enhanced Whale Optimization Algorithm as implemented by Epinoza et al. in their [BBOB-2023 paper]"
+    "comment": "Enhanced Whale Optimization Algorithm as implemented by Epinoza et al. in their [BBOB-2023 paper](https://dl.acm.org/doi/pdf/10.1145/3583133.3596372)"
   },
   {
     "suite": "bbob",
@@ -1893,7 +1893,7 @@
     "year": 2023,
     "author": "Kudela",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/I-DBDP-GL_Kudela.tgz",
-    "comment": "BIRECT variant which uses hyper-rectangular partitioning based on 1-D bisections and evaluations at two diagonal points with global and local search enhancements [BBOB-2023 paper]"
+    "comment": "BIRECT variant which uses hyper-rectangular partitioning based on 1-D bisections and evaluations at two diagonal points with global and local search enhancements [BBOB-2023 paper](https://dl.acm.org/doi/pdf/10.1145/3583133.3596308)"
   },
   {
     "suite": "bbob",
@@ -1901,7 +1901,7 @@
     "year": 2023,
     "author": "Espinoza et al.",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/WOA_Espinoza.tgz",
-    "comment": "Whale Optimization Algorithm as implemented by Epinoza et al. in their [BBOB-2023 paper]"
+    "comment": "Whale Optimization Algorithm as implemented by Epinoza et al. in their [BBOB-2023 paper](https://dl.acm.org/doi/pdf/10.1145/3583133.3596372)"
   },
   {
     "suite": "bbob",
@@ -1909,7 +1909,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/a-CMA-ES_Gissler.tgz",
-    "comment": "affine-invariant version of CMA-ES [BBOB-2023 paper]"
+    "comment": "affine-invariant version of CMA-ES [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob",
@@ -1917,7 +1917,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/ad-CMA-ES_Gissler.tgz",
-    "comment": "affine-invariant and continuously differentiable version of CMA-ES [BBOB-2023 paper]"
+    "comment": "affine-invariant and continuously differentiable version of CMA-ES [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob",
@@ -1925,7 +1925,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/adm-CMA-ES_Gissler.tgz",
-    "comment": "affine-invariant and continuously differentiable version of CMA-ES with default stepsize damping factor $d_{\\sigma}$ [BBOB-2023 paper]"
+    "comment": "affine-invariant and continuously differentiable version of CMA-ES with default stepsize damping factor $d_{\\sigma}$ [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob",
@@ -1933,7 +1933,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/c-CMA-ES_Gissler.tgz",
-    "comment": "CMA-ES variant without cumulation for the covariance matrix [BBOB-2023 paper]"
+    "comment": "CMA-ES variant without cumulation for the covariance matrix [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob",
@@ -1941,7 +1941,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/cd-CMA-ES_Gissler.tgz",
-    "comment": "continuously differentiable CMA-ES variant without cumulation for the covariance matrix [BBOB-2023 paper]"
+    "comment": "continuously differentiable CMA-ES variant without cumulation for the covariance matrix [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob",
@@ -1949,7 +1949,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/cdm-CMA-ES_Gissler.tgz",
-    "comment": "continuously differentiable CMA-ES variant without cumulation for the covariance matrix and default learning rate $d_{\\sigma}$ [BBOB-2023 paper]"
+    "comment": "continuously differentiable CMA-ES variant without cumulation for the covariance matrix and default learning rate $d_{\\sigma}$ [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob",
@@ -1973,7 +1973,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/d-CMA-ES_Gissler.tgz",
-    "comment": "continuously differentiable CMA-ES [BBOB-2023 paper]"
+    "comment": "continuously differentiable CMA-ES [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob",
@@ -1981,7 +1981,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/default-CMA-ES_Gissler.tgz",
-    "comment": "default CMA-ES from the pycma module, version 3.3.0 [BBOB-2023 paper]"
+    "comment": "default CMA-ES from the pycma module, version 3.3.0 [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob",
@@ -1989,7 +1989,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/dm-CMA-ES_Gissler.tgz",
-    "comment": "continuously differentiable CMA-ES with default learning rate $d_{\\sigma}$ [BBOB-2023 paper]"
+    "comment": "continuously differentiable CMA-ES with default learning rate $d_{\\sigma}$ [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob",
@@ -1997,7 +1997,7 @@
     "year": 2023,
     "author": "Espinoza et al.",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/m-SDWOA_Espinoza.tgz",
-    "comment": "modified Symbiotic organism search - Differential Evolution - Whale Optimization Algorithm hybrid as implemented by Espinoza et al. in their [BBOB-2023 paper]"
+    "comment": "modified Symbiotic organism search - Differential Evolution - Whale Optimization Algorithm hybrid as implemented by Espinoza et al. in their [BBOB-2023 paper](https://dl.acm.org/doi/pdf/10.1145/3583133.3596372)"
   },
   {
     "suite": "bbob",
@@ -2005,7 +2005,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/s-CMA-ES_Gissler.tgz",
-    "comment": "CMA-ES without cumulation for the step size [BBOB-2023 paper]"
+    "comment": "CMA-ES without cumulation for the step size [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob",
@@ -2013,7 +2013,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/sc-CMA-ES_Gissler.tgz",
-    "comment": "CMA-ES without cumulation for both step size and covariance matrix [BBOB-2023 paper]"
+    "comment": "CMA-ES without cumulation for both step size and covariance matrix [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob",
@@ -2021,7 +2021,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/scd-CMA-ES_Gissler.tgz",
-    "comment": "continuously differentiable CMA-ES without cumulation for both step size and covariance matrix [BBOB-2023 paper]"
+    "comment": "continuously differentiable CMA-ES without cumulation for both step size and covariance matrix [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob",
@@ -2029,7 +2029,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/scdm-CMA-ES_Gissler.tgz",
-    "comment": "continuously differentiable CMA-ES without cumulation for both step size and covariance matrix and default $d_{\\sigma}$ [BBOB-2023 paper]"
+    "comment": "continuously differentiable CMA-ES without cumulation for both step size and covariance matrix and default $d_{\\sigma}$ [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob",
@@ -2037,7 +2037,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/sd-CMA-ES_Gissler.tgz",
-    "comment": "continuously differentiable CMA-ES without cumulation for the step size [BBOB-2023 paper]"
+    "comment": "continuously differentiable CMA-ES without cumulation for the step size [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob",
@@ -2045,7 +2045,7 @@
     "year": 2023,
     "author": "Gissler",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/sdm-CMA-ES_Gissler.tgz",
-    "comment": "continuously differentiable CMA-ES without cumulation for the step size and default $d_{\\sigma}$ [BBOB-2023 paper]"
+    "comment": "continuously differentiable CMA-ES without cumulation for the step size and default $d_{\\sigma}$ [BBOB-2023 paper](https://hal.science/hal-04089923v2/document) [doi](http://dx.doi.org/10.1145/3583133.3596329)"
   },
   {
     "suite": "bbob-noisy",
