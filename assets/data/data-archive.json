@@ -1877,7 +1877,7 @@
     "year": 2023,
     "author": "Kudela",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2023/DIRECT-REV_Kudela.tgz",
-    "comment": "DIRECT variant with enhancements for the reduction of the global drag [BBOB-2023 paper(https://dl.acm.org/doi/pdf/10.1145/3583133.3596308)
+    "comment": "DIRECT variant with enhancements for the reduction of the global drag [BBOB-2023 paper](https://dl.acm.org/doi/pdf/10.1145/3583133.3596308)"
   },
   {
     "suite": "bbob",
