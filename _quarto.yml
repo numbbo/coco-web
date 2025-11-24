@@ -144,7 +144,7 @@ website:
     - section: Workshops
       href: workshops/workshops.qmd
       contents:
-        - text: Current (BBOB-2025)
+        - text: Latest (BBOB-2025)
           href: workshops/bbob2025.qmd
         - text: Previous
           href: workshops/previous.qmd
