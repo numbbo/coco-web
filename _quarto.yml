@@ -156,6 +156,10 @@ website:
           href: https://github.com/numbbo/coco-postprocess
         - text: coco-visualize
           href: https://github.com/numbbo/coco-visualize
+    - section: Misc
+      contents:
+        - text: No Free Lunch
+          href: misc/no-free-lunch.qmd
   search:
     type: textbox    
 
