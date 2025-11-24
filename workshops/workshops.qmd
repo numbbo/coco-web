@@ -5,7 +5,7 @@ an easy-to-use toolchain for benchmarking black-box optimization
 algorithms for continuous and mixed-integer domains and a place to
 present, compare, and discuss the performance of numerical black-box
 optimization algorithms. The former is realized through the Comparing
-Continuous Optimizers platform (Coco).
+Continuous Optimizers platform (COCO).
 
 So far, fourteen workshops have been held (in 2009, 2010, 2012, 2013,
 2015, [2016](bbob2016.html), [2017](bbob2017.html),
