@@ -3,7 +3,7 @@ title: Is the No Free Lunch Theorem (NFL) relevant in practice?
 ---
 
 Let us consider the set of all (possible) functions $R^n\to R$ _discretized with two bytes_ per real number.[^discretenote] Let us call this set $F$.
-The No Free Lunch Theorem[^wolpert] holds for this function set because the set is closed under permutation.
+The No Free Lunch Theorem[^wolpert] holds for this set of functions _because the set is closed under permutation._
 The number of functions in $F$ is approximately[^funnumber]
 
 $$|F| = \left(10^5\right)^{\left(10^5\right)^n} = 10^{5\times10^{5n}} = 10^{5\times 100000^{n}}$$
@@ -15,8 +15,8 @@ This number is minuscule compared to $|F|=10^{5\times 100000^{n}}$.
 Hence, the number of real world functions, and in particular the number of real world functions we could _possibly ever encounter_ (and hence _could_ possibly be relevant to us) is minuscule compared the number of functions contained in $F$.
 
 Does NFL hold for any practically relevant (and nontrivial) subset of $F$?
-Does NFL hold for any practically relevant nontrivial set of functions?
-We don't know, but it does look almost exceedingly unlikely to us.
+Does NFL hold for _any_ practically relevant nontrivial set of functions?
+We don't know, but it looks exceedingly unlikely to us.
 
 
 [^wolpert]: NFL states that aggregated over all functions, _all search algorithms perform identical_ (given they do not revisit solutions).
