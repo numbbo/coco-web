@@ -2445,7 +2445,7 @@
     "year": 2022,
     "author": "Hamano et al.",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2022/CMA-ESwM_Hamano.zip",
-    "comment": "CMA-ES with Margins as submitted to BBOB-2022"
+    "comment": "CMA-ES with Margins as discussed in this [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534043)"
   },
   {
     "suite": "bbob-mixint",
@@ -2981,7 +2981,7 @@
     "year": 2023,
     "author": "Brockhoff et al.",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-biobj/2023/Borg-adaptive_Brockhoff.tgz",
-    "comment": "Borg-MOEA with adaptive epsilon"
+    "comment": "Borg-MOEA with adaptive epsilon, [BBOB 2023 paper](https://dl.acm.org/doi/pdf/10.1145/3583133.3596386)"
   },
   {
     "suite": "bbob-biobj",
@@ -2989,7 +2989,7 @@
     "year": 2023,
     "author": "Brockhoff et al.",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-biobj/2023/Borg-eps-1e-4_Brockhoff.tgz",
-    "comment": "Borg-MOEA with fixed epsilon (= 10**(-4))"
+    "comment": "Borg-MOEA with fixed epsilon (= 10**(-4)), [BBOB 2023 paper](https://dl.acm.org/doi/pdf/10.1145/3583133.3596386)"
   },
   {
     "suite": "bbob-boxed",
