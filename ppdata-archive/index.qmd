@@ -1,0 +1,24 @@
+---
+title: The COCO ppdata Archive --- postprocessed data for browsing 
+---
+
+Here we provide already postprocessed data from benchmarking experiments for browsing. The bases for these data are the official benchmarking [data archives](../data-archive) of the COCO platform. 
+For each test suite we provide a separate page, listing the official data sets by year.
+Data sets for the following test suites are available: 
+
+* [bbob](../testsuites/bbob/performancecomparisons.qmd): 250+ algorithm data sets for unconstrained, noiseless optimization
+* [bbob-noisy](../testsuites/bbob-noisy/performancecomparisons.qmd): 40+ algorithm data sets for noisy optization
+* [bbob-biobj](../testsuites/bbob-biobj/performancecomparisons.qmd): 40+ algorithm data sets for bi-objective optimization
+* [bbob-largescale](../testsuites/bbob-largescale/performancecomparisons.qmd): 10+ algorithm data sets for large-scale optimization (20 < dim < 640)
+* [bbob-mixint](../testsuites/bbob-mixint/performancecomparisons.qmd): 8 algorithm data sets for mixed-integer optimization
+* [bbob-constrained](../testsuites/bbob-constrained/performancecomparisons.qmd): 9 algorithm data sets for constrained optimization
+* [bbob-boxed](../testsuites/bbob-boxed/performancecomparisons.qmd): 3 algorithm data sets for box-constrained problems, also known as `sbox-cost`
+
+There is also a machine readable [JSON](../assets/data/data-archive.json) file with data from the experiments for programmatic access.
+If you are using the [cocopp Python module](https://pypi.org/project/cocopp), the data is directly accessible "by name".
+
+## Related Links
+* <a href="../data-archive"> raw data of the displayed results</a>
+* <a href="https://github.com/numbbo/data-archive/blob/gh-pages/howtos/publish-a-dataset-howto.md">how to submit a data set</a>
+* <a href="https://github.com/numbbo/coco-postprocess/blob/main/src/cocopp/archiving.py">
+how to create and use COCO data archives with the <tt>cocopp.archiving</tt> Python module</a>

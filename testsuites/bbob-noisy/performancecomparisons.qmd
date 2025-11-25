@@ -1,0 +1,46 @@
+---
+title: Performance Visualizations for the `bbob-noisy` test suite 
+---
+
+Below, we provide postprocessed data showing the performance of all [40+ officially supported algorithm data sets](./data-archive.html) for the `bbob-noisy` test suite.
+
+Due to the large amount of algorithms (and the limited space in the figures), we currently group algorithm data sets by year of publication.
+
+
+## Performance Comparisons per Year
+
+```{python}
+#| echo: false
+#| output: asis
+
+import re
+import sys
+sys.path.insert(1, '../../scripts/')
+from IPython.display import Markdown
+
+import cocopp
+
+for year in range(2009, 2030):
+	dd = cocopp.bbob_noisy.find(str(year))
+	if len(dd) > 1:
+		dda = [(re.search('/(.*)', d.partition('_')[0]).group(1)) for d in dd]
+		display(Markdown("\n- [{0}](https://numbbo.github.io/ppdata-archive/bbob-noisy/{0}/index.html):".format(year)))
+		display(Markdown("{0}".format(', '.join(dda))))
+
+```
+
+
+
+## Example code to produce the figures
+
+The Python code to locally generate the second entry, 2010,
+above (other entries work respectively) reads
+
+```python
+import cocopp               # see https://pypi.org/project/cocopp
+cocopp.genericsettings.background = {None: cocopp.archives.bbob_noisy.get_all('2009')}
+cocopp.main('bbob-noisy/2010/*')  # will take several minutes to process
+
+```
+
+

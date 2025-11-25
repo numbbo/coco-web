@@ -1,0 +1,40 @@
+---
+title: Performance Visualizations for the `bbob-constrained` test suite 
+---
+
+Below, we provide postprocessed data showing the performance of [all currently available algorithm data sets](../../../../testsuites/bbob-constrained/data-archive.html) for the `bbob-constrained` test suite.
+
+
+## Performance Comparison
+
+```{python}
+#| echo: false
+#| output: asis
+
+import re
+import sys
+sys.path.insert(1, '../../scripts/')
+from IPython.display import Markdown
+
+import cocopp
+
+dd = cocopp.archiving.get('bbob-constrained')
+display(Markdown("\n- [all](https://numbbo.github.io/ppdata-archive/bbob-constrained/all/index.html):"))
+for ddd in dd:
+	display(Markdown(re.findall(r'/.*_', ddd)[0][1:-1] + ", "))
+
+```
+
+
+
+## Example code to produce the figures
+
+The Python code to locally generate the above linked data reads
+
+```python
+import cocopp                      # see https://pypi.org/project/cocopp
+cocopp.main('bbob-constrained/*')  # will take several minutes to process
+
+```
+
+
