@@ -932,7 +932,7 @@
     "algorithm": "MATSuMoToDefault-50D",
     "year": 2015,
     "author": "Brockhoff",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-CEC/MATSUMOTO_Brockhoff.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/MATSUMOTO_Brockhoff.tgz",
     "comment": "[CEC paper](https://numbbo.github.io/gforge/data/media/pdf2015/03-cec2015-brockhoff.pdf)"
   },
   {
@@ -940,7 +940,7 @@
     "algorithm": "R-DE-10e2",
     "year": 2015,
     "author": "Tanabe and Fukunaga",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-CEC/R-DE-10e2_Tanabe.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/R-DE-10e2_Tanabe.tgz",
     "comment": "[CEC paper](https://numbbo.github.io/gforge/data/media/pdf2015/02-cec2015-tanabe.pdf)"
   },
   {
@@ -948,7 +948,7 @@
     "algorithm": "R-DE-10e5",
     "year": 2015,
     "author": "Tanabe and Fukunaga",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-CEC/R-DE-10e5_Tanabe.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/R-DE-10e5_Tanabe.tgz",
     "comment": "[CEC paper](https://numbbo.github.io/gforge/data/media/pdf2015/02-cec2015-tanabe.pdf)"
   },
   {
@@ -956,7 +956,7 @@
     "algorithm": "R-SHADE-10e2",
     "year": 2015,
     "author": "Tanabe and Fukunaga",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-CEC/R-SHADE-10e2_Tanabe.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/R-SHADE-10e2_Tanabe.tgz",
     "comment": "[CEC paper](https://numbbo.github.io/gforge/data/media/pdf2015/02-cec2015-tanabe.pdf)"
   },
   {
@@ -964,7 +964,7 @@
     "algorithm": "R-SHADE-10e5",
     "year": 2015,
     "author": "Tanabe and Fukunaga",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-CEC/R-SHADE-10e5_Tanabe.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/R-SHADE-10e5_Tanabe.tgz",
     "comment": "[CEC paper](https://numbbo.github.io/gforge/data/media/pdf2015/02-cec2015-tanabe.pdf)"
   },
   {
@@ -972,7 +972,7 @@
     "algorithm": "RL-SHADE-10e2",
     "year": 2015,
     "author": "Tanabe and Fukunaga",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-CEC/RL-SHADE-10e2_Tanabe.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/RL-SHADE-10e2_Tanabe.tgz",
     "comment": "[CEC paper](https://numbbo.github.io/gforge/data/media/pdf2015/02-cec2015-tanabe.pdf)"
   },
   {
@@ -980,7 +980,7 @@
     "algorithm": "RL-SHADE-10e5",
     "year": 2015,
     "author": "Tanabe and Fukunaga",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-CEC/RL-SHADE-10e5_Tanabe.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/RL-SHADE-10e5_Tanabe.tgz",
     "comment": "[CEC paper](https://numbbo.github.io/gforge/data/media/pdf2015/02-cec2015-tanabe.pdf)"
   },
   {
@@ -988,7 +988,7 @@
     "algorithm": "SOO",
     "year": 2015,
     "author": "Derbel and Preux",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-CEC/SOO_Derbel.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/SOO_Derbel.tgz",
     "comment": "[CEC paper](https://philippe-preux.github.io/papiers/cec2015.accepted.pdf)"
   },
   {
@@ -996,7 +996,7 @@
     "algorithm": "BrentSTEPif",
     "year": 2015,
     "author": "Pošík and Baudiš",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/BrentSTEPif_Posik.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/BrentSTEPif_Posik.tgz",
     "comment": "[GECCO paper](http://pasky.or.cz/sci/dimsel.pdf)"
   },
   {
@@ -1004,7 +1004,7 @@
     "algorithm": "BrentSTEPifeg",
     "year": 2015,
     "author": "Pošík and Baudiš",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/BrentSTEPifeg_Posik.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/BrentSTEPifeg_Posik.tgz",
     "comment": "[GECCO paper](http://pasky.or.cz/sci/dimsel.pdf)"
   },
   {
@@ -1012,7 +1012,7 @@
     "algorithm": "BrentSTEPqi",
     "year": 2015,
     "author": "Pošík and Baudiš",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/BrentSTEPqi_Posik.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/BrentSTEPqi_Posik.tgz",
     "comment": "[GECCO paper](http://pasky.or.cz/sci/dimsel.pdf)"
   },
   {
@@ -1020,7 +1020,7 @@
     "algorithm": "BrentSTEPrr",
     "year": 2015,
     "author": "Pošík and Baudiš",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/BrentSTEPrr_Posik.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/BrentSTEPrr_Posik.tgz",
     "comment": "[GECCO paper](http://pasky.or.cz/sci/dimsel.pdf)"
   },
   {
@@ -1028,7 +1028,7 @@
     "algorithm": "CMA-CSA",
     "year": 2015,
     "author": "Atamna",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/CMA-CSA_Atamna.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/CMA-CSA_Atamna.tgz",
     "comment": "[GECCO paper](https://dl.acm.org/doi/pdf/10.1145/2739482.2768467) - [source code](https://numbbo.github.io/gforge/BBOB2015sourcecodes/cma.py)"
   },
   {
@@ -1036,7 +1036,7 @@
     "algorithm": "CMA-MSR",
     "year": 2015,
     "author": "Atamna",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/CMA-MSR_Atamna.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/CMA-MSR_Atamna.tgz",
     "comment": "[GECCO paper](https://dl.acm.org/doi/pdf/10.1145/2739482.2768467) - [source code](https://numbbo.github.io/gforge/BBOB2015sourcecodes/cma.py)"
   },
   {
@@ -1044,7 +1044,7 @@
     "algorithm": "CMA-TPA",
     "year": 2015,
     "author": "Atamna",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/CMA-TPA_Atamna.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/CMA-TPA_Atamna.tgz",
     "comment": "[GECCO paper](https://dl.acm.org/doi/pdf/10.1145/2739482.2768467) - [source code](https://numbbo.github.io/gforge/BBOB2015sourcecodes/cma.py)"
   },
   {
@@ -1052,7 +1052,7 @@
     "algorithm": "GP1-CMAES",
     "year": 2015,
     "author": "Bajer et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/GP1-CMAES_Bajer.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/GP1-CMAES_Bajer.tgz",
     "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
   },
   {
@@ -1060,7 +1060,7 @@
     "algorithm": "GP1-CMAES",
     "year": 2015,
     "author": "Bajer et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/GP1-CMAES_Bajer_2013instances.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/GP1-CMAES_Bajer_2013instances.tgz",
     "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
   },
   {
@@ -1068,7 +1068,7 @@
     "algorithm": "GP5-CMAES",
     "year": 2015,
     "author": "Bajer et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/GP5-CMAES_Bajer.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/GP5-CMAES_Bajer.tgz",
     "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
   },
   {
@@ -1076,7 +1076,7 @@
     "algorithm": "GP5-CMAES",
     "year": 2015,
     "author": "Bajer et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/GP5-CMAES_Bajer_2013instances.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/GP5-CMAES_Bajer_2013instances.tgz",
     "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
   },
   {
@@ -1084,7 +1084,7 @@
     "algorithm": "IPOPCMAv3p61",
     "year": 2015,
     "author": "Bajer et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/IPOPCMAv3p61_Bajer.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/IPOPCMAv3p61_Bajer.tgz",
     "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
   },
   {
@@ -1092,7 +1092,7 @@
     "algorithm": "IPOPCMAv3p61",
     "year": 2015,
     "author": "Bajer et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/IPOPCMAv3p61_Bajer_2013instances.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/IPOPCMAv3p61_Bajer_2013instances.tgz",
     "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
   },
   {
@@ -1100,7 +1100,7 @@
     "algorithm": "LHD-10xDefault-MATSuMoTo",
     "year": 2015,
     "author": "Brockhoff et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/LHD-10xDefault-MATSuMoTo_Brockhoff.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/LHD-10xDefault-MATSuMoTo_Brockhoff.tgz",
     "comment": "[GECCO paper](https://hal.inria.fr/hal-01161504/document)"
   },
   {
@@ -1108,7 +1108,7 @@
     "algorithm": "LHD-2xDefault-MATSuMoTo",
     "year": 2015,
     "author": "Brockhoff et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/LHD-2xDefault-MATSuMoTo_Brockhoff.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/LHD-2xDefault-MATSuMoTo_Brockhoff.tgz",
     "comment": "[GECCO paper](https://hal.inria.fr/hal-01161504/document)"
   },
   {
@@ -1116,7 +1116,7 @@
     "algorithm": "RAND-2xDefault-MATSuMoTo",
     "year": 2015,
     "author": "Brockhoff et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/RAND-2xDefault-MATSuMoTo_Brockhoff.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/RAND-2xDefault-MATSuMoTo_Brockhoff.tgz",
     "comment": "[GECCO paper](https://hal.inria.fr/hal-01161504/document)"
   },
   {
@@ -1124,7 +1124,7 @@
     "algorithm": "RF1-CMAES",
     "year": 2015,
     "author": "Bajer et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/RF1-CMAES_Bajer.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/RF1-CMAES_Bajer.tgz",
     "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
   },
   {
@@ -1132,7 +1132,7 @@
     "algorithm": "RF1-CMAES",
     "year": 2015,
     "author": "Bajer et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/RF1-CMAES_Bajer_2013instances.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/RF1-CMAES_Bajer_2013instances.tgz",
     "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
   },
   {
@@ -1140,7 +1140,7 @@
     "algorithm": "RF5-CMAES",
     "year": 2015,
     "author": "Bajer et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/RF5-CMAES_Bajer.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/RF5-CMAES_Bajer.tgz",
     "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
   },
   {
@@ -1148,7 +1148,7 @@
     "algorithm": "RF5-CMAES",
     "year": 2015,
     "author": "Bajer et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/RF5-CMAES_Bajer_2013instances.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/RF5-CMAES_Bajer_2013instances.tgz",
     "comment": "[doi](http://dx.doi.org/10.1145/2739482.2768468) - Thanks to the authors, two data sets are available with the 2015 and the 2013 instances"
   },
   {
@@ -1156,7 +1156,7 @@
     "algorithm": "STEPif",
     "year": 2015,
     "author": "Pošík and Baudiš",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/STEPif_Posik.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/STEPif_Posik.tgz",
     "comment": "[GECCO paper](http://pasky.or.cz/sci/dimsel.pdf)"
   },
   {
@@ -1164,7 +1164,7 @@
     "algorithm": "STEPifeg",
     "year": 2015,
     "author": "Pošík and Baudiš",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/STEPifeg_Posik.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/STEPifeg_Posik.tgz",
     "comment": "[GECCO paper](http://pasky.or.cz/sci/dimsel.pdf)"
   },
   {
@@ -1172,7 +1172,7 @@
     "algorithm": "STEPrr",
     "year": 2015,
     "author": "Pošík and Baudiš",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015-GECCO/STEPrr_Posik.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2015/STEPrr_Posik.tgz",
     "comment": "[GECCO paper](http://pasky.or.cz/sci/dimsel.pdf)"
   },
   {
@@ -1292,7 +1292,7 @@
     "algorithm": "RANDOMSEARCH-4",
     "year": 2017,
     "author": "Brockhoff",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2017-others/RANDOMSEARCH-4-1e7D_Brockhoff.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2017/RANDOMSEARCH-4-1e7D_Brockhoff.tgz",
     "comment": "COCO baseline data without BBOB paper"
   },
   {
@@ -1300,7 +1300,7 @@
     "algorithm": "RANDOMSEARCH-4p5",
     "year": 2017,
     "author": "Brockhoff",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2017-others/RANDOMSEARCH-4p5-1e7D_Brockhoff.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2017/RANDOMSEARCH-4p5-1e7D_Brockhoff.tgz",
     "comment": "COCO baseline data without BBOB paper"
   },
   {
@@ -1308,7 +1308,7 @@
     "algorithm": "RANDOMSEARCH-5",
     "year": 2017,
     "author": "Brockhoff",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2017-others/RANDOMSEARCH-5-1e7D_Brockhoff.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2017/RANDOMSEARCH-5-1e7D_Brockhoff.tgz",
     "comment": "COCO baseline data without BBOB paper"
   },
   {
@@ -1452,7 +1452,7 @@
     "algorithm": "uBBDE",
     "year": 2018,
     "author": "Vodopija et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018-others/uBBDE_Vodopija.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018/uBBDE_Vodopija.tgz",
     "comment": "[paper](https://numbbo.github.io/gforge/data-archive/bbob/2018-others/JSI_DP_12858.pdf)"
   },
   {
@@ -1460,7 +1460,7 @@
     "algorithm": "uBBDE-best",
     "year": 2018,
     "author": "Vodopija et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018-others/uBBDE-best_Vodopija.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018/uBBDE-best_Vodopija.tgz",
     "comment": "[paper](https://numbbo.github.io/gforge/data-archive/bbob/2018-others/JSI_DP_12858.pdf)"
   },
   {
@@ -1468,7 +1468,7 @@
     "algorithm": "uBBDE-N",
     "year": 2018,
     "author": "Vodopija et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018-others/uBBDE-N_Vodopija.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018/uBBDE-N_Vodopija.tgz",
     "comment": "[paper](https://numbbo.github.io/gforge/data-archive/bbob/2018-others/JSI_DP_12858.pdf)"
   },
   {
@@ -1476,7 +1476,7 @@
     "algorithm": "uBBDE-ttb",
     "year": 2018,
     "author": "Vodopija et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018-others/uBBDE-ttb_Vodopija.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018/uBBDE-ttb_Vodopija.tgz",
     "comment": "[paper](https://numbbo.github.io/gforge/data-archive/bbob/2018-others/JSI_DP_12858.pdf)"
   },
   {
@@ -1484,7 +1484,7 @@
     "algorithm": "uDE-best",
     "year": 2018,
     "author": "Vodopija et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018-others/uDE-best_Vodopija.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018/uDE-best_Vodopija.tgz",
     "comment": "[paper](https://numbbo.github.io/gforge/data-archive/bbob/2018-others/JSI_DP_12858.pdf)"
   },
   {
@@ -1492,7 +1492,7 @@
     "algorithm": "uDE-rand",
     "year": 2018,
     "author": "Vodopija et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018-others/uDE-rand_Vodopija.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018/uDE-rand_Vodopija.tgz",
     "comment": "[paper](https://numbbo.github.io/gforge/data-archive/bbob/2018-others/JSI_DP_12858.pdf)"
   },
   {
@@ -1500,7 +1500,7 @@
     "algorithm": "uDE-ttb",
     "year": 2018,
     "author": "Vodopija et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018-others/uDE-ttb_Vodopija.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018/uDE-ttb_Vodopija.tgz",
     "comment": "[paper](https://numbbo.github.io/gforge/data-archive/bbob/2018-others/JSI_DP_12858.pdf)"
   },
   {
@@ -1508,7 +1508,7 @@
     "algorithm": "DTS-CMA-ES_005-2pop_v26_1model",
     "year": 2018,
     "author": "Bajer et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018-others/DTS-CMA-ES_005-2pop_v26_1model_Bajer.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob/2018/DTS-CMA-ES_005-2pop_v26_1model_Bajer.tgz",
     "comment": "[link to paper](https://direct.mit.edu/evco/article-pdf/27/4/665/1858747/evco_a_00244.pdf) - [details on the differences to #161](https://web.archive.org/web/20200924122005/https://coco.gforge.inria.fr/doku.php?id=detailsdts)"
   },
   {
@@ -2412,7 +2412,7 @@
     "algorithm": "CMA-ES-pycma",
     "year": 2019,
     "author": "Tušar et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2019-gecco-benchmark/CMA-ES-pycma.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2019/CMA-ES-pycma.tgz",
     "comment": "[GECCO paper](https://hal.inria.fr/hal-02067932/file/2019_GECCO_Mixint_Suites.pdf)"
   },
   {
@@ -2420,7 +2420,7 @@
     "algorithm": "DE-scipy",
     "year": 2019,
     "author": "Tušar et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2019-gecco-benchmark/DE-scipy.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2019/DE-scipy.tgz",
     "comment": "[GECCO paper](https://hal.inria.fr/hal-02067932/file/2019_GECCO_Mixint_Suites.pdf)"
   },
   {
@@ -2428,7 +2428,7 @@
     "algorithm": "RANDOMSEARCH",
     "year": 2019,
     "author": "Tušar et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2019-gecco-benchmark/RANDOMSEARCH.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2019/RANDOMSEARCH.tgz",
     "comment": "[GECCO paper](https://hal.inria.fr/hal-02067932/file/2019_GECCO_Mixint_Suites.pdf)"
   },
   {
@@ -2436,7 +2436,7 @@
     "algorithm": "TPE-hyperopt",
     "year": 2019,
     "author": "Tušar et al.",
-    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2019-gecco-benchmark/TPE-hyperopt.tgz",
+    "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-mixint/2019/TPE-hyperopt.tgz",
     "comment": "[GECCO paper](https://hal.inria.fr/hal-02067932/file/2019_GECCO_Mixint_Suites.pdf)"
   },
   {
