@@ -2621,7 +2621,7 @@
     "year": 2022,
     "author": "Dufossé and Atamna",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-constrained/2022/AL1-CMA-ES_Dufosse.tgz",
-    "comment": "CMA-ES with Augmented Lagrangian fitness, pycma version, parameter setting 1 as compared by Dufosse and Atamna for BBOB-2022"
+    "comment": "CMA-ES with Augmented Lagrangian fitness, pycma version, parameter setting 1 as compared by Dufosse and Atamna in their [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534014)"
   },
   {
     "suite": "bbob-constrained",
@@ -2629,7 +2629,7 @@
     "year": 2022,
     "author": "Dufossé and Atamna",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-constrained/2022/AL2-CMA-ES_Dufosse.tgz",
-    "comment": "CMA-ES with Augmented Lagrangian fitness, pycma version, parameter setting 2 as compared by Dufosse and Atamna for BBOB-2022"
+    "comment": "CMA-ES with Augmented Lagrangian fitness, pycma version, parameter setting 2 as compared by Dufosse and Atamna in their [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534014)"
   },
   {
     "suite": "bbob-constrained",
@@ -2637,7 +2637,7 @@
     "year": 2022,
     "author": "Dufossé and Atamna",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-constrained/2022/AL3-CMA-ES_Dufosse.tgz",
-    "comment": "CMA-ES with Augmented Lagrangian fitness, pycma version, parameter setting 3 (default) as compared by Dufosse and Atamna for BBOB-2022"
+    "comment": "CMA-ES with Augmented Lagrangian fitness, pycma version, parameter setting 3 (default) as compared by Dufosse and Atamna in their [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534014)"
   },
   {
     "suite": "bbob-constrained",
@@ -2645,7 +2645,7 @@
     "year": 2022,
     "author": "Dufossé and Atamna",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-constrained/2022/AL4-CMA-ES_Dufosse.tgz",
-    "comment": "CMA-ES with Augmented Lagrangian fitness, pycma version, parameter setting 4 as compared by Dufosse and Atamna for BBOB-2022"
+    "comment": "CMA-ES with Augmented Lagrangian fitness, pycma version, parameter setting 4 as compared by Dufosse and Atamna in their [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534014)"
   },
   {
     "suite": "bbob-constrained",
@@ -2653,7 +2653,7 @@
     "year": 2022,
     "author": "Hellwig and Beyer",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-constrained/2022/BPepsMAg_Hellwig.tgz",
-    "comment": "Matrix Adaptation Evolution Strategy with restarts and BIPOP strategy, using up to three different constraint handling techniques, as compared by Hellwig and Beyer for BBOB-2022"
+    "comment": "Matrix Adaptation Evolution Strategy with restarts and BIPOP strategy, using up to three different constraint handling techniques, as compared by Hellwig and Beyer in their [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534010)"
   },
   {
     "suite": "bbob-constrained",
@@ -2661,7 +2661,7 @@
     "year": 2022,
     "author": "Dufossé and Atamna",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-constrained/2022/COBYLA_Dufosse.tgz",
-    "comment": "Constrained Optimization BY Linear Approximation (implemented in SciPy as a wrapper around Powell's fortran code) compared by Dufosse and Atamna for BBOB-2022"
+    "comment": "Constrained Optimization BY Linear Approximation (implemented in SciPy as a wrapper around Powell's fortran code) compared by Dufosse and Atamna in their [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534010)"
   },
   {
     "suite": "bbob-constrained",
@@ -2669,7 +2669,7 @@
     "year": 2022,
     "author": "Hellwig and Beyer",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-constrained/2022/epsMAg_Hellwig.tgz",
-    "comment": "Matrix Adaptation Evolution Strategy, using up to three different constraint handling techniques, as compared by Hellwig and Beyer for BBOB-2022"
+    "comment": "Matrix Adaptation Evolution Strategy, using up to three different constraint handling techniques, as compared by Hellwig and Beyer in their [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534010)"
   },
   {
     "suite": "bbob-constrained",
@@ -2677,7 +2677,7 @@
     "year": 2022,
     "author": "Hellwig and Beyer",
     "dataset": "https://raw.githubusercontent.com/numbbo/data-archive/gh-pages/data-archive/bbob-constrained/2022/fmincon_Hellwig.tgz",
-    "comment": "default fmincon from Matlab2021b, as compared by Hellwig and Beyer for BBOB-2022"
+    "comment": "default fmincon from Matlab2021b, as compared by Hellwig and Beyer in their [BBOB-2022 paper](https://dl.acm.org/doi/pdf/10.1145/3520304.3534010)"
   },
   {
     "suite": "bbob-biobj",
