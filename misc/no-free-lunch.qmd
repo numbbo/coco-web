@@ -1,35 +1,38 @@
 ---
 title: Is the No Free Lunch Theorem (NFL) relevant in practice?
 ---
+_The BBOBies, November 2025_
 
-Let us consider the set of all (possible) functions $R^n\to R$ _discretized with two bytes_ per real number.[^discretenote] Let us call this set $F$.
+Let us consider the set of all (possible) functions $R^n\to R$ _discretized with two bytes_ per real number.[^discretenote] Let us call this set $F_n$.
 The No Free Lunch Theorem[^wolpert] holds for this set of functions _because the set is closed under permutation._
-The number of functions in $F$ is approximately[^funnumber]
+The number of functions in $F_n$ is approximately[^funnumber]
 
-$$|F| = \left(10^5\right)^{\left(10^5\right)^n} = 10^{5\times10^{5n}} = 10^{5\times 100000^{n}}$$
+$$|F_n| = \left(10^5\right)^{\left(10^5\right)^n} = 10^{5\times10^{5n}} = 10^{5\times 100000^{n}}$$
 
 
-Let us put the size of $F$ into perspective.
+Let us put the size of $F_n$ into perspective.
 The number of electrons in the universe multiplied by the number of Planck times passed since the beginning of time is about $10^{141}$.[^planck]
-This number is minuscule compared to $|F|=10^{5\times 100000^{n}}$.
-Hence, the number of real world functions, and in particular the number of real world functions we could _possibly ever encounter_ (and hence _could_ possibly be relevant to us) is minuscule compared the number of functions contained in $F$.
+This number is minuscule compared to $|F_n|=10^{5\times 100000^{n}}$.
+Hence, the number of real world functions, and in particular the number of real world functions we could _possibly ever encounter_ (and hence _could_ possibly be relevant to us) is minuscule compared the number of all $n$-dimensional low-discretized functions as given in $F_n$.
 
-Does NFL hold for any practically relevant (and nontrivial) subset of $F$?
-Does NFL hold for _any_ practically relevant nontrivial set of functions?
-We don't know, but it looks exceedingly unlikely to us.
+Does NFL hold for any practically relevant (and nontrivial) subset of $F_n$?
+Does NFL hold for _any_ practically relevant set of nontrivial functions?
+We don't know,[^knowing] but it looks exceedingly unlikely to us.
 
+
+[^discretenote]: As an example, this gives roughly 5 digits of precision for representing numbers from the interval $[0,1]$.
+  In some practical situations we may require more precision or a wider range.
+  Hence, the following size derivation is on the conservative side.
 
 [^wolpert]: NFL states that aggregated over all functions, _all search algorithms perform identical_ (given they do not revisit solutions).
   This is true when the set of functions is closed under permutation.
   See Wolpert, D.H. and Macready, W.G., 2002. No free lunch theorems for optimization. _IEEE transactions on evolutionary computation,_ 1(1), pp.67-82.
 
-[^discretenote]: As an example, this gives roughly 5 digits of precision for representing numbers from the $[0,1]$ interval.
-  In some practical situations we may require more precision or a wider range.
-  Hence, the following size derivation is on the conservative side.
-
 [^planck]: The number of electrons (or atoms) in the universe is about $10^{80}$.
   The age of the universe is about $10^{18}$ seconds.
   The Planck time is about $10^{-43}$ seconds.
-  The number of all electrons in the universe multiplied by the number of Planck times since the beginning of the universe is about $10^{80} \times 10^{61} = 10^{141}$.
+  The number of all electrons in the universe multiplied by the number of Planck times since the beginning of the universe is hence about $10^{80} \times 10^{61} = 10^{141}$.
 
 [^funnumber]: The number of functions equals the number of different function values to the power of the number of different solutions.
+
+[^knowing]: Given any observable set of nontrivial "continuous" _real world_ problems, it seems hard to conceive how we could ever determine that NFL holds for this set.
