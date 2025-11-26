@@ -1,0 +1,16 @@
+---
+title: Noisy test suite
+---
+
+There are two ways to run experiments on a noisy test suite.
+
+1. Using the [`bbob-noisy`](https://numbbo.github.io/temp-doc-bbob/bbob-noisy/def.html) suite,
+   `suite = cocoex.Suite('bbob-noisy', '', '')` (since 2009),
+   see also the [function visualizations](https://numbbo.github.io/temp-doc-bbob/bbob-noisy/vis.html).
+   This suite features 30 functions with three different noisy models in two different magnitudes on a subset of 8 of the 24 functions from the [`bbob`](testsuites/bbob/overview.qmd) test suite.
+2. Using the [`cocoex.noiser.Noisifier`](https://numbbo.github.io/coco-doc/apidocs/cocoex/cocoex.noiser.Noisifier.html) (since 2025, only available in Python)
+   as described in more detail in [this issue](https://github.com/numbbo/coco-experiment/issues/36).
+   The noisifier can be used with any COCO test suite.
+   The resulting data can be post-processed as usual.
+   However, the post-processing does not recognize whether a noisifier was applied during the experiment.
+   Hence the figures themselves won't give any hints on the applied noise parameters.

@@ -122,6 +122,7 @@ website:
           - text: Data Archive
             href: testsuites/bbob-mixint/data-archive.qmd
       - section: bbob-noisy
+        href: testsuites/bbob-noisy/overview.qmd
         contents:
           - text: Problem Visualizations
             href: https://numbbo.github.io/temp-doc-bbob/bbob-noisy/vis.html
