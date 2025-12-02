@@ -2,7 +2,7 @@
 title: Performance Visualizations for the `bbob-largescale` test suite 
 ---
 
-Below, we provide postprocessed data showing the performance of [all currently available algorithm data sets](../../../../testsuites/bbob-largescale/data-archive.html) for the `bbob-boxed` test suite.
+Below, we provide postprocessed data showing the performance of [all currently available algorithm data sets](../../../../testsuites/bbob-largescale/data-archive.html) for the `bbob-largescale` test suite.
 
 
 ## Performance Comparison
