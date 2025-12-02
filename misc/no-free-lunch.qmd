@@ -17,7 +17,7 @@ Hence, the number of real world functions, and in particular the number of real 
 
 Does NFL hold for any practically relevant (and nontrivial) subset of $F_n$?
 Does NFL hold for _any_ practically relevant set of nontrivial functions?
-We don't know,[^knowing] but it looks exceedingly unlikely to us.
+We don't know,[^knowing] but it looks exceedingly unlikely to us.[^subset]
 
 
 [^discretenote]: As an example, this gives roughly 5 digits of precision for representing numbers from the interval $[0,1]$.
@@ -25,7 +25,7 @@ We don't know,[^knowing] but it looks exceedingly unlikely to us.
   Hence, the following size derivation is on the conservative side.
 
 [^wolpert]: NFL states that aggregated over all functions, _all search algorithms perform identical_ (given they do not revisit solutions).
-  This is true when the set of functions is closed under permutation.
+  This is true if (and only if) the set of functions is closed under permutation.
   See Wolpert, D.H. and Macready, W.G., 2002. No free lunch theorems for optimization. _IEEE transactions on evolutionary computation,_ 1(1), pp.67-82.
 
 [^planck]: The number of electrons (or atoms) in the universe is about $10^{80}$.
@@ -35,4 +35,6 @@ We don't know,[^knowing] but it looks exceedingly unlikely to us.
 
 [^funnumber]: The number of functions equals the number of different function values to the power of the number of different solutions.
 
-[^knowing]: Given any observable set of nontrivial "continuous" _real world_ problems, it seems hard to conceive how we could ever determine that NFL holds for this set.
+[^knowing]: Given any observable set of nontrivial "continuous" _real world_ problems, it seems hard to conceive how we could ever determine that NFL holds for this set. 
+
+[^subset]: In general, _any_ function subset is highly unlikely to obey NFL and any nontrivial neighbourhood is not invariant under permutation, see Igel, C. and Toussaint, M., 2005. A no-free-lunch theorem for non-uniform distributions of target functions. _Journal of Mathematical Modelling and Algorithms,_ 3(4), pp.313-322.
