@@ -24,9 +24,9 @@ We don't know,[^knowing] but it looks exceedingly unlikely to us.[^subset]
   In some practical situations we may require more precision or a wider range.
   Hence, the following size derivation is on the conservative side.
 
-[^wolpert]: NFL states that aggregated over all functions, _all search algorithms perform identical_ (given they do not revisit solutions).
+[^wolpert]: NFL states that aggregated over all functions, _all search algorithms perform identical_
+  (given they do not revisit solutions), see @wolpert2002no.
   This is true if (and only if) the set of functions is closed under permutation.
-  See Wolpert, D.H. and Macready, W.G., 2002. No free lunch theorems for optimization. _IEEE transactions on evolutionary computation,_ 1(1), pp.67-82.
 
 [^planck]: The number of electrons (or atoms) in the universe is about $10^{80}$.
   The age of the universe is about $10^{18}$ seconds.
@@ -37,4 +37,9 @@ We don't know,[^knowing] but it looks exceedingly unlikely to us.[^subset]
 
 [^knowing]: Given any observable set of nontrivial "continuous" _real world_ problems, it seems hard to conceive how we could ever determine that NFL holds for this set. 
 
-[^subset]: In general, _any_ function subset is highly unlikely to obey NFL and any nontrivial neighbourhood is not invariant under permutation, see Igel, C. and Toussaint, M., 2005. A no-free-lunch theorem for non-uniform distributions of target functions. _Journal of Mathematical Modelling and Algorithms,_ 3(4), pp.313-322.
+[^subset]: In general, _any_ function subset is highly unlikely to obey NFL and any nontrivial neighbourhood is not invariant under permutation, see  @igel2005no.
+
+<!--
+Wolpert, D.H. and Macready, W.G., 2002. No free lunch theorems for optimization. _IEEE transactions on evolutionary computation,_ 1(1), pp.67-82
+Igel, C. and Toussaint, M., 2005. A no-free-lunch theorem for non-uniform distributions of target functions. _Journal of Mathematical Modelling and Algorithms,_ 3(4), pp.313-322.
+-->
