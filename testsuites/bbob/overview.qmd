@@ -46,20 +46,7 @@ f<sub>24</sub>: [Lunacek bi-Rastrigin](functions/f24.qmd)
 :::
 
 This is an online-friendly presentation of the `bbob` functions, based on 
-the BBOB 2009 function document [@bbob2019]. You may cite this work 
-in a scientific context using
-
-```bibtex
-@techreport{bbob2019,
-    author = {Finck, Steffen and Hansen, Nikolaus and Ros, Raymond and Auger, Anne},
-    title = {Real-Parameter Black-Box Optimization Benchmarking 2009: Noiseless Functions Definitions},
-    institution = {INRIA},
-    year = {2009},
-    number = {RR-6829},
-    note = {Updated version as of February 2019},
-    url = {https://inria.hal.science/inria-00362633v2/document}
-}
-```
+the BBOB 2009 function document [@bbob2019, [BibTeX entry](#citation)].
 
 We present here 24 noise-free real-parameter single-objective
 benchmark functions (see [@hansen2016exp; @hansen2009exp] 
@@ -209,3 +196,19 @@ functions. These properties are not intrinsic, that is
 ${f_\mathrm{opt}}+{10^{-8}}$ is not intrinsically
 "very good". The value mainly reflects a scalar multiplier in the
 function definition.
+
+### Citation
+ You may cite this work 
+in a scientific context using
+
+```bibtex
+@techreport{bbob2019,
+    author = {Finck, Steffen and Hansen, Nikolaus and Ros, Raymond and Auger, Anne},
+    title = {Real-Parameter Black-Box Optimization Benchmarking 2009: Noiseless Functions Definitions},
+    institution = {INRIA},
+    year = {2009},
+    number = {RR-6829},
+    note = {Updated version as of February 2019},
+    url = {https://inria.hal.science/inria-00362633v2/document}
+}
+```
