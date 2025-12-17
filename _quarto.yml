@@ -94,17 +94,19 @@ website:
           - text: Data Archive
             href: testsuites/bbob-boxed/data-archive.qmd
       - section: bbob-constrained
+        href: testsuites/bbob-constrained/test-suite.qmd
         contents:
-          - text: Suite
-            href: testsuites/bbob-constrained/test-suite.qmd
+          - text: Function Definitions
+            href: http://numbbo.github.io/coco-doc/bbob-constrained/functions.pdf
           - text: Performance Comparison
             href: testsuites/bbob-constrained/performancecomparisons.qmd
           - text: Data Archive
             href: testsuites/bbob-constrained/data-archive.qmd
       - section: bbob-largescale
+        href: testsuites/bbob-largescale/test-suite.qmd
         contents:
-          - text: Suite
-            href: testsuites/bbob-largescale/test-suite.qmd
+          - text: Function Definitions
+            href: https://arxiv.org/pdf/1903.06396
           - text: Performance Comparison
             href: testsuites/bbob-largescale/performancecomparisons.qmd
           - text: Data Archive
