@@ -103,7 +103,7 @@ website:
           - text: Data Archive
             href: testsuites/bbob-constrained/data-archive.qmd
       - section: bbob-largescale
-        href: testsuites/bbob-largescale/test-suite.qmd
+        href: testsuites/bbob-largescale/overview.qmd
         contents:
           - text: Function Definitions
             href: https://arxiv.org/pdf/1903.06396
@@ -159,6 +159,8 @@ website:
           href: https://github.com/numbbo/coco-postprocess
         - text: coco-visualize
           href: https://github.com/numbbo/coco-visualize
+        - text: Sprints
+          href: development/sprints.qmd
     - section: Misc
       contents:
         - text: No Free Lunch
