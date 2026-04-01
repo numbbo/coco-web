@@ -1,12 +1,12 @@
 ---
-title: COCO Sprints
+title: COCO Code Sprints
 ---
 
 Irregularly, we organize multi-day COCO Sprints in order to develop the platform further, make plans for future extensions, or simply work jointly on specific tasks for an extended period of time. So far, the following COCO Sprints have taken place:
 
 **1st COCO Sprint, October 23-27, 2023 in Antony, France**
 
-participants: 
+Participants: 
 Anne Auger (Inria, France),
 Dimo Brockhoff (Inria, France),
 Nikolaus Hansen (Inria, France),
@@ -16,7 +16,7 @@ Tea Tušar (JSI, Slovenia)
 
 **2nd COCO Sprint, November 25-29, 2024 in Dagstuhl, Germany**
 
-participants:
+Participants:
 Dimo Brockhoff (Inria, France),
 Tobias Glasmachers (Ruhr-Universität Bochum, Germany),
 Nikolaus Hansen (Inria, France),

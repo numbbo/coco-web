@@ -159,7 +159,7 @@ website:
           href: https://github.com/numbbo/coco-postprocess
         - text: coco-visualize
           href: https://github.com/numbbo/coco-visualize
-        - text: Sprints
+        - text: Code sprints
           href: development/sprints.qmd
     - section: Misc
       contents:
