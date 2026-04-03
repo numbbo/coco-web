@@ -2,7 +2,7 @@
 title: COCO Data Archive
 ---
 
-Here we provide the official benchmarking data archives from numerical benchmarking experiments run on the COCO platform. 
+Here, we provide the "official" benchmarking data archives from numerical benchmarking experiments run on the COCO platform. 
 For each test suite we provide a listing of the official data sets with additional information like authors, links to papers, source code etc.
 Data sets for the following test suites are available: 
 
@@ -20,6 +20,7 @@ If you are using the [cocopp Python module](https://pypi.org/project/cocopp), th
 ## Related Links
 
 * <a href="../ppdata-archive"> postprocessed data of these archives for browsing</a>
+* <a href="../getting-started#finding-data-to-compare-with">finding data to compare with</a>
 * <a href="https://github.com/numbbo/data-archive/blob/gh-pages/howtos/publish-a-dataset-howto.md">how to submit a data set</a>
 * <a href="https://github.com/numbbo/coco-postprocess/blob/main/src/cocopp/archiving.py">
 how to create and use COCO data archives with the <tt>cocopp.archiving</tt> Python module</a>
