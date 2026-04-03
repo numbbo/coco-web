@@ -1,0 +1,31 @@
+---
+title: Motivation
+---
+_(2 minutes read)_
+
+The COCO framework has been motivated by (a) the highly repetitive nature of benchmarking and (b) realizing that a proper and robust benchmarking methodology is more intricate than we had hoped for.
+
+When designing test suites, our motivation and objective was to
+
+- reflect typical difficulties we have observed in real world applications;
+- test typical and important _generic_ aspects of continuous domain optimization (too generic to be ignored by nature);
+- allow for interpretation --- functions are comprehensible under human scrutiny;
+- allow for comprehensive experimentations --- functions are quick to evaluate.
+
+While our test suites are motivated by real world difficulties, we do not claim that the distribution of functions in these suites truly reflect a distribution in the real world. We do not even claim to know any such real world distribution of any broader class of functions.
+
+Generally, a decent light-weight (but somewhat fragile) benchmarking _can_ be done[^light] _without_ dealing with the most intricate aspects in COCO, which are 
+
+- the systematic creation of different and slightly disturbed function instances,
+- the systematic application of restarts with their seamless integration into performance measures and figures, and 
+- the comprehensive aggregation of results which also requires a comparable choice of target values.
+
+Compared to a one-off benchmarking set up, the COCO framework provides methodological and exploitative robustness.
+
+Additionally, COCO allows for the direct comparison with a [variety of previous results](getting-started/#finding-data-to-compare-with), which has become one of the most appealing features to us.
+
+[^light]: Given a suite of test functions, we can simply display convergence plots of single runs (and their median). However, avoiding any and all possible pitfalls from a fresh start remains always a challenge. There are _many_ small but potentially significant decisions to be made in the process.
+
+[^intricate]: The most intricate features of COCO are 
+
+[^knowing]: We don't quite believe that anyone has enough information, at this point in time, to make a truly educated guess for how real world distributions of broader problem classes look like.

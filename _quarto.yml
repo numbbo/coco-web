@@ -29,6 +29,8 @@ website:
     contents:
     - text: Home
       href: index.qmd
+    - text: Motivation
+      href: motivation.qmd
     - text: Get Started
       href: getting-started/index.qmd
       contents:
@@ -165,6 +167,8 @@ website:
       contents:
         - text: No Free Lunch
           href: misc/no-free-lunch.qmd
+        - text: Critics and Rebuttals
+          href: misc/critics.qmd
   search:
     type: textbox    
 
