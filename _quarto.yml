@@ -167,8 +167,8 @@ website:
       contents:
         - text: No Free Lunch
           href: misc/no-free-lunch.qmd
-        - text: Critics and Rebuttals
-          href: misc/critics.qmd
+        - text: Criticisms and Rebuttals
+          href: misc/criticisms.qmd
   search:
     type: textbox    
 
