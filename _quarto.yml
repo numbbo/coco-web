@@ -105,7 +105,7 @@ website:
           - text: Data Archive
             href: testsuites/bbob-constrained/data-archive.qmd
       - section: bbob-largescale
-        href: testsuites/bbob-largescale/overview.qmd
+        href: testsuites/bbob-largescale/test-suite.qmd
         contents:
           - text: Function Definitions
             href: https://arxiv.org/pdf/1903.06396
