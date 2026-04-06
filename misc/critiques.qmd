@@ -1,0 +1,53 @@
+---
+title: Critiques and Rebuttals
+---
+
+This is a potentially growing list of critical remarks and our rebuttals.
+
+- _COCO was not designed with practitioners in mind._
+
+We don't believe in mind reading. The motivations for COCO are outline [here](../motivation.qmd).
+
+- _The sphere function is not interesting._
+
+Whether and how fast an algorithm can solve simple functions (locally or globally) is a relevant and consequential observation and should be factored in into a decision which algorithm to use on any given problem and setup in practice.
+
+- _The sphere function is not relevant in practice._
+
+Many real world problems are comparatively simple and very much akin to the sphere function. These are not interesting for challenging research questions but practitioners need to solve them every day nevertheless. If a test suite wanted to reflect a true distribution of all real world problems, the almost-sphere function would need to claim a significant part of this suite.
+
+- _Highly ill-conditioned functions are not relevant in practice._
+
+Ill-conditioning is a lesser known problem difficulty, yet, we have regularly seen real world problems with condition numbers considerably above $10^3$ and have occasionally stumbled over real world problems with condition numbers above $10^{9}$.[^diagnoseillcondition] The overwhelming success of second order methods in "classical" optimization is another testament that (highly) ill-conditioned functions are ubiquitous. In the standard `bbob` test suite, ill-conditioning is a core difficulty in 6/24 functions while multimodality is a core difficult in 11/24 functions.[^conditionings]
+
+- _In practice, we often have a fixed, limited budget (time). The experimental setup of COCO does not reflect this situation._
+
+It is important to understand that the goal of benchmarking is to deliver the maximum amount of _information_ to make an informed decision. Given a strict budget-limited setup in practice (which we do not believe to be a very common case), the goal is to have the best single-shot performance on a singly unknown function. Creating information by benchmarking a known suite versus maximizing the single-shot performance on an unknown function are two fundamentally different objectives and it would be _very_ surprising if they would require the very same experimental setup. As the most basic example: in order to make the best informed decision for a given budget, because the generalization to an unknown function involves considerable uncertainties, we should know the performance for (somewhat) smaller and (somewhat) larger budgets too. Hence, a fixed budget setup cannot possibly be a good choice. The budget-free approach (which allows to read the success rate as a function of budget) appears to be the best setup we can think of.[^expensive]
+
+- _The aggregation of all results from a benchmarked suite is meaningless and misleading._
+
+We agree in parts:
+
+1. Aggregated results often get more attention than they deserve. While our runtime aggregations literally contain _all_ individual data _uncompressed_, they still convey _much_ less information than an annotated profile over all individual results from all single functions. However, when there is time or space for a single figure only, the aggregated results are usually the most meaningful choice to display.
+
+2. The aggregation of the results from a test suite does _not_ reflect "the true real world performance" of an algorithm. Giving the impression that it does is misleading and suggesting that displaying such aggregation gives this impression is unjustified and bizarre. The aggregation reflects the aggregated performance _on this test suite_, assuming that all functions are deemed equally important.[^reasonable]
+
+Not reflecting "the true real world performance", which is an _ultimate_ (but impossible) goal, does not render any other aggregation meaningless or misleading.
+
+- _There cannot exist a single universally best algorithm because there is No Free Lunch._
+
+This is not a critique of COCO per se, but a caveat to benchmarking in general, and a common misconception of the No Free Lunch Theorems or their practical consequence in continuous domain optimization, [see here](no-free-lunch.qmd). The claim is wrong (specifically, the clause): No Free Lunch does not provide any indication as to whether a single universally best algorithm can exist in practice. On the other hand, it is trivial to see that no single algorithm can outperform (dominate) _all_ other algorithms on _all_ functions in any nontrivial set of functions, because for each function there exists an algorithm which finds the global optimum in its first iteration. (NFL does not make a dominance claim, but a "weaker" and more difficult to (dis)prove aggregation claim.) Similarly, it seems exceedingly unlikely that a single algorithm will outperform (dominate on aggregation) all other algorithms on _each and every_ specific function class of practical relevance. However, it _is_ conceivable to find "universal" algorithms that perform competitive on a wide range of different function classes, hence it is a legitimate research goal to search for these.
+
+
+[^diagnoseillcondition]: Ill-conditioning is not a particularly intuitive concept and somewhat difficult to diagnose in practice. Condition numbers below $100$ may hardly affect the performance of many algorithms. Condition numbers between $100$ and $10^4$ we consider as moderately ill-conditioned. Like for variance versus standard deviation, the better interpretable number is the square root of the condition number which is akin to a difference in scaling. The `bbob` suite considers a factor of 1000 to be a typical severe mis-scaling, occuring in about 25% of all problems.
+
+[^conditionings]: 9/24 functions have a condition number in $[1, 10]$, 9/24 functions have a condition number in $[100, 10^4]$, 5/24 functions have a (high) condition number of $10^6$ and one function is _very highly_ ill-conditioned with $\approx10^8$ close to the optimum. 
+
+<!-- sorted([0, 6, 1, 1, 0, 1, 1, 3.5, 3.5, 6, 6, 6, 4, 8, 1, 2, 1, 3, 3.5, 1, 3, 6, 2, 2]) 
+     == [0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3.5, 3.5, 3.5, 4, 6, 6, 6, 6, 6, 8] -->
+
+[^reasonable]: This is a reasonable assumption: largely insignificant functions would not have been included into the suite in the first place. Yet, our aggregation _methodology_ allows to give different (importance) weights to different functions and our code is open source.
+We are not aware of any proposal which argues why another, specific set of weights would make the aggregation over a COCO test suite more realistic compared to equal weights. We would certainly be interested to learn about such an argument!
+Changing the weight of a single function, say, to zero does very little in the overall performance picture of like 20-100 functions. Changing the weight of ill-conditioned functions from 25% to, say, 10% should not have drastic implications as well.
+
+[^expensive]: COCO also provides the so-called "expensive" display option, which zooms into relatively small budgets of up to 50 times dimension for the best algorithm. Moreover, the targets can also be changed to reflect only simpler or more lower precision problems (or only high precision problems).
