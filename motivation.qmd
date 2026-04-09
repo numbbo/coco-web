@@ -1,7 +1,7 @@
 ---
 title: Motivation
 ---
-_(2-3 minutes read)_
+_(<3 minutes read with footnotes)_
 
 The COCO framework has been motivated by (a) the highly repetitive nature of benchmarking and (b) realizing that a proper and robust benchmarking methodology is more intricate than we had hoped for.
 
@@ -18,14 +18,14 @@ Generally, a decent light-weight (but somewhat fragile) benchmarking _can_ be do
 
 - the systematic creation of different and slightly disturbed function instances,
 - the systematic application of restarts with their seamless integration into performance measures and figures, and 
-- the comprehensive and lossless aggregation of results.
+- the comprehensive and lossless(!) aggregation of results.
 
 Compared to a one-off benchmarking set up, the COCO framework provides methodological and exploitative robustness.
 
 Additionally, COCO allows for the direct comparison with a [variety of previous results](getting-started/#finding-data-to-compare-with), which has become one of the most appealing features to us.
 
 
-[^the-question]: The ultimately relevant question is _not_ how well a benchmark function (or a suite) approximates real world problems, but how much the _performance_ on a benchmark function (or a suite) _is positively correlated_ with the performance on the real world problem(s) of interest. (Or in other words, the distance measure is similarity in algorithm performance.) The latter question generally depends on the considered algorithms as well. Algorithm invariance properties and other measures against overfitting are likely to increase such a correlation. Possibly due to the systematic instance creation, we have seen surprisingly little overfitting to the COCO test suites over more than a decade.
+[^the-question]: The ultimately relevant question is _not_ how well a benchmark function suite approximates real world problems, but how much the suite's _performance is (positively) correlated_ with the performance on the real world problem(s) of interest. (Or in other words, the approximation distance measure is similarity in algorithm performance.) The latter question generally depends on the considered algorithms as well. Algorithm invariance properties and other measures against overfitting are likely to increase such a correlation. Possibly due to the systematic instance creation, we have seen surprisingly little overfitting to the COCO test suites over more than a decade.
 
 [^light]: Given a suite of test functions, we can simply display convergence plots of single runs (and their median). However, avoiding any and all possible pitfalls from a fresh start remains always a challenge. There are _many_ small but potentially significant decisions to be made in the process.
 
