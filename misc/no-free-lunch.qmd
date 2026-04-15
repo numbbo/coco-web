@@ -42,7 +42,7 @@ We don't know for certain,[^knowing] but it looks _exceedingly_ unlikely to us.
 [^knowing]: Given any observable set of nontrivial "continuous" _real world_ problems, it seems hard to conceive how we could determine that NFL holds for this set. The existence of algorithms that do perform differently seems however easy to establish if we could sample (uniformly) from the problem class.
 
 [^subset]: In general, _any_ function subset is highly unlikely to obey NFL and any nontrivial neighbourhood is not invariant under permutation [@igel2005no].
-Furthermore, we would expect different functions to have different importance weights (probabilities).
+Furthermore, we would expect different functions to have different importance weights (probabilities) in practice.
 
 
 [^weighting]: For the time being, we assume, somewhat unrealistically, equal frequency and/or equal importance weight for all functions.
