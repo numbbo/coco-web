@@ -11,7 +11,7 @@ This is true if (and only if) the set of functions is closed under permutation [
 Trying to differentiate algorithms by means of benchmarking can only be meaningful if NFL does _not_ hold on the set (or weighted set)[^weighting] of functions of interest.
 
 Let us consider the set of all (possible) functions $R^n\to R$ _discretized with two bytes_ per real number[^discretenote] and call this set $F_n$.
-The No Free Lunch Theorem holds for this set of functions _because the set is closed under permutation._
+The No Free Lunch Theorem does hold for this set of functions because the set is closed under permutation.
 The number of functions in $F_n$ is[^funnumber]
 
 $$|F_n| = \left(2^{16}\right)^{\left(2^{16}\right)^n}
