@@ -88,6 +88,7 @@ function addPlot(plotName) {
 	elemDiv.setAttribute("style", "display:inline-block; width:" + plotWidth + "%;");
 	elemA.setAttribute("href", plotPathBbob + plotName);
 	elemImg.setAttribute("src", plotPathBbob + plotName);
+	elemImg.setAttribute("alt", "");
 	elemImg.setAttribute("style", "width:100%;");
 	elemA.appendChild(elemImg);
 	elemDiv.appendChild(elemA);
