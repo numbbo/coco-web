@@ -29,6 +29,8 @@ website:
     contents:
     - text: Home
       href: index.qmd
+    - text: Motivation
+      href: motivation.qmd
     - text: Get Started
       href: getting-started/index.qmd
       contents:
@@ -89,18 +91,26 @@ website:
       - section: bbob-biobj-mixint
       - section: bbob-boxed
         contents:
+          - text: Performance Comparison
+            href: testsuites/bbob-boxed/performancecomparisons.qmd
           - text: Data Archive
             href: testsuites/bbob-boxed/data-archive.qmd
       - section: bbob-constrained
+        href: testsuites/bbob-constrained/test-suite.qmd
         contents:
-          - text: Suite
-            href: testsuites/bbob-constrained/test-suite.qmd
+          - text: Function Definitions
+            href: http://numbbo.github.io/coco-doc/bbob-constrained/functions.pdf
+          - text: Performance Comparison
+            href: testsuites/bbob-constrained/performancecomparisons.qmd
           - text: Data Archive
             href: testsuites/bbob-constrained/data-archive.qmd
       - section: bbob-largescale
+        href: testsuites/bbob-largescale/test-suite.qmd
         contents:
-          - text: Suite
-            href: testsuites/bbob-largescale/test-suite.qmd
+          - text: Function Definitions
+            href: https://arxiv.org/pdf/1903.06396
+          - text: Performance Comparison
+            href: testsuites/bbob-largescale/performancecomparisons.qmd
           - text: Data Archive
             href: testsuites/bbob-largescale/data-archive.qmd
       - section: bbob-mixint
@@ -111,14 +121,19 @@ website:
             href: https://numbbo.github.io/temp-doc-bbob/bbob-mixint/def.html
           - text: Further suite information/links
             href: testsuites/bbob-mixint/test-suite.qmd
+          - text: Performance Comparison
+            href: testsuites/bbob-mixint/performancecomparisons.qmd
           - text: Data Archive
             href: testsuites/bbob-mixint/data-archive.qmd
       - section: bbob-noisy
+        href: testsuites/bbob-noisy/overview.qmd
         contents:
           - text: Problem Visualizations
             href: https://numbbo.github.io/temp-doc-bbob/bbob-noisy/vis.html
           - text: Function Definitions
             href: https://numbbo.github.io/temp-doc-bbob/bbob-noisy/def.html
+          - text: Performance Comparison
+            href: testsuites/bbob-noisy/performancecomparisons.qmd
           - text: Data Archive
             href: testsuites/bbob-noisy/data-archive.qmd
     - text: "Publish Results"
@@ -134,7 +149,7 @@ website:
     - section: Workshops
       href: workshops/workshops.qmd
       contents:
-        - text: Current (BBOB-2025)
+        - text: Latest (BBOB-2025)
           href: workshops/bbob2025.qmd
         - text: Previous
           href: workshops/previous.qmd
@@ -146,6 +161,14 @@ website:
           href: https://github.com/numbbo/coco-postprocess
         - text: coco-visualize
           href: https://github.com/numbbo/coco-visualize
+        - text: Code sprints
+          href: development/sprints.qmd
+    - section: Misc
+      contents:
+        - text: No Free Lunch
+          href: misc/no-free-lunch.qmd
+        - text: Critiques and Rebuttals
+          href: misc/critiques.qmd
   search:
     type: textbox    
 

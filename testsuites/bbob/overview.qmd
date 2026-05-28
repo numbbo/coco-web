@@ -46,20 +46,7 @@ f<sub>24</sub>: [Lunacek bi-Rastrigin](functions/f24.qmd)
 :::
 
 This is an online-friendly presentation of the `bbob` functions, based on 
-the BBOB 2009 function document [@bbob2019]. You may cite this work 
-in a scientific context using
-
-```bibtex
-@techreport{bbob2019,
-    author = {Finck, Steffen and Hansen, Nikolaus and Ros, Raymond and Auger, Anne},
-    title = {Real-Parameter Black-Box Optimization Benchmarking 2009: Noiseless Functions Definitions},
-    institution = {INRIA},
-    year = {2009},
-    number = {RR-6829},
-    note = {Updated version as of February 2019},
-    url = {https://inria.hal.science/inria-00362633v2/document}
-}
-```
+the BBOB 2009 function document [@bbob2019, [BibTeX entry](#citation)].
 
 We present here 24 noise-free real-parameter single-objective
 benchmark functions (see [@hansen2016exp; @hansen2009exp] 
@@ -97,19 +84,19 @@ domain is given as $[-5,5]^{D}$.
 
 #### Location of the Optimal $\mathbf{x}^\mathrm{opt}$ and of $f_\mathrm{opt}=f(\mathbf{x^\mathrm{opt}})$
 
-All functions have their global optimum in $[-5,5]^{D}$.
-The majority of functions has the global optimum in
-$[-4,4]^{D}$ and for many of them
-$\mathbf{x}^\mathrm{opt}$ is drawn uniformly from this compact. The
-value for $f_\mathrm{opt}$ is drawn from a Cauchy distributed random
-variable, with zero median and with roughly 50% of the values between
--100 and 100. The value is rounded after two decimal places and set to
-$\pm1000$ if its absolute value exceeds $1000$. In the function
-definitions a transformed variable vector $\mathbf{z}$ is
-often used instead of the argument $\mathbf{x}$. The vector
-$\mathbf{z}$ has its optimum in
-$\mathbf{z^\mathrm{opt}}=\mathbf{0}$, if not
-stated otherwise.
+All functions have their global optimum in $[-5,5]^{D}$. The majority of
+functions has the global optimum in $[-4,4]^{D}$ and for many of them, if
+not stated otherwise, $\mathbf{x}^\mathrm{opt}$ is drawn uniformly from
+this compact. The value for $f_\mathrm{opt}$ is drawn from a Cauchy
+distributed random variable, with zero median and with roughly 50% of the
+values between -100 and 100. The value is rounded after two decimal places
+and set to $\pm1000$ if its absolute value exceeds $1000$ (which happens
+roughly with probability 1/16). In the function definitions, a transformed
+variable vector $\mathbf{z}$ is often used instead of the argument
+$\mathbf{x}$. The vector $\mathbf{z}$ has its optimum in
+$\mathbf{z^\mathrm{opt}}=\mathbf{0}$, if not stated otherwise.
+All random variables are pseudorandom and depend _deterministically_ on the
+instance number.
 
 #### Boundary Handling
 
@@ -122,7 +109,7 @@ Linear transformations of the search space are applied to derive
 non-separable functions from separable ones and to control the
 conditioning of the function.
 
-#### *Non-Linear Transformations and Symmetry Breaking
+#### Non-Linear Transformations and Symmetry Breaking
 
 In order to make relatively simple, but well understood functions less
 regular, on some functions non-linear transformations are applied in
@@ -209,3 +196,19 @@ functions. These properties are not intrinsic, that is
 ${f_\mathrm{opt}}+{10^{-8}}$ is not intrinsically
 "very good". The value mainly reflects a scalar multiplier in the
 function definition.
+
+### Citation
+ You may cite this work 
+in a scientific context using
+
+```bibtex
+@techreport{bbob2019,
+    author = {Finck, Steffen and Hansen, Nikolaus and Ros, Raymond and Auger, Anne},
+    title = {Real-Parameter Black-Box Optimization Benchmarking 2009: Noiseless Functions Definitions},
+    institution = {INRIA},
+    year = {2009},
+    number = {RR-6829},
+    note = {Updated version as of February 2019},
+    url = {https://inria.hal.science/inria-00362633v2/document}
+}
+```

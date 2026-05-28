@@ -9,8 +9,10 @@ There are two ways to make data easily accessible to the community:
 - proposing inclusion of the data into [`cocopp.archives`](https://numbbo.github.io/data-archive), or
 - hosting a COCO archive of the data.
 
-In both cases, first, the data need to be prepared. For this, for each
-dataset, that is, each benchmarked algorithm or algorithm variant:
+In both cases, first, the data need to be prepared.
+For this, carefully follow the experimental setup ([Sections 2-4 here](./pdfs/bbobdocexperimentation2013.pdf)),
+or use one of the example experimentation scripts ([see e.g. here](./getting-started/#experiment)).
+Then, for each dataset (that is, for each benchmarked algorithm variant):
 
 1. **Zip the data folder.**  
    A data zipfile shall contain a single folder under which all data from a
