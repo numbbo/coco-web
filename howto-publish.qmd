@@ -42,7 +42,7 @@ For this:
    - a link to the dataset zip file(s)
    - (optional but encouraged) a link to the source code to reproduce the dataset
 
-[gh-issue]: https://github.com/numbbo/coco/issues/new?assignees=brockho&labels=data+submission&projects=&template=submit-a-coco-data-set.md&title=%5BDATA+SUBMISSION%5D+put+a+title+here
+[gh-issue]: https://github.com/numbbo/data-archive/issues/new?template=submit-a-coco-data-set.md
 
 ## Host an Archive
 
