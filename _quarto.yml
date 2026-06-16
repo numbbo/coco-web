@@ -115,9 +115,8 @@ website:
           - text: Data Archive
             href: testsuites/bbob-largescale/data-archive.qmd
       - section: bbob-mixint
+        href: testsuites/bbob-mixint/overview.qmd
         contents:
-          # - text: Problem Visualizations  # seem not to display the correct functions
-          #   href: https://numbbo.github.io/temp-doc-bbob/bbob-mixint/vis.html
           - text: Function Definitions
             href: https://numbbo.github.io/temp-doc-bbob/bbob-mixint/def.html
           - text: Further suite information/links

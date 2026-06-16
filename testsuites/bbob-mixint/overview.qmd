@@ -1,0 +1,33 @@
+---
+title: The `bbob-mixint` Test Suite
+---
+
+
+The `bbob-mixint` test suite contains (partly) discretized versions of the 24 single-objective noiseless [`bbob`](../bbob/overview.qmd) test functions.
+
+The core idea behind `bbob-mixint` is to start from the [`bbob`](../bbob/overview.qmd) test functions and discretize 80% of the variables and 
+keep 20% continuous (while translating the optima in order to have the optima coincide with the discrete values. 20% of the variables are thereby 
+mapped to binary ones, 20% to 4-ary variables, 20% to 8-ary, and 20% to 16-ary variables, each encoded between 0 and the arity minus one. The original 
+[`bbob`](../bbob/overview.qmd) instances are shifted to have their optima on the discrete grid. Implementation-wise, off-grid evaluations 
+(with the variables set to any continuous value) are still possible and return the function value of the closest point of the discrete grid.
+
+More details can be found in the original publication that you may cite as follows:
+
+```bibtex
+@inproceedings{bbobmixint2019,
+    author = {Tea Tu{\v{s}}ar and Dimo Brockhoff and Nikolaus Hansen},
+    title = {Mixed-integer benchmark problems for single-and bi-objective optimization},
+    year = {2019},
+    booktitle={Genetic and Evolutionary Computation Conference (GECCO~2019)},
+    pages={718--726},
+    publisher={ACM}
+}
+```
+
+
+## Quick Access
+
+- [function definitions](https://numbbo.github.io/temp-doc-bbob/bbob-mixint/def.html)
+- [performance results](performancecomparisons.html)
+- [data archive](data-archive.html)
+- [further suite information/links](test-suite.html)
