@@ -1,0 +1,81 @@
+---
+title: The `bbob-largescale` Test Suite
+---
+
+
+The `bbob-largescale` test suite contains 24 single-objective functions in continuous domain, 
+extending the well-known single-objective noiseless [`bbob`](../bbob/overview.qmd) test suite
+to dimensions 20 to 640. The core idea is to make [`bbob`](../bbob/overview.qmd)'s rotational transformations in search 
+space computationally cheaper in higher dimension while retaining some desired properties by
+employing permuted block-diagonal matrices.
+
+
+You may cite this work in a scientific context using
+
+```bibtex
+@article{bboblaregscale2020,
+    author = {Konstantinos Varelas and Ouassim Ait El Hara and, Dimo Brockhoff and Nikolaus Hansen and Duc Manh Nguyen and Tea Tu{\v{s}}ar and Anne Auger},
+    title = {Benchmarking large-scale continuous optimizers: The `bbob-largescale` testbed, a COCO software guide and beyond},
+    year = {2020},
+    journal={Applied Soft Computing},
+    volume={97},
+    pages={106737},
+    year={2020},
+    publisher={Elsevier}
+    url = {https://www.sciencedirect.com/science/article/pii/S156849462030675X}
+}
+```
+
+
+## Quick Access
+
+- [function definitions](https://arxiv.org/pdf/1903.06396.pdf)
+- [some available results](performancecomparisons.html)
+- [data archive](data-archive.html)
+
+
+
+## The Basic Idea
+
+The `bbob-largescale` test suite provides 24 functions in six dimensions (20, 40, 80, 160,
+320 and 640) within the COCO framework. It is derived from the existing single-objective, unconstrained [`bbob`](../bbob/overview.qmd) 
+test suite with modifications that allow the user to benchmark algorithms on high dimensional problems efficiently.
+
+The main difference between the `bbob-largescale` and the original [`bbob`](../bbob/overview.qmd) test suite is that the full matrices $R$ in the
+rotational transformations $x \rightarrow z = Rx$ of [`bbob`](../bbob/overview.qmd) are replaced by block-diagonal rotation matrices 
+
+
+$$
+R = P_{\text{left}}BP_{\text{right}}
+$$
+
+
+with $P_{\text{left}}$ and $P_{\text{right}}$ being two permutation matrices
+and $B$ being a block-diagonal matrix of the form:
+
+
+$$
+B =
+\left(
+\begin{array}{cccc}
+B_1 &  0  & \ldots & 0\\
+ 0  & B_2 & \ldots & 0\\
+ 0  &  0  & \ddots & 0\\
+ 0  &  0  &    0   & B_{n_b}
+\end{array}
+\right)
+$$
+
+
+where $n_b$ is the number of blocks and $B_i$, $1 \leq i \leq n_b$, are square matrices of sizes 
+$s_i \times s_i$ satisfying $s_i \geq 1$ and $\sum_{i=1}^{n_b} s_i = n$.
+
+
+For more details, see the concrete [function definitions](https://arxiv.org/pdf/1903.06396.pdf).
+
+
+## Compatibility
+
+The `bbob-largescale` suite is compatible with the [`bbob`](../bbob/overview.qmd) suite in the sense
+that in dimensions 20 and 40, both test suites contain the same functions (with full rotation matrices) 
+and that algorithm data sets from both suites can be postprocessed (and viewed) together.
