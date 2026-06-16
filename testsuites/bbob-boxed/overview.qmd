@@ -1,0 +1,25 @@
+---
+title: The `bbob-boxed` Test Suite
+---
+
+
+The `bbob-boxed` test suite adds bound constraints at $-5$ and $5$ for all variables to the well-known
+single-objective noiseless [`bbob`](../bbob/overview.qmd) test suite. It is also known under its
+initial name of `sbox-cost` when it was introduced in the context of the [GECCO workshop of the same name](https://sbox-cost.github.io/).
+
+The bound constraints of the `bbob-boxed` test suite are enforced in the sense that evaluations 
+outside the feasible space $[-5,5^n]$ remain possible, but return positive infinity as value (for example
+`inf` in python).
+
+
+## Quick Access
+
+- for the function definitions, please refer to the description of the [original bbob suite](../bbob/overview.qmd)
+- [first available results](performancecomparisons.html)
+- [data archive](data-archive.html)
+
+
+## Compatibility
+
+The `bbob-boxed` suite is compatible with the original [`bbob`](../bbob/overview.qmd) suite in the sense
+that algorithm data sets from both suites can be postprocessed (and viewed) together.
