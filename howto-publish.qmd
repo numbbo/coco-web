@@ -89,8 +89,10 @@ For this:
      (see below example).
 
   1. **Open an** [**issue** at the numbbo/data-archive Github repository of COCO](https://github.com/numbbo/data-archive/issues)
-     (you need to have a Github account) signalling the URL of the archive with
+     (you need to have a Github account) signaling the URL of the archive with
      a short description of the dataset(s) in the archive.
+     The URL shall be added to the file [`list_known_archives.txt`](https://github.com/numbbo/data-archive/blob/gh-pages/data-archives/list_known_archives.txt)
+     at [`numbbo/data-archive/data-archives`](https://github.com/numbbo/data-archive/blob/gh-pages/data-archives).
 
 ### Example of an resulting archive
 
