@@ -24,3 +24,13 @@ Olaf Mersmann (HS Bund, Germany),
 Jakub Kudela (Brno University of Technology, Czech Republic),
 Tea Tušar (JSI, Slovenia),
 Vanessa Volz (CWI, The Netherlands)
+
+
+**3rd COCO Sprint, October 19-23, 2026 in Antony, France**
+
+Participants: 
+Anne Auger (Inria, France),
+Dimo Brockhoff (Inria, France),
+Nikolaus Hansen (Inria, France),
+Olaf Mersmann (Hochschule Bonn-Rhein-Sieg, Germany),
+Tea Tušar (JSI, Slovenia)
