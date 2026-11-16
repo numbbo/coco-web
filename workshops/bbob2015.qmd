@@ -1,0 +1,39 @@
+# GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2015)
+
+The 5th GECCO Workshop on Real-Parameter
+Black-Box Optimization Benchmarking (BBOB 2015) took place
+during GECCO 2015 in Madrid, Spain.
+
+
+
+## Previous Web Page
+You can find the previous webpage for this workshop at the 
+[Internet Archive](https://web.archive.org/web/20200811020539/https://coco.gforge.inria.fr/doku.php?id=bbob-2015).
+
+
+
+## Workshop Schedule
+
+
+  | **Session I**                               | Sunday, July 12, 2015, Patio 3                                                                                                           |
+  |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+  | The BBOBies                                 | Introduction to the BBOB Framework                                                                                                       |
+  | Petr Pošik, Petr Baudiš                     | Dimension Selection in Axis-Parallel Brent-STEP Method for Black-Box Optimization of Separable Continuous Functions                      |
+  | Asma Atamna                                 | Benchmarking IPOP-CMA-ES-TPA and IPOP-CMA-ES-MSR on the BBOB Noiseless Testbed                                                           |  
+
+  | **Session II**                              | Sunday, July 12, Patio 3                                                                                                                 |
+  |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+  | Lukaš Bajer, Zbynek Pitra, Martin Holena    | Benchmarking Gaussian Processes and Random Forsts Surrogate Models on the BBOB Noiseless Testbed                                         |
+  | Dimo Brockhoff, Bernd Bischl, Tobias Wagner | The Impact of Initial Designs on the Performance of MATSuMoTo on the Noiseless BBOB-2015 Testbed: A Preliminary Study                    |
+  
+  
+
+## Organizers
+
+-   Youhei Akimoto, Shinshu University, Japan
+-   Anne Auger, Inria Saclay, France
+-   Dimo Brockhoff, Inria Lille, France
+-   Nikolaus Hansen, Inria Saclay, France
+-   Olaf Mersmann, Technische Universität Dortmund, Germany
+-   Petr Pošik, Czech šechnical University, Czech Republic
+

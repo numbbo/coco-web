@@ -1,0 +1,61 @@
+# GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2013)
+
+The forth GECCO Workshop on Real-Parameter
+Black-Box Optimization Benchmarking (BBOB 2013) took place
+during GECCO 2013 in Amsterdam, The Netherlands.
+
+
+## Previous Web Page
+You can find the previous webpage for this workshop at the 
+[Internet Archive](https://web.archive.org/web/20200924124434/https://coco.gforge.inria.fr/doku.php?id=bbob-2013).
+
+  
+  
+## Workshop Schedule
+
+
+  |       | **Session I**                       | Saturday, July 6, 2013, Room 04A00 (surrogates and linkage)                                                                              |
+  |-------|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+  | 08:30 | Nikolaus Hansen                     | Introduction to the Blackbox Optimization Benchmarking                                                                                   |
+  | 09:00 | Ilya Loshchilov                     | BI-Population CMA-ES Algorithms with Surrogate Models and Line Searches                                                                  |
+  | 09:35 | László Pál                          | Benchmarking a Multi Level Single Linkage Algorithm with Improved Global and Local Phases                                                |  
+  | 10:10 | Nikolaus Hansen                     | Session  Wrap-up                                                                                                                         |
+  
+
+  |       | **Session II**                      | Saturday, July 6, 2013, Room 04A00 (an algorithmic jam-session)                                                                          |
+  |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+  | 10:40 | Dimo Brockhoff                      | Session Introduction                                                                                                                     |
+  | 10:45 | Dimo Brockhoff                      | Multiobjectivization with NSGA-II on the Noiseless BBOB Testbed                                                                          |
+  | 11:05 | Costas Voglis                       | Adapt-MEMPSODE: A Memetic Algorithm with Adaptive Selection of Local Searches                                                            |
+  | 11:30 | Babatunde Sawyerr                   | Benchmarking Projection-Based Real Coded Genetic Algorithm on BBOB-2013 Noiseless Function Testbed                                       |
+  | 11:55 | Neal Holtschulte                    | Benchmarking Cellular Genetic Algorithms on the BBOB Noiseless Testbed                                                                   |
+  | 12:20 | Dimo Brockhoff                      | Session Wrap-up                                                                                                                          |
+  
+
+  |       | **Session III**                     | Saturday, July 6, 2013, Room 04A00 (expensive optimization)                                                                              |
+  |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+  | 14:00 | Anne Auger                          | Session Introduction                                                                                                                     |
+  | 14:05 | Anne Auger                          | Benchmarking within the Expensive BBOB Setting: a Case-Study on the local meta-model CMA-ES                                              |
+  | 14:35 | Holger Hoos                         | An Evaluation of Sequential Model-based Optimization for Expensive Blackbox Functions                                                    |
+  | 15:00 | Thomas Stützle                      | Bounding the Population Size of IPOP-CMA-ES on the Noiseless BBOB Testbed                                                                |
+  | 15:25 | Nikolaus Hansen                     | A Short Hands-On Tutorial of BBOB/COCO                                                                                                   |
+  | 15:40 | Nikolaus Hansen                     | Session Wrap-Up                                                                                                                          |
+  
+  
+  |       | **Session IV**                      | Saturday, July 6, 2013, Room 04A00 (wrap-up and panel)                                                                                   |
+  |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+  | 16:10 | Nikolaus Hansen                     | A Brief Overview of Blackbox Optimization Benchmarking                                                                                   |
+  | 16:25 | Nikolaus Hansen                     | Wrap-up of the BBOB-2013 Results                                                                                                         |
+  | 16:40 | Mike Preuss (moderator)             | panel discussion                                                                                                                         |
+  
+
+
+## Organizers
+
+-   Anne Auger, Inria, France
+-   Bernd Bischl, TU Dortmund, Germany
+-   Dimo Brockhoff, Inria, France
+-   Nikolaus Hansen, Inria, France
+-   Olaf Mersmann, TU Dortmund, Germany
+-   Petr Pošík, Czech Technical University, Czech Republic 
+-   Heike Trautmann, TU Dortmund, Germany

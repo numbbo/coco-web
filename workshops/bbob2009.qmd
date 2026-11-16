@@ -1,0 +1,22 @@
+# GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2009)
+
+The very first GECCO Workshop on Real-Parameter
+Black-Box Optimization Benchmarking (BBOB 2009) took place
+during GECCO 2009 in Montreal, Canada.
+
+
+## Previous Web Page
+You can find the previous webpage for this workshop at the 
+[Internet Archive](https://web.archive.org/web/20200811014807/https://coco.gforge.inria.fr/doku.php?id=bbob-2009).
+
+  
+
+## Organizers
+
+-   Anne Auger, INRIA, France
+-   Hans-Georg Beyer, FH Vorarlberg, Austria
+-   Nikolaus Hansen, INRIA, France
+-   Steffen Finck, University of Applied Sciences Vorarlberg, Austria
+-   Raymond Ros, Université Paris Sud, France
+-   Marc Schoenauer, INRIA, France
+-   Darrell Whitley, Colorado State University, USA
