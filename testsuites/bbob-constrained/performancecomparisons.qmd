@@ -2,7 +2,7 @@
 title: Performance Visualizations for the `bbob-constrained` test suite 
 ---
 
-Below, we provide postprocessed data showing the performance of [all currently available algorithm data sets](../../../../testsuites/bbob-constrained/data-archive.html) for the `bbob-constrained` test suite.
+Below, we provide postprocessed data showing the performance of [all currently available algorithm data sets](./data-archive.html) for the `bbob-constrained` test suite.
 
 
 ## Performance Comparison
