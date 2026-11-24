@@ -19,8 +19,13 @@ Optimization Benchmarking (BBOB 2021) which took place online during GECCO
 | Camera-ready: May 3, 2021
 
   ------------------------------------------------------- ------------------------------------------------------------------------ -----------------------------------------------------------------
-  [register for news](http://numbbo.github.io/register)   [COCO quick start (scroll down a bit)](https://github.com/numbbo/coco)   [latest COCO release](https://github.com/numbbo/coco/releases/)
+  [register for news](http://numbbo.github.io/register)   [COCO quick start](../getting-started/)                                  [latest COCO release](https://github.com/numbbo/coco/releases/)
   ------------------------------------------------------- ------------------------------------------------------------------------ -----------------------------------------------------------------
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  [top](workshops.html) - [2009](bbob2009.html) - [2010](bbob2010.html) - [2012](bbob2012.html) - [2013](bbob2013.html) - [2015](bbob2015.html) - [2016](bbob2016.html) - [2017](bbob2017.html) - [2018](bbob2018.html) - [2019](bbob2019.html) - [2021](bbob2021.html) - [2022](bbob2022.html) - [2023](bbob2023.html) - [2025](bbob2025.html)
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 <br /><br />
 Benchmarking of optimization algorithms is a crucial part in their
